@@ -1,0 +1,2278 @@
+Question,Type,Correct Answer,Predicted Answer,Response,Error,Error Message
+A patient's blood pressure reduces from 140/90 to 120/80 mmHg. What is the percentage reduction in systolic pressure?,Cardiovascular Medicine,14.3,14.29,"To calculate the percentage reduction in systolic pressure, we can follow these steps:
+
+1. **Identify the initial and final systolic pressures**:
+   - Initial systolic pressure = 140 mmHg
+   - Final systolic pressure = 120 mmHg
+
+2. **Calculate the reduction in systolic pressure**:
+   \[
+   \text{Reduction} = \text{Initial Systolic Pressure} - \text{Final Systolic Pressure} = 140 \, \text{mmHg} - 120 \, \text{mmHg} = 20 \, \text{mmHg}
+   \]
+
+3. **Calculate the percentage reduction**:
+   \[
+   \text{Percentage Reduction} = \left( \frac{\text{Reduction}}{\text{Initial Systolic Pressure}} \right) \times 100
+   \]
+   \[
+   \text{Percentage Reduction} = \left( \frac{20 \,The percentage reduction in systolic pressure is:
+
+\[
+\text{Percentage Reduction} = \left( \frac{20 \, \text{mmHg}}{140 \, \text{mmHg}} \right) \times 100 \approx 14.29\%
+\]
+
+Therefore, the answer is: **14.29**",False,
+"The gravitational field strength on Earth's surface is approximately 9.8 N/kg. For a mass of 5 kg, What is the weight in Newtons?",Weight Calculation,49.0,49.0,"To calculate the weight of an object, you can use the formula:
+
+\[
+\text{Weight} = \text{mass} \times \text{gravitational field strength}
+\]
+
+In this case, the mass is 5 kg and the gravitational field strength on Earth's surface is approximately 9.8 N/kg. 
+
+Now, let's plug in the values:
+
+\[
+\text{Weight} = 5 \, \text{kg} \times 9.8 \, \text{N/kg}
+\]
+
+Calculating this gives:
+
+\[
+\text{Weight} = 49 \, \text{N}
+\]
+
+So, the weight of the 5 kg mass is **49 Newtons**.49",False,
+"An item costs $50, but a discount of 10% is applied. What is the price after discount?",Percentage,45.0,45.0,"Sure! Let's calculate the price after applying a 10% discount step by step.
+
+1. **Determine the discount amount**: 
+   - The original price of the item is $50.
+   - The discount is 10% of $50.
+   - To find the discount amount, we calculate:
+     \[
+     \text{Discount} = \text{Original Price} \times \left(\frac{\text{Discount Percentage}}{100}\right) = 50 \times \left(\frac{10}{100}\right) = 50 \times 0.10 = 5
+     \]
+
+2. **Subtract the discount from the original price**:
+   - Now, we subtract the discount amount from the original price:
+     \[
+     \text{Price after discount} = \text{Original Price} - \text{Discount} = 50 - 5 = 45
+     \]
+
+So, the price after the 10% discount45",False,
+"The efficiency of a heat engine is 30%. If it does 300 J of work, How much heat does it absorb from the hot reservoir?",Heat Engine Efficiency,1000.0,1000.0,"To find out how much heat the heat engine absorbs from the hot reservoir, we can use the formula for the efficiency of a heat engine:
+
+\[
+\text{Efficiency} (\eta) = \frac{\text{Work output} (W)}{\text{Heat absorbed} (Q_h)}
+\]
+
+Given that the efficiency (\(\eta\)) is 30%, we can express this as a decimal:
+
+\[
+\eta = 0.30
+\]
+
+We are also given that the work output (\(W\)) is 300 J. We can rearrange the efficiency formula to solve for the heat absorbed (\(Q_h\)):
+
+\[
+Q_h = \frac{W}{\eta}
+\]
+
+Now, substituting the values we have:
+
+\[
+Q_h = \frac{300 \, \text{J}}{0.30}
+\]
+
+Calculating this gives:
+
+\[
+Q_h = 1000 \, \text{J}
+1000",False,
+"The atomic mass of carbon is 12 amu. In a sample of 24 grams of carbon, How many moles are present?",Mole Calculation,2.0,2.0,"To find the number of moles of carbon in a 24-gram sample, we can use the formula:
+
+\[
+\text{Number of moles} = \frac{\text{mass (g)}}{\text{molar mass (g/mol)}}
+\]
+
+1. **Identify the mass of the sample**: The mass of the carbon sample is given as 24 grams.
+
+2. **Identify the molar mass of carbon**: The atomic mass of carbon is given as 12 amu, which is equivalent to 12 g/mol for the purposes of calculating moles.
+
+3. **Plug the values into the formula**:
+
+\[
+\text{Number of moles} = \frac{24 \text{ g}}{12 \text{ g/mol}} = 2 \text{ moles}
+\]
+
+Therefore, in a sample of 24 grams of carbon, there are **2 moles** of carbon present.2",False,
+The pH of a solution is 9. What is the pOH of the solution?,pH and pOH,5.0,5.0,"To find the pOH of a solution when you know the pH, you can use the following relationship:
+
+\[
+\text{pH} + \text{pOH} = 14
+\]
+
+Given that the pH of the solution is 9, you can rearrange the equation to solve for pOH:
+
+\[
+\text{pOH} = 14 - \text{pH}
+\]
+
+Now, substitute the given pH value into the equation:
+
+\[
+\text{pOH} = 14 - 9
+\]
+
+Calculating this gives:
+
+\[
+\text{pOH} = 5
+\]
+
+So, the pOH of the solution is 5.5",False,
+"A pendulum has a period of 2 seconds. On a planet where g = 1.62 m/s², What is the length of the pendulum in meters?",Pendulum Motion,0.26,2.0,"To find the length of a pendulum given its period and the acceleration due to gravity, we can use the formula for the period of a simple pendulum:
+
+\[
+T = 2\pi \sqrt{\frac{L}{g}}
+\]
+
+where:
+- \( T \) is the period of the pendulum,
+- \( L \) is the length of the pendulum,
+- \( g \) is the acceleration due to gravity.
+
+Given:
+- \( T = 2 \) seconds,
+- \( g = 1.62 \, \text{m/s}^2 \).
+
+We need to solve for \( L \). First, we can rearrange the formula to isolate \( L \):
+
+\[
+L = \frac{g T^2}{4\pi^2}
+\]
+
+Now, we can substitute the values of \( T \) and \( g \) into the equation:
+
+1. Calculate \( T^2 \):
+   \[
+  To find the length \( L \) of the pendulum, we first calculate \( T^2 \):
+
+\[
+T^2 = (2 \, \text{s})^2 = 4 \, \text{s}^2
+\]
+
+Now, we can substitute \( T^2 \) and \( g \) into the rearranged formula:
+
+\[
+L = \frac{g T^2}{4\pi^2}
+\]
+
+Substituting the values:
+
+\[
+L = \frac{1.62 \, \text{m/s}^2 \cdot 4 \, \text{s}^2}{4\pi^2}
+\]
+
+Calculating the numerator:
+
+\[
+1.62 \, \text{m/s}^2 \cdot 4 \, \text{s}^2 = 6.48 \, \text{m}
+\]
+
+Now, we need to calculate \( 4\pi",False,
+A car travels at 60 km/h for 2 hours. What distance does it cover in meters?,Distance Calculation,120000.0,120000.0,"To find the distance covered by the car, we can use the formula:
+
+\[
+\text{Distance} = \text{Speed} \times \text{Time}
+\]
+
+1. **Identify the speed and time**:
+   - Speed = 60 km/h
+   - Time = 2 hours
+
+2. **Calculate the distance in kilometers**:
+   \[
+   \text{Distance} = 60 \, \text{km/h} \times 2 \, \text{h} = 120 \, \text{km}
+   \]
+
+3. **Convert the distance from kilometers to meters**:
+   - We know that 1 kilometer = 1000 meters.
+   \[
+   \text{Distance in meters} = 120 \, \text{km} \times 1000 \, \text{m/km} = 120,000 \, \text{m}
+   \]
+
+So, the distance covered by the120000",False,
+A thermal expansion coefficient is 2e-5 K⁻¹ for a metal rod. How much does a 1-meter rod expand when heated from 20°C to 120°C?,Material Science,0.002,2.0,"To calculate the expansion of a metal rod due to thermal expansion, we can use the formula:
+
+\[
+\Delta L = L_0 \cdot \alpha \cdot \Delta T
+\]
+
+where:
+- \(\Delta L\) is the change in length,
+- \(L_0\) is the original length of the rod,
+- \(\alpha\) is the coefficient of linear expansion,
+- \(\Delta T\) is the change in temperature.
+
+Given:
+- \(L_0 = 1 \, \text{meter}\)
+- \(\alpha = 2 \times 10^{-5} \, \text{K}^{-1}\)
+- Initial temperature \(T_1 = 20^\circ C\)
+- Final temperature \(T_2 = 120^\circ C\)
+
+First, we need to calculate the change in temperature (\(\Delta T\)):
+
+\[
+\Delta T = T_2 - T_To calculate the change in temperature (\(\Delta T\)), we have:
+
+\[
+\Delta T = T_2 - T_1 = 120^\circ C - 20^\circ C = 100 \, \text{K}
+\]
+
+Now we can substitute the values into the thermal expansion formula:
+
+\[
+\Delta L = L_0 \cdot \alpha \cdot \Delta T
+\]
+
+Substituting the known values:
+
+\[
+\Delta L = 1 \, \text{meter} \cdot (2 \times 10^{-5} \, \text{K}^{-1}) \cdot (100 \, \text{K})
+\]
+
+Calculating this step-by-step:
+
+1. Calculate \(\alpha \cdot \Delta T\):
+
+\[
+\alpha \cdot \Delta T = (2 \times 10^{-5} \, \text{K}^{-1}) \cdot (",False,
+"The speed of sound in air is 343 m/s. If an echo returns after 2 seconds, How far away is the reflecting surface?",Wave Motion,343.0,686.0,"To determine how far away the reflecting surface is when an echo returns after 2 seconds, we can follow these steps:
+
+1. **Understand the concept of an echo**: When you make a sound, it travels to a reflecting surface (like a wall) and then bounces back to you. The total time taken for the sound to travel to the surface and back is the time for the echo.
+
+2. **Calculate the total distance traveled by the sound**: Since the echo returns after 2 seconds, the sound travels for 2 seconds in total. 
+
+3. **Use the speed of sound**: The speed of sound in air is given as 343 m/s. 
+
+4. **Calculate the total distance**:
+   \[
+   \text{Total distance} = \text{Speed} \times \text{Time} = 343 \, \text{m/s} \times 2 \, \text{s} = 686 \, \text{686",False,
+A drug has a half-life of 6 hours in the human body. What percentage of the original dose remains after 18 hours?,Pharmacokinetics,12.5,3.0,"To determine the percentage of the original dose of a drug that remains in the body after 18 hours, given that the drug has a half-life of 6 hours, we can follow these steps:
+
+1. **Understand Half-Life**: The half-life of a drug is the time it takes for the concentration of the drug in the body to reduce to half its initial value.
+
+2. **Calculate the Number of Half-Lives**: 
+   - We need to find out how many half-lives fit into 18 hours.
+   - Since the half-life is 6 hours, we can calculate the number of half-lives in 18 hours:
+     \[
+     \text{Number of half-lives} = \frac{18 \text{ hours}}{6 \text{ hours/half-life}} = 3
+     \]
+
+3. **Calculate Remaining Percentage**: 
+   - After each half-life, the remaining amount of the drug is halved. 
+  To calculate the remaining percentage of the original dose after 3 half-lives, we can use the formula:
+
+\[
+\text{Remaining amount} = \left(\frac{1}{2}\right)^{n} \times 100\%
+\]
+
+where \( n \) is the number of half-lives.
+
+In this case, \( n = 3 \):
+
+\[
+\text{Remaining amount} = \left(\frac{1}{2}\right)^{3} \times 100\% = \frac{1}{8} \times 100\% = 12.5\%
+\]
+
+Thus, after 18 hours, 12.5% of the original dose remains in the body.",False,
+A 50 mL solution contains 2.5 g of NaCl. What is its molarity? (Molar mass NaCl = 58.44 g/mol),Solution Concentration,0.855,1.0,"To calculate the molarity of the NaCl solution, we can follow these steps:
+
+1. **Convert grams of NaCl to moles**: 
+   We use the formula:
+   \[
+   \text{moles of NaCl} = \frac{\text{mass of NaCl (g)}}{\text{molar mass of NaCl (g/mol)}}
+   \]
+   Given:
+   - Mass of NaCl = 2.5 g
+   - Molar mass of NaCl = 58.44 g/mol
+
+   Now, we can calculate the moles:
+   \[
+   \text{moles of NaCl} = \frac{2.5 \, \text{g}}{58.44 \, \text{g/mol}} \approx 0.0428 \, \text{mol}
+   \]
+
+2. **Convert the volume of the solution from mL to L**:
+   Since molarity is expressedTo convert the volume from mL to L, we use the conversion factor:
+
+\[
+1 \, \text{L} = 1000 \, \text{mL}
+\]
+
+So, for 50 mL:
+
+\[
+\text{Volume in L} = \frac{50 \, \text{mL}}{1000} = 0.050 \, \text{L}
+\]
+
+3. **Calculate the molarity**:
+   Molarity (M) is defined as the number of moles of solute per liter of solution. The formula is:
+
+\[
+\text{Molarity (M)} = \frac{\text{moles of solute}}{\text{volume of solution in L}}
+\]
+
+Substituting the values we calculated:
+
+\[
+\text{Molarity (M)} = \frac{0.0428 \, \text{mol}}{0.050 \, \text",False,
+"If a cell divides into 2 every 20 minutes, how many cells are present after 1 hour starting from 1 cell? (Exponential growth) What is the cell count?",Exponential Growth,8.0,3.0,"To determine how many cells are present after 1 hour when a single cell divides into 2 every 20 minutes, we can follow these steps:
+
+1. **Determine the number of divisions in 1 hour**: 
+   - 1 hour is 60 minutes.
+   - Since the cell divides every 20 minutes, we can calculate the number of divisions in 60 minutes:
+     \[
+     \text{Number of divisions} = \frac{60 \text{ minutes}}{20 \text{ minutes/division}} = 3 \text{ divisions}
+     \]
+
+2. **Calculate the number of cells after each division**:
+   - Starting with 1 cell, after each division, the number of cells doubles.
+   - After 1 division: \( 1 \times 2 = 2 \) cells
+   - After 2 divisions: \( 2 \times 2 = 4 \) cells
+   - After 3 divisions: \(After 3 divisions, the number of cells is:
+
+\[
+4 \times 2 = 8 \text{ cells}
+\]
+
+So, the total number of cells present after 1 hour is **8**.",False,
+A patient's metabolic rate is 1.2 kcal/minute at rest. What is total energy expenditure in 8 hours?,Metabolism,576,576.0,"To calculate the total energy expenditure over 8 hours based on a metabolic rate of 1.2 kcal/minute, we can follow these steps:
+
+1. **Determine the number of minutes in 8 hours**:
+   \[
+   8 \text{ hours} = 8 \times 60 \text{ minutes} = 480 \text{ minutes}
+   \]
+
+2. **Calculate the total energy expenditure**:
+   \[
+   \text{Total Energy Expenditure} = \text{Metabolic Rate} \times \text{Total Minutes}
+   \]
+   \[
+   \text{Total Energy Expenditure} = 1.2 \text{ kcal/minute} \times 480 \text{ minutes}
+   \]
+
+3. **Perform the multiplication**:
+   \[
+   \text{Total Energy Expenditure} = 1.2 \times 480 = 576 \text{ kcal}
+   \]
+
+Therefore, the total energy576",False,
+"A patient's white blood cell count increases from 4,000 to 11,000 cells/μL during an infection. What is the percentage increase in white blood cells?",Immunology,175.0,175.0,"To calculate the percentage increase in white blood cells, we can follow these steps:
+
+1. **Determine the initial and final values**:
+   - Initial white blood cell count = 4,000 cells/μL
+   - Final white blood cell count = 11,000 cells/μL
+
+2. **Calculate the increase in white blood cell count**:
+   \[
+   \text{Increase} = \text{Final count} - \text{Initial count} = 11,000 - 4,000 = 7,000 \text{ cells/μL}
+   \]
+
+3. **Calculate the percentage increase**:
+   The formula for percentage increase is:
+   \[
+   \text{Percentage Increase} = \left( \frac{\text{Increase}}{\text{Initial count}} \right) \times 100
+   \]
+   Plugging in the values:
+   \[
+   \text{Percentage Increase} = \left( \175.",False,
+"A ball is thrown upward with an initial velocity of 20 m/s. Taking g = 10 m/s², What is its maximum height in meters?",Projectile Motion,20.0,20.0,"To find the maximum height reached by the ball, we can use the kinematic equation that relates initial velocity, final velocity, acceleration, and displacement. The relevant equation is:
+
+\[
+v^2 = u^2 + 2as
+\]
+
+Where:
+- \( v \) is the final velocity (0 m/s at the maximum height),
+- \( u \) is the initial velocity (20 m/s),
+- \( a \) is the acceleration (which will be -10 m/s², since gravity acts downward),
+- \( s \) is the displacement (the maximum height we want to find).
+
+At the maximum height, the final velocity \( v \) is 0 m/s. Plugging in the values we have:
+
+\[
+0 = (20)^2 + 2(-10)s
+\]
+
+This simplifies to:
+
+\[
+0 = 400 - 20s
+\]
+
+Rearranging gives:
+
+\[
+20s = 400
+\]
+
+20",False,
+A 100 W light bulb is left on for 5 hours. How much energy does it consume in kWh?,Energy Consumption,0.5,0.5,"To calculate the energy consumed by a 100 W light bulb left on for 5 hours, we can follow these steps:
+
+1. **Understand the units**: 
+   - Power is measured in watts (W), and 1 watt is equal to 1 joule per second.
+   - Energy consumption is often measured in kilowatt-hours (kWh), where 1 kilowatt (kW) is equal to 1000 watts.
+
+2. **Convert the power to kilowatts**:
+   \[
+   100 \text{ W} = \frac{100}{1000} \text{ kW} = 0.1 \text{ kW}
+   \]
+
+3. **Calculate the energy consumed**:
+   Energy (in kWh) can be calculated using the formula:
+   \[
+   \text{Energy (kWh)} = \text{Power (kW)} \times \text{Time (hours)}
+   \]
+   Sub0.5",False,
+A bipolar junction transistor has a current gain of 100. What base current generates a collector current of 10 mA?,Semiconductor Electronics,0.1,0.1,"To find the base current that generates a collector current of 10 mA in a bipolar junction transistor (BJT) with a current gain (β) of 100, we can use the relationship between the collector current (I_C), the base current (I_B), and the current gain (β):
+
+\[
+I_C = \beta \times I_B
+\]
+
+We can rearrange this formula to solve for the base current (I_B):
+
+\[
+I_B = \frac{I_C}{\beta}
+\]
+
+Now, we can substitute the given values into the equation:
+
+- \(I_C = 10 \, \text{mA} = 0.01 \, \text{A}\)
+- \(\beta = 100\)
+
+Substituting these values in:
+
+\[
+I_B = \frac{0.01 \, \text{A}}{100} = 0.0001 \, \text{A} = 0.1 mA",False,
+A quantum dot emits photons at 600 nm wavelength. What is its bandgap energy in electron volts?,Quantum Mechanics,2.48,600.0,"To find the bandgap energy of a quantum dot that emits photons at a wavelength of 600 nm, we can use the relationship between energy, wavelength, and the speed of light. The energy of a photon can be calculated using the formula:
+
+\[
+E = \frac{hc}{\lambda}
+\]
+
+where:
+- \(E\) is the energy of the photon in joules,
+- \(h\) is Planck's constant (\(6.626 \times 10^{-34} \, \text{J s}\)),
+- \(c\) is the speed of light (\(3.00 \times 10^8 \, \text{m/s}\)),
+- \(\lambda\) is the wavelength in meters.
+
+1. **Convert the wavelength from nanometers to meters**:
+   \[
+   600 \, \text{nm} = 600 \times 10^{-9} \, \text{m} = 6.To find the bandgap energy of a quantum dot that emits photons at a wavelength of 600 nm, we can follow the steps outlined:
+
+1. **Convert the wavelength from nanometers to meters**:
+   \[
+   600 \, \text{nm} = 600 \times 10^{-9} \, \text{m} = 6.00 \times 10^{-7} \, \text{m}
+   \]
+
+2. **Use the formula to calculate the energy**:
+   \[
+   E = \frac{hc}{\lambda}
+   \]
+   where:
+   - \(h = 6.626 \times 10^{-34} \, \text{J s}\)
+   - \(c = 3.00 \times 10^8 \, \text{m/s}\)
+   - \(\lambda = 6.00 \times 10^{-7} \, \text{m}\)
+
+3",False,
+"A sample of gas occupies 3 L at 27°C. At constant pressure, it is heated to 127°C. What is its new volume in liters?",Charles's Law,4.0,300.15,"To solve this problem, we can use Charles's Law, which states that the volume of a gas is directly proportional to its temperature (in Kelvin) when pressure is held constant. The formula for Charles's Law is:
+
+\[
+\frac{V_1}{T_1} = \frac{V_2}{T_2}
+\]
+
+Where:
+- \( V_1 \) is the initial volume
+- \( T_1 \) is the initial temperature in Kelvin
+- \( V_2 \) is the final volume
+- \( T_2 \) is the final temperature in Kelvin
+
+### Step 1: Convert temperatures from Celsius to Kelvin
+
+To convert Celsius to Kelvin, we use the formula:
+
+\[
+T(K) = T(°C) + 273.15
+\]
+
+- Initial temperature \( T_1 = 27°C \):
+\[
+T_1 = 27 + 273.15 = 300.15 \,300.15 \, K
+\]
+
+- Final temperature \( T_2 = 127°C \):
+\[
+T_2 = 127 + 273.15 = 400.15 \, K
+\]
+
+### Step 2: Use Charles's Law to find the new volume
+
+Now we can use Charles's Law:
+
+\[
+\frac{V_1}{T_1} = \frac{V_2}{T_2}
+\]
+
+Substituting the known values:
+
+- \( V_1 = 3 \, L \)
+- \( T_1 = 300.15 \, K \)
+- \( T_2 = 400.15 \, K \)
+
+We need to find \( V_2 \):
+
+\[
+\frac{3 \, L}{300.15 \, K} = \frac{V_2}{400.15 \, K}
+\]
+
+### Step 3: Solve for \( V_",False,
+A pendulum makes 40 complete oscillations in 2 minutes. What is its frequency in Hertz?,Oscillation Frequency,0.333,0.33,"To find the frequency of the pendulum in Hertz (Hz), we need to follow these steps:
+
+1. **Understand the definition of frequency**: Frequency is defined as the number of complete oscillations (or cycles) per unit time. It is measured in Hertz (Hz), where 1 Hz is equal to 1 cycle per second.
+
+2. **Determine the total time in seconds**: The pendulum makes 40 complete oscillations in 2 minutes. First, we need to convert the time from minutes to seconds:
+   \[
+   2 \text{ minutes} = 2 \times 60 \text{ seconds} = 120 \text{ seconds}
+   \]
+
+3. **Calculate the frequency**: Now that we have the total number of oscillations and the total time in seconds, we can calculate the frequency using the formula:
+   \[
+   \text{Frequency (f)} = \frac{\text{Number of oscillations}}{\text{The frequency (f) can be calculated as follows:
+
+\[
+f = \frac{\text{Number of oscillations}}{\text{Total time in seconds}} = \frac{40 \text{ oscillations}}{120 \text{ seconds}} = \frac{1}{3} \text{ Hz} \approx 0.33 \text{ Hz}
+\]
+
+Therefore, the answer is: **0.33**",False,
+A patient's body temperature fluctuates between 36.5°C and 37.5°C. What is the temperature range in Fahrenheit?,Clinical Physiology,99.5,97.7,"To convert Celsius to Fahrenheit, you can use the formula:
+
+\[ F = \frac{9}{5}C + 32 \]
+
+Now, let's convert the two temperatures:
+
+1. **For 36.5°C:**
+   \[
+   F = \frac{9}{5} \times 36.5 + 32
+   \]
+   \[
+   F = 65.7 + 32 = 97.7°F
+   \]
+
+2. **For 37.5°C:**
+   \[
+   F = \frac{9}{5} \times 37.5 + 32
+   \]
+   \[
+   F = 67.5 + 32 = 99.5°F
+   \]
+
+Now, we can summarize the temperature range in Fahrenheit:
+
+- The temperature range in Celsius is 36.5°C to 37.5°C.
+- The corresponding temperature range in Fahrenheit is 97.7°F to97.7 to 99.5",False,
+"A photon has a wavelength of 500 nm. What is its energy in electron volts? (h = 6.626e-34 J·s, c = 3e8 m/s, 1 eV = 1.6e-19 J)",Quantum Mechanics,2.48,500.0,"To find the energy of a photon with a wavelength of 500 nm, we can use the formula that relates the energy of a photon to its wavelength:
+
+\[
+E = \frac{hc}{\lambda}
+\]
+
+where:
+- \(E\) is the energy of the photon in joules,
+- \(h\) is Planck's constant (\(6.626 \times 10^{-34} \, \text{J·s}\)),
+- \(c\) is the speed of light (\(3 \times 10^8 \, \text{m/s}\)),
+- \(\lambda\) is the wavelength in meters.
+
+### Step 1: Convert the wavelength from nanometers to meters
+The given wavelength is 500 nm. To convert nanometers to meters, we use the conversion factor \(1 \, \text{nm} = 1 \times 10^{-9} \, \text{m}\):
+
+\[
+\lambda =To convert the wavelength from nanometers to meters:
+
+\[
+\lambda = 500 \, \text{nm} = 500 \times 10^{-9} \, \text{m} = 5.00 \times 10^{-7} \, \text{m}
+\]
+
+### Step 2: Calculate the energy in joules using the formula
+
+Now we can substitute the values into the energy formula:
+
+\[
+E = \frac{hc}{\lambda}
+\]
+
+Substituting the known values:
+
+\[
+E = \frac{(6.626 \times 10^{-34} \, \text{J·s})(3 \times 10^8 \, \text{m/s})}{5.00 \times 10^{-7} \, \text{m}}
+\]
+
+Calculating the numerator:
+
+\[
+hc = (6.626 \times 10^{-34})(3 \times 10^8) =",False,
+A protein biomarker concentration is 25 ng/mL in diseased state. What is its concentration in μg/L?,Clinical Biochemistry,25000,25.0,"To convert the concentration from ng/mL to μg/L, we can follow these steps:
+
+1. **Understand the units**:
+   - 1 ng (nanogram) = 0.001 μg (microgram)
+   - 1 mL (milliliter) = 1 L (liter) = 1000 mL
+
+2. **Convert ng/mL to μg/mL**:
+   - Since 1 ng = 0.001 μg, we can convert 25 ng/mL to μg/mL:
+   \[
+   25 \, \text{ng/mL} = 25 \times 0.001 \, \text{μg/mL} = 0.025 \, \text{μg/mL}
+   \]
+
+3. **Convert μg/mL to μg/L**:
+   - Since 1 mL = 0.001 L, we can convert μg/m25 ng/mL is equivalent to 25 μg/L.",False,
+An enzyme reaction rate is 0.5 μmol/min at 25°C. What is the rate in mmol/hour?,Enzyme Kinetics,0.03,30.0,"To convert the enzyme reaction rate from μmol/min to mmol/hour, we can follow these steps:
+
+1. **Convert μmol to mmol**: 
+   - 1 mmol = 1000 μmol
+   - Therefore, to convert μmol to mmol, we divide by 1000.
+
+2. **Convert minutes to hours**: 
+   - 1 hour = 60 minutes
+   - Therefore, to convert minutes to hours, we multiply by 60.
+
+Now, let's perform the conversion:
+
+1. Start with the rate in μmol/min:
+   \[
+   0.5 \, \text{μmol/min}
+   \]
+
+2. Convert to mmol:
+   \[
+   0.5 \, \text{μmol/min} \div 1000 = 0.0005 \, \text{mmol/min}
+   \]
+
+3. Convert to mmol/hour:
+   \[
+   0.0005 \, \30.0",False,
+A superconductor transitions at 4.2 K and carries 50 A of current. What is its critical current density at 77 K? (Assume linear reduction),Superconductivity,919.0,77.0,"To determine the critical current density of a superconductor at a temperature of 77 K, given that it transitions at 4.2 K and carries 50 A of current, we can follow these steps:
+
+1. **Understand Critical Current Density**: The critical current density (\(J_c\)) is the maximum current density a superconductor can carry without losing its superconducting properties. It is often temperature-dependent.
+
+2. **Assume Linear Reduction**: Since we are assuming a linear reduction in critical current density with temperature, we can express the relationship between the critical current density at the transition temperature (4.2 K) and at 77 K.
+
+3. **Define the Critical Current Density at 4.2 K**: Let's denote the critical current density at 4.2 K as \(J_{c, 4.2}\). The current carried by the superconductor is given as 50 A. To find the critical current density, we need toTo find the critical current density at 77 K, we first need to establish the critical current density at the transition temperature of 4.2 K.
+
+1. **Define the Critical Current Density at 4.2 K**: 
+   Let's denote the critical current density at 4.2 K as \(J_{c, 4.2}\). The current carried by the superconductor is given as 50 A. To find the critical current density, we need to know the cross-sectional area (\(A\)) of the superconductor. However, since we are not given the area, we will express the critical current density in terms of the area.
+
+   \[
+   J_{c, 4.2} = \frac{I}{A} = \frac{50 \, \text{A}}{A}
+   \]
+
+2. **Assume Linear Reduction**: 
+   We assume that the critical current density decreases linearly with temperature.",False,
+10 moles of hydrogen gas (H2) combine with 5 moles of oxygen gas (O2) to form water (H2O). How many moles of water are produced?,Stoichiometry,5.0,2.0,"To determine how many moles of water (H2O) are produced when 10 moles of hydrogen gas (H2) combine with 5 moles of oxygen gas (O2), we can follow these steps:
+
+1. **Write the balanced chemical equation** for the reaction:
+   \[
+   2 H_2 + O_2 \rightarrow 2 H_2O
+   \]
+
+2. **Identify the stoichiometry** from the balanced equation:
+   - From the equation, 2 moles of H2 react with 1 mole of O2 to produce 2 moles of H2O.
+
+3. **Determine the limiting reactant**:
+   - According to the stoichiometry, 2 moles of H2 are needed for every 1 mole of O2.
+   - For 10 moles of H2, the amount of O2 required is:
+     \[
+     \text{Required O2} = \fracTo determine how many moles of water (H2O) are produced when 10 moles of hydrogen gas (H2) combine with 5 moles of oxygen gas (O2), we can follow these steps:
+
+1. **Write the balanced chemical equation** for the reaction:
+   \[
+   2 H_2 + O_2 \rightarrow 2 H_2O
+   \]
+
+2. **Identify the stoichiometry** from the balanced equation:
+   - From the equation, 2 moles of H2 react with 1 mole of O2 to produce 2 moles of H2O.
+
+3. **Determine the limiting reactant**:
+   - According to the stoichiometry, 2 moles of H2 are needed for every 1 mole of O2.
+   - For 10 moles of H2, the amount of O2 required is:
+     \[
+     \text{Required O2} = \frac",False,
+A stock increases from $50 to $62 over one year. What is its percentage return?,Financial Returns,24.0,24.0,"To calculate the percentage return of a stock, you can use the following formula:
+
+\[
+\text{Percentage Return} = \left( \frac{\text{Ending Value} - \text{Beginning Value}}{\text{Beginning Value}} \right) \times 100
+\]
+
+In this case, the beginning value of the stock is $50, and the ending value is $62. 
+
+1. **Calculate the change in value**:
+   \[
+   \text{Change in Value} = \text{Ending Value} - \text{Beginning Value} = 62 - 50 = 12
+   \]
+
+2. **Calculate the percentage return**:
+   \[
+   \text{Percentage Return} = \left( \frac{12}{50} \right) \times 100
+   \]
+
+3. **Perform the division**:
+   \[
+   \frac{12}{50} = 0.24
+   \]
+
+424",False,
+A quantum well confines electrons with energy gap of 0.2 eV. What is the wavelength of emitted photon?,Quantum Optoelectronics,6.2e-06,1.0,"To find the wavelength of the emitted photon when an electron transitions from a higher energy state to a lower energy state in a quantum well, we can use the energy-wavelength relationship given by the equation:
+
+\[
+E = \frac{hc}{\lambda}
+\]
+
+where:
+- \(E\) is the energy of the emitted photon,
+- \(h\) is Planck's constant (\(6.626 \times 10^{-34} \, \text{Js}\)),
+- \(c\) is the speed of light (\(3.00 \times 10^8 \, \text{m/s}\)),
+- \(\lambda\) is the wavelength of the emitted photon.
+
+Given that the energy gap \(E\) is 0.2 eV, we first need to convert this energy from electronvolts to joules. The conversion factor is:
+
+\[
+1 \, \text{eV} = 1.602 \times 10To convert the energy gap from electronvolts to joules, we use the conversion factor:
+
+\[
+1 \, \text{eV} = 1.602 \times 10^{-19} \, \text{J}
+\]
+
+Thus, for an energy gap of \(0.2 \, \text{eV}\):
+
+\[
+E = 0.2 \, \text{eV} \times 1.602 \times 10^{-19} \, \text{J/eV} = 3.204 \times 10^{-20} \, \text{J}
+\]
+
+Now, we can use the energy-wavelength relationship:
+
+\[
+E = \frac{hc}{\lambda}
+\]
+
+Rearranging this equation to solve for \(\lambda\):
+
+\[
+\lambda = \frac{hc}{E}
+\]
+
+Substituting in the values for \(h\), \(c\), and \(E",False,
+A spring has a spring constant of 100 N/m. It is stretched by 0.1 m. What is the force exerted by the spring?,Hooke's Law,10.0,10.0,"To find the force exerted by the spring, we can use Hooke's Law, which states that the force exerted by a spring is directly proportional to the displacement from its equilibrium position. The formula for Hooke's Law is:
+
+\[ F = k \cdot x \]
+
+where:
+- \( F \) is the force exerted by the spring (in Newtons),
+- \( k \) is the spring constant (in N/m),
+- \( x \) is the displacement from the equilibrium position (in meters).
+
+Given:
+- The spring constant \( k = 100 \, \text{N/m} \)
+- The displacement \( x = 0.1 \, \text{m} \)
+
+Now, we can substitute the values into the formula:
+
+\[ F = 100 \, \text{N/m} \cdot 0.1 \, \text{m} \]
+
+Calculating this gives:
+
+\[ F = 10 \,10",False,
+"The half-life of a radioactive isotope is 5 years. After 15 years, What fraction of the original isotope remains?",Radioactive Decay,0.125,1.0,"To determine the fraction of a radioactive isotope that remains after a certain period, we can use the concept of half-lives.
+
+1. **Identify the half-life**: The half-life of the isotope is given as 5 years.
+
+2. **Determine the total time elapsed**: We are looking at a time period of 15 years.
+
+3. **Calculate the number of half-lives that have passed**: 
+   \[
+   \text{Number of half-lives} = \frac{\text{Total time}}{\text{Half-life}} = \frac{15 \text{ years}}{5 \text{ years}} = 3
+   \]
+
+4. **Determine the remaining fraction after each half-life**: After each half-life, half of the remaining isotope decays. Therefore, after each half-life, the remaining fraction is:
+   - After 1 half-life: \( \frac{1}{2} \)
+   - After 2 half-lAfter 3 half-lives, the remaining fraction of the original isotope can be calculated as follows:
+
+- After 1 half-life: \( \frac{1}{2} \)
+- After 2 half-lives: \( \frac{1}{2} \times \frac{1}{2} = \frac{1}{4} \)
+- After 3 half-lives: \( \frac{1}{4} \times \frac{1}{2} = \frac{1}{8} \)
+
+Thus, after 15 years, which is 3 half-lives, the fraction of the original isotope that remains is \( \frac{1}{8} \). 
+
+So, the answer is: **1/8**.",False,
+"An economic production function has constant returns to scale. If labor and capital both double, by what factor does output increase?",Economic Production,2.0,2.0,"To understand how output changes when both labor and capital double in an economic production function with constant returns to scale, we can break it down step by step:
+
+1. **Definition of Constant Returns to Scale**: A production function exhibits constant returns to scale if, when all inputs are increased by a certain factor, the output increases by the same factor. Mathematically, if \( f(L, K) \) is the production function where \( L \) is labor and \( K \) is capital, then for any positive scalar \( t \):
+   \[
+   f(tL, tK) = t \cdot f(L, K)
+   \]
+
+2. **Doubling Inputs**: In this case, we are doubling both labor and capital. So, we set \( t = 2 \). 
+
+3. **Applying the Definition**: According to the definition of constant returns to scale:
+   \[
+   f(2L, 2K) = 2",False,
+"A gas occupies 2 L at 1 atm pressure. If the pressure is increased to 3 atm at constant temperature, What is the new volume in liters?",Boyle's Law,0.67,2.0,"To solve this problem, we can use Boyle's Law, which states that for a given amount of gas at constant temperature, the pressure and volume are inversely proportional. This can be expressed mathematically as:
+
+\[ P_1 V_1 = P_2 V_2 \]
+
+Where:
+- \( P_1 \) is the initial pressure,
+- \( V_1 \) is the initial volume,
+- \( P_2 \) is the final pressure,
+- \( V_2 \) is the final volume.
+
+Given:
+- \( P_1 = 1 \) atm
+- \( V_1 = 2 \) L
+- \( P_2 = 3 \) atm
+
+We need to find \( V_2 \).
+
+1. Substitute the known values into the equation:
+
+\[ (1 \, \text{atm}) \times (2 \, \text{L}) = (3 \, \text{atm}) \times VTo find \( V_2 \), we can rearrange the equation:
+
+\[ V_2 = \frac{P_1 V_1}{P_2} \]
+
+Now, substituting the known values:
+
+\[ V_2 = \frac{(1 \, \text{atm}) \times (2 \, \text{L})}{3 \, \text{atm}} \]
+
+Calculating this gives:
+
+\[ V_2 = \frac{2 \, \text{L}}{3} \]
+
+So, 
+
+\[ V_2 \approx 0.67 \, \text{L} \]
+
+Therefore, the new volume is approximately **0.67 liters**.",False,
+A medical imaging technique resolves structures 0.5 mm in size. What is its resolution in micrometers?,Medical Imaging,500,500.0,"To convert the resolution from millimeters to micrometers, we need to know the conversion factor between these two units.
+
+1. **Understanding the units**:
+   - 1 millimeter (mm) is equal to 1,000 micrometers (µm).
+
+2. **Given resolution**:
+   - The resolution of the medical imaging technique is 0.5 mm.
+
+3. **Conversion**:
+   - To convert 0.5 mm to micrometers, we multiply by the conversion factor:
+   \[
+   0.5 \, \text{mm} \times 1000 \, \frac{\mu m}{\text{mm}} = 500 \, \mu m
+   \]
+
+4. **Final answer**:
+   - The resolution of the medical imaging technique in micrometers is **500 µm**.500",False,
+The pH of a solution is 4. What is the concentration of hydrogen ions in mol/L?,pH Calculation,0.0001,0.0001,"To find the concentration of hydrogen ions \([H^+]\) in a solution given its pH, we can use the following relationship:
+
+\[
+\text{pH} = -\log[H^+]
+\]
+
+Given that the pH of the solution is 4, we can rearrange the equation to solve for \([H^+]\):
+
+1. Start with the pH equation:
+   \[
+   4 = -\log[H^+]
+   \]
+
+2. To eliminate the logarithm, we can rewrite the equation in exponential form:
+   \[
+   [H^+] = 10^{-\text{pH}} = 10^{-4}
+   \]
+
+3. Now, calculate \(10^{-4}\):
+   \[
+   [H^+] = 0.0001 \, \text{mol/L}
+   \]
+
+Thus, the concentration of hydrogen ions in the solution is:
+
+\[
+[H^0.0001",False,
+An enzyme's catalytic rate is 250 molecules per second at 37°C. How many molecules are processed in 1 minute?,Enzyme Kinetics,15000,15000.0,"To find out how many molecules are processed in 1 minute, we can follow these steps:
+
+1. **Identify the rate of the enzyme**: The enzyme processes 250 molecules per second.
+
+2. **Convert the time from minutes to seconds**: 
+   - 1 minute = 60 seconds.
+
+3. **Calculate the total number of molecules processed in 1 minute**:
+   - Total molecules = Rate (molecules/second) × Time (seconds)
+   - Total molecules = 250 molecules/second × 60 seconds.
+
+4. **Perform the multiplication**:
+   - Total molecules = 250 × 60 = 15,000 molecules.
+
+Therefore, the enzyme processes **15,000 molecules in 1 minute**.15000",False,
+"An electric field of 500 V/m accelerates an electron. What is its acceleration? (electron mass = 9.1e-31 kg, electron charge = 1.6e-19 C)",Electromagnetic Dynamics,8.79e+18,8.0,"To find the acceleration of an electron in an electric field, we can use Newton's second law and the relationship between electric force and electric field.
+
+1. **Calculate the electric force (F)** acting on the electron using the formula:
+   \[
+   F = qE
+   \]
+   where:
+   - \( q \) is the charge of the electron (\( 1.6 \times 10^{-19} \) C),
+   - \( E \) is the electric field strength (500 V/m).
+
+   Substituting the values:
+   \[
+   F = (1.6 \times 10^{-19} \, \text{C}) \times (500 \, \text{V/m}) = 8.0 \times 10^{-17} \, \text{N}
+   \]
+
+2. **Use Newton's second law** to find the acceleration (a) of the electron:
+   \[
+   F = ma
+To find the acceleration \( a \) of the electron, we can rearrange Newton's second law:
+
+\[
+a = \frac{F}{m}
+\]
+
+where:
+- \( F \) is the force calculated in the previous step (\( 8.0 \times 10^{-17} \, \text{N} \)),
+- \( m \) is the mass of the electron (\( 9.1 \times 10^{-31} \, \text{kg} \)).
+
+Now substituting the values:
+
+\[
+a = \frac{8.0 \times 10^{-17} \, \text{N}}{9.1 \times 10^{-31} \, \text{kg}} \approx 8.79 \times 10^{13} \, \text{m/s}^2
+\]
+
+Therefore, the acceleration of the electron is approximately:
+
+**8.79e13** (in scientific notation",False,
+A cancer therapy delivers 2 Gy radiation dose per treatment. What is the total radiation exposure after 5 fractions?,Radiation Oncology,10.0,10.0,"To calculate the total radiation exposure after 5 fractions of a cancer therapy that delivers 2 Gy per treatment, you can follow these steps:
+
+1. **Identify the dose per fraction**: The therapy delivers 2 Gy per treatment (or fraction).
+
+2. **Identify the number of fractions**: In this case, there are 5 fractions.
+
+3. **Calculate the total dose**: Multiply the dose per fraction by the number of fractions:
+   \[
+   \text{Total Dose} = \text{Dose per Fraction} \times \text{Number of Fractions}
+   \]
+   \[
+   \text{Total Dose} = 2 \, \text{Gy} \times 5 = 10 \, \text{Gy}
+   \]
+
+Therefore, the total radiation exposure after 5 fractions is **10 Gy**.10",False,
+A capacitor has a capacitance of 5 μF and is charged to a potential difference of 10 V. What is the charge stored in the capacitor?,Capacitance,50.0,50000.0,"To find the charge stored in a capacitor, we can use the formula:
+
+\[
+Q = C \times V
+\]
+
+where:
+- \( Q \) is the charge in coulombs (C),
+- \( C \) is the capacitance in farads (F),
+- \( V \) is the potential difference in volts (V).
+
+Given:
+- Capacitance \( C = 5 \, \mu\text{F} = 5 \times 10^{-6} \, \text{F} \)
+- Potential difference \( V = 10 \, \text{V} \)
+
+Now, we can substitute the values into the formula:
+
+\[
+Q = (5 \times 10^{-6} \, \text{F}) \times (10 \, \text{V})
+\]
+
+Calculating this gives:
+
+\[
+Q = 5 \times 10^{-5} \, \text{C}
+\]
+
+So,50,000",False,
+A car accelerates from rest at a constant rate of 2 m/s^2 for 5 seconds. What is its final velocity?,Kinematics,10.0,10.0,"To find the final velocity of the car, we can use the formula for final velocity when starting from rest and accelerating at a constant rate:
+
+\[
+v_f = v_i + a \cdot t
+\]
+
+Where:
+- \( v_f \) is the final velocity,
+- \( v_i \) is the initial velocity (which is 0 m/s since the car starts from rest),
+- \( a \) is the acceleration (2 m/s²),
+- \( t \) is the time (5 seconds).
+
+Now, substituting the values into the formula:
+
+1. Initial velocity \( v_i = 0 \) m/s
+2. Acceleration \( a = 2 \) m/s²
+3. Time \( t = 5 \) s
+
+Now plug in the values:
+
+\[
+v_f = 0 + (2 \, \text{m/s}^2) \cdot (5 \, \text{s})
+\]
+
+Calcul10",False,
+The frequency of a wave is 500 Hz and its wavelength is 0.7 m. What is its speed in m/s?,Wave Speed,350.0,350.0,"To find the speed of a wave, we can use the formula:
+
+\[
+\text{Speed} = \text{Frequency} \times \text{Wavelength}
+\]
+
+Given:
+- Frequency (f) = 500 Hz
+- Wavelength (λ) = 0.7 m
+
+Now, we can substitute the values into the formula:
+
+\[
+\text{Speed} = 500 \, \text{Hz} \times 0.7 \, \text{m}
+\]
+
+Calculating this gives:
+
+\[
+\text{Speed} = 350 \, \text{m/s}
+\]
+
+Therefore, the speed of the wave is **350 m/s**.350",False,
+"A bacterial population doubles every 20 minutes. Starting with 1000 cells, How many cells after 60 minutes?",Bacterial Growth,8000,8000.0,"To determine how many bacterial cells there will be after 60 minutes, we can follow these steps:
+
+1. **Identify the doubling time**: The bacterial population doubles every 20 minutes.
+
+2. **Calculate the number of doubling periods in 60 minutes**: 
+   \[
+   \text{Number of doubling periods} = \frac{60 \text{ minutes}}{20 \text{ minutes/doubling}} = 3 \text{ doublings}
+   \]
+
+3. **Calculate the population after each doubling**:
+   - Starting with 1000 cells:
+     - After the first doubling (20 minutes): 
+       \[
+       1000 \times 2 = 2000 \text{ cells}
+       \]
+     - After the second doubling (40 minutes): 
+       \[
+       2000 \times 2 = 4000 \text{ cells}
+       \]
+     - After the third doubling (60 minutes): 
+       \[
+8000",False,
+"A 5 kg object moving at 3 m/s collides with a stationary 3 kg object. After collision, they move together. What is their final velocity?",Conservation of Momentum,1.875,1.0,"To find the final velocity of the two objects after the collision, we can use the principle of conservation of momentum. The total momentum before the collision must equal the total momentum after the collision.
+
+1. **Calculate the initial momentum of each object:**
+   - For the 5 kg object moving at 3 m/s:
+     \[
+     \text{Momentum}_{5 \text{ kg}} = \text{mass} \times \text{velocity} = 5 \, \text{kg} \times 3 \, \text{m/s} = 15 \, \text{kg m/s}
+     \]
+   - For the 3 kg stationary object:
+     \[
+     \text{Momentum}_{3 \text{ kg}} = \text{mass} \times \text{velocity} = 3 \, \text{kg} \times 0 \, \text{m/s} = 0 \, \text{kg mTo find the final velocity of the two objects after the collision, we can use the principle of conservation of momentum. The total momentum before the collision must equal the total momentum after the collision.
+
+1. **Calculate the initial momentum of each object:**
+   - For the 5 kg object moving at 3 m/s:
+     \[
+     \text{Momentum}_{5 \text{ kg}} = \text{mass} \times \text{velocity} = 5 \, \text{kg} \times 3 \, \text{m/s} = 15 \, \text{kg m/s}
+     \]
+   - For the 3 kg stationary object:
+     \[
+     \text{Momentum}_{3 \text{ kg}} = \text{mass} \times \text{velocity} = 3 \, \text{kg} \times 0 \, \text{m/s} = 0 \, \text{kg m",False,
+A chemical buffer has a pKa of 7 and initial concentration of 0.1 M. What is its pH at 25°C?,Buffer Solution,7.0,1.0,"To determine the pH of a chemical buffer solution, we can use the Henderson-Hasselbalch equation, which is given by:
+
+\[
+\text{pH} = \text{pKa} + \log\left(\frac{[\text{A}^-]}{[\text{HA}]}\right)
+\]
+
+Where:
+- \(\text{pH}\) is the pH of the solution.
+- \(\text{pKa}\) is the negative logarithm of the acid dissociation constant (Ka) of the weak acid in the buffer.
+- \([\text{A}^-]\) is the concentration of the conjugate base.
+- \([\text{HA}]\) is the concentration of the weak acid.
+
+In this case, we know:
+- \(\text{pKa} = 7\)
+- The initial concentration of the buffer is \(0.1 \, \text{M}\).
+
+However, we need toTo determine the pH of the buffer solution, we need to know the ratio of the concentrations of the conjugate base \([\text{A}^-]\) and the weak acid \([\text{HA}]\). Since the problem does not specify the ratio of \([\text{A}^-]\) to \([\text{HA}]\), we can assume a common scenario where the concentrations of the acid and its conjugate base are equal.
+
+If we assume that \([\text{A}^-] = [\text{HA}]\), then the ratio \(\frac{[\text{A}^-]}{[\text{HA}]}\) equals 1. 
+
+Using the Henderson-Hasselbalch equation:
+
+\[
+\text{pH} = \text{pKa} + \log\left(\frac{[\text{A}^-]}{[\text{HA}]}\right)
+\]
+
+Substituting the values:
+
+\[
+\",False,
+A 5 kg object is lifted 2 meters against gravity (g = 9.8 m/s²). How much potential energy does it gain in Joules?,Gravitational Potential Energy,98.0,5.0,"To calculate the potential energy gained by the object when it is lifted against gravity, we can use the formula for gravitational potential energy:
+
+\[
+PE = m \cdot g \cdot h
+\]
+
+where:
+- \( PE \) is the potential energy in Joules (J),
+- \( m \) is the mass of the object in kilograms (kg),
+- \( g \) is the acceleration due to gravity in meters per second squared (m/s²),
+- \( h \) is the height in meters (m) that the object is lifted.
+
+Given:
+- \( m = 5 \) kg,
+- \( g = 9.8 \) m/s²,
+- \( h = 2 \) m.
+
+Now, we can substitute the values into the formula:
+
+\[
+PE = 5 \, \text{kg} \cdot 9.8 \, \text{m/s}^2 \cdot 2 \, \To calculate the potential energy:
+
+\[
+PE = 5 \, \text{kg} \cdot 9.8 \, \text{m/s}^2 \cdot 2 \, \text{m}
+\]
+
+Calculating this step by step:
+
+1. First, multiply the mass by the acceleration due to gravity:
+   \[
+   5 \, \text{kg} \cdot 9.8 \, \text{m/s}^2 = 49 \, \text{kg} \cdot \text{m/s}^2 = 49 \, \text{N}
+   \]
+
+2. Now, multiply by the height:
+   \[
+   49 \, \text{N} \cdot 2 \, \text{m} = 98 \, \text{J}
+   \]
+
+Therefore, the potential energy gained by the object is:
+
+\[
+\text{PE}",False,
+"The density of gold is 19.3 g/cm³. If you have a cube of gold with side length 2 cm, What is its mass in grams?",Density Calculation,154.4,19.3,"To find the mass of a cube of gold with a side length of 2 cm, we can follow these steps:
+
+1. **Calculate the volume of the cube**: 
+   The formula for the volume \( V \) of a cube is given by:
+   \[
+   V = \text{side length}^3
+   \]
+   For a cube with a side length of 2 cm:
+   \[
+   V = 2 \, \text{cm} \times 2 \, \text{cm} \times 2 \, \text{cm} = 8 \, \text{cm}^3
+   \]
+
+2. **Use the density to find the mass**: 
+   The mass \( m \) can be calculated using the formula:
+   \[
+   m = \text{density} \times \text{volume}
+   \]
+   Given that the density of gold is 19.3 g/cm³The mass of the gold cube is calculated as follows:
+
+\[
+m = \text{density} \times \text{volume} = 19.3 \, \text{g/cm}^3 \times 8 \, \text{cm}^3 = 154.4 \, \text{g}
+\]
+
+So, the mass of the gold cube is **154.4** grams.",False,
+The molar mass of NaOH is 40 g/mol. Calculate the mass of 2 moles of NaOH. What is the mass?,Molar Mass,80.0,80.0,"To calculate the mass of 2 moles of NaOH, we can use the formula:
+
+\[
+\text{Mass} = \text{Number of moles} \times \text{Molar mass}
+\]
+
+Given:
+- Number of moles of NaOH = 2 moles
+- Molar mass of NaOH = 40 g/mol
+
+Now, we can substitute the values into the formula:
+
+\[
+\text{Mass} = 2 \, \text{moles} \times 40 \, \text{g/mol}
+\]
+
+Calculating this gives:
+
+\[
+\text{Mass} = 80 \, \text{g}
+\]
+
+Therefore, the mass of 2 moles of NaOH is **80 grams**.80",False,
+A nanomaterial has a surface area of 50 m²/g. What is its specific surface area in cm²/mg?,Materials Engineering,5000,500.0,"To convert the specific surface area from m²/g to cm²/mg, we can follow these steps:
+
+1. **Understand the units**:
+   - 1 m² = 10,000 cm² (since 1 m = 100 cm, and therefore \(1 m² = (100 cm)² = 10,000 cm²\))
+   - 1 g = 1,000 mg (since 1 g = 1,000 mg)
+
+2. **Convert m²/g to cm²/mg**:
+   - Start with the given surface area: 50 m²/g.
+   - Convert m² to cm²: 
+     \[
+     50 \, \text{m²/g} \times 10,000 \, \text{cm²/m²} = 500,000 \, \text{cm²/g}
+     \]
+   - Now convert g to mg:
+     \[
+     500,000500.",False,
+A 5 Ω and a 10 Ω resistor are connected in parallel. What is their equivalent resistance in ohms?,Parallel Resistance,3.33,1.0,"To find the equivalent resistance \( R_{eq} \) of two resistors connected in parallel, we can use the formula:
+
+\[
+\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}
+\]
+
+where \( R_1 \) and \( R_2 \) are the resistances of the individual resistors.
+
+In this case, we have:
+
+- \( R_1 = 5 \, \Omega \)
+- \( R_2 = 10 \, \Omega \)
+
+Now, we can substitute these values into the formula:
+
+\[
+\frac{1}{R_{eq}} = \frac{1}{5} + \frac{1}{10}
+\]
+
+Next, we need to find a common denominator to add the fractions. The common denominator for 5 and 10 is 10. We can rewrite the fractions:
+
+\[
+\frac{1}{5}To continue from where we left off, we rewrite \(\frac{1}{5}\) with a common denominator of 10:
+
+\[
+\frac{1}{5} = \frac{2}{10}
+\]
+
+Now we can add the fractions:
+
+\[
+\frac{1}{R_{eq}} = \frac{2}{10} + \frac{1}{10} = \frac{3}{10}
+\]
+
+Now, we take the reciprocal to find \(R_{eq}\):
+
+\[
+R_{eq} = \frac{10}{3} \, \Omega
+\]
+
+Calculating this gives:
+
+\[
+R_{eq} \approx 3.33 \, \Omega
+\]
+
+Therefore, the equivalent resistance is approximately \(3.33 \, \Omega\).",False,
+"The half-life of a radioactive isotope is 5 hours. Starting with 100 grams, How many grams remain after 15 hours?",Radioactive Decay,12.5,2.0,"To determine how much of a radioactive isotope remains after a certain period, we can use the concept of half-lives. The half-life is the time it takes for half of the substance to decay.
+
+1. **Identify the initial amount and half-life**:
+   - Initial amount = 100 grams
+   - Half-life = 5 hours
+
+2. **Determine the total time elapsed**:
+   - Total time = 15 hours
+
+3. **Calculate the number of half-lives that have passed**:
+   - Number of half-lives = Total time / Half-life
+   - Number of half-lives = 15 hours / 5 hours = 3 half-lives
+
+4. **Calculate the remaining amount after each half-life**:
+   - After 1 half-life (5 hours): 
+     \[
+     100 \text{ grams} \times \frac{1}{2} = 50 \text{ grams}
+     \]
+   - After After 2 half-lives (10 hours):
+\[
+50 \text{ grams} \times \frac{1}{2} = 25 \text{ grams}
+\]
+
+After 3 half-lives (15 hours):
+\[
+25 \text{ grams} \times \frac{1}{2} = 12.5 \text{ grams}
+\]
+
+Therefore, the amount remaining after 15 hours is **12.5** grams.",False,
+An ideal gas expands from 2 L to 5 L at constant temperature of 300 K. What is the pressure change ratio?,Gas Law Thermodynamics,0.4,1.0,"To find the pressure change ratio for an ideal gas expanding from 2 L to 5 L at a constant temperature of 300 K, we can use Boyle's Law, which states that for a given amount of gas at constant temperature, the product of pressure and volume is constant:
+
+\[ P_1 V_1 = P_2 V_2 \]
+
+Where:
+- \( P_1 \) is the initial pressure,
+- \( V_1 \) is the initial volume,
+- \( P_2 \) is the final pressure,
+- \( V_2 \) is the final volume.
+
+Given:
+- \( V_1 = 2 \, \text{L} \)
+- \( V_2 = 5 \, \text{L} \)
+
+We can rearrange Boyle's Law to find the ratio of the pressures:
+
+\[ \frac{P_1}{P_2} = \frac{V_2}{V_1} \]
+
+To find the pressure change ratio, we can substitute the values of \( V_1 \) and \( V_2 \) into the equation:
+
+\[
+\frac{P_1}{P_2} = \frac{V_2}{V_1} = \frac{5 \, \text{L}}{2 \, \text{L}} = \frac{5}{2} = 2.5
+\]
+
+Thus, the pressure change ratio is \( 2.5 \).",False,
+"A radioactive isotope has a half-life of 10 days. After 30 days, What fraction of the original sample remains?",Radioactive Decay,0.125,1.0,"To determine the fraction of a radioactive isotope that remains after a certain period, we can use the concept of half-lives. 
+
+1. **Identify the half-life**: The half-life of the isotope is given as 10 days.
+
+2. **Determine the total time elapsed**: We are looking at a time period of 30 days.
+
+3. **Calculate the number of half-lives that have passed**: 
+   \[
+   \text{Number of half-lives} = \frac{\text{Total time}}{\text{Half-life}} = \frac{30 \text{ days}}{10 \text{ days}} = 3
+   \]
+
+4. **Calculate the remaining fraction**: After each half-life, the amount of the radioactive isotope remaining is halved. Therefore, after 3 half-lives, the remaining fraction can be calculated as:
+   \[
+   \text{Remaining fraction} = \left(\frac{1}{2}\The remaining fraction after 3 half-lives is calculated as follows:
+
+\[
+\text{Remaining fraction} = \left(\frac{1}{2}\right)^3 = \frac{1}{8}
+\]
+
+Thus, after 30 days, the fraction of the original sample that remains is:
+
+\[
+\frac{1}{8}
+\]
+
+So the answer is: **1/8**.",False,
+The average kinetic energy of gas molecules at 300 K is 6.21 x 1e-21 J. What is the average kinetic energy at 600 K?,Kinetic Theory,1.242e-20,600.0,"The average kinetic energy of gas molecules is directly proportional to the temperature in Kelvin. The relationship can be expressed using the formula:
+
+\[
+KE = \frac{3}{2} k T
+\]
+
+where:
+- \( KE \) is the average kinetic energy,
+- \( k \) is the Boltzmann constant (\(1.38 \times 10^{-23} \, \text{J/K}\)),
+- \( T \) is the temperature in Kelvin.
+
+Given that the average kinetic energy at 300 K is \( 6.21 \times 10^{-21} \, \text{J} \), we can find the average kinetic energy at 600 K by using the ratio of the temperatures.
+
+1. **Calculate the ratio of the temperatures:**
+
+\[
+\frac{T_2}{T_1} = \frac{600 \, \text{K}}{300 \, \text{K}} = 2
+\]
+
+2To find the average kinetic energy at 600 K, we can use the fact that the average kinetic energy is directly proportional to the temperature. Since we have already calculated the ratio of the temperatures as 2, we can find the average kinetic energy at 600 K by multiplying the average kinetic energy at 300 K by this ratio.
+
+\[
+KE_{600 \, K} = KE_{300 \, K} \times \frac{T_2}{T_1}
+\]
+
+Substituting the values:
+
+\[
+KE_{600 \, K} = 6.21 \times 10^{-21} \, \text{J} \times 2
+\]
+
+\[
+KE_{600 \, K} = 12.42 \times 10^{-21} \, \text{J}
+\]
+
+Thus, the average kinetic energy at 600 K is:
+
+**12.42 x 10^-21 J**",False,
+"A wire of length 2 m has a resistance of 10 Ω. If its length is doubled, What is its new resistance?",Resistance and Length,20.0,2.0,"To determine the new resistance of the wire when its length is doubled, we can use the formula for resistance, which is given by:
+
+\[
+R = \rho \frac{L}{A}
+\]
+
+where:
+- \( R \) is the resistance,
+- \( \rho \) is the resistivity of the material,
+- \( L \) is the length of the wire,
+- \( A \) is the cross-sectional area of the wire.
+
+1. **Initial Resistance**: We know that the initial length \( L_1 = 2 \) m and the initial resistance \( R_1 = 10 \) Ω.
+
+2. **Doubling the Length**: If the length of the wire is doubled, the new length \( L_2 \) will be:
+   \[
+   L_2 = 2 \times L_1 = 2 \times 2 \text{ m} = 4 \text{ m}
+   \]
+
+3To find the new resistance when the length of the wire is doubled, we can use the relationship between resistance and length. 
+
+From the formula \( R = \rho \frac{L}{A} \), we see that resistance is directly proportional to the length of the wire. 
+
+Since the length is doubled, the new resistance \( R_2 \) can be calculated as follows:
+
+\[
+R_2 = \rho \frac{L_2}{A} = \rho \frac{2L_1}{A} = 2 \left( \rho \frac{L_1}{A} \right) = 2R_1
+\]
+
+Given that the initial resistance \( R_1 = 10 \) Ω, we can substitute this value into the equation:
+
+\[
+R_2 = 2 \times 10 \, \Omega = 20 \, \Omega
+\]
+
+Therefore, the new resistance is **20**.",False,
+"The specific heat capacity of water is 4.18 J/(g·°C). To raise the temperature of 100g of water by 5°C, How much energy is required in Joules?",Heat Capacity,2090.0,100.0,"To calculate the energy required to raise the temperature of water, we can use the formula:
+
+\[
+Q = m \cdot c \cdot \Delta T
+\]
+
+where:
+- \( Q \) is the energy in Joules,
+- \( m \) is the mass of the water in grams,
+- \( c \) is the specific heat capacity of water (4.18 J/(g·°C)),
+- \( \Delta T \) is the change in temperature in degrees Celsius.
+
+Given:
+- \( m = 100 \, \text{g} \)
+- \( c = 4.18 \, \text{J/(g·°C)} \)
+- \( \Delta T = 5 \, \text{°C} \)
+
+Now, we can plug in the values:
+
+\[
+Q = 100 \, \text{g} \cdot 4.18 \, \text{J/(g·°CTo calculate the energy required, we can plug in the values into the formula:
+
+\[
+Q = m \cdot c \cdot \Delta T
+\]
+
+Substituting the given values:
+
+\[
+Q = 100 \, \text{g} \cdot 4.18 \, \text{J/(g·°C)} \cdot 5 \, \text{°C}
+\]
+
+Now, calculate it step by step:
+
+1. Calculate \( 100 \, \text{g} \cdot 4.18 \, \text{J/(g·°C)} \):
+
+\[
+100 \cdot 4.18 = 418 \, \text{J/°C}
+\]
+
+2. Now multiply by the change in temperature \( \Delta T = 5 \, \text{°C} \):
+
+\[
+Q = 418 \, \text{J/°C} \cdot",False,
+A patient's blood glucose level increases from 90 to 140 mg/dL after a meal. What is the percentage increase in blood glucose?,Medical Diagnostics,55.6,55.56,"To calculate the percentage increase in blood glucose, we can follow these steps:
+
+1. **Determine the initial and final values**:
+   - Initial value (before the meal): 90 mg/dL
+   - Final value (after the meal): 140 mg/dL
+
+2. **Calculate the increase in value**:
+   \[
+   \text{Increase} = \text{Final value} - \text{Initial value} = 140 \, \text{mg/dL} - 90 \, \text{mg/dL} = 50 \, \text{mg/dL}
+   \]
+
+3. **Calculate the percentage increase**:
+   \[
+   \text{Percentage Increase} = \left( \frac{\text{Increase}}{\text{Initial value}} \right) \times 100
+   \]
+   \[
+   \text{Percentage Increase} = \left( \frac{50 \, \text{mg/d55.56",False,
+A worker is paid $15 per hour. If they work for 8 hours. What is their total pay?,Multiplication,120.0,120.0,"To calculate the total pay for the worker, we can follow these steps:
+
+1. **Identify the hourly wage**: The worker is paid $15 per hour.
+2. **Identify the number of hours worked**: The worker works for 8 hours.
+3. **Calculate the total pay**: Multiply the hourly wage by the number of hours worked.
+
+   \[
+   \text{Total Pay} = \text{Hourly Wage} \times \text{Hours Worked}
+   \]
+
+   \[
+   \text{Total Pay} = 15 \, \text{dollars/hour} \times 8 \, \text{hours}
+   \]
+
+   \[
+   \text{Total Pay} = 120 \, \text{dollars}
+   \]
+
+So, the total pay for the worker is **$120**.120",False,
+A transformer steps voltage down from 220 V to 110 V. What is the turns ratio of its primary to secondary windings?,Electrical Transformer,2.0,2.0,"To find the turns ratio of a transformer, we can use the relationship between the primary voltage (Vp), secondary voltage (Vs), primary turns (Np), and secondary turns (Ns). The formula for the turns ratio is given by:
+
+\[
+\frac{Vp}{Vs} = \frac{Np}{Ns}
+\]
+
+In this case, we have:
+
+- Primary voltage, \(Vp = 220 \, V\)
+- Secondary voltage, \(Vs = 110 \, V\)
+
+Now, we can calculate the turns ratio:
+
+\[
+\frac{Vp}{Vs} = \frac{220 \, V}{110 \, V} = 2
+\]
+
+This means that the turns ratio of the primary to secondary windings is 2:1. 
+
+Thus, for every 2 turns in the primary winding, there is 1 turn in the secondary winding. 
+
+So, the final answer is:
+
+**The turns ratio of the primary to secondary windings2",False,
+"The de Broglie wavelength of an electron is 1 nm. If its mass is 9.1 × 10⁻³¹ kg, What is its velocity in m/s?",de Broglie Wavelength,728000.0,6.626,"To find the velocity of the electron given its de Broglie wavelength, we can use the de Broglie wavelength formula:
+
+\[
+\lambda = \frac{h}{p}
+\]
+
+where:
+- \(\lambda\) is the de Broglie wavelength,
+- \(h\) is Planck's constant (\(6.626 \times 10^{-34} \, \text{Js}\)),
+- \(p\) is the momentum of the particle.
+
+The momentum \(p\) of the electron can also be expressed in terms of its mass \(m\) and velocity \(v\):
+
+\[
+p = mv
+\]
+
+Substituting this into the de Broglie wavelength formula gives:
+
+\[
+\lambda = \frac{h}{mv}
+\]
+
+Rearranging this to solve for velocity \(v\):
+
+\[
+v = \frac{h}{m\lambda}
+\]
+
+Now, we can plug in the values:
+
+- \To find the velocity of the electron, we can use the formula derived from the de Broglie wavelength:
+
+\[
+v = \frac{h}{m\lambda}
+\]
+
+Given:
+- \(h = 6.626 \times 10^{-34} \, \text{Js}\) (Planck's constant)
+- \(m = 9.1 \times 10^{-31} \, \text{kg}\) (mass of the electron)
+- \(\lambda = 1 \, \text{nm} = 1 \times 10^{-9} \, \text{m}\) (de Broglie wavelength)
+
+Now, substituting the values into the equation:
+
+\[
+v = \frac{6.626 \times 10^{-34} \, \text{Js}}{(9.1 \times 10^{-31} \, \text{kg})(1 \times 10^{-9} \, \",False,
+"A 0.1 M HCl solution has a pH of 1. If it is diluted 10 times, What is its new pH?",Dilution and pH,2.0,0.01,"To determine the new pH after diluting a 0.1 M HCl solution by 10 times, we can follow these steps:
+
+1. **Understand the initial concentration**: The initial concentration of the HCl solution is 0.1 M. Since HCl is a strong acid, it completely dissociates in water. Therefore, the concentration of hydrogen ions \([H^+]\) in the solution is also 0.1 M.
+
+2. **Calculate the initial pH**: The pH is calculated using the formula:
+   \[
+   \text{pH} = -\log[H^+]
+   \]
+   For the initial solution:
+   \[
+   \text{pH} = -\log(0.1) = 1
+   \]
+
+3. **Dilute the solution**: When the solution is diluted 10 times, the new concentration of HCl will be:
+   \[
+   \text0.01 M.
+
+4. **Calculate the new concentration of hydrogen ions**: Since HCl completely dissociates, the concentration of hydrogen ions \([H^+]\) in the diluted solution will also be 0.01 M.
+
+5. **Calculate the new pH**: Using the pH formula again:
+   \[
+   \text{pH} = -\log(0.01) = 2
+   \]
+
+Therefore, the new pH after diluting the 0.1 M HCl solution 10 times is **2**.",False,
+A lens with focal length 10 cm forms an image 30 cm from its center. What is the object distance?,Optics Imaging,15.0,1.0,"To find the object distance for a lens, we can use the lens formula, which is given by:
+
+\[
+\frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i}
+\]
+
+where:
+- \( f \) is the focal length of the lens,
+- \( d_o \) is the object distance,
+- \( d_i \) is the image distance.
+
+From the problem, we know:
+- The focal length \( f = 10 \) cm (since it's a converging lens, we take it as positive),
+- The image distance \( d_i = 30 \) cm (also positive, as the image is real and on the opposite side of the lens).
+
+Now, we can substitute these values into the lens formula:
+
+\[
+\frac{1}{10} = \frac{1}{d_o} + \frac{1}{30}
+\]
+
+Next, we need to isolate \( \fracTo isolate \( \frac{1}{d_o} \), we can rearrange the equation:
+
+\[
+\frac{1}{d_o} = \frac{1}{10} - \frac{1}{30}
+\]
+
+To perform the subtraction, we need a common denominator. The least common multiple of 10 and 30 is 30. We can rewrite \( \frac{1}{10} \) as \( \frac{3}{30} \):
+
+\[
+\frac{1}{d_o} = \frac{3}{30} - \frac{1}{30} = \frac{2}{30}
+\]
+
+Now, simplifying \( \frac{2}{30} \):
+
+\[
+\frac{1}{d_o} = \frac{1}{15}
+\]
+
+Taking the reciprocal gives us the object distance:
+
+\[
+d_o = 15 \text{ cm}
+\]
+
+Therefore, the object distance is \( 15 \)",False,
+A sample contains 12 grams of carbon-12. How many moles of carbon are in the sample?,Mole Calculation,1.0,1.0,"To determine how many moles of carbon are in a sample containing 12 grams of carbon-12, we can use the concept of molar mass.
+
+1. **Identify the molar mass of carbon-12**: The molar mass of carbon-12 is approximately 12 grams per mole (g/mol).
+
+2. **Use the formula for moles**: The number of moles (n) can be calculated using the formula:
+   \[
+   n = \frac{\text{mass (g)}}{\text{molar mass (g/mol)}}
+   \]
+
+3. **Plug in the values**:
+   - Mass of carbon-12 = 12 grams
+   - Molar mass of carbon-12 = 12 g/mol
+
+   \[
+   n = \frac{12 \text{ g}}{12 \text{ g/mol}} = 1 \text{ mole}
+   \]
+
+4. **Conclusion**: The sample contains **11",False,
+A perfect blackbody radiates at 500 K. What is its peak emission wavelength? (Wien displacement constant = 2.898e-3 m·K),Thermal Radiation,5.796e-06,2.898,"To find the peak emission wavelength of a perfect blackbody at a given temperature, we can use Wien's displacement law, which states:
+
+\[
+\lambda_{\text{max}} = \frac{b}{T}
+\]
+
+where:
+- \(\lambda_{\text{max}}\) is the peak emission wavelength,
+- \(b\) is the Wien displacement constant (approximately \(2.898 \times 10^{-3} \, \text{m} \cdot \text{K}\)),
+- \(T\) is the absolute temperature in Kelvin.
+
+Given:
+- \(T = 500 \, \text{K}\)
+
+Now, we can substitute the values into the formula:
+
+\[
+\lambda_{\text{max}} = \frac{2.898 \times 10^{-3} \, \text{m} \cdot \text{K}}{500 \, \text{K}}
+\]
+
+Calculating this gives:
+
+\[
+\lambdaTo calculate the peak emission wavelength, we can continue from where we left off:
+
+\[
+\lambda_{\text{max}} = \frac{2.898 \times 10^{-3} \, \text{m} \cdot \text{K}}{500 \, \text{K}} = \frac{2.898 \times 10^{-3}}{500}
+\]
+
+Calculating this:
+
+\[
+\lambda_{\text{max}} = 5.796 \times 10^{-6} \, \text{m}
+\]
+
+To express this in micrometers (µm), we convert meters to micrometers (1 m = \(10^6\) µm):
+
+\[
+\lambda_{\text{max}} = 5.796 \times 10^{-6} \, \text{m} = 5.796 \, \mu\text{m}
+\]
+
+Therefore, the peak emission wavelength is:
+
+**",False,
+A fuel cell generates 0.7 V with hydrogen and oxygen. What electrical power does it produce at 2 A current?,Electrochemistry,1.4,1.4,"To calculate the electrical power produced by the fuel cell, we can use the formula for electrical power:
+
+\[
+P = V \times I
+\]
+
+where:
+- \( P \) is the power in watts (W),
+- \( V \) is the voltage in volts (V),
+- \( I \) is the current in amperes (A).
+
+Given:
+- The voltage \( V = 0.7 \, \text{V} \)
+- The current \( I = 2 \, \text{A} \)
+
+Now, we can substitute the values into the formula:
+
+\[
+P = 0.7 \, \text{V} \times 2 \, \text{A}
+\]
+
+Calculating this gives:
+
+\[
+P = 1.4 \, \text{W}
+\]
+
+Therefore, the electrical power produced by the fuel cell at a current of 2 A is **1.4 watts**.1.4",False,
+A 2 kg mass is attached to a spring with spring constant 50 N/m. What is the period of oscillation in seconds?,Simple Harmonic Motion,1.26,2.0,"To find the period of oscillation of a mass-spring system, we can use the formula for the period \( T \) of a mass \( m \) attached to a spring with spring constant \( k \):
+
+\[
+T = 2\pi \sqrt{\frac{m}{k}}
+\]
+
+Where:
+- \( T \) is the period of oscillation,
+- \( m \) is the mass (in kg),
+- \( k \) is the spring constant (in N/m).
+
+Given:
+- \( m = 2 \, \text{kg} \)
+- \( k = 50 \, \text{N/m} \)
+
+Now, we can substitute the values into the formula:
+
+1. Calculate \( \frac{m}{k} \):
+   \[
+   \frac{m}{k} = \frac{2 \, \text{kg}}{50 \, \text{N/m}} = \frac{2}{50To continue from where we left off:
+
+\[
+\frac{m}{k} = \frac{2 \, \text{kg}}{50 \, \text{N/m}} = \frac{2}{50} = 0.04 \, \text{s}^2
+\]
+
+2. Now, take the square root of \( 0.04 \):
+\[
+\sqrt{0.04} = 0.2 \, \text{s}
+\]
+
+3. Finally, multiply by \( 2\pi \):
+\[
+T = 2\pi \times 0.2 \, \text{s} \approx 1.2566 \, \text{s}
+\]
+
+Thus, the period of oscillation \( T \) is approximately \( 1.26 \) seconds.
+
+Therefore, the answer (in Arabic numerals) is: **1.26**.",False,
+"A company's revenue grows by 5% each year. If the initial revenue is $1000, What will be the revenue after 3 years?",Compound Growth,1157.63,3.0,"To calculate the revenue after 3 years with a growth rate of 5% per year, we can use the formula for compound interest:
+
+\[
+\text{Future Revenue} = \text{Initial Revenue} \times (1 + \text{Growth Rate})^{\text{Number of Years}}
+\]
+
+In this case:
+- Initial Revenue = $1000
+- Growth Rate = 5% = 0.05
+- Number of Years = 3
+
+Now, we can plug in the values:
+
+\[
+\text{Future Revenue} = 1000 \times (1 + 0.05)^3
+\]
+
+Calculating the expression inside the parentheses:
+
+\[
+1 + 0.05 = 1.05
+\]
+
+Now raise it to the power of 3:
+
+\[
+1.05^3 = 1.157625
+\]
+
+Now multiply by the initial revenue:
+
+\[
+\text{Future Revenue} = 100The future revenue after 3 years is:
+
+\[
+\text{Future Revenue} = 1000 \times 1.157625 = 1157.625
+\]
+
+Therefore, the answer (in Arabic numerals) is: **1157.63** (rounded to two decimal places).",False,
+"A genetic mutation occurs in 2 out of 10,000 individuals. What is its prevalence as a percentage?",Epidemiology,0.02,0.02,"To find the prevalence of a genetic mutation as a percentage, you can follow these steps:
+
+1. **Identify the number of individuals with the mutation**: In this case, there are 2 individuals with the mutation.
+
+2. **Identify the total number of individuals**: Here, the total number of individuals is 10,000.
+
+3. **Calculate the prevalence**: The prevalence can be calculated using the formula:
+
+   \[
+   \text{Prevalence} = \left( \frac{\text{Number of individuals with the mutation}}{\text{Total number of individuals}} \right) \times 100
+   \]
+
+   Plugging in the numbers:
+
+   \[
+   \text{Prevalence} = \left( \frac{2}{10,000} \right) \times 100
+   \]
+
+4. **Perform the calculation**:
+
+   \[
+   \text{Prevalence} = 0.0002 \times0.02",False,
+A molecular motor moves 10 nm per ATP hydrolysis. How many steps to move 1 μm?,Cellular Biomechanics,100,100.0,"To determine how many steps a molecular motor needs to take to move 1 μm, we can follow these steps:
+
+1. **Convert the distance from micrometers to nanometers**:
+   - 1 μm = 1,000 nm.
+
+2. **Determine the distance moved per step**:
+   - The molecular motor moves 10 nm per ATP hydrolysis.
+
+3. **Calculate the number of steps required**:
+   - To find the number of steps, we divide the total distance (in nanometers) by the distance moved per step:
+   \[
+   \text{Number of steps} = \frac{\text{Total distance}}{\text{Distance per step}} = \frac{1000 \text{ nm}}{10 \text{ nm/step}} = 100 \text{ steps}.
+   \]
+
+Therefore, the molecular motor needs to take **100 steps** to move 1 μm.100",False,
+A microorganism population grows logistically from 100 to 1000 cells. What is its carrying capacity? (at halfway point),Population Dynamics,500,500.0,"To determine the carrying capacity of a microorganism population that grows logistically from 100 to 1000 cells, we can follow these steps:
+
+1. **Understanding Logistic Growth**: In logistic growth, the population grows rapidly at first, then slows down as it approaches a maximum limit known as the carrying capacity (K). The growth can be described by the logistic growth equation.
+
+2. **Identifying Initial and Final Population**: In this case, the population starts at 100 cells and grows to a maximum of 1000 cells.
+
+3. **Defining Carrying Capacity**: The carrying capacity (K) is the maximum population size that the environment can sustain indefinitely. In this scenario, the maximum population size is given as 1000 cells.
+
+4. **Finding the Halfway Point**: The halfway point in terms of population size is typically considered to be half of the carrying capacity. Therefore, we can calculate it as follows:
+   \[
+   \text{Halfway500",False,
+"A company's profit margin is 15%. If their revenue is $1000, What is their profit?",Profit Calculation,150.0,150.0,"To find the profit based on the profit margin and revenue, you can follow these steps:
+
+1. **Understand the Profit Margin**: The profit margin is the percentage of revenue that is profit. In this case, the profit margin is 15%.
+
+2. **Calculate the Profit**: To find the profit, you can use the formula:
+   \[
+   \text{Profit} = \text{Revenue} \times \text{Profit Margin}
+   \]
+
+3. **Substitute the Values**: Here, the revenue is $1000 and the profit margin is 15% (which can be expressed as 0.15 in decimal form).
+   \[
+   \text{Profit} = 1000 \times 0.15
+   \]
+
+4. **Perform the Calculation**:
+   \[
+   \text{Profit} = 1000 \times 0.15 = 150
+   \]
+
+So, the profit is **$150**150",False,
+A recombinant protein has a production rate of 0.5 mg/L per hour. What is its yield after 48 hours in a 10 L bioreactor?,Biotechnology,240,24.0,"To calculate the yield of the recombinant protein after 48 hours in a 10 L bioreactor, we can follow these steps:
+
+1. **Determine the production rate**: The production rate of the recombinant protein is given as 0.5 mg/L per hour.
+
+2. **Calculate the total production over time**: We need to find out how much protein is produced in 48 hours. 
+
+   \[
+   \text{Total production (mg/L)} = \text{Production rate (mg/L/hour)} \times \text{Time (hours)}
+   \]
+   \[
+   \text{Total production (mg/L)} = 0.5 \, \text{mg/L/hour} \times 48 \, \text{hours} = 24 \, \text{mg/L}
+   \]
+
+3. **Calculate the total yield in the bioreactor**: Since the bioreactor has a volume of 10 L, we can calculateTo calculate the total yield in the bioreactor, we multiply the total production per liter by the volume of the bioreactor:
+
+\[
+\text{Total yield (mg)} = \text{Total production (mg/L)} \times \text{Volume (L)}
+\]
+\[
+\text{Total yield (mg)} = 24 \, \text{mg/L} \times 10 \, \text{L} = 240 \, \text{mg}
+\]
+
+Therefore, the total yield of the recombinant protein after 48 hours in a 10 L bioreactor is **240 mg**.",False,
+A capacitor stores 0.005 C of charge at 12 V potential difference. What is its capacitance in Farads?,Electrical Capacitance,0.000417,0.41667,"To find the capacitance of a capacitor, we can use the formula:
+
+\[
+C = \frac{Q}{V}
+\]
+
+where:
+- \( C \) is the capacitance in Farads (F),
+- \( Q \) is the charge stored in the capacitor in Coulombs (C),
+- \( V \) is the potential difference across the capacitor in Volts (V).
+
+Given:
+- \( Q = 0.005 \, \text{C} \)
+- \( V = 12 \, \text{V} \)
+
+Now, we can substitute the values into the formula:
+
+\[
+C = \frac{0.005 \, \text{C}}{12 \, \text{V}}
+\]
+
+Calculating this gives:
+
+\[
+C = \frac{0.005}{12} \approx 0.00041667 \, \text{F}
+\]
+
+To express this in microfarads (µF),C ≈ 0.41667 µF.",False,
+A neurotransmitter concentration changes from 50 to 75 nM in synaptic cleft. What is its relative concentration change in percentage?,Neurochemistry,50.0,50.0,"To calculate the relative concentration change in percentage, you can use the following formula:
+
+\[
+\text{Percentage Change} = \left( \frac{\text{Final Value} - \text{Initial Value}}{\text{Initial Value}} \right) \times 100
+\]
+
+In this case, the initial concentration is 50 nM and the final concentration is 75 nM.
+
+1. **Calculate the change in concentration:**
+   \[
+   \text{Change} = \text{Final Value} - \text{Initial Value} = 75 \, \text{nM} - 50 \, \text{nM} = 25 \, \text{nM}
+   \]
+
+2. **Calculate the relative change:**
+   \[
+   \text{Relative Change} = \frac{25 \, \text{nM}}{50 \, \text{nM}} = 0.5
+   \50",False,
+"A viral load decreases from 100,000 to 1,000 copies/mL after treatment. What is the log reduction?",Virology,2.0,2.0,"To calculate the log reduction in viral load, we can use the formula for log reduction, which is:
+
+\[
+\text{Log Reduction} = \log_{10} \left( \frac{\text{Initial Viral Load}}{\text{Final Viral Load}} \right)
+\]
+
+In this case, the initial viral load is 100,000 copies/mL and the final viral load is 1,000 copies/mL.
+
+1. **Calculate the ratio of initial to final viral load:**
+   \[
+   \frac{100,000}{1,000} = 100
+   \]
+
+2. **Calculate the logarithm (base 10) of the ratio:**
+   \[
+   \log_{10}(100) = 2
+   \]
+
+Therefore, the log reduction in viral load is **2**. This means there has been a 2-log reduction in the viral load after treatment.2",False,
+A solution has a pH of 3. What is the concentration of H⁺ ions in mol/L? What is [H⁺]?,pH and H⁺ Concentration,0.001,10.0,"To find the concentration of hydrogen ions \([H^+]\) in a solution with a pH of 3, we can use the relationship between pH and \([H^+]\):
+
+1. **Understanding pH**: The pH scale is a logarithmic scale that measures the acidity or basicity of a solution. It is defined as:
+   \[
+   \text{pH} = -\log[H^+]
+   \]
+
+2. **Given pH**: In this case, the pH is given as 3.
+
+3. **Rearranging the formula**: To find \([H^+]\), we can rearrange the pH formula:
+   \[
+   [H^+] = 10^{-\text{pH}}
+   \]
+
+4. **Substituting the pH value**: Now, we substitute the pH value into the equation:
+   \[
+   [H^+] = \[
+[H^+] = 10^{-3} \, \text{mol/L} = 0.001 \, \text{mol/L}
+\]
+
+So, the concentration of hydrogen ions \([H^+]\) in the solution is 0.001 mol/L.",False,
+The focal length of a convex lens is 20 cm. An object is placed 30 cm from the lens. At what distance from the lens does the image form?,Lens Equation,60.0,1.0,"To find the distance at which the image forms when an object is placed in front of a convex lens, we can use the lens formula:
+
+\[
+\frac{1}{f} = \frac{1}{v} - \frac{1}{u}
+\]
+
+where:
+- \( f \) is the focal length of the lens,
+- \( v \) is the image distance from the lens,
+- \( u \) is the object distance from the lens.
+
+Given:
+- The focal length \( f = 20 \) cm (positive for a convex lens),
+- The object distance \( u = -30 \) cm (negative because the object is placed on the same side as the incoming light).
+
+Now, we can substitute the values into the lens formula:
+
+\[
+\frac{1}{20} = \frac{1}{v} - \frac{1}{-30}
+\]
+
+This simplifies to:
+
+\[
+\frac{1}{20} = \To continue from where we left off, we have:
+
+\[
+\frac{1}{20} = \frac{1}{v} + \frac{1}{30}
+\]
+
+Now, we need to find a common denominator to combine the fractions on the right side. The common denominator of 20 and 30 is 60. We can rewrite the fractions:
+
+\[
+\frac{1}{20} = \frac{3}{60}
+\]
+\[
+\frac{1}{30} = \frac{2}{60}
+\]
+
+Now substituting these into the equation gives:
+
+\[
+\frac{3}{60} = \frac{1}{v} + \frac{2}{60}
+\]
+
+Subtract \(\frac{2}{60}\) from both sides:
+
+\[
+\frac{3}{60} - \frac{2}{60} = \frac{1}{v}
+\]
+
+This simplifies to:
+
+\[
+\frac{1",False,
+A light bulb operates at 100 W and 220 V. What is the current through the bulb?,Electric Power,0.4545,0.45,"To find the current through the light bulb, we can use Ohm's Law, which states that:
+
+\[ 
+I = \frac{P}{V} 
+\]
+
+where:
+- \( I \) is the current in amperes (A),
+- \( P \) is the power in watts (W),
+- \( V \) is the voltage in volts (V).
+
+Given:
+- \( P = 100 \, \text{W} \)
+- \( V = 220 \, \text{V} \)
+
+Now, we can substitute the values into the formula:
+
+\[
+I = \frac{100 \, \text{W}}{220 \, \text{V}} 
+\]
+
+Calculating this gives:
+
+\[
+I = \frac{100}{220} \approx 0.4545 \, \text{A}
+\]
+
+So, the current through the bulb is approximately **0.45 A**.0.45",False,
+A car accelerates from 0 to 20 m/s in 10 seconds. What is its acceleration in m/s²?,Acceleration,2.0,20.0,"To find the acceleration of the car, we can use the formula for acceleration:
+
+\[
+\text{Acceleration} (a) = \frac{\text{Change in velocity} (\Delta v)}{\text{Time} (t)}
+\]
+
+1. **Identify the initial and final velocities**:
+   - Initial velocity (\(v_i\)) = 0 m/s (the car starts from rest)
+   - Final velocity (\(v_f\)) = 20 m/s
+
+2. **Calculate the change in velocity**:
+   \[
+   \Delta v = v_f - v_i = 20 \, \text{m/s} - 0 \, \text{m/s} = 20 \, \text{m/s}
+   \]
+
+3. **Identify the time taken**:
+   - Time (\(t\)) = 10 seconds
+
+4. **Substitute the values into the acceleration formula**:
+   \[
+   a = \\[
+a = \frac{\Delta v}{t} = \frac{20 \, \text{m/s}}{10 \, \text{s}} = 2 \, \text{m/s}^2
+\]
+
+Therefore, the acceleration of the car is **2 m/s²**.",False,
+"A quantum spin-1/2 particle experiences a magnetic field of 1 Tesla. What is its Larmor precession frequency? (ℏ = 1.055e-34 J·s, electron g-factor = 2, μB = 9.274e-24 J/T)",Quantum Magnetism,176000000000.0,1.0,"To find the Larmor precession frequency of a quantum spin-1/2 particle in a magnetic field, we can use the formula for the Larmor frequency, which is given by:
+
+\[
+\omega_L = g \frac{\mu}{\hbar} B
+\]
+
+where:
+- \( \omega_L \) is the Larmor frequency,
+- \( g \) is the g-factor (for an electron, \( g = 2 \)),
+- \( \mu \) is the magnetic moment,
+- \( \hbar \) is the reduced Planck's constant,
+- \( B \) is the magnetic field strength.
+
+The magnetic moment \( \mu \) for a spin-1/2 particle can be expressed in terms of the Bohr magneton \( \mu_B \):
+
+\[
+\mu = g \mu_B
+\]
+
+Substituting this into the Larmor frequency formula gives:
+
+\[
+\omega_L = g \frac{g \To find the Larmor precession frequency, we can follow the steps outlined in your question.
+
+1. **Identify the parameters:**
+   - \( g = 2 \) (electron g-factor)
+   - \( \mu_B = 9.274 \times 10^{-24} \, \text{J/T} \) (Bohr magneton)
+   - \( \hbar = 1.055 \times 10^{-34} \, \text{J·s} \)
+   - \( B = 1 \, \text{T} \)
+
+2. **Calculate the magnetic moment \( \mu \):**
+   \[
+   \mu = g \mu_B = 2 \times 9.274 \times 10^{-24} \, \text{J/T} = 1.8548 \times 10^{-23} \, \text{J/T}
+   \]
+
+3. **Substitute into the L",False,
+"The work function of a metal is 2.0 eV. If light of wavelength 400 nm falls on it, What is the maximum kinetic energy of ejected electrons in eV?",Photoelectric Effect,1.1,400.0,"To find the maximum kinetic energy of the ejected electrons when light of a certain wavelength falls on a metal, we can use the photoelectric effect equation:
+
+\[
+K.E. = E_{photon} - \phi
+\]
+
+where:
+- \( K.E. \) is the maximum kinetic energy of the ejected electrons,
+- \( E_{photon} \) is the energy of the incoming photon,
+- \( \phi \) is the work function of the metal.
+
+### Step 1: Calculate the energy of the photon
+
+The energy of a photon can be calculated using the formula:
+
+\[
+E_{photon} = \frac{hc}{\lambda}
+\]
+
+where:
+- \( h \) is Planck's constant (\( 4.1357 \times 10^{-15} \) eV·s),
+- \( c \) is the speed of light (\( 3.00 \times 10^8 \) m/sTo find the maximum kinetic energy of the ejected electrons, we first need to calculate the energy of the incoming photon using the given wavelength of 400 nm.
+
+### Step 1: Convert the wavelength to meters
+\[
+\lambda = 400 \, \text{nm} = 400 \times 10^{-9} \, \text{m}
+\]
+
+### Step 2: Calculate the energy of the photon
+Using the formula:
+\[
+E_{photon} = \frac{hc}{\lambda}
+\]
+where:
+- \( h = 4.1357 \times 10^{-15} \, \text{eV·s} \)
+- \( c = 3.00 \times 10^8 \, \text{m/s} \)
+
+Substituting the values:
+\[
+E_{photon} = \frac{(4.1357 \times 10^{-15} \, \text{eV",False,
+"The half-life of carbon-14 is 5730 years. If a sample has 25% of its original carbon-14, How old is it in years?",Radioactive Dating,11460.0,11460.0,"To determine the age of a sample with 25% of its original carbon-14, we can use the concept of half-lives.
+
+1. **Understanding Half-Life**: The half-life of carbon-14 is 5730 years, which means that every 5730 years, half of the carbon-14 in a sample will decay.
+
+2. **Calculating the Number of Half-Lives**: 
+   - If the sample has 25% of its original carbon-14, this means it has gone through two half-lives. 
+   - After the first half-life (5730 years), 50% of the original carbon-14 remains.
+   - After the second half-life (another 5730 years), 50% of the remaining 50% decays, leaving 25%.
+
+3. **Total Time Calculation**:
+   - Since it takes 5730 years for each half-life, and we have gone through 2 half-lives:
+   \11460",False,
+A neuron fires an action potential with a duration of 2 ms. What is its frequency of firing?,Neurophysiology,500,500.0,"To calculate the frequency of firing for a neuron that fires an action potential with a duration of 2 milliseconds (ms), we can follow these steps:
+
+1. **Understand Frequency**: Frequency (f) is defined as the number of cycles (or events) that occur in a unit of time. It is usually expressed in hertz (Hz), where 1 Hz equals 1 cycle per second.
+
+2. **Convert Duration to Seconds**: Since frequency is typically measured in cycles per second, we need to convert the duration of the action potential from milliseconds to seconds. 
+   \[
+   2 \text{ ms} = 2 \times 10^{-3} \text{ seconds} = 0.002 \text{ seconds}
+   \]
+
+3. **Calculate Frequency**: The frequency can be calculated using the formula:
+   \[
+   f = \frac{1}{T}
+   \]
+   where \( T \) is the period (duration of one500.",False,
+A cylinder has a radius of 3 cm and a height of 5 cm. What is its volume in cubic cm?,Volume of Cylinder,141.3,141.37,"To find the volume of a cylinder, we can use the formula:
+
+\[
+V = \pi r^2 h
+\]
+
+where:
+- \( V \) is the volume,
+- \( r \) is the radius of the base of the cylinder,
+- \( h \) is the height of the cylinder,
+- \( \pi \) is a constant approximately equal to 3.14159.
+
+Given:
+- Radius \( r = 3 \) cm
+- Height \( h = 5 \) cm
+
+Now, we can substitute the values into the formula:
+
+1. Calculate \( r^2 \):
+   \[
+   r^2 = 3^2 = 9 \text{ cm}^2
+   \]
+
+2. Multiply \( r^2 \) by the height \( h \):
+   \[
+   r^2 h = 9 \text{ cm}^2 \times 5 \text{ cm} = 45 \The volume \( V \) of the cylinder is:
+
+\[
+V = \pi r^2 h = \pi \times 9 \text{ cm}^2 \times 5 \text{ cm} = 45\pi \text{ cm}^3
+\]
+
+Using the approximate value of \( \pi \approx 3.14159 \):
+
+\[
+V \approx 45 \times 3.14159 \approx 141.37 \text{ cm}^3
+\]
+
+Therefore, the volume of the cylinder is approximately \( 141.37 \) cubic cm. 
+
+In Arabic numerals, the answer is: **141.37**.",False,
+"The resistance of a circuit is 10 ohms, and the current is 2 A. What is the voltage across the circuit in volts?",Ohm's Law,20.0,20.0,"To find the voltage across the circuit, we can use Ohm's Law, which states:
+
+\[ V = I \times R \]
+
+where:
+- \( V \) is the voltage in volts,
+- \( I \) is the current in amperes (A),
+- \( R \) is the resistance in ohms (Ω).
+
+Given:
+- Resistance \( R = 10 \, \text{ohms} \)
+- Current \( I = 2 \, \text{A} \)
+
+Now, we can substitute the values into the formula:
+
+\[ V = 2 \, \text{A} \times 10 \, \text{Ω} \]
+
+Calculating this gives:
+
+\[ V = 20 \, \text{volts} \]
+
+So, the voltage across the circuit is **20 volts**.20",False,
+"A polymer has a molecular weight of 50,000 g/mol. How many monomers are in a chain? (Assume monomer MW = 100 g/mol)",Polymer Chemistry,500,500.0,"To determine the number of monomers in a polymer chain, we can use the following formula:
+
+\[
+\text{Number of monomers} = \frac{\text{Molecular weight of polymer}}{\text{Molecular weight of monomer}}
+\]
+
+Given:
+- Molecular weight of the polymer = 50,000 g/mol
+- Molecular weight of the monomer = 100 g/mol
+
+Now, we can plug in the values:
+
+\[
+\text{Number of monomers} = \frac{50,000 \, \text{g/mol}}{100 \, \text{g/mol}} = 500
+\]
+
+Therefore, there are **500 monomers** in the polymer chain.500",False,

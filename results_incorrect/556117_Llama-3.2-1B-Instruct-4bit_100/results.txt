@@ -1,0 +1,56 @@
+Enter the folder name: 556117_Llama-3.2-1B-Instruct-4bit_100
+MathPrompter
+
+Column: Predicted Answer
+Correct entries count: 0
+Total non-NA predictions count: 0
+Accuracy: 0.0
+Hallucination Rate: 0.0
+Precision: 0.0
+
+Column: Predicted Algebraic Answer
+Correct entries count: 30
+Total non-NA predictions count: 89
+Accuracy: 0.3
+Hallucination Rate: 0.59
+Precision: 0.33707865168539325
+
+Column: Predicted Python Answer
+Correct entries count: 0
+Total non-NA predictions count: 0
+Accuracy: 0.0
+Hallucination Rate: 0.0
+Precision: 0.0
+MathPrompter++
+
+Column: Predicted Answer
+Correct entries count: 28
+Total non-NA predictions count: 76
+Accuracy: 0.28
+Hallucination Rate: 0.48
+Precision: 0.3684210526315789
+
+Column: Predicted Algebraic Answer
+Correct entries count: 10
+Total non-NA predictions count: 30
+Accuracy: 0.1
+Hallucination Rate: 0.2
+Precision: 0.3333333333333333
+
+Column: Predicted Python Answer
+Correct entries count: 30
+Total non-NA predictions count: 96
+Accuracy: 0.3
+Hallucination Rate: 0.66
+Precision: 0.3125
+Zeroshot CoT
+
+Column: Predicted Answer
+Correct entries count: 55
+Total non-NA predictions count: 100
+Accuracy: 0.55
+Hallucination Rate: 0.45
+Precision: 0.55
+
+
+temp 0.0

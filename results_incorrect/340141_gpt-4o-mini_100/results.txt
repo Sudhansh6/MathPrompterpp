@@ -1,0 +1,52 @@
+MathPrompter
+
+Column: Predicted Answer
+Correct entries count: 0
+Total non-NA predictions count: 0
+Accuracy: 0.0
+Hallucination Rate: 0.0
+Precision: 0.0
+
+Column: Predicted Algebraic Answer
+Correct entries count: 87
+Total non-NA predictions count: 96
+Accuracy: 0.87
+Hallucination Rate: 0.09
+Precision: 0.90625
+
+Column: Predicted Python Answer
+Correct entries count: 0
+Total non-NA predictions count: 0
+Accuracy: 0.0
+Hallucination Rate: 0.0
+Precision: 0.0
+MathPrompter++
+
+Column: Predicted Answer
+Correct entries count: 49
+Total non-NA predictions count: 51
+Accuracy: 0.49
+Hallucination Rate: 0.02
+Precision: 0.9607843137254902
+
+Column: Predicted Algebraic Answer
+Correct entries count: 91
+Total non-NA predictions count: 94
+Accuracy: 0.91
+Hallucination Rate: 0.03
+Precision: 0.9680851063829787
+
+Column: Predicted Python Answer
+Correct entries count: 56
+Total non-NA predictions count: 61
+Accuracy: 0.56
+Hallucination Rate: 0.05
+Precision: 0.9180327868852459
+Zeroshot CoT
+
+Column: Predicted Answer
+Correct entries count: 85
+Total non-NA predictions count: 100
+Accuracy: 0.85
+Hallucination Rate: 0.15
+Precision: 0.85

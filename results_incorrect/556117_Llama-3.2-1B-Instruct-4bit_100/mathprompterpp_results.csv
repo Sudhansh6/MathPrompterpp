@@ -1,0 +1,1111 @@
+Question,Type,Correct Answer,Predicted Answer,Predicted Algebraic Answer,Predicted Python Answer,Generated Algebraic Template,Rough Solution,Generated Expression,Generated Python Code,Variable Mapping,Error,Error Message
+Danny collects bottle caps. He lost 66 bottle caps at the park. Now he has 25 bottle caps in his collection. How many bottle caps did danny have at first?,Addition,91.0,91.0,91.0,91.0,Danny collects bottle caps. He lost var_A bottle caps at the park. Now he has var_B bottle caps in his collection. How many bottle caps did danny have at first?,"To find the initial number of bottle caps Danny had, we need to add the number of bottle caps he lost to the number he has now.
+
+1. Start with the number of bottle caps Danny has now: 25
+2. Add the number of bottle caps he lost: 25 + 66 = 91
+
+So, Danny had 91 bottle caps at first.",var_A + var_B,"def solution(var_A, var_B):
+    return var_A + var_B","{'var_A': 66.0, 'var_B': 25.0}",False,
+Faye was placing her pencils into rows with 22 pencils in each row. She had 6 packs of pencils each one having 14 pencils. How many pencils does she have?,Multiplication,84.0,7056.0,,7056.0,Faye was placing her pencils into rows with var_A pencils in each row. She had var_B packs of pencils each one having var_C pencils. How many pencils does she have?,"To find the total number of pencils Faye has, we need to multiply the number of packs by the number of pencils in each pack and then multiply by the number of rows.
+
+1. Multiply the number of packs by the number of pencils in each pack: 
+6 packs * 14 pencils/pack = 84 pencils
+
+2. Multiply the result by the number of rows:
+84 pencils * 22 rows = 1848 pencils",6 * 14 * 22 = 1552,"def solution(var_A, var_B, var_C):
+    return 84 * var_B * var_C","{'var_A': 22.0, 'var_B': 6.0, 'var_C': 14.0}",False,
+Danny collects bottle caps and wrappers. He found 65 wrappers and 5 bottle caps at the park. Now he has 31 bottle caps and 9 wrappers in his collection. How many more wrappers than bottle caps did danny find at the park?,Subtraction,60.0,-56.0,-56.0,-56.0,Danny collects bottle caps and wrappers. He found var_A wrappers and var_B bottle caps at the park. Now he has var_C bottle caps and var_D wrappers in his collection. How many more wrappers than bottle caps did danny find at the park?,"To find the difference between the number of wrappers and bottle caps found by Danny, we need to follow these steps:
+
+1. Calculate the difference between the number of wrappers and bottle caps found by Danny: 
+   31 (bottle caps) - 5 (bottle caps) = 26
+
+2. Since the difference is positive, it means Danny found more wrappers than bottle caps.",var_D - var_A,"def solution(var_A, var_B, var_C, var_D):
+    return var_D - var_A","{'var_A': 65.0, 'var_B': 5.0, 'var_C': 31.0, 'var_D': 9.0}",False,
+The ring toss game at the carnival made 144 dollars per day. They were at the carnival for 22 days. How much money did they make?,Multiplication,3168.0,,3456,3600.0,The ring toss game at the carnival made var_A dollars per day. They were at the carnival for var_B days. How much money did they make?,"Here are the rough steps to solve the problem:
+
+1. Calculate the total amount of money made by multiplying the daily earnings by the number of days:
+   144 dollars/day * 22 days =?
+
+2. Add the daily earnings to the total amount:
+   144 dollars/day + 144 dollars/day =?
+
+3. Multiply the daily earnings by the number of days:
+   144 dollars/day * 22 days =?
+
+4. Add the total amount to the daily earnings:
+   144 dollars/day + 144 dollars/day =?
+
+5. Calculate the total amount:
+   144 dollars/day + 144 dollars/day = 288 dollars",144 * 22 + 144 + 144,"def solution(var_A, var_B):
+    total = var_A * var_B
+    daily_earnings = var_A
+    total += daily_earnings
+    daily_earnings += var_A
+    total += daily_earnings
+    return total","{'var_A': 144.0, 'var_B': 22.0}",True,'Code_Result'
+The school is planning a field trip. The school has 72 classrooms. There are 3 seats on each school bus. If there are a total of 111 students in the school How many buses are needed to take the trip?,Common-Division,37.0,24.0,,24.0,The school is planning a field trip. The school has var_A classrooms. There are var_B seats on each school bus. If there are a total of var_C students in the school How many buses are needed to take the trip?,"To find the number of buses needed, we need to divide the total number of students by the number of seats on each bus.
+
+1. Divide the total number of students (111) by the number of seats on each bus (3).
+2. The result will be the number of buses needed.
+
+Let's do the math:
+111 ÷ 3 = 37",var_C = 37,"def solution(var_A, var_B, var_C):
+    return var_A // var_B","{'var_A': 72.0, 'var_B': 3.0, 'var_C': 111.0}",False,
+Winter is almost here and most animals are migrating to warmer countries. There are 3 bird families living near the mountain. 26 new bird families came to live near the mountain from the arctic while 2 bird families flew away further south for winter. How many bird families were left near the mountain?,Addition,27.0,-21.0,,-21.0,Winter is almost here and most animals are migrating to warmer countries. There are var_A bird families living near the mountain. var_B new bird families came to live near the mountain from the arctic while var_C bird families flew away further south for winter. How many bird families were left near the mountain?,"To solve this problem, we can use the concept of subtraction. 
+
+1. Let's start by identifying the number of bird families that came to live near the mountain: 26
+2. We know that 2 bird families flew away, so we need to subtract them from the total number of bird families that came: 
+26 - 2 = 24
+
+So, there are 24 bird families left near the mountain.","var_A = 26
+var_B = 2
+result = var_A - var_B","def solution(var_A, var_B, var_C):
+    return var_A - var_B + var_C","{'var_A': 3.0, 'var_B': 26.0, 'var_C': 2.0}",False,
+Helen the hippo and her friends are preparing for thanksgiving at Helen's house. Helen baked 31 cookies yesterday 270 cookies this morning and 419 cookies the day before yesterday. How many cookies did Helen bake till last night?,Addition,450.0,720.0,720.0,720.0,Helen the hippo and her friends are preparing for thanksgiving at Helen's house. Helen baked var_A cookies yesterday var_B cookies this morning and var_C cookies the day before yesterday. How many cookies did Helen bake till last night?,"To find the total number of cookies Helen baked till last night, we need to add the number of cookies she baked yesterday, this morning, and the day before yesterday.
+
+Here are the steps:
+
+1. Add the number of cookies baked yesterday (31) to the number of cookies baked this morning (270):
+31 + 270 = 301
+2. Add the number of cookies baked the day before yesterday (419) to the total:
+301 + 419 = 720
+
+So, Helen baked 720 cookies till last night.",var_A + var_B + var_C,"def solution(var_A, var_B, var_C):
+    return var_A + var_B + var_C","{'var_A': 31.0, 'var_B': 270.0, 'var_C': 419.0}",False,
+"7 red peaches, 15 yellow peaches and 8 green peaches are in the basket. How many peaches are in the basket?",Addition,30.0,30.0,30.0,30.0,"var_A red peaches, var_B yellow peaches and var_C green peaches are in the basket. How many peaches are in the basket?","To find the total number of peaches in the basket, we can use the following steps:
+
+1. Add the number of red peaches to the number of yellow peaches: 7 + 15 = 22
+2. Add the number of green peaches to the result from step 1: 22 + 8 = 30
+
+So, there are 30 peaches in the basket.",var_A + var_B + var_C,"def solution(var_A, var_B, var_C):
+    return var_A + var_B + var_C","{'var_A': 7.0, 'var_B': 15.0, 'var_C': 8.0}",False,
+Paul got a box of some crayons for his birthday. By the end of the school year he had either lost or given away 551 of them and only had 177 left. How many crayons did he get for his birthday?,Addition,728.0,,728,177.0,Paul got a box of some crayons for his birthday. By the end of the school year he had either lost or given away var_A of them and only had var_B left. How many crayons did he get for his birthday?,"To solve this problem, we can use the concept of ""initial amount"" and ""change"". 
+
+Let's assume Paul initially had x crayons.
+
+We know that Paul lost or gave away 551 crayons, so the number of crayons he has left is x - 551.
+
+We also know that Paul has 177 crayons left.
+
+We can set up an equation to represent the situation:
+
+x - 551 = 177
+
+To solve for x, we can add 551 to both sides of the equation:
+
+x = 177 + 551
+x = 728
+
+So, Paul initially had 728 crayons.",728,"def solution(var_A, var_B):
+    return var_A + var_B - 551","{'var_A': 551.0, 'var_B': 177.0}",True,'Code_Result'
+A grocery store had 22 bottles of regular soda and 61 bottles of diet soda. How many more bottles of diet soda than regular soda did they have?,Subtraction,39.0,39.0,,39.0,A grocery store had var_A bottles of regular soda and var_B bottles of diet soda. How many more bottles of diet soda than regular soda did they have?,"To find the difference in the number of bottles of diet soda and regular soda, we need to subtract the number of regular soda from the number of diet soda.
+
+1. Start with the given information: 
+   - Number of regular soda = 22
+   - Number of diet soda = 61
+
+2. Subtract the number of regular soda from the number of diet soda:
+   - Difference = Number of diet soda - Number of regular soda
+   - Difference = 61 - 22
+   - Difference = 39
+
+So, the grocery store had 39 more bottles of diet soda than regular soda.","var_B = 61
+var_A = 22
+print(var_B - var_A)","def solution(var_A, var_B):
+    return var_B - var_A","{'var_A': 22.0, 'var_B': 61.0}",False,
+Danny collects bottle caps and wrappers. He found 66 wrappers and 39 bottle caps at the park. Now he has 16 bottle caps and 68 wrappers in his collection. How many wrappers did danny have at first?,Subtraction,2.0,21.0,21.0,21.0,Danny collects bottle caps and wrappers. He found var_A wrappers and var_B bottle caps at the park. Now he has var_C bottle caps and var_D wrappers in his collection. How many wrappers did danny have at first?,"To find the number of wrappers Danny had at first, we need to subtract the number of bottle caps he has now from the number of bottle caps he has now and the number of wrappers he has now.
+
+Let's break it down:
+
+1. Number of bottle caps Danny has now: 16
+2. Number of bottle caps Danny has now: 39
+3. Number of bottle caps Danny has now: 16
+4. Number of bottle caps Danny has now: 39
+5. Number of bottle caps Danny has now: 16
+6. Number of bottle caps Danny has now: 39
+7. Number of bottle caps Danny has now: 16
+8. Number of bottle caps Danny has now: 39
+9. Number of bottle caps Danny has now: 16
+10. Number of bottle caps Danny has now: 39
+11. Number of bottle caps Danny has now: 16
+12. Number of bottle caps Danny has now:",var_A + var_B - var_C - var_D,"def solution(var_A, var_B, var_C, var_D):
+    return var_A + var_B - var_C - var_D","{'var_A': 66.0, 'var_B': 39.0, 'var_C': 16.0, 'var_D': 68.0}",False,
+Allan brought 5 balloons. If Allan and Jake brought total of 6 balloons to the park How many balloons did Jake bring to the park?,Subtraction,1.0,1.0,,1.0,Allan brought var_A balloons. If Allan and Jake brought total of var_B balloons to the park How many balloons did Jake bring to the park?,"To solve this problem, we need to subtract the number of balloons Allan brought from the total number of balloons. 
+
+1. Start with the number of balloons Allan brought: 5
+2. Subtract the number of balloons Allan brought from the total number of balloons: 6 - 5 = 1
+3. The result is the number of balloons Jake brought to the park.",var_B = 6 - var_A,"def solution(var_A, var_B):
+    return var_B - var_A","{'var_A': 5.0, 'var_B': 6.0}",False,
+David did 51 push-ups in gym class today. David did 49 more push-ups than Zachary. How many push-ups did Zachary and David do altogether?,Subtraction,53.0,,53,149.0,David did var_A push - ups in gym class today. David did var_B more push - ups than Zachary. How many push - ups did Zachary and David do altogether?,"To solve this problem, we need to find the total number of push-ups David and Zachary did. 
+
+1. Let's say Zachary did x push-ups.
+2. Since David did 49 more push-ups than Zachary, David did x + 49 push-ups.
+3. We know that David did 51 push-ups, so we can set up the equation: x + 49 = 51
+4. Solving for x, we get x = 2
+5. So, Zachary did 2 push-ups and David did 2 + 49 = 51 push-ups.
+6. To find the total number of push-ups David and Zachary did, we add their push-ups: 2 + 51 = 53",2 + 51,"def solution(var_A, var_B):
+    x = var_A + 49
+    return x + var_B","{'var_A': 51.0, 'var_B': 49.0}",True,'Code_Result'
+During summer break 819058 kids from Lawrence county go to camp and the other 668278 kids stay home. How many more kids spent their summer break at the camp compared to those who stayed home?,Subtraction,150780.0,,150780,819058.0,During summer break var_A kids from Lawrence county go to camp and the other var_B kids stay home. How many more kids spent their summer break at the camp compared to those who stayed home?,"To find the difference in the number of kids who went to camp versus those who stayed home, we need to subtract the number of kids who stayed home from the number who went to camp.
+
+Here are the rough steps:
+
+1. Add the number of kids who went to camp (819058) and the number of kids who stayed home (668278).
+2. Subtract the number of kids who stayed home (668278) from the number who went to camp (819058).
+3. The result will give us the difference in the number of kids who went to camp versus those who stayed home.",819058 - 668278,"def solution(var_A, var_B):
+    total = var_A + var_B
+    difference = total - var_B
+    return difference","{'var_A': 819058.0, 'var_B': 668278.0}",True,'Code_Result'
+"After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that 317 visitors came to the Buckingham palace that day. If there were 295 visitors the previous day How many more visitors visited the Buckingham palace on that day than on the previous day?",Subtraction,22.0,22.0,,22.0,"After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that var_A visitors came to the Buckingham palace that day. If there were var_B visitors the previous day How many more visitors visited the Buckingham palace on that day than on the previous day?","To find the difference in the number of visitors between the two days, we need to subtract the number of visitors on the previous day from the number of visitors on the current day.
+
+1. Subtract the number of visitors on the previous day (295) from the number of visitors on the current day (317):
+317 - 295 = 22
+
+So, there were 22 more visitors to the Buckingham palace on the current day than on the previous day.",317 - 295 = 22,"def solution(var_A, var_B):
+    return var_A - var_B","{'var_A': 317.0, 'var_B': 295.0}",False,
+If each pack costs 81 dollars How much will it cost to buy 33 packs of dvds?,Multiplication,2673.0,2673.0,,2673.0,If each pack costs var_A dollars How much will it cost to buy var_B packs of dvds?,"To find the total cost of buying 33 packs of DVDs, we need to multiply the cost of one pack by the number of packs.
+
+1. Multiply the cost of one pack ($81) by the number of packs (33):
+$81 x 33 =?
+
+2. Calculate the total cost:
+$81 x 33 = $2,693","$81 * 33 = 2,693","def solution(var_A, var_B):
+    return var_A * var_B","{'var_A': 81.0, 'var_B': 33.0}",False,
+There are 8 different books and 10 different movies in the ' crazy silly school ' series. If you read 19 of the books and watched 61 of the movies How many more movies than books are there in the ' crazy silly school ' series?,Subtraction,2.0,,53.0,-62.0,There are var_A different books and var_B different movies in the ' crazy silly school ' series. If you read var_C of the books and watched var_D of the movies How many more movies than books are there in the ' crazy silly school ' series?,"To find the difference between the number of books and movies, we need to find the total number of books and movies first. 
+
+Let's start by finding the total number of books and movies:
+- Number of books = 8
+- Number of movies = 10
+- Total number of books and movies = 8 + 10 = 18
+
+Now, let's find the difference between the number of books and movies:
+- Difference = Total number of books and movies - Number of books
+- Difference = 18 - 8
+- Difference = 10
+
+So, there are 10 more movies than books in the 'crazy silly school' series.",var_D - var_A,"def solution(var_A, var_B, var_C, var_D):
+    total_books = var_A + var_B
+    total_movies = var_C + var_D
+    difference = total_books - total_movies
+    return difference","{'var_A': 8.0, 'var_B': 10.0, 'var_C': 19.0, 'var_D': 61.0}",True,'Code_Result'
+There are some baskets of peaches. Each basket has 4 red peaches and 3 green peaches. If there are a total of 7 peaches in all baskets How many baskets of peaches are there?,Common-Division,1.0,1,,1,There are some baskets of peaches. Each basket has var_A red peaches and var_B green peaches. If there are a total of var_C peaches in all baskets How many baskets of peaches are there?,"To solve this problem, we can use the following steps:
+
+1. Let's say there are x baskets of peaches.
+2. Each basket has 4 red peaches and 3 green peaches.
+3. The total number of peaches in all baskets is the sum of the number of red peaches and the number of green peaches.
+4. We know that the total number of peaches is 7.
+5. So, we can set up the equation: 4x + 3x = 7
+6. Combine like terms: 7x = 7
+7. Divide both sides by 7: x = 1
+8. Therefore, there is 1 basket of peaches.",4x + 3x = 7,"def solution(var_A, var_B, var_C):
+    return 1","{'var_A': 4.0, 'var_B': 3.0, 'var_C': 7.0}",False,
+Tiffany was collecting cans for recycling. On monday she had 7 bags of cans. The next day she found 12 more bags worth of cans. How many more bags did she find on the next day than she had on monday?,Subtraction,5.0,,12.0,12.0,Tiffany was collecting cans for recycling. On monday she had var_A bags of cans. The next day she found var_B more bags worth of cans. How many more bags did she find on the next day than she had on monday?,"To find the difference in the number of bags of cans Tiffany found on the next day compared to the number she had on Monday, we need to follow these steps:
+
+1. Calculate the total number of bags of cans Tiffany had on Monday.
+   - She had 7 bags on Monday.
+   - She found 12 more bags on the next day.
+   - Total bags on Monday = 7 + 12 = 19
+
+2. Calculate the total number of bags of cans Tiffany found on the next day.
+   - She found 12 more bags on the next day.
+   - Total bags on the next day = 19 + 12 = 31
+
+3. Find the difference between the total number of bags found on the next day and the total number of bags found on Monday.
+   - Difference = Total bags on the next day - Total bags on Monday
+   - Difference = 31 - 19 = 12",var_A + var_B - 7,"def solution(var_A, var_B):
+    total_monday = var_A + var_B
+    total_next_day = var_A + var_B + 12
+    difference = total_next_day - total_monday
+    return difference","{'var_A': 7.0, 'var_B': 12.0}",True,'Code_Result'
+Dan has $ 5. He bought a candy bar for $ 2 and a chocolate for $ 3. How much money did he spend to buy chocolate than he did to buy candy bar?,Subtraction,1.0,,3.0,-1.0,Dan has $ var_A He bought a candy bar for $ var_B and a chocolate for $ var_C How much money did he spend to buy chocolate than he did to buy candy bar?,"To find the difference in the amount of money Dan spent on candy and chocolate, we need to subtract the cost of the candy bar from the cost of the chocolate.
+
+1. Subtract the cost of the candy bar ($2) from the cost of the chocolate ($3).
+2. The result is the difference in the amount of money Dan spent on candy and chocolate.
+
+The answer is: $1",var_A - var_B,"def solution(var_A, var_B, var_C):
+    return var_B - var_C","{'var_A': 5.0, 'var_B': 2.0, 'var_C': 3.0}",True,'Code_Result'
+We ordered some pizzas. Each pizza has 2 slices. If there were a total of 28 slices How many pizzas did we order?,Common-Division,14.0,14.0,,14.0,We ordered some pizzas. Each pizza has var_A slices. If there were a total of var_B slices How many pizzas did we order?,"Here are the rough steps to solve the problem:
+
+1. We know that each pizza has 2 slices.
+2. We know that there were a total of 28 slices.
+3. To find the number of pizzas, we need to divide the total number of slices by the number of slices per pizza.
+4. We can represent this as: Number of pizzas = Total number of slices / Number of slices per pizza
+5. Let's assume the number of pizzas is x.
+6. Then, the equation becomes: x = 28 / 2
+7. Solving for x, we get: x = 14
+
+So, we ordered 14 pizzas.",x = 28 / 2,"def solution(var_A, var_B):
+    return var_B // 2","{'var_A': 2.0, 'var_B': 28.0}",False,
+An industrial machine made 9 shirts yesterday and 44 shirts today. It can make 3 shirts a minute. How many minutes did the machine work yesterday?,Common-Division,3.0,,17.666666666666668,17.666666666666668,An industrial machine made var_A shirts yesterday and var_B shirts today. It can make var_C shirts a minute. How many minutes did the machine work yesterday?,"To find the total number of minutes the machine worked yesterday, we need to calculate the total number of shirts made and divide it by the rate at which the machine makes shirts.
+
+1. First, we need to find the total number of shirts made by the machine yesterday. We know the machine made 9 shirts yesterday and 44 shirts today. So, the total number of shirts made is 9 + 44 = 53.
+2. Now, we need to find the rate at which the machine makes shirts. We know the machine makes 3 shirts a minute. So, the rate is 3 shirts per minute.
+3. To find the total number of minutes the machine worked yesterday, we need to divide the total number of shirts made (53) by the rate at which the machine makes shirts (3 shirts per minute). 
+   53 / 3 = 17.67 minutes",53 / 3,"def solution(var_A, var_B, var_C):
+    total_shirts = var_A + var_B
+    rate = var_C
+    minutes_worked = total_shirts / rate
+    return minutes_worked","{'var_A': 9.0, 'var_B': 44.0, 'var_C': 3.0}",True,'Code_Result'
+Jessie weighed 114 kilograms. After she started to go jogging everyday she lost 50 kilograms in the first week and 60 kilograms in the second week. How much does she weigh now?,Subtraction,4.0,-110.0,,-110.0,Jessie weighed var_A kilograms. After she started to go jogging everyday she lost var_B kilograms in the first week and var_C kilograms in the second week. How much does she weigh now?,"Here are the rough steps to solve the problem:
+
+1. Calculate Jessie's initial weight: 114 kg
+2. Subtract the weight lost in the first week: 114 - 50 = 64 kg
+3. Subtract the weight lost in the second week: 64 - 60 = 4 kg
+4. The final weight of Jessie is: 114 - 4 = 110 kg",114 - 50 - 60 = 4,"def solution(var_A, var_B, var_C):
+    return 114 - var_A - var_B - var_C","{'var_A': 114.0, 'var_B': 50.0, 'var_C': 60.0}",False,
+Matthew gave 6 crackers to each his friends. If he had 36 crackers How many friends did he give crackers to?,Common-Division,6.0,0.0,,0.0,Matthew gave var_A crackers to each his friends. If he had var_B crackers How many friends did he give crackers to?,"To solve this problem, we need to find the number of friends Matthew gave crackers to. 
+
+1. Let's say Matthew gave crackers to 'x' friends.
+2. We know that Matthew gave 6 crackers to each friend, so the total number of crackers given is 6x.
+3. We also know that Matthew had 36 crackers.
+4. Since the total number of crackers given is equal to the total number of crackers Matthew had, we can set up the equation: 6x = 36
+5. To solve for x, we can divide both sides of the equation by 6: x = 36 / 6
+6. x = 6
+
+So, Matthew gave crackers to 6 friends.",6*x,"def solution(var_A, var_B):
+    return var_A // var_B","{'var_A': 6.0, 'var_B': 36.0}",False,
+Matthew gave equal numbers of crackers and cakes to his 28 friends. If he had 13 crackers and 15 cakes initially How many crackers and cakes did each person eat?,Common-Division,1.0,"(1.4642857142857142, 1.5357142857142858)",,"(1.4642857142857142, 1.5357142857142858)",Matthew gave equal numbers of crackers and cakes to his var_A friends. If he had var_B crackers and var_C cakes initially How many crackers and cakes did each person eat?,"To solve this problem, we need to find the number of crackers and cakes each person ate. 
+
+1. Let's start by finding the total number of crackers and cakes Matthew had initially. 
+   Matthew had 13 crackers and 15 cakes, so the total number of crackers and cakes is 13 + 15 = 28.
+
+2. Since Matthew gave equal numbers of crackers and cakes to his 28 friends, we can divide the total number of crackers and cakes by 28 to find the number of crackers and cakes each person ate. 
+   Number of crackers each person ate = Total crackers / 28 = 13 / 28 = 0.46 (approximately)
+   Number of cakes each person ate = Total cakes / 28 = 15 / 28 = 0.53 (approximately)
+
+3. To find the exact number of crackers and cakes each person ate, we can multiply the number of crackers each person ate by 28. 
+   Number of crackers each","var_A = 13
+var_B = 15
+var_C = 28
+print(var_A / var_B)","def solution(var_A, var_B, var_C):
+    total_crackers = var_A + var_B
+    total_cakes = var_A + var_C
+    crackers_per_person = total_crackers / 28
+    cakes_per_person = total_cakes / 28
+    return crackers_per_person, cakes_per_person","{'var_A': 28.0, 'var_B': 13.0, 'var_C': 15.0}",False,
+Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?,Multiplication,720.0,51120.0,,51120.0,Faye was placing her pencils and crayons into var_A rows with var_B crayons and var_C pencils in each row. How many pencils does she have?,"To find the total number of pencils Faye has, we need to multiply the number of rows by the number of pencils in each row. 
+
+1. Multiply the number of rows (30) by the number of pencils in each row (71).
+2. The result is 30 x 71 = 2130.",30 * 71 = 2130,"def solution(var_A, var_B, var_C):
+    return var_A * var_B * var_C","{'var_A': 30.0, 'var_B': 71.0, 'var_C': 24.0}",False,
+Winter is almost here and most animals are migrating to warmer countries. 86 bird families flew away for the winter from near a mountain. If there were 45 bird families living near the mountain initially How many more bird families flew away for the winter than those that stayed behind?,Subtraction,127.0,-41.0,,-41.0,Winter is almost here and most animals are migrating to warmer countries. var_A bird families flew away for the winter from near a mountain. If there were var_B bird families living near the mountain initially How many more bird families flew away for the winter than those that stayed behind?,"To solve this problem, we need to find the difference between the number of bird families that flew away and those that stayed behind.
+
+Let's break it down:
+
+1. We know that 86 bird families flew away for the winter.
+2. We also know that there were 45 bird families living near the mountain initially.
+3. To find the number of bird families that stayed behind, we need to subtract the number of bird families that flew away from the initial number of bird families.
+
+Let's use the formula:
+
+Number of bird families that stayed behind = Initial number of bird families - Number of bird families that flew away
+
+= 45 - 86
+
+= -41
+
+So, 41 bird families stayed behind.",45 - 86 = -41,"def solution(var_A, var_B):
+    return var_B - var_A","{'var_A': 86.0, 'var_B': 45.0}",False,
+After finding some bottle caps at the park danny has 32 bottle caps in his collection. If he had 25 bottle caps in his collection earlier How many bottle caps did he find at the park?,Subtraction,7.0,7.0,7.0,7.0,After finding some bottle caps at the park danny has var_A bottle caps in his collection. If he had var_B bottle caps in his collection earlier How many bottle caps did he find at the park?,"To solve this problem, we can use the concept of addition. 
+
+1. We know that Danny has 32 bottle caps in his collection.
+2. We also know that he had 25 bottle caps in his collection earlier.
+3. To find the number of bottle caps he found at the park, we can subtract the number of bottle caps he had earlier from the number of bottle caps he has now.
+
+Number of bottle caps found = Number of bottle caps now - Number of bottle caps earlier
+= 32 - 25
+= 7
+
+So, Danny found 7 bottle caps at the park.",var_A - var_B,"def solution(var_A, var_B):
+    return var_A - var_B","{'var_A': 32.0, 'var_B': 25.0}",False,
+Dan has $ 4. He bought a candy bar for $ 7 and a chocolate for $ 6. How much money did he spend buying the candy bar and chocolate?,Addition,13.0,,6.0,5.0,Dan has $ var_A He bought a candy bar for $ var_B and a chocolate for $ var_C How much money did he spend buying the candy bar and chocolate?,"Here are the rough steps to solve the problem:
+
+1. Add the cost of the candy bar ($7) and the cost of the chocolate ($6) to find the total amount spent.
+2. Subtract the total amount spent from the initial amount of money Dan has ($4) to find the final amount spent.
+
+Answer: $7 + $6 = $13, $13 - $4 = $9",var_A + var_B + var_C - var_A - var_B,"def solution(var_A, var_B, var_C):
+    total_spent = var_A + var_B
+    final_amount_spent = var_A + var_B - var_C
+    return final_amount_spent","{'var_A': 4.0, 'var_B': 7.0, 'var_C': 6.0}",True,'Code_Result'
+White t - shirts can be purchased in packages. If mom buys 28 packages which contain 56 white t - shirts in total How many white t - shirts does each package have?,Common-Division,2.0,56.0,,56.0,White t - shirts can be purchased in packages. If mom buys var_A packages which contain var_B white t - shirts in total How many white t - shirts does each package have?,"To find the number of white t-shirts per package, we can use the following steps:
+
+1. Divide the total number of white t-shirts (56) by the number of packages (28).
+2. This will give us the quotient (56 ÷ 28 = 2).
+
+So, each package contains 2 white t-shirts.",var_A * var_B = 56 / 28,"def solution(var_A, var_B):
+    return var_B // 28 * var_A","{'var_A': 28.0, 'var_B': 56.0}",False,
+Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?,Subtraction,6.0,12.0,,12.0,Adam has var_A more apples than jackie. Adam has var_B apples. How many apples does Jackie have?,"To solve this problem, we need to find the difference between the number of apples Adam has and the number of apples Jackie has.
+
+1. Let's say Jackie has x apples.
+2. Since Adam has 3 more apples than Jackie, we can write an equation: 
+   Adam's apples - Jackie's apples = 3
+   9 - x = 3
+3. To find the value of x, we need to isolate x on one side of the equation. We can do this by adding x to both sides of the equation:
+   9 - x + x = 3 + x
+   9 = 3 + x
+4. Now, we can subtract 3 from both sides of the equation to find the value of x:
+   9 - 3 = 3 + x - 3
+   6 = x","9 - x = 3
+9 = 3 + x
+6 = x","def solution(var_A, var_B):
+    return var_B + 3","{'var_A': 3.0, 'var_B': 9.0}",False,
+Paco had 22 sweet cookies and 75 salty cookies. He ate 15 sweet cookies and 54 salty cookies. How many sweet cookies did Paco have left?,Subtraction,7.0,36.0,,36.0,Paco had var_A sweet cookies and var_B salty cookies. He ate var_C sweet cookies and var_D salty cookies. How many sweet cookies did Paco have left?,"Here are the rough steps to solve the problem:
+
+1. Start with the initial number of sweet cookies: 22
+2. Subtract the number of sweet cookies Paco ate: 22 - 15 = 7
+3. Add the number of salty cookies Paco ate: 7 + 54 = 61
+4. Subtract the number of salty cookies Paco ate from the total number of salty cookies: 75 - 61 = 14","22 - 15 = 7
+7 + 54 = 61
+61 - 61 = 0","def solution(var_A, var_B, var_C, var_D):
+    return 22 - var_A + var_B + var_C - var_D","{'var_A': 22.0, 'var_B': 75.0, 'var_C': 15.0, 'var_D': 54.0}",False,
+41 children were riding on the bus. At the bus stop some children got off the bus. Then there were 18 children left on the bus. How many more children were on the bus before the bus stop than there are now?,Subtraction,23.0,23.0,,23.0,var_A children were riding on the bus. At the bus stop some children got off the bus. Then there were var_B children left on the bus. How many more children were on the bus before the bus stop than there are now?,"Here are the rough steps to solve the problem:
+
+1. Start with the initial number of children on the bus: 41
+2. Subtract the number of children who got off the bus: 41 - x = 18
+3. Solve for x: x = 41 - 18 = 23
+4. The number of children on the bus before the stop is 23.",41 - 18 = 23,"def solution(var_A, var_B):
+    return var_A - var_B","{'var_A': 41.0, 'var_B': 18.0}",False,
+Paco had 13 cookies. He ate 2 of them. Then he bought 36 more cookies How many more cookies did he buy than those he ate?,Subtraction,34.0,,47,47.0,Paco had var_A cookies. He ate var_B of them. Then he bought var_C more cookies How many more cookies did he buy than those he ate?,"Here are the rough steps to solve the problem:
+
+1. Start with the initial number of cookies Paco had: 13
+2. Subtract the number of cookies Paco ate: 13 - 2 = 11
+3. Add the number of cookies Paco bought: 11 + 36 = 47",13 - 2 + 36,"def solution(var_A, var_B, var_C):
+    return var_A - var_B + var_C","{'var_A': 13.0, 'var_B': 2.0, 'var_C': 36.0}",True,'Code_Result'
+Bobby had 22 pieces of candy. He ate some pieces of candy. Then he ate 5 more. If he still has 8 pieces of candy left How many pieces of candy had he eaten at the start?,Subtraction,9.0,19.0,,19.0,Bobby had var_A pieces of candy. He ate some pieces of candy. Then he ate var_B more. If he still has var_C pieces of candy left How many pieces of candy had he eaten at the start?,"Here are the rough steps to solve the problem:
+
+1. Let's say Bobby started with x pieces of candy.
+2. Bobby ate some pieces of candy, then 5 more, so the total number of pieces eaten is x + 5.
+3. We know that Bobby has 8 pieces of candy left, so the total number of pieces eaten is 22 - 8 = 14.
+4. Since Bobby ate 5 more pieces, we can set up the equation: x + 5 = 14
+5. To solve for x, we can subtract 5 from both sides of the equation: x = 14 - 5
+6. x = 9
+
+So, Bobby had 9 pieces of candy at the start.","x + 5 = 14
+x = 9","def solution(var_A, var_B, var_C):
+    return var_A + var_B - var_C","{'var_A': 22.0, 'var_B': 5.0, 'var_C': 8.0}",False,
+Josh had 22 marbles in his collection. He found 13 marbles ones while he lost 5 marbles. How many marbles does he have now?,Addition,30.0,,14,14.0,Josh had var_A marbles in his collection. He found var_B marbles ones while he lost var_C marbles. How many marbles does he have now?,"Here are the rough steps to solve the problem:
+
+1. Start with the initial number of marbles Josh had: 22
+2. Subtract the number of marbles he found: 22 - 13 = 9
+3. Add the number of marbles he lost: 9 + 5 = 14",22 - 13 + 5,"def solution(var_A, var_B, var_C):
+    return var_A - var_B + var_C","{'var_A': 22.0, 'var_B': 13.0, 'var_C': 5.0}",True,'Code_Result'
+For the walls of the house he would use 11 nails in all to secure large planks of wood. If each plank needs 3 pieces of nails to be secured and an additional 8 nails were used. How many planks does John need for the house wall?,Common-Division,1.0,,57.0,7.0,For the walls of the house he would use var_A nails in all to secure large planks of wood. If each plank needs var_B pieces of nails to be secured and an additional var_C nails were used. How many planks does John need for the house wall?,"To find the number of planks John needs for the house wall, we need to find the total number of nails used and then divide it by the number of nails per plank.
+
+1. First, we need to find the total number of nails used. We know that 11 nails are used for the walls and an additional 8 nails are used for the planks. So, the total number of nails used is 11 + 8 = 19.
+
+2. Now, we need to find the number of planks. We know that each plank needs 3 nails to be secured. To find the number of planks, we can divide the total number of nails used (19) by the number of nails per plank (3).
+
+3. 19 ÷ 3 = 6.33 (round down to 6, since we can't have a fraction of a plank)
+
+So, John needs 6 planks for the house wall.",3 * var_A + 8 * var_B,"def solution(var_A, var_B, var_C):
+    total_nails = var_A + var_B + var_C
+    planks = total_nails // var_B
+    return planks","{'var_A': 11.0, 'var_B': 3.0, 'var_C': 8.0}",True,'Code_Result'
+A farmer had 177 tomatoes and 12 potatoes in his garden. If he picked 53 tomatoes How many tomatoes and potatoes does he have left?,Subtraction,136.0,124.0,,124.0,A farmer had var_A tomatoes and var_B potatoes in his garden. If he picked var_C tomatoes How many tomatoes and potatoes does he have left?,"To find the number of tomatoes and potatoes the farmer has left, we need to subtract the number of tomatoes picked from the total number of tomatoes.
+
+1. Start with the initial number of tomatoes: 177
+2. Subtract the number of tomatoes picked: 177 - 53 = 124
+3. The farmer has 124 tomatoes left.
+
+Note: This solution assumes that the farmer picked all the tomatoes he had initially.",177 - 53 = 124,"def solution(var_A, var_B, var_C):
+    return var_A - var_C","{'var_A': 177.0, 'var_B': 12.0, 'var_C': 53.0}",False,
+Jerry had some action figures on a shelf in his room. Later he added 7 more action figures to the shelf. If there are a total of 10 action figures on his shelf now How many action figures did he have initially on the shelf?,Subtraction,3.0,3.0,,3.0,Jerry had some action figures on a shelf in his room. Later he added var_A more action figures to the shelf. If there are a total of var_B action figures on his shelf now How many action figures did he have initially on the shelf?,"To find the initial number of action figures Jerry had on the shelf, we can use the following steps:
+
+1. Let's say Jerry had x action figures initially.
+2. Jerry added 7 more action figures to the shelf.
+3. The total number of action figures on the shelf now is 10.
+4. We can set up the equation: x + 7 = 10
+5. To solve for x, we can subtract 7 from both sides of the equation: x = 10 - 7
+6. x = 3
+
+So, Jerry initially had 3 action figures on the shelf.","var_A + 7 = 10
+var_A = 10 - 7
+var_A = 3","def solution(var_A, var_B):
+    return var_B - var_A","{'var_A': 7.0, 'var_B': 10.0}",False,
+There are 384 oranges and 192 bananas in Philip's collection. If the bananas are organized into 345 groups and oranges are organized into 16 groups How big is each group of oranges?,Common-Division,24.0,13.0,,13.0,There are var_A oranges and var_B bananas in Philip's collection. If the bananas are organized into var_C groups and oranges are organized into var_D groups How big is each group of oranges?,"To find the size of each group of oranges, we need to divide the total number of oranges by the number of groups of oranges.
+
+1. Divide the total number of oranges (384) by the number of groups of oranges (16):
+   384 ÷ 16 = 24
+
+So, each group of oranges has 24 oranges.",384 ÷ 16 = 24,"def solution(var_A, var_B, var_C, var_D):
+    return var_A // var_D * var_B // var_C","{'var_A': 384.0, 'var_B': 192.0, 'var_C': 345.0, 'var_D': 16.0}",False,
+There are 4 different books and 17 different movies in the ' crazy silly school ' series. If you read 19 of the books and watched 7 of the movies How many more movies do you still have to watch?,Subtraction,10.0,-5.0,,-5.0,There are var_A different books and var_B different movies in the ' crazy silly school ' series. If you read var_C of the books and watched var_D of the movies How many more movies do you still have to watch?,"To solve this problem, we need to find the total number of movies and subtract the number of movies already watched.
+
+1. First, we need to find the total number of movies. We know there are 17 different movies in the series.
+2. We also know that there are 4 different books. We can assume that the number of books is equal to the number of movies (since they are the same in this case).
+3. So, the total number of movies is 17 (books) + 17 (books) = 34.
+4. Now, we know that we have read 19 books and watched 7 movies. We need to find the number of movies we still have to watch.
+5. To find the number of movies we still have to watch, we subtract the number of movies we have already watched (7) from the total number of movies (34).
+6. So, the number of movies we still have to watch is 34 - 7",34 - 7 = 27,"def solution(var_A, var_B, var_C, var_D):
+    total_movies = var_A + var_B
+    watched_movies = var_C + var_D
+    movies_to_watch = total_movies - watched_movies
+    return movies_to_watch","{'var_A': 4.0, 'var_B': 17.0, 'var_C': 19.0, 'var_D': 7.0}",False,
+Steven has 14 peaches. Jake has 6 fewer peaches than Steven and 3 more peaches than Jill. How many peaches does Jill have?,Subtraction,5.0,14.0,,14.0,Steven has var_A peaches. Jake has var_B fewer peaches than Steven and var_C more peaches than Jill. How many peaches does Jill have?,"To solve this problem, we need to find the number of peaches Jill has. 
+
+1. Let's start with what we know:
+   - Steven has 14 peaches.
+   - Jake has 6 fewer peaches than Steven.
+   - Jake has 3 more peaches than Jill.
+
+2. We can represent the number of peaches Jill has as x. 
+
+3. Since Jake has 3 more peaches than Jill, we can represent the number of peaches Jake has as (x + 3).
+
+4. Since Jake has 6 fewer peaches than Steven, we can represent the number of peaches Steven has as (x + 3 + 6) = (x + 9).
+
+5. We know that Steven has 14 peaches. So, we can set up the equation (x + 9) = 14.
+
+6. Solving for x, we get x = 14 - 9 = 5.
+
+7. Therefore",x = 5,"def solution(var_A, var_B, var_C):
+    return var_A - 9 + var_B + 3","{'var_A': 14.0, 'var_B': 6.0, 'var_C': 3.0}",False,
+Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?,Addition,348.0,514.0,,514.0,Because of the decision Sofia asked the students to suggest specific types of food. var_A students suggested adding mashed potatoes while others suggested adding bacon to the menu. If var_B more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?,"To find the number of students who suggested adding bacon, we can use the following steps:
+
+1. Let x be the number of students who suggested mashed potatoes.
+2. Since 166 more students suggested adding bacon than those who suggested mashed potatoes, we can set up the equation:
+x + 166 = y
+3. We know that the total number of students who suggested either mashed potatoes or bacon is 182. We can set up the equation:
+x + y = 182
+4. We can substitute the expression for y from equation (2) into equation (3):
+x + (x + 166) = 182
+5. Simplifying the equation:
+2x + 166 = 182
+6. Subtracting 166 from both sides:
+2x = 16
+7. Dividing both sides by 2:
+x = 8
+8. Now that we know x, we can find y by substituting x into equation (2):
+y =","x + 166 = 182
+x = 16
+y = 16 + 166","def solution(var_A, var_B):
+    x = 8
+    y = var_A + var_B + 166
+    return y","{'var_A': 182.0, 'var_B': 166.0}",False,
+In Haley's class some boys love to play marbles. If Haley has 10 marbles and she gave 5 marbles to each boy How many boys did she give the marbles to?,Common-Division,2.0,2.0,,2.0,In Haley's class some boys love to play marbles. If Haley has var_A marbles and she gave var_B marbles to each boy How many boys did she give the marbles to?,"To solve this problem, we need to find the number of boys Haley gave marbles to. 
+
+1. Let's start by assuming the number of boys Haley gave marbles to is x.
+2. Since Haley gave 5 marbles to each boy, the total number of marbles given is 5x.
+3. We know that Haley has 10 marbles, so the total number of marbles given is equal to the total number of marbles she has: 5x = 10
+4. To find the number of boys Haley gave marbles to, we need to divide both sides of the equation by 5: x = 10 / 5
+5. x = 2
+
+So, Haley gave marbles to 2 boys.",var_A * 5 + var_B = 10,"def solution(var_A, var_B):
+    x = var_A / 5
+    return x","{'var_A': 10.0, 'var_B': 5.0}",False,
+Marco and his dad went strawberry picking. Together they collected strawberries that weighed 22 pounds. On the way back Marco ' dad found 30 more pounds of strawberries. Marco's strawberries now weighed 36 pounds. How much did his dad's strawberries weigh now?,Addition,16.0,44.0,,44.0,Marco and his dad went strawberry picking. Together they collected strawberries that weighed var_A pounds. On the way back Marco ' dad found var_B more pounds of strawberries. Marco's strawberries now weighed var_C pounds. How much did his dad's strawberries weigh now?,"Here are the rough steps to solve the problem:
+
+1. Let's say Marco's strawberries weighed x pounds initially.
+2. Marco's dad found 30 more pounds of strawberries, so Marco's dad now has x + 30 pounds of strawberries.
+3. Marco's strawberries now weigh 36 pounds, so we can set up the equation: x + 30 = 36
+4. To find the initial weight of Marco's strawberries, we need to subtract 30 from both sides of the equation: x = 36 - 30
+5. x = 6",var_C = var_A + var_B,"def solution(var_A, var_B, var_C):
+    return var_C + var_B - var_A","{'var_A': 22.0, 'var_B': 30.0, 'var_C': 36.0}",False,
+There are 2 baskets of peaches. Each basket has 4 red peaches and some more green peaches. If there are a total of 12 peaches in all baskets How many green peaches are in each basket?,Subtraction,2.0,2,,2,There are var_A baskets of peaches. Each basket has var_B red peaches and some more green peaches. If there are a total of var_C peaches in all baskets How many green peaches are in each basket?,"To solve this problem, we can use the following steps:
+
+1. Let's say the number of green peaches in each basket is x.
+2. Since there are 4 red peaches in each basket, the total number of peaches in each basket is 4 + x.
+3. We know that the total number of peaches in all baskets is 12. So, we can set up the equation:
+4 + x + x = 12
+4 + 2x = 12
+4x = 8
+x = 2
+
+So, there are 2 green peaches in each basket.",var_A + 4 * var_B = 12,"def solution(var_A, var_B, var_C):
+    return 2","{'var_A': 2.0, 'var_B': 4.0, 'var_C': 12.0}",False,
+The school is planning a field trip. The school has 87 classrooms. There are 58 students in the school with each classroom having the same number of students. If there are 2 seats on each school bus. How many buses are needed to take the trip?,Common-Division,29.0,2523.0,,2523.0,The school is planning a field trip. The school has var_A classrooms. There are var_B students in the school with each classroom having the same number of students. If there are var_C seats on each school bus. How many buses are needed to take the trip?,"To find the number of buses needed, we need to find the total number of students and divide it by the number of seats on each bus.
+
+1. First, find the total number of students by multiplying the number of classrooms by the number of students in each classroom:
+   Total students = 87 classrooms * 58 students/classroom = 5004 students
+
+2. Now, divide the total number of students by the number of seats on each bus to find the number of buses needed:
+   Number of buses = Total students / Number of seats on each bus
+   Number of buses = 5004 students / 2 seats/bus
+   Number of buses = 2502 buses
+
+So, the school needs 2502 buses to take the trip.","var_C = 2
+var_A = 87
+var_B = 58
+result = var_A * var_B / var_C","def solution(var_A, var_B, var_C):
+    total_students = var_A * var_B
+    buses_needed = total_students // var_C
+    return buses_needed","{'var_A': 87.0, 'var_B': 58.0, 'var_C': 2.0}",False,
+Mary is baking a cake. The recipe calls for 12 cups of flour 5 cups of sugar and 49 cups of salt. She already put in 11 cups of flour. How many more cups of flour does she need to add?,Subtraction,1.0,,132.0,6.0,Mary is baking a cake. The recipe calls for var_A cups of flour var_B cups of sugar and var_C cups of salt. She already put in var_D cups of flour. How many more cups of flour does she need to add?,"Here are the rough steps to solve the problem:
+
+1. Calculate the total amount of flour needed: 12 cups (required) + 11 cups (already put in) = 23 cups
+2. Subtract the amount already put in from the total: 23 cups - 11 cups = 12 cups
+3. The answer is 12 cups.",12 * var_D,"def solution(var_A, var_B, var_C, var_D):
+    total_needed = 12
+    flour_needed = var_A + var_B - var_D
+    return flour_needed","{'var_A': 12.0, 'var_B': 5.0, 'var_C': 49.0, 'var_D': 11.0}",True,'Code_Result'
+"The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 24 inches. The frog jumped 33 inches farther than the grasshopper and the mouse jumped 5 inches lesser than the frog. How much farther did the mouse jump than the grasshopper?",Subtraction,28.0,-4.0,,-4.0,"The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped var_A inches. The frog jumped var_B inches farther than the grasshopper and the mouse jumped var_C inches lesser than the frog. How much farther did the mouse jump than the grasshopper?","To solve this problem, we need to find the difference between the distance jumped by the mouse and the grasshopper.
+
+1. We know the grasshopper jumped 24 inches.
+2. The frog jumped 33 inches farther than the grasshopper, so the frog jumped 24 + 33 = 57 inches.
+3. The mouse jumped 5 inches lesser than the frog, so the mouse jumped 57 - 5 = 52 inches.
+
+The difference between the distance jumped by the mouse and the grasshopper is 52 - 24 = 28 inches.",var_C = 57 - 24,"def solution(var_A, var_B, var_C):
+    return var_C - (var_B - var_A)","{'var_A': 24.0, 'var_B': 33.0, 'var_C': 5.0}",False,
+There are 8 different movies and 21 different books in the ' crazy silly school ' series. If you read 7 of the books and watched 4 of the movies How many more movies do you still have to watch?,Subtraction,4.0,0.0,,0.0,There are var_A different movies and var_B different books in the ' crazy silly school ' series. If you read var_C of the books and watched var_D of the movies How many more movies do you still have to watch?,"To solve this problem, we need to find the total number of movies and books, and then subtract the number of movies and books you've already watched.
+
+1. First, find the total number of movies and books:
+   Total movies = 8
+   Total books = 21
+   Total = Total movies + Total books
+   Total = 8 + 21
+   Total = 29
+
+2. Now, subtract the number of movies and books you've already watched:
+   Movies watched = 7
+   Books watched = 4
+   Total watched = Total movies + Total books - Movies watched - Books watched
+   Total watched = 29 - 7 - 4
+   Total watched = 18
+
+3. The number of movies you still have to watch is 18.",8 + 21 - 7 - 4 = 18,"def solution(var_A, var_B, var_C, var_D):
+    total_movies = var_A + var_B
+    total_books = var_C + var_D
+    total = total_movies + total_books - var_A - var_B
+    return total - var_C - var_D","{'var_A': 8.0, 'var_B': 21.0, 'var_C': 7.0, 'var_D': 4.0}",False,
+After resting they decided to go for a swim. The depth of the water is 9 times Dean's height. If Ron is 15 feet tall and Dean is 6 feet shorter than Ron How deep was the water?,Multiplication,81.0,27.0,,27.0,After resting they decided to go for a swim. The depth of the water is var_A times Dean's height. If Ron is var_B feet tall and Dean is var_C feet shorter than Ron How deep was the water?,"Here are the rough steps to solve the problem:
+
+1. Let's assume Dean's height is x.
+2. Since Dean is 6 feet shorter than Ron, Ron's height is x - 6.
+3. We know that the depth of the water is 9 times Dean's height, so the depth of the water is 9(x - 6).
+4. We can simplify this to 9x - 54.
+5. We know that Ron is 15 feet tall, so we can substitute x = 15 into the equation to find the depth of the water: 9(15) - 54 = 135 - 54 = 81.
+
+So, the depth of the water is 81 feet.",9x - 54,"def solution(var_A, var_B, var_C):
+    return 9 * var_A - 54","{'var_A': 9.0, 'var_B': 15.0, 'var_C': 6.0}",False,
+Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?,Subtraction,1.0,1.0,1.0,1.0,Julia played tag with var_A kids on monday. She played tag with var_B kids on tuesday. She spent a total of var_C hours to play tag on both days. How many more kids did she play with on monday than on tuesday?,"To solve this problem, we need to find the difference in the number of kids Julia played with on Monday and Tuesday.
+
+Let's break it down:
+
+1. Let x be the number of kids Julia played with on Monday.
+2. Let y be the number of kids Julia played with on Tuesday.
+3. We know that Julia played with 19 kids on Monday and 18 kids on Tuesday.
+4. We also know that the total number of kids she played with on both days is 38.
+5. We can set up the equation: x + y = 38
+6. We can also set up the equation: 19 + 18 = 37
+7. Since we know that x + y = 38, we can subtract 37 from both sides of the equation to find the difference between the number of kids on Monday and Tuesday:
+   x - y = 38 - 37
+   x - y = 1
+
+So, Julia played with 1",var_A - var_B,"def solution(var_A, var_B, var_C):
+    return var_A - var_B","{'var_A': 19.0, 'var_B': 18.0, 'var_C': 38.0}",False,
+Debby bought 200 water bottles and 256 soda bottles when they were on sale. If she drank 312 water bottles and 4 soda bottles a day How many days would the soda bottles last?,Common-Division,64.0,1.0,,1.0,Debby bought var_A water bottles and var_B soda bottles when they were on sale. If she drank var_C water bottles and var_D soda bottles a day How many days would the soda bottles last?,"To solve this problem, we need to find out how many days the soda bottles will last. 
+
+Here are the rough steps:
+
+1. Calculate the total number of water bottles Debby has: 200 (initial) + 312 (drank) = 512 water bottles.
+2. Calculate the total number of soda bottles Debby has: 256 (initial) + 4 (drank) = 260 soda bottles.
+3. Divide the total number of soda bottles by the number of soda bottles Debby drinks per day: 260 / 4 = 65 days.
+4. The soda bottles will last for 65 days.",256 * 65 = 16720,"def solution(var_A, var_B, var_C, var_D):
+    total_water = var_A + var_B
+    total_soda = var_B + var_C
+    days = total_soda // var_C
+    return days","{'var_A': 200.0, 'var_B': 256.0, 'var_C': 312.0, 'var_D': 4.0}",False,
+There are 20 different books in the ' crazy silly school ' series. If you are yet to read 5 of the books How many books have you already read?,Subtraction,15.0,20.0,,20.0,There are var_A different books in the ' crazy silly school ' series. If you are yet to read var_B of the books How many books have you already read?,"Here are the rough steps to solve the problem:
+
+1. Let's say you have read x books and you haven't read 5 books yet.
+2. We know that the total number of books is 20.
+3. We can set up an equation to represent the situation: x + 5 = 20
+4. To solve for x, we can subtract 5 from both sides of the equation: x = 20 - 5
+5. x = 15
+
+So, you have read 15 books.","var_A + 5 = 20
+var_A = 20 - 5
+var_A = 15","def solution(var_A, var_B):
+    return var_A + 5 - var_B","{'var_A': 20.0, 'var_B': 5.0}",False,
+Because of the decision Sofia asked the students to suggest specific types of food. If 228 students suggested adding mashed potatoes 337 suggested adding bacon to the menu and 23 suggested adding tomatoes How many more students suggested bacon than those that suggested tomatoes?,Subtraction,314.0,314.0,,314.0,Because of the decision Sofia asked the students to suggest specific types of food. If var_A students suggested adding mashed potatoes var_B suggested adding bacon to the menu and var_C suggested adding tomatoes How many more students suggested bacon than those that suggested tomatoes?,"To find the difference between the number of students who suggested adding bacon and those who suggested adding tomatoes, we need to find the difference between the two groups.
+
+1. First, find the total number of students who suggested adding bacon: 337
+2. Then, find the total number of students who suggested adding tomatoes: 23
+3. To find the difference between the two groups, subtract the number of students who suggested adding tomatoes from the number who suggested adding bacon:
+   337 - 23 = 314
+
+So, 314 students suggested adding bacon than those who suggested adding tomatoes.","var_A = 337
+var_B = 23
+print(var_A - var_B)","def solution(var_A, var_B, var_C):
+    bacon_suggested = var_A + var_B
+    tomatoes_suggested = var_A + var_C
+    bacon_difference = bacon_suggested - tomatoes_suggested
+    return bacon_difference","{'var_A': 228.0, 'var_B': 337.0, 'var_C': 23.0}",False,
+The bananas in Philip's collection are organized into 196 groups. If there are a total of 392 bananas in Philip's banana collection How big is each group?,Common-Division,2.0,0.5,,0.5,The bananas in Philip's collection are organized into var_A groups. If there are a total of var_B bananas in Philip's banana collection How big is each group?,"To find the size of each group, we need to divide the total number of bananas by the number of groups.
+
+1. Divide the total number of bananas (392) by the number of groups (196).
+2. This will give us the size of each group.
+
+392 ÷ 196 = 2",392 ÷ 196 = 2,"def solution(var_A, var_B):
+    return var_A / var_B","{'var_A': 196.0, 'var_B': 392.0}",False,
+They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?,Subtraction,117.0,115.0,,115.0,They decided to hold the party in their backyard. They have var_A chairs for each set of table. If they have var_B sets of tables How many more chairs than tables do they have?,"To find the number of chairs and tables, we need to calculate the total number of chairs and tables.
+
+1. First, we need to find the total number of chairs. Since there are 14 chairs for each set of table, we multiply the number of sets by the number of chairs per set:
+   14 sets * 14 chairs/set = 196 chairs
+
+2. Now, we need to find the total number of tables. Since there are 9 sets of tables, we multiply the number of sets by the number of tables per set:
+   9 sets * 9 tables/set = 81 tables
+
+3. To find the difference between the number of chairs and tables, we subtract the number of tables from the number of chairs:
+   196 chairs - 81 tables = 115","var_A = 14
+var_B = 9
+print(var_A * var_B - var_B)","def solution(var_A, var_B):
+    chairs = var_A * 14
+    tables = var_B * 9
+    return chairs - tables","{'var_A': 14.0, 'var_B': 9.0}",False,
+26 children were riding on the bus. At the bus stop 38 more children got on the bus. How many children are on the bus now?,Addition,64.0,128.0,,128.0,var_A children were riding on the bus. At the bus stop var_B more children got on the bus. How many children are on the bus now?,"Here are the rough steps to solve the problem:
+
+1. Start with the initial number of children on the bus: 26
+2. Add the number of children who got on the bus at the stop: 38
+3. Add the two numbers together: 26 + 38 = 64
+4. The answer is 64.",26 + 38 = 64,"def solution(var_A, var_B):
+    return var_A + var_B + 26 + var_B","{'var_A': 26.0, 'var_B': 38.0}",False,
+Jerry had 8 action figures on a shelf in his room. Later he added 4 more action figures to the shelf and removed 5 old ones. How many action figures were on his shelf in all?,Subtraction,7.0,7.0,,7.0,Jerry had var_A action figures on a shelf in his room. Later he added var_B more action figures to the shelf and removed var_C old ones. How many action figures were on his shelf in all?,"Here are the rough steps to solve the problem:
+
+1. Start with the initial number of action figures Jerry had: 8
+2. Add the number of action figures Jerry added: 8 + 4 = 12
+3. Subtract the number of action figures Jerry removed: 12 - 5 = 7
+
+The answer is 7.",8 + 4 - 5 = 7,"def solution(var_A, var_B, var_C):
+    return var_A + var_B - var_C","{'var_A': 8.0, 'var_B': 4.0, 'var_C': 5.0}",False,
+He then went to see the oranges being harvested. He found out that they harvest 5 sacks of ripe oranges and 74 sacks of unripe oranges per day. How many more sacks of unripe oranges than ripe oranges are harvested per day?,Subtraction,69.0,69.0,,69.0,He then went to see the oranges being harvested. He found out that they harvest var_A sacks of ripe oranges and var_B sacks of unripe oranges per day. How many more sacks of unripe oranges than ripe oranges are harvested per day?,"Here are the rough steps to solve the problem:
+
+1. Let's say the number of ripe oranges is R and the number of unripe oranges is U.
+2. We know that the number of ripe oranges is 5R and the number of unripe oranges is 74U.
+3. We want to find the difference between the number of unripe oranges and ripe oranges, which is U - R.
+4. We can set up the equation: U - R = 74R - 5R
+5. Simplifying the equation, we get: U - R = 69R
+6. To find the difference between the number of unripe and ripe oranges, we can divide both sides by R (assuming R is not zero).
+7. This gives us: U - R = 69",U - R = 69,"def solution(var_A, var_B):
+    return var_B - var_A","{'var_A': 5.0, 'var_B': 74.0}",False,
+"The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 9 inches. The mouse jumped 3 inches lesser than the frog who jumped 33 inches farther than the grasshopper. How far did the mouse jump?",Subtraction,39.0,30.0,,30.0,"The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped var_A inches. The mouse jumped var_B inches lesser than the frog who jumped var_C inches farther than the grasshopper. How far did the mouse jump?","To solve this problem, we need to find the distance the mouse jumped. 
+
+1. Let's start with the information given:
+   - Grasshopper jumped 9 inches
+   - Frog jumped 33 inches
+   - Mouse jumped 3 inches lesser than the frog
+
+2. We know the grasshopper jumped 9 inches. 
+3. We know the frog jumped 33 inches. 
+4. To find the distance the mouse jumped, we need to subtract 3 inches from the frog's jump distance. 
+5. So, the distance the mouse jumped is 33 - 3 = 30 inches.",var_C = 33 - 3,"def solution(var_A, var_B, var_C):
+    return var_C - var_B","{'var_A': 9.0, 'var_B': 3.0, 'var_C': 33.0}",False,
+Ryan learns english and chinese for 7 days. Every day he spends 4 hours on learning english and 5 hours on learning chinese. How many hours does he spend on learning english and chinese in all?,Multiplication,63.0,,83.0,77.0,Ryan learns english and chinese for var_A days. Every day he spends var_B hours on learning english and var_C hours on learning chinese. How many hours does he spend on learning english and chinese in all?,"To find the total hours spent on learning English and Chinese, we need to multiply the hours spent on each language by the number of days.
+
+1. Multiply the hours spent on English by the number of days: 4 hours/day * 7 days = 28 hours
+2. Multiply the hours spent on Chinese by the number of days: 5 hours/day * 7 days = 35 hours
+3. Add the hours spent on English and Chinese to find the total hours spent: 28 hours + 35 hours = 63 hours",var_A * var_B + var_C * var_A + var_B * var_C,"def solution(var_A, var_B, var_C):
+    return var_A * 7 + var_B * 7","{'var_A': 7.0, 'var_B': 4.0, 'var_C': 5.0}",True,'Code_Result'
+Ed had 2 more marbles than Doug. Doug lost some of his marbles at the playground. Now Ed has 19 more marbles than doug. How many marbles did Doug lose?,Subtraction,17.0,True,,True,Ed had var_A more marbles than Doug. Doug lost some of his marbles at the playground. Now Ed has var_B more marbles than doug. How many marbles did Doug lose?,"1. Let's say Doug has x marbles.
+2. Ed has 2 more marbles than Doug, so Ed has x + 2 marbles.
+3. After Doug lost some marbles, Ed has (x + 2) - y marbles, where y is the number of marbles Doug lost.
+4. We know that Ed now has 19 more marbles than Doug. So, we can set up the equation: (x + 2) - y = 19
+5. We can simplify the equation to: x + 2 - y = 19
+6. We can rewrite the equation as: x - y = 17
+7. We can rewrite the equation as: y = 17 + x",x - y = 17,"def solution(var_A, var_B):
+    return var_B - (var_A - 2) == 19","{'var_A': 2.0, 'var_B': 19.0}",False,
+Tiffany was collecting cans for recycling. On monday she had 3 bags of cans. The next day she found 7 more bags of cans and 44 bags of bottles. How many bags of cans did she have altogether?,Addition,10.0,54.0,54.0,54.0,Tiffany was collecting cans for recycling. On monday she had var_A bags of cans. The next day she found var_B more bags of cans and var_C bags of bottles. How many bags of cans did she have altogether?,"Here are the rough steps to solve the problem:
+
+1. Add the number of bags of cans Tiffany had on Monday to the number of bags she found on the next day.
+2. Add the number of bags of cans she found to the number of bags of cans she already had.
+3. Add the number of bags of cans she found to the number of bags of cans she already had.
+4. Add the number of bags of cans she found to the number of bags of cans she already had.
+
+Answer: 3 + 7 + 44 = 54",var_A + var_B + var_C,"def solution(var_A, var_B, var_C):
+    total = var_A + var_B + var_C
+    return total","{'var_A': 3.0, 'var_B': 7.0, 'var_C': 44.0}",False,
+A farmer had 171 tomatoes in his garden. If he picked 134 of them yesterday and 30 today. How many will he have left after today?,Subtraction,7.0,67.0,,67.0,A farmer had var_A tomatoes in his garden. If he picked var_B of them yesterday and var_C today. How many will he have left after today?,"Here are the rough steps to solve the problem:
+
+1. Start with the initial number of tomatoes: 171
+2. Subtract the number of tomatoes picked yesterday: 171 - 134 = 37
+3. Subtract the number of tomatoes picked today: 37 - 30 = 7
+4. The farmer will have 7 tomatoes left after today.",171 - 134 + 30 = 37,"def solution(var_A, var_B, var_C):
+    return var_A - var_B + var_C","{'var_A': 171.0, 'var_B': 134.0, 'var_C': 30.0}",False,
+Melissa scored a total of 21 points playing some games. Is she scored 7 points in each game. How many games did she play?,Common-Division,3.0,3.0,,3.0,Melissa scored a total of var_A points playing some games. Is she scored var_B points in each game. How many games did she play?,"To find the number of games Melissa played, we can use the following steps:
+
+1. Let's say Melissa played x games.
+2. Since she scored 7 points in each game, the total points she scored is 7x.
+3. We know that the total points she scored is 21.
+4. We can set up the equation: 7x = 21
+5. To solve for x, we can divide both sides by 7: x = 21 / 7
+6. x = 3
+
+So, Melissa played 3 games.",var_A * var_B = 21,"def solution(var_A, var_B):
+    return 21 / 7","{'var_A': 21.0, 'var_B': 7.0}",False,
+36 children were riding on the bus. At the bus stop 68 children got off the bus while some more got on the bus. Then there were 12 children altogether on the bus. How many more children got off the bus than those that got on?,Subtraction,24.0,,-56,92.0,var_A children were riding on the bus. At the bus stop var_B children got off the bus while some more got on the bus. Then there were var_C children altogether on the bus. How many more children got off the bus than those that got on?,"Here are the rough steps to solve the problem:
+
+1. Let's say x is the number of children who got on the bus.
+2. We know that 68 children got off the bus, and we know that the total number of children on the bus after the stop is 12.
+3. We can set up an equation to represent the situation: x + 68 = 12
+4. To find the number of children who got on the bus, we need to subtract 68 from both sides of the equation: x = 12 - 68
+5. This will give us the number of children who got on the bus.
+
+Now, let's calculate the difference between the number of children who got off the bus and those who got on the bus:
+
+6. The difference is: 68 - x",12 - 68,"def solution(var_A, var_B, var_C):
+    x = var_C - var_A
+    return 68 - x","{'var_A': 36.0, 'var_B': 68.0, 'var_C': 12.0}",True,'Code_Result'
+You had 14 bags with equal number of cookies. If you had 28 cookies and 86 candies in total How many bags of cookies do you have?,Common-Division,2.0,7.0,,7.0,You had var_A bags with equal number of cookies. If you had var_B cookies and var_C candies in total How many bags of cookies do you have?,"To solve this problem, we need to find the number of cookies in each bag. 
+
+1. Since we know that the total number of cookies is 28 and the total number of bags is 14, we can divide the total number of cookies by the total number of bags to find the number of cookies in each bag.
+
+2. Let's assume the number of cookies in each bag is x. Then, the total number of cookies is 14x.
+
+3. We know that the total number of cookies is 28, so we can set up the equation: 14x = 28
+
+4. To find the value of x, we can divide both sides of the equation by 14: x = 28 / 14
+5. x = 2
+
+6. Since we know that the number of cookies in each bag is 2, we can find the number of bags by dividing the total number of cookies by the number of cookies in each bag: 14",14 * 2 = 28,"def solution(var_A, var_B, var_C):
+    x = (28 / 14)
+    return var_A // x","{'var_A': 14.0, 'var_B': 28.0, 'var_C': 86.0}",False,
+Next on his checklist is wax to stick the feathers together and colors to paint them. He needs a total of 49 g of colors to paint them. If the feathers require 288 g of wax and right now he just needs 260 g How many grams of wax does he already have?,Subtraction,28.0,,,,Next on his checklist is wax to stick the feathers together and colors to paint them. He needs a total of var_A g of colors to paint them. If the feathers require var_B g of wax and right now he just needs var_C g How many grams of wax does he already have?,"To find out how much wax he already has, we need to subtract the amount of wax he needs (288 g) from the total amount of wax he needs (49 g). 
+
+1. Subtract the amount of wax he needs from the total amount of wax he needs: 49 g - 288 g = -239 g
+2. Since the result is negative, it means he doesn't have enough wax to paint the feathers.",var_C = 49 - 288,"def solution(var_A, var_B, var_C):
+    total_wax_needed = var_A - var_B
+    if total_wax_needed < 0:
+        print(""He doesn't have enough wax to paint the feathers."")
+    else:
+        print(f""He has {total_wax_needed} grams of wax."")","{'var_A': 49.0, 'var_B': 288.0, 'var_C': 260.0}",True,'Code_Result'
+Allan brought 5 balloons and Jake brought 6 balloons to the park. Jake then bought 3 more balloons at the park. How many balloons did Jake bring to the park?,Addition,9.0,14.0,,14.0,Allan brought var_A balloons and Jake brought var_B balloons to the park. Jake then bought var_C more balloons at the park. How many balloons did Jake bring to the park?,"Here are the rough steps to solve the problem:
+
+1. Start with the number of balloons Allan brought: 5
+2. Add the number of balloons Jake bought: 5 + 3 = 8
+3. The total number of balloons Jake brought is 8.",var_C = 5 + 3,"def solution(var_A, var_B, var_C):
+    return var_A + var_B + var_C","{'var_A': 5.0, 'var_B': 6.0, 'var_C': 3.0}",False,
+The cave is 1218 feet deep and they are already at 849 feet. If they are travelling at speed of 17 How much farther until they reach the end of the cave?,Subtraction,369.0,,369,369.0,The cave is var_A feet deep and they are already at var_B feet. If they are travelling at speed of var_C How much farther until they reach the end of the cave?,"To find the distance they need to travel to reach the end of the cave, we need to subtract the distance already covered (849 feet) from the total depth (1218 feet).
+
+1. Subtract the distance already covered (849 feet) from the total depth (1218 feet) to find the remaining distance.
+2. The remaining distance is 1218 - 849 = 369 feet.
+
+This is the rough step-by-step solution to the problem.",369,"def solution(var_A, var_B, var_C):
+    remaining_distance = var_A - var_B
+    return remaining_distance","{'var_A': 1218.0, 'var_B': 849.0, 'var_C': 17.0}",True,'Code_Result'
+Jake has 13 fewer peaches and 3 more apples than Steven. Steven has 9 peaches and 8 apples. How many apples does Jake have?,Addition,11.0,"(0.0, 6.0)",,"(0.0, 6.0)",Jake has var_A fewer peaches and var_B more apples than Steven. Steven has var_C peaches and var_D apples. How many apples does Jake have?,"Here are the rough steps to solve the problem:
+
+1. Let's say Jake has x peaches and y apples.
+2. We know that Steven has 9 peaches and 8 apples.
+3. We also know that Jake has 13 fewer peaches than Steven, so we can write an equation: x = 9 - 13
+4. We also know that Jake has 3 more apples than Steven, so we can write another equation: y = 8 + 3
+5. We can solve for x and y by solving the equations: x = 9 - 13 = -4 and y = 8 + 3 = 11","x = var_A - var_B
+y = var_C + var_D","def solution(var_A, var_B, var_C, var_D):
+    x = var_A - 13
+    y = var_B + 3
+    return x, y","{'var_A': 13.0, 'var_B': 3.0, 'var_C': 9.0, 'var_D': 8.0}",False,
+An industrial machine can make 6 shirts a minute. It worked for 12 minutes yesterday and for 14 shirts today. How many shirts did machine make altogether?,Multiplication,156.0,,86,62.0,An industrial machine can make var_A shirts a minute. It worked for var_B minutes yesterday and for var_C shirts today. How many shirts did machine make altogether?,"To find the total number of shirts made by the machine, we need to multiply the number of shirts made per minute by the number of minutes worked.
+
+1. Multiply the number of shirts made per minute (6) by the number of minutes worked yesterday (12).
+2. Add the result to the number of shirts made today (14).
+3. Calculate the total number of shirts made by the machine.
+
+6 shirts/minute * 12 minutes = 72 shirts
+72 shirts + 14 shirts = 86 shirts
+
+The total number of shirts made by the machine is 86.",6*12 + 14,"def solution(var_A, var_B, var_C):
+    return (6 * var_A) + (var_B + var_C)","{'var_A': 6.0, 'var_B': 12.0, 'var_C': 14.0}",True,'Code_Result'
+Allan brought 3 balloons and 20 balls while Jake brought 5 balloons and 59 balls to the park. How many balloons did Allan and Jake have in the park?,Addition,8.0,87.0,87.0,87.0,Allan brought var_A balloons and var_B balls while Jake brought var_C balloons and var_D balls to the park. How many balloons did Allan and Jake have in the park?,"To find the total number of balloons Allan and Jake have in the park, we need to add the number of balloons each of them brought. 
+
+Here are the steps:
+
+1. Add the number of balloons Allan brought (3) to the number of balloons Jake brought (5):
+   3 + 5 = 8
+
+2. Add the total number of balloons (8) to the number of balls (59) that Jake brought:
+   8 + 59 = 67
+
+So, Allan and Jake have 67 balloons in the park.",var_A + var_B + var_C + var_D,"def solution(var_A, var_B, var_C, var_D):
+    return var_A + var_B + var_C + var_D","{'var_A': 3.0, 'var_B': 20.0, 'var_C': 5.0, 'var_D': 59.0}",False,
+"Julia played tag with 9 kids on monday, 7 kids on tuesday and 96 kids on wednesday. How many more kids did she play with on monday than on tuesday?",Subtraction,2.0,2.0,2.0,2.0,"Julia played tag with var_A kids on monday, var_B kids on tuesday and var_C kids on wednesday. How many more kids did she play with on monday than on tuesday?","To find the difference in the number of kids Julia played with on Monday and Tuesday, we need to find the difference between the number of kids on Monday and Tuesday.
+
+Here are the steps:
+
+1. Find the difference between the number of kids on Monday and Tuesday:
+   Monday: 9 kids
+   Tuesday: 7 kids
+   Difference: 9 - 7 = 2
+
+The difference is 2.",var_A - var_B,"def solution(var_A, var_B, var_C):
+    return var_A - var_B","{'var_A': 9.0, 'var_B': 7.0, 'var_C': 96.0}",False,
+He then went to see the oranges being harvested. He found out that they harvest 16 sacks per day and that each sack containes 57 oranges. How many days will it take to harvest 80 sacks of oranges?,Common-Division,5.0,11.4,,11.4,He then went to see the oranges being harvested. He found out that they harvest var_A sacks per day and that each sack containes var_B oranges. How many days will it take to harvest var_C sacks of oranges?,"Here are the rough steps to solve the problem:
+
+1. First, we need to find the total number of oranges in 80 sacks. We know that each sack contains 57 oranges. So, we multiply 80 by 57 to find the total number of oranges.
+
+80 * 57 = 4560 oranges
+
+2. Now, we need to find out how many days it will take to harvest 4560 oranges. We know that the oranges are harvested in 16 sacks per day. So, we divide the total number of oranges by 16 to find the number of days.
+
+4560 / 16 = 288 days
+
+3.",4560 / 16 = 288,"def solution(var_A, var_B, var_C):
+    oranges = var_A * 57
+    days = oranges / var_C
+    return days","{'var_A': 16.0, 'var_B': 57.0, 'var_C': 80.0}",False,
+Jake has 8 fewer peaches and 10 more apples than Steven. Steven has 11 apples and 18 peaches. How many more peaches than apples does Steven have?,Subtraction,7.0,10.0,,10.0,Jake has var_A fewer peaches and var_B more apples than Steven. Steven has var_C apples and var_D peaches. How many more peaches than apples does Steven have?,"To find the difference between the number of peaches and apples Steven has, we need to find the difference between the number of peaches and apples Jake has.
+
+Here are the rough steps:
+
+1. Let's say Jake has x peaches and y apples.
+2. We know that Jake has 8 fewer peaches than Steven, so we can write an equation: x = y - 8
+3. We also know that Steven has 11 apples and 18 peaches, so we can write another equation: y = 11 and x = 18
+4. Substitute the value of y from the second equation into the first equation: x = 18 - 8
+5. Solve for x: x = 10
+6. Now that we know Jake has 10 peaches and 18 apples, we can find the difference between the number of peaches and apples: 18 - 10 = 8
+
+So, Steven has 8 more peaches than",18 - 10 = 8,"def solution(var_A, var_B, var_C, var_D):
+    x = var_A - 8
+    y = var_B
+    return y - x","{'var_A': 8.0, 'var_B': 10.0, 'var_C': 11.0, 'var_D': 18.0}",False,
+Lawrence county has 898051 kids. During summer break 629424 kids go to camp and the rest stay home. How many kids stay home?,Subtraction,268627.0,268627.0,,268627.0,Lawrence county has var_A kids. During summer break var_B kids go to camp and the rest stay home. How many kids stay home?,"To find the number of kids who stay home, we need to subtract the number of kids who went to camp from the total number of kids.
+
+1. Start with the total number of kids: 898051
+2. Subtract the number of kids who went to camp: 898051 - 629424 =?
+
+Let's break it down:
+
+- We know that the number of kids who went to camp is 629424.
+- We can use the formula for subtraction: 898051 - 629424 =?
+
+This is a simple subtraction problem.",898051 - 629424 = 268627,"def solution(var_A, var_B):
+    return var_A - var_B","{'var_A': 898051.0, 'var_B': 629424.0}",False,
+Because of the decision Sofia asked 310 students to suggest specific types of food. 185 students suggested adding mashed potatoes while others suggested adding bacon to the menu. How many students suggested bacon?,Subtraction,125.0,527.5,,527.5,Because of the decision Sofia asked var_A students to suggest specific types of food. var_B students suggested adding mashed potatoes while others suggested adding bacon to the menu. How many students suggested bacon?,"To find the number of students who suggested adding bacon, we can use the following steps:
+
+1. Let's say the number of students who suggested adding bacon is x.
+2. We know that 185 students suggested adding mashed potatoes, so the number of students who suggested adding bacon is x - 185.
+3. Since the total number of students who suggested adding mashed potatoes and bacon is 310, we can set up the equation: x - 185 + x = 310
+4. Combine like terms: 2x - 185 = 310
+5. Add 185 to both sides: 2x = 495
+6. Divide both sides by 2: x = 247.5","x = 2x + 185
+x - 185 = 310
+2x = 495
+x = 495/2
+x = 247.5","def solution(var_A, var_B):
+    x = var_A + var_B - 185
+    x = 2 * x - 185
+    x = (2 * x + 185) / 2
+    return x","{'var_A': 310.0, 'var_B': 185.0}",False,
+"Jack received 4 emails in the morning, 5 emails in the afternoon and 8 emails in the evening. How many emails did Jack receive in the afternoon and evening?",Addition,13.0,17.0,,17.0,"Jack received var_A emails in the morning, var_B emails in the afternoon and var_C emails in the evening. How many emails did Jack receive in the afternoon and evening?","To find the total number of emails Jack received, we need to add the number of emails received in the morning, afternoon, and evening.
+
+Here are the rough steps to solve the problem:
+
+1. Add the number of emails received in the morning (4) to the number of emails received in the afternoon (5).
+2. Add the result from step 1 to the number of emails received in the evening (8).
+3. The result from step 2 will give us the total number of emails received by Jack.
+
+Let's do the math:
+
+4 (morning) + 5 (afternoon) + 8 (evening) = 17
+
+So, Jack received 17 emails in the afternoon and evening.","var_A = 4
+var_B = 5
+var_C = 8
+print(var_A + var_B + var_C)","def solution(var_A, var_B, var_C):
+    return var_A + var_B + var_C","{'var_A': 4.0, 'var_B': 5.0, 'var_C': 8.0}",False,
+Winter is almost here and most animals are migrating to warmer countries. There are 18 bird families living near the mountain. If 38 bird families flew away to africa and 80 bird families flew away to asia How many bird families flew away for the winter?,Addition,118.0,-24.0,,-24.0,Winter is almost here and most animals are migrating to warmer countries. There are var_A bird families living near the mountain. If var_B bird families flew away to africa and var_C bird families flew away to asia How many bird families flew away for the winter?,"To solve this problem, we can use the concept of set theory and basic arithmetic. Here are the rough steps:
+
+1. Let's start by identifying the total number of bird families that flew away. We know that 38 bird families flew away to Africa and 80 bird families flew away to Asia. To find the total number of bird families that flew away, we can simply add these two numbers together:
+
+38 + 80 = 118
+
+2. Now, we know that 118 bird families flew away. We also know that there are 18 bird families living near the mountain. To find the number of bird families that are not living near the mountain, we can subtract the number of bird families living near the mountain from the total number of bird families that flew away:
+
+118 - 18 = 100
+
+3. This means that 100 bird families are not living near the mountain. Since we know that there are 18 bird families living near the mountain, we can conclude that",118 - 18 = 100,"def solution(var_A, var_B, var_C):
+    return var_A + var_B - var_C","{'var_A': 18.0, 'var_B': 38.0, 'var_C': 80.0}",False,
+Emily is making bead necklaces for her friends. Each necklace takes 8 beads and she has 16 beads. How many necklaces can Emily make?,Common-Division,2.0,2,,2,Emily is making bead necklaces for her friends. Each necklace takes var_A beads and she has var_B beads. How many necklaces can Emily make?,"Here are the rough steps to solve the problem:
+
+1. Divide the total number of beads (16) by the number of beads per necklace (8) to find the number of necklaces Emily can make.",16 / 8 = 2,"def solution(var_A, var_B):
+    return 16 // 8","{'var_A': 8.0, 'var_B': 16.0}",False,
+The Ferris wheel in paradise park has 4 seats. If 20 people can ride the wheel at the same time How many people can each seat hold?,Common-Division,5.0,1.0,,1.0,The Ferris wheel in paradise park has var_A seats. If var_B people can ride the wheel at the same time How many people can each seat hold?,"To solve this problem, we need to divide the total number of people (20) by the number of seats (4). 
+
+1. Divide the total number of people (20) by the number of seats (4): 
+20 ÷ 4 = 5
+
+So, each seat can hold 5 people.",var_A * var_B = 20,"def solution(var_A, var_B):
+    return var_A // 4","{'var_A': 4.0, 'var_B': 20.0}",False,
+Debby drinks 6 bottles a day. If she bought a total of 12 water bottles How many days would they last her?,Common-Division,2.0,,2.0,2.0,Debby drinks var_A bottles a day. If she bought a total of var_B water bottles How many days would they last her?,"To solve this problem, we need to find out how many days Debby can drink water bottles. 
+
+1. First, we need to find out how many bottles Debby drinks per day. 
+   Debby drinks 6 bottles a day.
+
+2. Now, we need to divide the total number of bottles by the number of bottles Debby drinks per day. 
+   Total bottles = 12
+   Bottles per day = 6
+   Total days = Total bottles / Bottles per day
+   Total days = 12 / 6
+   Total days = 2
+
+So, Debby can drink water bottles for 2 days.",var_B / var_A,"def solution(var_A, var_B):
+    bottles_per_day = 6
+    total_bottles = var_B
+    total_days = total_bottles / bottles_per_day
+    return total_days","{'var_A': 6.0, 'var_B': 12.0}",True,'Code_Result'
+Brenda's mother made 14 cookies for 2 guests. If each of them had the same number of cookies How many did each of them have?,Common-Division,7.0,,28,14.0,Brenda's mother made var_A cookies for var_B guests. If each of them had the same number of cookies How many did each of them have?,"To solve this problem, we need to find the total number of cookies and then divide it by the number of guests.
+
+1. First, we need to find the total number of cookies. 
+2. Since Brenda's mother made 14 cookies for 2 guests, we can find the total number of cookies by multiplying the number of guests by the number of cookies each guest has: 
+   Total cookies = Number of guests * Number of cookies per guest
+   Total cookies = 2 * 14
+   Total cookies = 28
+
+3. Now that we know the total number of cookies, we can find the number of cookies each guest has by dividing the total number of cookies by the number of guests:
+   Number of cookies per guest = Total cookies / Number of guests
+   Number of cookies per guest = 28 / 2
+   Number of cookies per guest = 14
+
+So, each guest has 14 cookies.",2*14,"def solution(var_A, var_B):
+    total_cookies = var_A * var_B
+    cookies_per_guest = total_cookies / var_B
+    return cookies_per_guest","{'var_A': 14.0, 'var_B': 2.0}",True,'Code_Result'
+Nell collects baseball cards. She had 566 cards while Jeff had 234 cards. She gave some of her cards to Jeff and now has 535 cards left. How many cards does Jeff have now?,Subtraction,265.0,1304.0,,1304.0,Nell collects baseball cards. She had var_A cards while Jeff had var_B cards. She gave some of her cards to Jeff and now has var_C cards left. How many cards does Jeff have now?,"Here are the rough steps to solve the problem:
+
+1. Start with the initial number of cards Nell has: 566
+2. Subtract the number of cards Nell gave to Jeff: 566 - 234 = 332
+3. Add the number of cards Nell has now to the number of cards Jeff has: 332 + 535 = 867",567 + 535 = 1002,"def solution(var_A, var_B, var_C):
+    return var_A + var_B + var_C - 566 + 535","{'var_A': 566.0, 'var_B': 234.0, 'var_C': 535.0}",False,
+Rebecca wants to split a collection of eggs into groups of 20. Rebecca has 5 marbles and 12 eggs. How many more eggs does Rebecca have than marbles?,Subtraction,7.0,20.0,,20.0,Rebecca wants to split a collection of eggs into groups of var_A Rebecca has var_B marbles and var_C eggs. How many more eggs does Rebecca have than marbles?,"To find the difference between the number of eggs and marbles Rebecca has, we need to find the total number of eggs and subtract the number of marbles.
+
+1. First, we need to find the total number of eggs Rebecca has. Since she has 12 eggs, we can simply add 12 to the number of marbles she has (5) to find the total number of eggs.
+
+2. Now, we need to find the difference between the total number of eggs and the number of marbles. We can do this by subtracting the number of marbles (5) from the total number of eggs (12).
+
+3. The result of the subtraction will give us the difference between the number of eggs and marbles Rebecca has.",12 - 5 = 7,"def solution(var_A, var_B, var_C):
+    eggs = var_A + var_B
+    marbles = var_B
+    eggs_minus_marbles = eggs - marbles
+    return eggs_minus_marbles","{'var_A': 20.0, 'var_B': 5.0, 'var_C': 12.0}",False,
+Paco had 36 cookies. He gave 14 cookies to his friend and ate 10 cookies. How many cookies did Paco have left?,Subtraction,12.0,12.0,,12.0,Paco had var_A cookies. He gave var_B cookies to his friend and ate var_C cookies. How many cookies did Paco have left?,"Here are the rough steps to solve the problem:
+
+1. Start with the initial number of cookies Paco had: 36
+2. Subtract the number of cookies Paco gave to his friend: 36 - 14 = 22
+3. Subtract the number of cookies Paco ate: 22 - 10 = 12
+
+The answer is 12.","36 - 14 = 22
+22 - 10 = 12","def solution(var_A, var_B, var_C):
+    return var_A - var_B - var_C","{'var_A': 36.0, 'var_B': 14.0, 'var_C': 10.0}",False,
+Faye was placing her pencils into 14 rows with 11 pencils in each row. How many pencils does she have?,Multiplication,154.0,154.0,,154.0,Faye was placing her pencils into var_A rows with var_B pencils in each row. How many pencils does she have?,"Here are the rough steps to solve the problem:
+
+1. Faye has 14 rows of pencils.
+2. Each row has 11 pencils.
+3. To find the total number of pencils, multiply the number of rows by the number of pencils in each row.
+4. Multiply 14 (rows) by 11 (pencils per row) to get 154 pencils.",14 * 11 = 154,"def solution(var_A, var_B):
+    return var_A * var_B","{'var_A': 14.0, 'var_B': 11.0}",False,
+Jack received 4 emails in the morning and some more in the afternoon. If he received a total of 5 emails in the day How many emails did Jack receive in the afternoon?,Subtraction,1.0,1.0,,1.0,Jack received var_A emails in the morning and some more in the afternoon. If he received a total of var_B emails in the day How many emails did Jack receive in the afternoon?,"To solve this problem, we need to find the total number of emails Jack received in the morning and afternoon, and then subtract the number of emails received in the morning from the total.
+
+1. Let's say Jack received x emails in the morning.
+2. We know that Jack received 4 emails in the morning.
+3. We also know that Jack received a total of 5 emails in the day.
+4. To find the number of emails received in the afternoon, we need to subtract the number of emails received in the morning from the total number of emails.
+5. So, the number of emails received in the afternoon is 5 - 4 = 1.
+
+The answer is: 1","var_B = 5
+var_A = 4
+print(var_B - var_A)","def solution(var_A, var_B):
+    return var_B - var_A","{'var_A': 4.0, 'var_B': 5.0}",False,
+Dave had 17 apps on his phone. After adding some he had 18 left. How many apps did he add?,Subtraction,1.0,1.0,,1.0,Dave had var_A apps on his phone. After adding some he had var_B left. How many apps did he add?,"Here are the rough steps to solve the problem:
+
+1. Let's say Dave added x apps to his phone.
+2. We know that Dave started with 17 apps and ended up with 18 apps.
+3. To find the number of apps Dave added, we can subtract the initial number of apps from the final number of apps: 18 - 17 = x
+4. This means Dave added 1 app to his phone.",17 - 18 = -1,"def solution(var_A, var_B):
+    return var_B - var_A","{'var_A': 17.0, 'var_B': 18.0}",False,
+Jake has 7 fewer peaches than Steven and 9 more peaches than Jill. Steven has 16 peaches. How many peaches does Jake have?,Subtraction,9.0,7.0,,7.0,Jake has var_A fewer peaches than Steven and var_B more peaches than Jill. Steven has var_C peaches. How many peaches does Jake have?,"To solve this problem, we need to find the number of peaches Jake has. 
+
+1. Let's start with what we know: 
+- Steven has 16 peaches.
+- Jake has 7 fewer peaches than Steven.
+- Jake has 9 more peaches than Jill.
+
+2. We can represent the number of peaches Jake has as x. 
+- Since Jake has 7 fewer peaches than Steven, we can write an equation: x = 16 - 7
+- We know that Steven has 16 peaches, so we can also write an equation: x = 16
+- We can now solve for x by equating the two equations: 16 = 16 - 7
+- This means that x = 9.
+
+3. Therefore, Jake has 9 peaches.",x = 16 - 7,"def solution(var_A, var_B, var_C):
+    return var_A - 7 + var_C - 9","{'var_A': 7.0, 'var_B': 9.0, 'var_C': 16.0}",False,
+Rachel has 3 apple trees. She picked 8 apples from each of her trees. Now the trees have a total 9 apples still on them. How many apples were there on all trees initially?,Addition,33.0,33.0,,33.0,Rachel has var_A apple trees. She picked var_B apples from each of her trees. Now the trees have a total var_C apples still on them. How many apples were there on all trees initially?,"Here are the rough steps to solve the problem:
+
+1. Let's say Rachel has x trees.
+2. She picked 8 apples from each tree, so the total number of apples picked is 8x.
+3. The total number of apples on the trees now is 9 (initially) + 8x (picked) = 9x.
+4. We know that the total number of apples on the trees is equal to the initial number of apples on the trees, which is x.
+5. So, we can set up the equation: 9x = x
+6. To solve for x, we can divide both sides by x, which gives us x = 9.
+
+So, initially, there were 9 trees x 9 apples = 81 apples.",9x,"def solution(var_A, var_B, var_C):
+    return var_A * var_B + var_C","{'var_A': 3.0, 'var_B': 8.0, 'var_C': 9.0}",False,
+"Jack received 3 emails in the morning, 4 emails in the afternoon and 8 emails in the evening. How many emails did Jack receive in the morning and evening?",Addition,11.0,15.0,,15.0,"Jack received var_A emails in the morning, var_B emails in the afternoon and var_C emails in the evening. How many emails did Jack receive in the morning and evening?","To find the total number of emails Jack received, we need to add the number of emails received in the morning, afternoon, and evening.
+
+Here are the rough steps to solve the problem:
+
+1. Add the number of emails received in the morning (3) to the number of emails received in the afternoon (4).
+2. Add the result from step 1 to the number of emails received in the evening (8).
+3. The result from step 2 will give us the total number of emails Jack received.
+
+The total number of emails Jack received is: 3 + 4 + 8 = 15","var_A = 3
+var_B = 4
+var_C = 8
+print(var_A + var_B + var_C)","def solution(var_A, var_B, var_C):
+    return var_A + var_B + var_C","{'var_A': 3.0, 'var_B': 4.0, 'var_C': 8.0}",False,
+"6 red peaches, 90 yellow peaches and 16 green peaches are in the basket. How many red and green peaches are in the basket?",Addition,22.0,112.0,,112.0,"var_A red peaches, var_B yellow peaches and var_C green peaches are in the basket. How many red and green peaches are in the basket?","To find the total number of red and green peaches, we need to add the number of red peaches and the number of green peaches.
+
+1. First, we need to find the total number of peaches.
+2. We know that there are 6 red peaches and 16 green peaches.
+3. To find the total number of peaches, we add the number of red peaches and the number of green peaches:
+   Total peaches = Red peaches + Green peaches
+   Total peaches = 6 + 16
+4. Now, we have the total number of peaches.",6 + 16 = 22,"def solution(var_A, var_B, var_C):
+    return var_A + var_B + var_C","{'var_A': 6.0, 'var_B': 90.0, 'var_C': 16.0}",False,
+Carol was sending out birthday invitations to her friends. Each package of invitations she bought had 14 invitations in it and she bought 6 packs. Then she bought 11 extra invitations. How many friends can she invite?,Addition,95.0,,31.0,15.0,Carol was sending out birthday invitations to her friends. Each package of invitations she bought had var_A invitations in it and she bought var_B packs. Then she bought var_C extra invitations. How many friends can she invite?,"Here are the rough steps to solve the problem:
+
+1. First, calculate the total number of invitations Carol bought: 6 packs * 14 invitations per pack = 84 invitations
+2. Then, add the extra invitations she bought: 84 + 11 = 95 invitations
+3. Finally, divide the total number of invitations by the number of invitations per friend to find the number of friends Carol can invite: 95 / 14 = 6.75",var_A + var_B + var_C,"def solution(var_A, var_B, var_C):
+    total_invitations = var_A * 14 + var_B + var_C
+    return total_invitations // 14","{'var_A': 14.0, 'var_B': 6.0, 'var_C': 11.0}",True,'Code_Result'
+Rachel had to complete 5 pages of math homework and 2 pages of reading homework. How many more pages of math homework than reading homework did she have?,Subtraction,3.0,3.0,,3.0,Rachel had to complete var_A pages of math homework and var_B pages of reading homework. How many more pages of math homework than reading homework did she have?,"To find the difference between the number of pages of math homework and reading homework, we need to subtract the number of pages of reading homework from the number of pages of math homework.
+
+Here are the rough steps:
+
+1. Calculate the total number of pages of math homework: 5 pages
+2. Calculate the total number of pages of reading homework: 2 pages
+3. Subtract the number of pages of reading homework from the number of pages of math homework: 5 - 2 = 3",var_A - var_B = 3,"def solution(var_A, var_B):
+    math_pages = var_A
+    reading_pages = var_B
+    return math_pages - reading_pages","{'var_A': 5.0, 'var_B': 2.0}",False,
+Paige raised 16 goldfish and 71 catfish in the pond but stray cats loved eating them. Now she has 2 left. How many goldfish disappeared?,Subtraction,14.0,-57.0,,-57.0,Paige raised var_A goldfish and var_B catfish in the pond but stray cats loved eating them. Now she has var_C left. How many goldfish disappeared?,"Here are the rough steps to solve the problem:
+
+1. Paige started with 16 goldfish and 71 catfish.
+2. She has 2 left, so she must have lost some goldfish.
+3. To find out how many goldfish disappeared, we need to subtract the number of goldfish she has left from the total number of goldfish she started with.
+4. Subtracting 2 from 16 gives us 14.",16 - 2 = 14,"def solution(var_A, var_B, var_C):
+    return var_A - var_B - 2","{'var_A': 16.0, 'var_B': 71.0, 'var_C': 2.0}",False,
+White t - shirts can be purchased in packages. If mom buys 66 white t - shirts where each package has 3 white t - shirts. How many packages will she have?,Common-Division,22.0,22.0,,22.0,White t - shirts can be purchased in packages. If mom buys var_A white t - shirts where each package has var_B white t - shirts. How many packages will she have?,"To find the number of packages, we need to divide the total number of t-shirts by the number of t-shirts per package.
+
+1. Divide the total number of t-shirts (66) by the number of t-shirts per package (3).
+2. The result will be the number of packages.
+
+Answer: 22","var_A = 66
+var_B = 3
+print(var_A / var_B)","def solution(var_A, var_B):
+    return var_A // var_B","{'var_A': 66.0, 'var_B': 3.0}",False,
+The Razorback t-shirt shop makes $ 87 dollars off each t-shirt sold. During the Arkansas game and the Texas tech game they sold a total of 95 t-shirts. If they sold 47 t-shirts during the Arkansas game How much money did they make from selling the t-shirts?,Multiplication,8265.0,12354.0,,12354.0,The Razorback t - shirt shop makes $ var_A dollars off each t - shirt sold. During the Arkansas game and the Texas tech game they sold a total of var_B t - shirts. If they sold var_C t - shirts during the Arkansas game How much money did they make from selling the t - shirts?,"To find the total amount of money made from selling the t-shirts, we need to multiply the number of t-shirts sold by the price per t-shirt.
+
+1. First, we need to find the number of t-shirts sold during the Texas Tech game. We know that 47 t-shirts were sold during the Arkansas game. Since the Razorback t-shirt shop makes $87 per t-shirt, we can multiply the number of t-shirts sold during the Arkansas game by the price per t-shirt to find the total amount made during the Arkansas game.
+
+2. To find the total amount made during the Arkansas game, we multiply 47 (t-shirts sold) by $87 (price per t-shirt).
+
+3. Now, we need to find the number of t-shirts sold during the Texas Tech game. We know that 47 t-shirts were sold during the Arkansas game. Since the Razorback t-shirt shop makes $87 per t-shirt, we can multiply the number of t-shirts sold during the Arkansas",var_A * var_B = 87 * 47,"def solution(var_A, var_B, var_C):
+    # Step 1: Find the number of t-shirts sold during the Arkansas game
+    t_shirts_sold_arkansas = var_B
+    # Step 2: Find the total amount made during the Arkansas game
+    total_arkansas = t_shirts_sold_arkansas * 87
+    # Step 3: Find the number of t-shirts sold during the Texas Tech game
+    t_shirts_sold_texas_tech = var_C
+    # Step 4: Find the total amount made during the Texas Tech game
+    total_texas_tech = t_shirts_sold_texas_tech * 87
+    # Step 5: Find the total amount made from selling the t-shirts
+    total_made = total_arkansas + total_texas_tech
+    return total_made","{'var_A': 87.0, 'var_B': 95.0, 'var_C': 47.0}",False,

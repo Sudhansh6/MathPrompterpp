@@ -1,0 +1,20 @@
+Question,Correct Answer,Predicted Answer,Response,Error,Error Message
+" Sarah had 55 homework problems. She finished 6 of them but still had 7 pages of problems to do. If each page has the same number of problems on it, how many problems are on each page? ",7,7.0,"Sure! Let's break it down step by step.
+
+1. **Total Homework Problems**: Sarah started with 55 homework problems.
+
+2. **Problems Completed**: She finished 6 problems. 
+
+3. **Remaining Problems**: To find out how many problems she has left, we subtract the problems she completed from the total:
+   \[
+   55 - 6 = 49 \text{ problems remaining}
+   \]
+
+4. **Pages of Problems Left**: We know that Sarah still has 7 pages of problems to do.
+
+5. **Problems per Page**: To find out how many problems are on each page, we divide the number of remaining problems by the number of pages:
+   \[
+   \text{Problems per page} = \frac{\text{Remaining problems}}{\text{Pages}} = \frac{49}{7} = 7
+   \]
+
+So, there are **7 problems on each page**.7",False,

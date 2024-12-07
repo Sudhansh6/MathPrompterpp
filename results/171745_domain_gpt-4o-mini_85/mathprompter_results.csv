@@ -1,0 +1,294 @@
+Question,Type,Correct Answer,Predicted Answer,Predicted Algebraic Answer,Predicted Python Answer,Generated Algebraic Template,Generated Expression,Generated Python Code,Variable Mapping,Error,Error Message
+A patient's blood pressure reduces from 140/90 to 120/80 mmHg. What is the percentage reduction in systolic pressure?,Cardiovascular Medicine,14.3,3.57,3.5714285714285725,3.5714285714285725,A patient's blood pressure reduces from var_A / var_B to var_C / var_D mmHg. What is the percentage reduction in systolic pressure?,((var_A / var_B - var_C / var_D) / (var_A / var_B)) * 100,"def solution(var_A, var_B, var_C, var_D):
+    initial_pressure = var_A / var_B
+    final_pressure = var_C / var_D
+    reduction = initial_pressure - final_pressure
+    percentage_reduction = (reduction / initial_pressure) * 100
+    return percentage_reduction","{'var_A': 140.0, 'var_B': 90.0, 'var_C': 120.0, 'var_D': 80.0}",False,
+"The gravitational field strength on Earth's surface is approximately 9.8 N/kg. For a mass of 5 kg, What is the weight in Newtons?",Weight Calculation,49.0,49,49.0,49.0,"The gravitational field strength on Earth's surface is approximately var_A N / kg. For a mass of var_B kg, What is the weight in Newtons?",var_A * var_B,"def solution(var_A, var_B):
+    return var_A * var_B","{'var_A': 9.8, 'var_B': 5.0}",False,
+"An item costs $50, but a discount of 10% is applied. What is the price after discount?",Percentage,45.0,45,45.0,45.0,An item costs $ var_A but a discount of var_B % is applied. What is the price after discount?,var_A * (1 - var_B / 100),"def solution(var_A, var_B):
+    return var_A * (1 - var_B / 100)","{'var_A': 50.0, 'var_B': 10.0}",False,
+"The efficiency of a heat engine is 30%. If it does 300 J of work, How much heat does it absorb from the hot reservoir?",Heat Engine Efficiency,1000.0,1000,1000.0,1000.0,"The efficiency of a heat engine is var_A %. If it does var_B J of work, How much heat does it absorb from the hot reservoir?",var_B / (var_A / 100),"def solution(var_A, var_B):
+    efficiency = var_A / 100
+    work_done = var_B
+    heat_absorbed = work_done / efficiency
+    return heat_absorbed","{'var_A': 30.0, 'var_B': 300.0}",False,
+"The atomic mass of carbon is 12 amu. In a sample of 24 grams of carbon, How many moles are present?",Mole Calculation,2.0,2,2.0,2.0,"The atomic mass of carbon is var_A amu. In a sample of var_B grams of carbon, How many moles are present?",var_B / var_A,"def solution(var_A, var_B):
+    moles = var_B / var_A
+    return moles","{'var_A': 12.0, 'var_B': 24.0}",False,
+The pH of a solution is 9. What is the pOH of the solution?,pH and pOH,5.0,5,5.0,5.0,The pH of a solution is var_A What is the pOH of the solution?,14 - var_A,"def solution(var_A):
+    return 14 - var_A",{'var_A': 9.0},False,
+"A pendulum has a period of 2 seconds. On a planet where g = 1.62 m/s², What is the length of the pendulum in meters?",Pendulum Motion,0.26,,0.6565623791509141,0.16414031750058722,"A pendulum has a period of var_A seconds. On a planet where g = var_B m / s², What is the length of the pendulum in meters?",(4 * (var_A ** 2) * var_B) / (4 * 3.14159 ** 2),"def solution(var_A, var_B):
+    import math
+    length = (var_A**2 * var_B) / (4 * math.pi**2)
+    return length","{'var_A': 2.0, 'var_B': 1.62}",False,
+A car travels at 60 km/h for 2 hours. What distance does it cover in meters?,Distance Calculation,120000.0,120000,120000.0,120000.0,A car travels at var_A km / h for var_B hours. What distance does it cover in meters?,var_A * var_B * 1000,"def solution(var_A, var_B):
+    distance_km = var_A * var_B
+    distance_meters = distance_km * 1000
+    return distance_meters","{'var_A': 60.0, 'var_B': 2.0}",False,
+A thermal expansion coefficient is 2e-5 K⁻¹ for a metal rod. How much does a 1-meter rod expand when heated from 20°C to 120°C?,Material Science,0.002,200,200.0,200.0,A thermal expansion coefficient is var_A e - var_B K⁻¹ for a metal rod. How much does a var_C - meter rod expand when heated from var_D °C to var_E °C?,var_A * (var_E - var_D) * var_C,"def solution(var_A, var_B, var_C, var_D, var_E):
+    delta_T = var_E - var_D
+    expansion = var_A * var_C * delta_T
+    return expansion","{'var_A': 2.0, 'var_B': 5.0, 'var_C': 1.0, 'var_D': 20.0, 'var_E': 120.0}",False,
+"The speed of sound in air is 343 m/s. If an echo returns after 2 seconds, How far away is the reflecting surface?",Wave Motion,343.0,343,343.0,343.0,"The speed of sound in air is var_A m / s. If an echo returns after var_B seconds, How far away is the reflecting surface?",var_A * var_B / 2,"def solution(var_A, var_B):
+    return (var_A * var_B) / 2","{'var_A': 343.0, 'var_B': 2.0}",False,
+A drug has a half-life of 6 hours in the human body. What percentage of the original dose remains after 18 hours?,Pharmacokinetics,12.5,12.5,12.5,12.5,A drug has a half - life of var_A hours in the human body. What percentage of the original dose remains after var_B hours?,100 * (0.5 ** (var_B / var_A)),"def solution(var_A, var_B):
+    return (0.5 ** (var_B / var_A)) * 100","{'var_A': 6.0, 'var_B': 18.0}",False,
+A 50 mL solution contains 2.5 g of NaCl. What is its molarity? (Molar mass NaCl = 58.44 g/mol),Solution Concentration,0.855,0.855,0.8555783709787818,0.8555783709787818,A var_A mL solution contains var_B g of NaCl. What is its molarity? ( Molar mass NaCl = var_C g / mol ),(var_B / var_C) / (var_A / 1000),"def solution(var_A, var_B, var_C):
+    moles_NaCl = var_B / var_C
+    volume_L = var_A / 1000
+    molarity = moles_NaCl / volume_L
+    return molarity","{'var_A': 50.0, 'var_B': 2.5, 'var_C': 58.44}",False,
+"If a cell divides into 2 every 20 minutes, how many cells are present after 1 hour starting from 1 cell? (Exponential growth) What is the cell count?",Exponential Growth,8.0,,8.0,8.0,"If a cell divides into var_A every var_B minutes, how many cells are present after var_C hour starting from var_D cell? ( Exponential growth ) What is the cell count?",var_D * (2 ** (var_C * 60 / var_B)),"def solution(var_A, var_B, var_C, var_D):
+    total_minutes = var_C * 60
+    divisions = total_minutes // var_B
+    cell_count = var_D * (var_A ** divisions)
+    return cell_count","{'var_A': 2.0, 'var_B': 20.0, 'var_C': 1.0, 'var_D': 1.0}",False,
+A patient's metabolic rate is 1.2 kcal/minute at rest. What is total energy expenditure in 8 hours?,Metabolism,576,576,576.0,576.0,A patient's metabolic rate is var_A kcal / minute at rest. What is total energy expenditure in var_B hours?,var_A * 60 * var_B,"def solution(var_A, var_B):
+    return var_A * 60 * var_B","{'var_A': 1.2, 'var_B': 8.0}",False,
+"A patient's white blood cell count increases from 4,000 to 11,000 cells/μL during an infection. What is the percentage increase in white blood cells?",Immunology,175.0,175,175.0,175.0,A patient's white blood cell count increases from var_A to var_B cells / μL during an infection. What is the percentage increase in white blood cells?,((var_B - var_A) / var_A) * 100,"def solution(var_A, var_B):
+    percentage_increase = ((var_B - var_A) / var_A) * 100
+    return percentage_increase","{'var_A': 4000.0, 'var_B': 11000.0}",False,
+"A ball is thrown upward with an initial velocity of 20 m/s. Taking g = 10 m/s², What is its maximum height in meters?",Projectile Motion,20.0,20,20.0,20.0,"A ball is thrown upward with an initial velocity of var_A m / s. Taking g = var_B m / s², What is its maximum height in meters?",(var_A**2) / (2 * var_B),"def solution(var_A, var_B):
+    return (var_A ** 2) / (2 * var_B)","{'var_A': 20.0, 'var_B': 10.0}",False,
+A 100 W light bulb is left on for 5 hours. How much energy does it consume in kWh?,Energy Consumption,0.5,0.5,0.5,0.5,A var_A W light bulb is left on for var_B hours. How much energy does it consume in kWh?,(var_A * var_B) / 1000,"def solution(var_A, var_B):
+    return (var_A * var_B) / 1000","{'var_A': 100.0, 'var_B': 5.0}",False,
+A bipolar junction transistor has a current gain of 100. What base current generates a collector current of 10 mA?,Semiconductor Electronics,0.1,0.1,0.1,0.1,A bipolar junction transistor has a current gain of var_A What base current generates a collector current of var_B mA?,var_B / var_A,"def solution(var_A, var_B):
+    return var_B / var_A","{'var_A': 100.0, 'var_B': 10.0}",False,
+A quantum dot emits photons at 600 nm wavelength. What is its bandgap energy in electron volts?,Quantum Mechanics,2.48,2,2.066666666666667,2.0678338480000007,A quantum dot emits photons at var_A nm wavelength. What is its bandgap energy in electron volts?,1240 / var_A,"def solution(var_A):
+    h = 4.135667696e-15  # Planck's constant in eV·s
+    c = 3e10  # Speed of light in cm/s
+    wavelength = var_A * 1e-7  # Convert nm to cm
+    energy = h * c / wavelength  # Energy in eV
+    return energy",{'var_A': 600.0},False,
+"A sample of gas occupies 3 L at 27°C. At constant pressure, it is heated to 127°C. What is its new volume in liters?",Charles's Law,4.0,3.99,3.9995002498750623,3.9995002498750623,"A sample of gas occupies var_A L at var_B °C. At constant pressure, it is heated to var_C °C. What is its new volume in liters?",var_A * (var_C + 273.15) / (var_B + 273.15),"def solution(var_A, var_B, var_C):
+    return var_A * (var_C + 273.15) / (var_B + 273.15)","{'var_A': 3.0, 'var_B': 27.0, 'var_C': 127.0}",False,
+A pendulum makes 40 complete oscillations in 2 minutes. What is its frequency in Hertz?,Oscillation Frequency,0.333,20,20.0,20.0,A pendulum makes var_A complete oscillations in var_B minutes. What is its frequency in Hertz?,var_A / var_B,"def solution(var_A, var_B):
+    frequency = var_A / var_B
+    return frequency","{'var_A': 40.0, 'var_B': 2.0}",False,
+A patient's body temperature fluctuates between 36.5°C and 37.5°C. What is the temperature range in Fahrenheit?,Clinical Physiology,99.5,,,,A patient's body temperature fluctuates between var_A °C and var_B °C. What is the temperature range in Fahrenheit?,((var_B * 9/5) + 32) - ((var_A * 9/5) + 32),"def solution(var_A, var_B):
+    def celsius_to_fahrenheit(c):
+        return (c * 9/5) + 32
+    
+    return (celsius_to_fahrenheit(var_A), celsius_to_fahrenheit(var_B))","{'var_A': 36.5, 'var_B': 37.5}",True,"must be real number, not tuple"
+"A photon has a wavelength of 500 nm. What is its energy in electron volts? (h = 6.626e-34 J·s, c = 3e8 m/s, 1 eV = 1.6e-19 J)",Quantum Mechanics,2.48,,21203166.0,2.4847499999999997e-17,"A photon has a wavelength of var_A nm. What is its energy in electron volts? ( h = var_B e - var_C J·s, c = var_D e m / s, var_E eV = var_F e - var_G J )",( var_B * var_F / (var_A * 1e-9) ) - var_C,"def solution(var_A, var_B, var_C, var_D, var_E, var_F, var_G):
+    h = var_B * 10**-var_C  # Planck's constant in J·s
+    c = var_D * 10**-9      # Speed of light in m/s
+    wavelength = var_A * 10**-9  # Wavelength in meters
+    energy_joules = h * c / wavelength  # Energy in Joules
+    energy_eV = energy_joules / (var_F * 10**-var_G)  # Convert to eV
+    return energy_eV","{'var_A': 500.0, 'var_B': 6.626, 'var_C': 34.0, 'var_D': 3.0, 'var_E': 1.0, 'var_F': 1.6, 'var_G': 19.0}",False,
+A protein biomarker concentration is 25 ng/mL in diseased state. What is its concentration in μg/L?,Clinical Biochemistry,25000,,25000.0,25.0,A protein biomarker concentration is var_A ng / mL in diseased state. What is its concentration in μg / L?,var_A * 1000,"def solution(var_A):
+    return var_A * 1.0  # 1 ng/mL is equivalent to 1 μg/L",{'var_A': 25.0},False,
+An enzyme reaction rate is 0.5 μmol/min at 25°C. What is the rate in mmol/hour?,Enzyme Kinetics,0.03,0.03,0.03,0.03,An enzyme reaction rate is var_A μmol / min at var_B °C. What is the rate in mmol / hour?,(var_A / 1000) * 60,"def solution(var_A, var_B):
+    return var_A * 60 / 1000","{'var_A': 0.5, 'var_B': 25.0}",False,
+A superconductor transitions at 4.2 K and carries 50 A of current. What is its critical current density at 77 K? (Assume linear reduction),Superconductivity,919.0,916,916.6666666666666,916.6666666666667,A superconductor transitions at var_A K and carries var_B A of current. What is its critical current density at var_C K? ( Assume linear reduction ),(var_B * (var_C / var_A)),"def solution(var_A, var_B, var_C):
+    critical_current_density = (var_B / var_A) * var_C
+    return critical_current_density","{'var_A': 4.2, 'var_B': 50.0, 'var_C': 77.0}",False,
+10 moles of hydrogen gas (H2) combine with 5 moles of oxygen gas (O2) to form water (H2O). How many moles of water are produced?,Stoichiometry,5.0,,,,var_A moles of hydrogen gas ( H var_B ) combine with var_C moles of oxygen gas ( O var_D ) to form water ( H var_E O ) . How many moles of water are produced?,"2 * min(var_A, var_C / 2)","def solution(var_A, var_C):
+    return min(var_A * 2, var_C)  # 2 moles of H combine with 1 mole of O to produce 2 moles of H2O","{'var_A': 10.0, 'var_B': 2.0, 'var_C': 5.0, 'var_D': 2.0, 'var_E': 2.0}",True,"must be real number, not NoneType"
+A stock increases from $50 to $62 over one year. What is its percentage return?,Financial Returns,24.0,24,24.0,24.0,A stock increases from $ var_A to $ var_B over one year. What is its percentage return?,((var_B - var_A) / var_A) * 100,"def solution(var_A, var_B):
+    return ((var_B - var_A) / var_A) * 100","{'var_A': 50.0, 'var_B': 62.0}",False,
+A quantum well confines electrons with energy gap of 0.2 eV. What is the wavelength of emitted photon?,Quantum Optoelectronics,6.2e-06,,6200.0,6.204119850187266e-06,A quantum well confines electrons with energy gap of var_A eV. What is the wavelength of emitted photon?,(1240 / var_A),"def solution(var_A):
+    h = 6.626e-34  # Planck's constant in J*s
+    c = 3e8        # Speed of light in m/s
+    e = 1.602e-19  # Charge of an electron in Coulombs
+    energy_joules = var_A * e  # Convert eV to Joules
+    wavelength = h * c / energy_joules  # Calculate wavelength in meters
+    return wavelength",{'var_A': 0.2},False,
+A spring has a spring constant of 100 N/m. It is stretched by 0.1 m. What is the force exerted by the spring?,Hooke's Law,10.0,,-10.0,10.0,A spring has a spring constant of var_A N / m. It is stretched by var_B m. What is the force exerted by the spring?,-var_A * var_B,"def solution(var_A, var_B):
+    return var_A * var_B","{'var_A': 100.0, 'var_B': 0.1}",False,
+"The half-life of a radioactive isotope is 5 years. After 15 years, What fraction of the original isotope remains?",Radioactive Decay,0.125,0.125,0.125,0.125,"The half - life of a radioactive isotope is var_A years. After var_B years, What fraction of the original isotope remains?",(1/2)**(var_B/var_A),"def solution(var_A, var_B):
+    return 0.5 ** (var_B / var_A)","{'var_A': 5.0, 'var_B': 15.0}",False,
+"An economic production function has constant returns to scale. If labor and capital both double, by what factor does output increase?",Economic Production,2.0,2,2,2,"An economic production function has constant returns to scale. If labor and capital both double, by what factor does output increase?",2,"def solution():
+    return 2",{},False,
+"A gas occupies 2 L at 1 atm pressure. If the pressure is increased to 3 atm at constant temperature, What is the new volume in liters?",Boyle's Law,0.67,0.66,0.6666666666666666,0.6666666666666666,"A gas occupies var_A L at var_B atm pressure. If the pressure is increased to var_C atm at constant temperature, What is the new volume in liters?",var_A * var_B / var_C,"def solution(var_A, var_B, var_C):
+    return var_A * var_B / var_C","{'var_A': 2.0, 'var_B': 1.0, 'var_C': 3.0}",False,
+A medical imaging technique resolves structures 0.5 mm in size. What is its resolution in micrometers?,Medical Imaging,500,500,500.0,500.0,A medical imaging technique resolves structures var_A mm in size. What is its resolution in micrometers?,var_A * 1000,"def solution(var_A):
+    return var_A * 1000",{'var_A': 0.5},False,
+The pH of a solution is 4. What is the concentration of hydrogen ions in mol/L?,pH Calculation,0.0001,0.0001,0.0001,0.0001,The pH of a solution is var_A What is the concentration of hydrogen ions in mol / L?,10 ** (-var_A),"def solution(var_A):
+    return 10 ** (-var_A)",{'var_A': 4.0},False,
+An enzyme's catalytic rate is 250 molecules per second at 37°C. How many molecules are processed in 1 minute?,Enzyme Kinetics,15000,15000,15000.0,15000.0,An enzyme's catalytic rate is var_A molecules per second at var_B °C. How many molecules are processed in var_C minute?,var_A * 60 * var_C,"def solution(var_A, var_B, var_C):
+    return var_A * 60 * var_C","{'var_A': 250.0, 'var_B': 37.0, 'var_C': 1.0}",False,
+"An electric field of 500 V/m accelerates an electron. What is its acceleration? (electron mass = 9.1e-31 kg, electron charge = 1.6e-19 C)",Electromagnetic Dynamics,8.79e+18,,,,"An electric field of var_A V / m accelerates an electron. What is its acceleration? ( electron mass = var_B e - var_C kg, electron charge = var_D e - var_E C )",(var_A * var_D) / (var_B * e - var_C),"def solution(var_A, var_B, var_C, var_D, var_E):
+    electron_mass = var_B * 1.6e-19 - var_C  # kg
+    electron_charge = var_D * 1.6e-19 - var_E  # C
+    acceleration = electron_charge * var_A / electron_mass  # m/s^2
+    return acceleration","{'var_A': 500.0, 'var_B': 9.1, 'var_C': 31.0, 'var_D': 1.6, 'var_E': 19.0}",True,"must be real number, not NoneType"
+A cancer therapy delivers 2 Gy radiation dose per treatment. What is the total radiation exposure after 5 fractions?,Radiation Oncology,10.0,10,10.0,10.0,A cancer therapy delivers var_A Gy radiation dose per treatment. What is the total radiation exposure after var_B fractions?,var_A * var_B,"def solution(var_A, var_B):
+    return var_A * var_B","{'var_A': 2.0, 'var_B': 5.0}",False,
+A capacitor has a capacitance of 5 μF and is charged to a potential difference of 10 V. What is the charge stored in the capacitor?,Capacitance,50.0,,50.0,4.9999999999999996e-05,A capacitor has a capacitance of var_A μF and is charged to a potential difference of var_B V. What is the charge stored in the capacitor?,var_A * var_B,"def solution(var_A, var_B):
+    charge = var_A * 1e-6 * var_B
+    return charge","{'var_A': 5.0, 'var_B': 10.0}",False,
+A car accelerates from rest at a constant rate of 2 m/s^2 for 5 seconds. What is its final velocity?,Kinematics,10.0,,20.0,0.1,A car accelerates from rest at a constant rate of var_A m / s ^ var_B for var_C seconds. What is its final velocity?,var_A * var_B * var_C,"def solution(var_A, var_B, var_C):
+    acceleration = var_A / (10 ** var_B)
+    final_velocity = acceleration * var_C
+    return final_velocity","{'var_A': 2.0, 'var_B': 2.0, 'var_C': 5.0}",False,
+The frequency of a wave is 500 Hz and its wavelength is 0.7 m. What is its speed in m/s?,Wave Speed,350.0,350,350.0,350.0,The frequency of a wave is var_A Hz and its wavelength is var_B m. What is its speed in m / s?,var_A * var_B,"def solution(var_A, var_B):
+    return var_A * var_B","{'var_A': 500.0, 'var_B': 0.7}",False,
+"A bacterial population doubles every 20 minutes. Starting with 1000 cells, How many cells after 60 minutes?",Bacterial Growth,8000,,8000.0,8000.0,"A bacterial population doubles every var_A minutes. Starting with var_B cells, How many cells after var_C minutes?",var_B * (2 ** (var_C / var_A)),"def solution(var_A, var_B, var_C):
+    return var_B * (2 ** (var_C // var_A))","{'var_A': 20.0, 'var_B': 1000.0, 'var_C': 60.0}",False,
+"A 5 kg object moving at 3 m/s collides with a stationary 3 kg object. After collision, they move together. What is their final velocity?",Conservation of Momentum,1.875,1.875,1.875,1.875,"A var_A kg object moving at var_B m / s collides with a stationary var_C kg object. After collision, they move together. What is their final velocity?",(var_A * var_B) / (var_A + var_C),"def solution(var_A, var_B, var_C):
+    final_velocity = (var_A * var_B) / (var_A + var_C)
+    return final_velocity","{'var_A': 5.0, 'var_B': 3.0, 'var_C': 3.0}",False,
+A chemical buffer has a pKa of 7 and initial concentration of 0.1 M. What is its pH at 25°C?,Buffer Solution,7.0,,,,A chemical buffer has a pKa of var_A and initial concentration of var_B M. What is its pH at var_C °C?,var_A + log(var_B),"def solution(var_A, var_B, var_C):
+    import math
+    
+    # Convert temperature from Celsius to Kelvin
+    T_kelvin = var_C + 273.15
+    
+    # Calculate the pH using the Henderson-Hasselbalch equation
+    pH = var_A + math.log10(var_B)
+    
+    return pH","{'var_A': 7.0, 'var_B': 0.1, 'var_C': 25.0}",True,"must be real number, not NoneType"
+A 5 kg object is lifted 2 meters against gravity (g = 9.8 m/s²). How much potential energy does it gain in Joules?,Gravitational Potential Energy,98.0,98,98.0,98.0,A var_A kg object is lifted var_B meters against gravity ( g = var_C m / s² ) . How much potential energy does it gain in Joules?,var_A * var_C * var_B,"def solution(var_A, var_B, var_C):
+    potential_energy = var_A * var_B * var_C
+    return potential_energy","{'var_A': 5.0, 'var_B': 2.0, 'var_C': 9.8}",False,
+"The density of gold is 19.3 g/cm³. If you have a cube of gold with side length 2 cm, What is its mass in grams?",Density Calculation,154.4,154.4,154.4,154.4,"The density of gold is var_A g / cm³. If you have a cube of gold with side length var_B cm, What is its mass in grams?",var_A * (var_B ** 3),"def solution(var_A, var_B):
+    volume = var_B ** 3
+    mass = var_A * volume
+    return mass","{'var_A': 19.3, 'var_B': 2.0}",False,
+The molar mass of NaOH is 40 g/mol. Calculate the mass of 2 moles of NaOH. What is the mass?,Molar Mass,80.0,80,80.0,80.0,The molar mass of NaOH is var_A g / mol. Calculate the mass of var_B moles of NaOH. What is the mass?,var_A * var_B,"def solution(var_A, var_B):
+    mass = var_A * var_B
+    return mass","{'var_A': 40.0, 'var_B': 2.0}",False,
+A nanomaterial has a surface area of 50 m²/g. What is its specific surface area in cm²/mg?,Materials Engineering,5000,500,500.0,500.0,A nanomaterial has a surface area of var_A m² / g. What is its specific surface area in cm² / mg?,var_A * 10000 / 1000,"def solution(var_A):
+    return var_A * 10000 / 1000",{'var_A': 50.0},False,
+A 5 Ω and a 10 Ω resistor are connected in parallel. What is their equivalent resistance in ohms?,Parallel Resistance,3.33,3.33,3.333333333333333,3.333333333333333,A var_A Ω and a var_B Ω resistor are connected in parallel. What is their equivalent resistance in ohms?,1 / (1 / var_A + 1 / var_B),"def solution(var_A, var_B):
+    return 1 / (1 / var_A + 1 / var_B)","{'var_A': 5.0, 'var_B': 10.0}",False,
+"The half-life of a radioactive isotope is 5 hours. Starting with 100 grams, How many grams remain after 15 hours?",Radioactive Decay,12.5,12.5,12.5,12.5,"The half - life of a radioactive isotope is var_A hours. Starting with var_B grams, How many grams remain after var_C hours?",var_B * (0.5 ** (var_C / var_A)),"def solution(var_A, var_B, var_C):
+    remaining_grams = var_B * (0.5 ** (var_C / var_A))
+    return remaining_grams","{'var_A': 5.0, 'var_B': 100.0, 'var_C': 15.0}",False,
+An ideal gas expands from 2 L to 5 L at constant temperature of 300 K. What is the pressure change ratio?,Gas Law Thermodynamics,0.4,,120.0,0.4,An ideal gas expands from var_A L to var_B L at constant temperature of var_C K. What is the pressure change ratio?,(var_A * var_C) / var_B,"def solution(var_A, var_B, var_C):
+    P1 = var_A / var_C
+    P2 = var_B / var_C
+    return P1 / P2","{'var_A': 2.0, 'var_B': 5.0, 'var_C': 300.0}",False,
+"A radioactive isotope has a half-life of 10 days. After 30 days, What fraction of the original sample remains?",Radioactive Decay,0.125,0.125,0.125,0.125,"A radioactive isotope has a half - life of var_A days. After var_B days, What fraction of the original sample remains?",(1/2) ** (var_B / var_A),"def solution(var_A, var_B):
+    return 0.5 ** (var_B / var_A)","{'var_A': 10.0, 'var_B': 30.0}",False,
+The average kinetic energy of gas molecules at 300 K is 6.21 x 1e-21 J. What is the average kinetic energy at 600 K?,Kinetic Theory,1.242e-20,,-8.58,7.48272087e-20,The average kinetic energy of gas molecules at var_A K is var_B x var_C e - var_D J. What is the average kinetic energy at var_E K?,(var_B * var_C * (var_E / var_A) - var_D),"def solution(var_A, var_B, var_C, var_D, var_E):
+    average_kinetic_energy_A = var_B * var_C * (var_A + 273.15) * 1.38e-23  # Convert K to Celsius and calculate energy
+    average_kinetic_energy_E = var_B * var_C * (var_E + 273.15) * 1.38e-23  # Convert K to Celsius and calculate energy
+    return average_kinetic_energy_E","{'var_A': 300.0, 'var_B': 6.21, 'var_C': 1.0, 'var_D': 21.0, 'var_E': 600.0}",False,
+"A wire of length 2 m has a resistance of 10 Ω. If its length is doubled, What is its new resistance?",Resistance and Length,20.0,20,20.0,20.0,"A wire of length var_A m has a resistance of var_B Ω. If its length is doubled, What is its new resistance?",2 * var_B,"def solution(var_A, var_B):
+    new_resistance = 2 * var_B
+    return new_resistance","{'var_A': 2.0, 'var_B': 10.0}",False,
+"The specific heat capacity of water is 4.18 J/(g·°C). To raise the temperature of 100g of water by 5°C, How much energy is required in Joules?",Heat Capacity,2090.0,2090,2090.0,2090.0,"The specific heat capacity of water is var_A J / ( g·°C ) . To raise the temperature of var_B g of water by var_C °C, How much energy is required in Joules?",var_A * var_B * var_C,"def solution(var_A, var_B, var_C):
+    return var_A * var_B * var_C","{'var_A': 4.18, 'var_B': 100.0, 'var_C': 5.0}",False,
+A patient's blood glucose level increases from 90 to 140 mg/dL after a meal. What is the percentage increase in blood glucose?,Medical Diagnostics,55.6,55.55,55.55555555555556,55.55555555555556,A patient's blood glucose level increases from var_A to var_B mg / dL after a meal. What is the percentage increase in blood glucose?,((var_B - var_A) / var_A) * 100,"def solution(var_A, var_B):
+    percentage_increase = ((var_B - var_A) / var_A) * 100
+    return percentage_increase","{'var_A': 90.0, 'var_B': 140.0}",False,
+A worker is paid $15 per hour. If they work for 8 hours. What is their total pay?,Multiplication,120.0,120,120.0,120.0,A worker is paid $ var_A per hour. If they work for var_B hours. What is their total pay?,var_A * var_B,"def solution(var_A, var_B):
+    return var_A * var_B","{'var_A': 15.0, 'var_B': 8.0}",False,
+A transformer steps voltage down from 220 V to 110 V. What is the turns ratio of its primary to secondary windings?,Electrical Transformer,2.0,2,2.0,2.0,A transformer steps voltage down from var_A V to var_B V. What is the turns ratio of its primary to secondary windings?,var_A / var_B,"def solution(var_A, var_B):
+    return var_A / var_B","{'var_A': 220.0, 'var_B': 110.0}",False,
+"The de Broglie wavelength of an electron is 1 nm. If its mass is 9.1 × 10⁻³¹ kg, What is its velocity in m/s?",de Broglie Wavelength,728000.0,,6.02966e-55,7.281395769230769e-16,"The de Broglie wavelength of an electron is var_A nm. If its mass is var_B × var_C ⁻³¹ kg, What is its velocity in m / s?",(6.626e-34 / (var_A * 1e-9)) * (var_B * var_C ** -31),"def solution(var_A, var_B, var_C):
+    import scipy.constants as const
+    
+    # Convert wavelength from nm to meters
+    wavelength = var_A * 1e-9
+    
+    # Calculate mass in kg
+    mass = var_B * (10 ** -var_C)
+    
+    # Calculate velocity using de Broglie wavelength formula: v = h / (m * λ)
+    velocity = const.h / (mass * wavelength)
+    
+    return velocity","{'var_A': 1.0, 'var_B': 9.1, 'var_C': 10.0}",False,
+"A 0.1 M HCl solution has a pH of 1. If it is diluted 10 times, What is its new pH?",Dilution and pH,2.0,,,,"A var_A M HCl solution has a pH of var_B If it is diluted var_C times, What is its new pH?",var_B + log(var_C),"import math
+
+def solution(var_A, var_B, var_C):
+    # Calculate the initial concentration of H+ ions
+    initial_concentration = 10 ** (-var_B)
+    
+    # Dilute the solution var_C times
+    new_concentration = initial_concentration / var_C
+    
+    # Calculate the new pH
+    new_pH = -math.log10(new_concentration)
+    
+    return new_pH","{'var_A': 0.1, 'var_B': 1.0, 'var_C': 10.0}",True,"must be real number, not NoneType"
+A lens with focal length 10 cm forms an image 30 cm from its center. What is the object distance?,Optics Imaging,15.0,,,,A lens with focal length var_A cm forms an image var_B cm from its center. What is the object distance?,1 / var_A = 1 / object_distance + 1 / var_B,"def solution(var_A, var_B):
+    # Using the lens formula: 1/f = 1/v - 1/u
+    # Rearranging gives: u = 1/(1/f + 1/v)
+    f = var_A
+    v = var_B
+    u = 1 / (1/f + 1/v)
+    return u","{'var_A': 10.0, 'var_B': 30.0}",True,"must be real number, not NoneType"
+A sample contains 12 grams of carbon-12. How many moles of carbon are in the sample?,Mole Calculation,1.0,,0.9991673605328892,0.0,A sample contains var_A grams of carbon - var_B How many moles of carbon are in the sample?,var_A / 12.01,"def solution(var_A, var_B):
+    molar_mass_carbon = 12.01  # g/mol
+    grams_of_carbon = var_A - var_B
+    moles_of_carbon = grams_of_carbon / molar_mass_carbon
+    return moles_of_carbon","{'var_A': 12.0, 'var_B': 12.0}",False,
+A perfect blackbody radiates at 500 K. What is its peak emission wavelength? (Wien displacement constant = 2.898e-3 m·K),Thermal Radiation,5.796e-06,,0.005796,1.932e-12,A perfect blackbody radiates at var_A K. What is its peak emission wavelength? ( Wien displacement constant = var_B e - var_C m·K ),var_B / (var_A),"def solution(var_A, var_B, var_C):
+    wien_displacement_constant = var_B * 1e-9 / var_C  # Convert to meters
+    peak_wavelength = wien_displacement_constant / var_A
+    return peak_wavelength","{'var_A': 500.0, 'var_B': 2.898, 'var_C': 3.0}",False,
+A fuel cell generates 0.7 V with hydrogen and oxygen. What electrical power does it produce at 2 A current?,Electrochemistry,1.4,1.4,1.4,1.4,A fuel cell generates var_A V with hydrogen and oxygen. What electrical power does it produce at var_B A current?,var_A * var_B,"def solution(var_A, var_B):
+    power = var_A * var_B
+    return power","{'var_A': 0.7, 'var_B': 2.0}",False,
+A 2 kg mass is attached to a spring with spring constant 50 N/m. What is the period of oscillation in seconds?,Simple Harmonic Motion,1.26,1.25,1.256636,1.2566370614359172,A var_A kg mass is attached to a spring with spring constant var_B N / m. What is the period of oscillation in seconds?,2 * 3.14159 * (var_A / var_B) ** 0.5,"import math
+
+def solution(var_A, var_B):
+    return 2 * math.pi * math.sqrt(var_A / var_B)","{'var_A': 2.0, 'var_B': 50.0}",False,
+"A company's revenue grows by 5% each year. If the initial revenue is $1000, What will be the revenue after 3 years?",Compound Growth,1157.63,1157.63,1157.6250000000002,1157.6250000000002,A company's revenue grows by var_A % each year. If the initial revenue is $ var_B What will be the revenue after var_C years?,var_B * (1 + var_A / 100) ** var_C,"def solution(var_A, var_B, var_C):
+    return var_B * ((1 + var_A / 100) ** var_C)","{'var_A': 5.0, 'var_B': 1000.0, 'var_C': 3.0}",False,
+"A genetic mutation occurs in 2 out of 10,000 individuals. What is its prevalence as a percentage?",Epidemiology,0.02,0.02,0.02,0.02,A genetic mutation occurs in var_A out of var_B individuals. What is its prevalence as a percentage?,(var_A / var_B) * 100,"def solution(var_A, var_B):
+    if var_B == 0:
+        return 0
+    return (var_A / var_B) * 100","{'var_A': 2.0, 'var_B': 10000.0}",False,
+A molecular motor moves 10 nm per ATP hydrolysis. How many steps to move 1 μm?,Cellular Biomechanics,100,100,100.0,100,A molecular motor moves var_A nm per ATP hydrolysis. How many steps to move var_B μm?,(var_B * 1e3) / var_A,"def solution(var_A, var_B):
+    return int((var_B * 1e3) / var_A)","{'var_A': 10.0, 'var_B': 1.0}",False,
+A microorganism population grows logistically from 100 to 1000 cells. What is its carrying capacity? (at halfway point),Population Dynamics,500,550,550.0,550.0,A microorganism population grows logistically from var_A to var_B cells. What is its carrying capacity? ( at halfway point ),(var_A + var_B) / 2,"def solution(var_A, var_B):
+    return (var_A + var_B) / 2","{'var_A': 100.0, 'var_B': 1000.0}",False,
+"A company's profit margin is 15%. If their revenue is $1000, What is their profit?",Profit Calculation,150.0,150,150.0,150.0,A company's profit margin is var_A %. If their revenue is $ var_B What is their profit?,var_B * (var_A / 100),"def solution(var_A, var_B):
+    profit = (var_A / 100) * var_B
+    return profit","{'var_A': 15.0, 'var_B': 1000.0}",False,
+A recombinant protein has a production rate of 0.5 mg/L per hour. What is its yield after 48 hours in a 10 L bioreactor?,Biotechnology,240,240,240.0,240.0,A recombinant protein has a production rate of var_A mg / L per hour. What is its yield after var_B hours in a var_C L bioreactor?,var_A * var_B * var_C,"def solution(var_A, var_B, var_C):
+    return var_A * var_B * var_C","{'var_A': 0.5, 'var_B': 48.0, 'var_C': 10.0}",False,
+A capacitor stores 0.005 C of charge at 12 V potential difference. What is its capacitance in Farads?,Electrical Capacitance,0.000417,0,0.0004166666666666667,0.0004166666666666667,A capacitor stores var_A C of charge at var_B V potential difference. What is its capacitance in Farads?,var_A / var_B,"def solution(var_A, var_B):
+    return var_A / var_B","{'var_A': 0.005, 'var_B': 12.0}",False,
+A neurotransmitter concentration changes from 50 to 75 nM in synaptic cleft. What is its relative concentration change in percentage?,Neurochemistry,50.0,50,50.0,50.0,A neurotransmitter concentration changes from var_A to var_B nM in synaptic cleft. What is its relative concentration change in percentage?,((var_B - var_A) / var_A) * 100,"def solution(var_A, var_B):
+    return ((var_B - var_A) / var_A) * 100","{'var_A': 50.0, 'var_B': 75.0}",False,
+"A viral load decreases from 100,000 to 1,000 copies/mL after treatment. What is the log reduction?",Virology,2.0,,,,A viral load decreases from var_A to var_B copies / mL after treatment. What is the log reduction?,import math; log_reduction = math.log(var_A / var_B),"import math
+
+def solution(var_A, var_B):
+    return math.log10(var_A / var_B)","{'var_A': 100000.0, 'var_B': 1000.0}",True,"must be real number, not NoneType"
+A solution has a pH of 3. What is the concentration of H⁺ ions in mol/L? What is [H⁺]?,pH and H⁺ Concentration,0.001,0.001,0.001,0.001,A solution has a pH of var_A What is the concentration of H⁺ ions in mol / L? What is [H⁺]?,10**(-var_A),"def solution(var_A):
+    return 10 ** (-var_A)",{'var_A': 3.0},False,
+The focal length of a convex lens is 20 cm. An object is placed 30 cm from the lens. At what distance from the lens does the image form?,Lens Equation,60.0,,,,The focal length of a convex lens is var_A cm. An object is placed var_B cm from the lens. At what distance from the lens does the image form?,1 / var_focal_length - 1 / var_object_distance = 1 / var_image_distance,"def solution(var_A, var_B):
+    f = var_A  # focal length
+    u = -var_B  # object distance (negative as per sign convention)
+    v = 1 / ((1 / f) - (1 / u))  # image distance
+    return round(v, 2)","{'var_A': 20.0, 'var_B': 30.0}",True,"must be real number, not NoneType"
+A light bulb operates at 100 W and 220 V. What is the current through the bulb?,Electric Power,0.4545,0.4545,0.45454545454545453,0.45454545454545453,A light bulb operates at var_A W and var_B V. What is the current through the bulb?,var_A / var_B,"def solution(var_A, var_B):
+    return var_A / var_B","{'var_A': 100.0, 'var_B': 220.0}",False,
+A car accelerates from 0 to 20 m/s in 10 seconds. What is its acceleration in m/s²?,Acceleration,2.0,2,2.0,2.0,A car accelerates from var_A to var_B m / s in var_C seconds. What is its acceleration in m / s²?,(var_B - var_A) / var_C,"def solution(var_A, var_B, var_C):
+    return (var_B - var_A) / var_C","{'var_A': 0.0, 'var_B': 20.0, 'var_C': 10.0}",False,
+"A quantum spin-1/2 particle experiences a magnetic field of 1 Tesla. What is its Larmor precession frequency? (ℏ = 1.055e-34 J·s, electron g-factor = 2, μB = 9.274e-24 J/T)",Quantum Magnetism,176000000000.0,,0.5170894898243658,17.581042654028433,"A quantum spin - var_A / var_B particle experiences a magnetic field of var_C Tesla. What is its Larmor precession frequency? ( ℏ = var_D e - var_E J·s, electron g - factor = var_F μB = var_G e - var_H J / T )",(var_F * var_G * var_C) / (var_D * var_E),"def solution(var_A, var_B, var_C, var_D, var_E, var_F, var_G, var_H):
+    hbar = var_D * 10**-9  # Convert to J·s
+    g_factor = var_F
+    mu_B = var_G * 10**-9  # Convert to J/T
+    frequency = (g_factor * mu_B * var_C) / (hbar)
+    return frequency","{'var_A': 1.0, 'var_B': 2.0, 'var_C': 1.0, 'var_D': 1.055, 'var_E': 34.0, 'var_F': 2.0, 'var_G': 9.274, 'var_H': 24.0}",False,
+"The work function of a metal is 2.0 eV. If light of wavelength 400 nm falls on it, What is the maximum kinetic energy of ejected electrons in eV?",Photoelectric Effect,1.1,,-1.1,1.101750772,"The work function of a metal is var_A eV. If light of wavelength var_B nm falls on it, What is the maximum kinetic energy of ejected electrons in eV?",var_A - (1240 / var_B),"def solution(var_A, var_B):
+    h = 4.135667696e-15  # Planck's constant in eV·s
+    c = 3e8  # Speed of light in m/s
+    wavelength_m = var_B * 1e-9  # Convert wavelength from nm to m
+    energy_photon = h * c / wavelength_m  # Energy of the photon in eV
+    max_kinetic_energy = energy_photon - var_A  # Maximum kinetic energy in eV
+    return max_kinetic_energy","{'var_A': 2.0, 'var_B': 400.0}",False,
+"The half-life of carbon-14 is 5730 years. If a sample has 25% of its original carbon-14, How old is it in years?",Radioactive Dating,11460.0,,11460.0,-11460.0,The half - life of carbon - var_A is var_B years. If a sample has var_C % of its original carbon - var_D How old is it in years?,var_B * (math.log(var_C / 100) / math.log(0.5)),"import math
+
+def solution(var_A, var_B, var_C, var_D):
+    return -var_B * math.log(var_C / 100) / math.log(0.5)","{'var_A': 14.0, 'var_B': 5730.0, 'var_C': 25.0, 'var_D': 14.0}",False,
+A neuron fires an action potential with a duration of 2 ms. What is its frequency of firing?,Neurophysiology,500,,,,A neuron fires an action potential with a duration of var_A ms. What is its frequency of firing?,frequency = 1000 / var_A,"def solution(var_A):
+    return 1000 / var_A if var_A > 0 else 0",{'var_A': 2.0},True,"must be real number, not NoneType"
+A cylinder has a radius of 3 cm and a height of 5 cm. What is its volume in cubic cm?,Volume of Cylinder,141.3,,,,A cylinder has a radius of var_A cm and a height of var_B cm. What is its volume in cubic cm?,import math; volume = math.pi * (var_A ** 2) * var_B,"import math
+
+def solution(var_A, var_B):
+    volume = math.pi * (var_A ** 2) * var_B
+    return volume","{'var_A': 3.0, 'var_B': 5.0}",True,"must be real number, not NoneType"
+"The resistance of a circuit is 10 ohms, and the current is 2 A. What is the voltage across the circuit in volts?",Ohm's Law,20.0,20,20.0,20.0,"The resistance of a circuit is var_A ohms, and the current is var_B A. What is the voltage across the circuit in volts?",var_A * var_B,"def solution(var_A, var_B):
+    return var_A * var_B","{'var_A': 10.0, 'var_B': 2.0}",False,
+"A polymer has a molecular weight of 50,000 g/mol. How many monomers are in a chain? (Assume monomer MW = 100 g/mol)",Polymer Chemistry,500,500,500.0,500.0,A polymer has a molecular weight of var_A g / mol. How many monomers are in a chain? ( Assume monomer MW = var_B g / mol ),var_A / var_B,"def solution(var_A, var_B):
+    return var_A / var_B","{'var_A': 50000.0, 'var_B': 100.0}",False,

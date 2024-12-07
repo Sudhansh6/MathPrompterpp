@@ -1,0 +1,53 @@
+Enter the folder name: 417719_gpt-4o-mini_100
+MathPrompter
+
+Column: Predicted Answer
+Correct entries count: 79
+Total non-NA predictions count: 82
+Accuracy: 0.79
+Hallucination Rate: 0.03
+Precision: 0.9634146341463414
+
+Column: Predicted Algebraic Answer
+Correct entries count: 85
+Total non-NA predictions count: 96
+Accuracy: 0.85
+Hallucination Rate: 0.12
+Precision: 0.875
+
+Column: Predicted Python Answer
+Correct entries count: 86
+Total non-NA predictions count: 96
+Accuracy: 0.86
+Hallucination Rate: 0.1
+Precision: 0.8958333333333334
+MathPrompter++
+
+Column: Predicted Answer
+Correct entries count: 83
+Total non-NA predictions count: 85
+Accuracy: 0.83
+Hallucination Rate: 0.02
+Precision: 0.9764705882352941
+
+Column: Predicted Algebraic Answer
+Correct entries count: 89
+Total non-NA predictions count: 94
+Accuracy: 0.89
+Hallucination Rate: 0.05
+Precision: 0.9468085106382979
+
+Column: Predicted Python Answer
+Correct entries count: 89
+Total non-NA predictions count: 94
+Accuracy: 0.89
+Hallucination Rate: 0.05
+Precision: 0.9468085106382979
+Zeroshot CoT
+
+Column: Predicted Answer
+Correct entries count: 84
+Total non-NA predictions count: 100
+Accuracy: 0.84
+Hallucination Rate: 0.16
+Precision: 0.84

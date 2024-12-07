@@ -1,0 +1,526 @@
+Question,Correct Answer,Predicted Answer,Predicted Algebraic Answer,Predicted Python Answer,Generated Algebraic Template,Rough Solution,Generated Expression,Generated Python Code,Variable Mapping,Error,Error Message
+" A florist had 6 roses. If she sold 5 of them and then later picked 12 more, how many roses would she have? ",13,13,13.0,13.0,"A florist had var_A roses. If she sold var_B of them and then later picked var_C more, how many roses would she have?","1. Subtract the number of roses sold from the initial number of roses to find out how many roses the florist has left.
+2. Add the number of roses picked to the number of roses left to find out how many roses the florist has now.",var_A - var_B + var_C,"def solution(var_A, var_B, var_C):
+    return var_A - var_B + var_C","{'var_A': 6.0, 'var_B': 5.0, 'var_C': 12.0}",False,
+" George had 28 socks. If he threw away 4 old ones that didn't fit and bought 36 new ones, how many socks would he have? ",60,,,,"George had var_A socks. If he threw away var_B old ones that didn't fit and bought var_C new ones, how many socks would he have?","1. Start with the number of socks George had.
+2. Subtract the number of socks he threw away to find the number of socks he had after that.
+3. Add the number of socks he bought to find the total number of socks George has now.",D - B + C,"def solution(var_A, var_B, var_C):
+    socks = var_A
+    socks -= var_B
+    socks += var_C
+    return socks","{'var_A': 28.0, 'var_B': 4.0, 'var_C': 36.0}",True,"must be real number, not NoneType"
+" Chloe baked 7 brownies, but needed 16 total for her party. If she used 6 cups of flour on each one, how much cups of flour does she still need? ",54,,,,"Chloe baked var_A brownies, but needed var_B total for her party. If she used var_C cups of flour on each one, how much cups of flour does she still need?","1. Subtract the number of brownies Chloe baked from the total number of brownies needed to find out how many brownies she still needs.
+2. Multiply the number of brownies she still needs by the number of cups of flour she used per brownie to find out how many cups of flour she still needs.","var_A - var_B
+var_C * (var_A - var_B)","def solution(var_A, var_B, var_C):
+    remaining_brownies = var_A - var_B
+    remaining_cups = remaining_brownies * var_C
+    return remaining_cups","{'var_A': 7.0, 'var_B': 16.0, 'var_C': 6.0}",True,"must be real number, not NoneType"
+" A painter needed to paint 12 rooms in a building. Each room takes 7 hours to paint. If he already painted 5 rooms, how much longer will he take to paint the rest? ",49,,,,"A painter needed to paint var_A rooms in a building. Each room takes var_B hours to paint. If he already painted var_C rooms, how much longer will he take to paint the rest?","1. Calculate the number of rooms left to paint.
+2. Multiply the number of rooms left to paint by the number of hours it takes to paint each room to find out how many hours it will take to paint the rest.
+3. Subtract the hours it will take to paint the rest from the hours it takes to paint the initial 5 rooms.","var_A - var_C
+(var_A - var_C) * var_B
+(var_A - var_C) * var_B + var_C * var_B","def solution(var_A, var_B, var_C):
+    rooms_left = var_A - var_C
+    hours_to_paint = var_B * rooms_left
+    hours_to_paint_initial = var_B * 5
+    hours_to_paint_rest = hours_to_paint_initial - hours_to_paint
+    return hours_to_paint_rest","{'var_A': 12.0, 'var_B': 7.0, 'var_C': 5.0}",True,"must be real number, not NoneType"
+" There school's baseball team had 31 new players and 4 returning players. If the coach put them into groups with 7 players in each group, how many groups would there be? ",5,5,5.0,5.0,"There school's baseball team had var_A new players and var_B returning players. If the coach put them into groups with var_C players in each group, how many groups would there be?","1. Add the number of new players and returning players to find the total number of players.
+2. Divide the total number of players by the number of players per group to find the number of groups.",(var_A + var_B) / var_C,"def solution(var_A, var_B, var_C):
+    total_players = var_A + var_B
+    groups = total_players // var_C
+    return groups","{'var_A': 31.0, 'var_B': 4.0, 'var_C': 7.0}",False,
+ Sarah's old washing machine could only wash 5 pieces of clothing at a time. If she had to wash 43 shirts and 2 sweaters how many loads would she have to do? ,9,,2.0,46.0,Sarah's old washing machine could only wash var_A pieces of clothing at a time. If she had to wash var_B shirts and var_C sweaters how many loads would she have to do?,"1. Divide the total number of shirts by the number of shirts the washing machine can wash at a time to find out how many loads Sarah needs to do.
+2. Multiply the number of shirts by the number of sweaters to find out how many sweaters she needs to wash.",var_A // var_B + var_C,"def solution(var_A, var_B, var_C):
+    loads_for_var_A = var_A // var_A
+    loads_for_var_B = var_B
+    loads_for_var_C = var_C
+    total_loads = loads_for_var_A + loads_for_var_B + loads_for_var_C
+    return total_loads","{'var_A': 5.0, 'var_B': 43.0, 'var_C': 2.0}",True,'Code_Result'
+" At the fair Adam bought 10 tickets. After riding the ferris wheel he had 3 tickets left. If each ticket cost 9 dollars, how much money did Adam spend riding the ferris wheel? ",63,63,63.0,63.0,"At the fair Adam bought var_A tickets. After riding the ferris wheel he had var_B tickets left. If each ticket cost var_C dollars, how much money did Adam spend riding the ferris wheel?","1. Subtract the number of tickets Adam had left from the number of tickets he bought to find out how many tickets he rode the ferris wheel.
+2. Multiply the number of tickets he rode the ferris wheel by the cost of each ticket to find out how much money he spent.",(var_A - var_B) * var_C,"def solution(var_A, var_B, var_C):
+    tickets_ridden = var_A - var_B
+    money_spent = tickets_ridden * var_C
+    return money_spent","{'var_A': 10.0, 'var_B': 3.0, 'var_C': 9.0}",False,
+" Mike made 42 dollars mowing lawns over the summer. If he spent 10 dollars buying new mower blades, how many 8 dollar games could he buy with the money he had left? ",4,,,,"Mike made var_A dollars mowing lawns over the summer. If he spent var_B dollars buying new mower blades, how many var_C dollar games could he buy with the money he had left?","1. Subtract the cost of the new mower blades from the total amount of money Mike made to find out how much money he has left.
+2. Divide the amount of money left by the cost of the games to find out how many games Mike can buy.",(var_A - var_B) / var_C,"def solution(var_A, var_B):
+    money_left = var_A - var_B
+    games = money_left // var_C
+    return games","{'var_A': 42.0, 'var_B': 10.0, 'var_C': 8.0}",True,"must be real number, not NoneType"
+" At a restaurant each adult meal costs $2 and kids eat free. If a group of 9 people came in and 2 were kids, how much would it cost for the group to eat? ",14,,,,"At a restaurant each adult meal costs $ var_A and kids eat free. If a group of var_B people came in and var_C were kids, how much would it cost for the group to eat?","1. Subtract the number of kids from the total number of people to find out how many adults are at the restaurant.
+2. Multiply the number of adults by the cost of each adult meal to find out how much it would cost for the group to eat.","var_A = D - var_C
+var_A * var_A = var_B * var_B","def solution(var_A, var_B, var_C):
+    adults = var_B - var_C
+    cost = adults * var_A
+    return cost","{'var_A': 2.0, 'var_B': 9.0, 'var_C': 2.0}",True,"must be real number, not NoneType"
+" John made 6 dollars mowing lawns and 18 dollars weed eating. If he only spent 3 dollar a week, how long would the money last him? ",8,8,8.0,8.0,"John made var_A dollars mowing lawns and var_B dollars weed eating. If he only spent var_C dollar a week, how long would the money last him?","1. Add the amount of money John made from mowing lawns and weed eating to find the total amount of money he made.
+2. Divide the total amount of money by the amount he spent per week to find out how many weeks the money will last.",(var_A + var_B) / var_C,"def solution(var_A, var_B, var_C):
+    total_money = var_A + var_B
+    weeks_last = total_money / var_C
+    return weeks_last","{'var_A': 6.0, 'var_B': 18.0, 'var_C': 3.0}",False,
+" Luke made 9 dollars mowing lawns and 18 dollars weed eating. If he only spent 3 dollar a week, how long would the money last him? ",9,9,9.0,9.0,"Luke made var_A dollars mowing lawns and var_B dollars weed eating. If he only spent var_C dollar a week, how long would the money last him?","1. Add the amount of money Luke made from mowing lawns and weed eating to find the total amount of money he made.
+2. Divide the total amount of money by the amount he spent per week to find out how many weeks the money will last.",(var_A + var_B) / var_C,"def solution(var_A, var_B, var_C):
+    total_money = var_A + var_B
+    weeks_last = total_money / var_C
+    return weeks_last","{'var_A': 9.0, 'var_B': 18.0, 'var_C': 3.0}",False,
+ Emily was planting vegetables in her garden. She started with 41 seeds and planted 29 of them in the big garden and in each of her small gardens put 4 seeds each. How many small gardens did Emily have? ,3,,1.2424242424242424,66.0,Emily was planting vegetables in her garden. She started with var_A seeds and planted var_B of them in the big garden and in each of her small gardens put var_C seeds each. How many small gardens did Emily have?,"1. Divide the total number of seeds by the number of seeds planted in the big garden to find the number of seeds planted in the small gardens.
+2. Subtract the number of seeds planted in the small gardens from the total number of seeds to find the number of seeds planted in the big garden.",var_A / (var_B + var_C),"def solution(var_A, var_B, var_C):
+    total_seeds = var_A + var_B
+    seeds_in_big_garden = total_seeds - var_C
+    return seeds_in_big_garden","{'var_A': 41.0, 'var_B': 29.0, 'var_C': 4.0}",True,'Code_Result'
+" A worksheet had 2 problems on it. If a teacher had 14 worksheets to grade and had already graded 7 of them, how many more problems does she have to grade? ",14,,,,"A worksheet had var_A problems on it. If a teacher had var_B worksheets to grade and had already graded var_C of them, how many more problems does she have to grade?","1. Subtract the number of problems already graded from the total number of problems to find out how many problems the teacher has to grade.
+2. Divide the number of problems to be graded by the number of problems already graded to find out how many more problems the teacher has to grade.",(D - E) / (E - C),"def solution(var_A, var_B, var_C):
+    problems_to_grade = var_A - var_B
+    problems_to_grade += (var_B / var_B)
+    return problems_to_grade","{'var_A': 2.0, 'var_B': 14.0, 'var_C': 7.0}",True,"must be real number, not NoneType"
+" A waiter at 'The Greasy Spoon' restaurant had 29 customers to wait on. During the lunch rush he added another 20 customers. If 34 of the customers didn't leave him a tip, how many customers did leave a tip? ",15,,,,"A waiter at 'The Greasy Spoon' restaurant had var_A customers to wait on. During the lunch rush he added another var_B customers. If var_C of the customers didn't leave him a tip, how many customers did leave a tip?","1. Add the number of customers who came in during the lunch rush to the number of customers who came in normally.
+2. Subtract the number of customers who didn't leave a tip from the total number of customers to find out how many customers did leave a tip.",var_A + var_B - var_C,"def solution(var_A, var_B):
+    total_customers = var_A + var_B
+    customers_left_tip = total_customers - var_C
+    return customers_left_tip","{'var_A': 29.0, 'var_B': 20.0, 'var_C': 34.0}",True,"must be real number, not NoneType"
+" The school cafeteria ordered 37 red apples and 45 green apples for students lunches. But, if only 51 students wanted fruit, how many extra did the cafeteria end up with? ",31,,-14.0,-8.0,"The school cafeteria ordered var_A red apples and var_B green apples for students lunches. But, if only var_C students wanted fruit, how many extra did the cafeteria end up with?",1. Subtract the number of students who wanted fruit from the total number of apples ordered to find out how many extra apples the cafeteria had.,(var_A - var_C),"def solution(var_A, var_B, var_C):
+    extra_apples = var_A - var_B
+    return extra_apples","{'var_A': 37.0, 'var_B': 45.0, 'var_C': 51.0}",True,'Code_Result'
+" Luke was putting his spare change into piles. He had 5 piles of quarters and 5 piles of dimes. If each pile had 3 coins in it, how many coins did he have total? ",30,30,30.0,30.0,"Luke was putting his spare change into piles. He had var_A piles of quarters and var_B piles of dimes. If each pile had var_C coins in it, how many coins did he have total?","1. Multiply the number of piles of quarters by the number of coins in each pile to find the total number of quarters.
+2. Multiply the number of piles of dimes by the number of coins in each pile to find the total number of dimes.
+3. Add the total number of quarters and dimes to find the total number of coins.",var_A * var_C + var_B * var_C,"def solution(var_A, var_B, var_C):
+    quarters = var_A * var_C
+    dimes = var_B * var_C
+    total_coins = quarters + dimes
+    return total_coins","{'var_A': 5.0, 'var_B': 5.0, 'var_C': 3.0}",False,
+" Megan's class is going on a field trip to the zoo. If each van can hold 5 people and there are 25 students and 5 adults going, how many vans will they need? ",6,,0.0,-15.0,"Megan's class is going on a field trip to the zoo. If each van can hold var_A people and there are var_B students and var_C adults going, how many vans will they need?","1. Divide the total number of students by the number of students per van to find out how many vans are needed.
+2. Subtract the number of adults from the total number of students to find out how many vans are needed for the students.",var_A // (var_B - var_C),"def solution(var_A, var_B, var_C):
+    vans_needed = var_B // var_A
+    vans_needed = vans_needed + var_C - var_B
+    return vans_needed","{'var_A': 5.0, 'var_B': 25.0, 'var_C': 5.0}",True,'Code_Result'
+" A worksheet had 3 problems on it. If a teacher had 15 worksheets to grade and had already graded 7 of them, how many more problems does she have to grade? ",24,,,,"A worksheet had var_A problems on it. If a teacher had var_B worksheets to grade and had already graded var_C of them, how many more problems does she have to grade?","1. Subtract the number of problems already graded from the total number of problems to find out how many problems the teacher has to grade.
+2. Divide the number of problems to be graded by the number of problems already graded to find out how many more problems the teacher has to grade.",(D - E) / (E - C),"def solution(var_A, var_B, var_C):
+    problems_to_grade = var_A - var_B
+    problems_to_grade += (var_B / var_B)
+    return problems_to_grade","{'var_A': 3.0, 'var_B': 15.0, 'var_C': 7.0}",True,"must be real number, not NoneType"
+" The cafeteria had 50 apples. For lunch they handed out 5 to students and decided to use the rest to make pies. If each pie takes 5 apples, how many pies could they make? ",9,9,9.0,9.0,"The cafeteria had var_A apples. For lunch they handed out var_B to students and decided to use the rest to make pies. If each pie takes var_C apples, how many pies could they make?","1. Subtract the number of apples handed out to students from the total number of apples to find out how many apples are left.
+2. Divide the number of apples left by the number of apples each pie takes to find out how many pies they could make.",(var_A - var_B) / var_C,"def solution(var_A, var_B, var_C):
+    apples_left = var_A - var_B
+    pies = apples_left / var_C
+    return pies","{'var_A': 50.0, 'var_B': 5.0, 'var_C': 5.0}",False,
+" Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",31,43,43.0,43.0,"Nancy picked var_A carrots from her garden. If she threw out var_B of them and then picked var_C more the next day, how many carrots would she have total?","1. Subtract the number of carrots Nancy threw out from the total number of carrots she picked to find out how many carrots she has left.
+2. Add the number of carrots Nancy picked the next day to the number of carrots she has left.",(var_A - var_B) + (var_A + var_C),"def solution(var_A, var_B, var_C):
+    carrots_left = var_A - var_B
+    carrots_next_day = var_A + var_C
+    total_carrots = carrots_left + carrots_next_day
+    return total_carrots","{'var_A': 12.0, 'var_B': 2.0, 'var_C': 21.0}",False,
+" There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",24,24,24.0,24.0,"There were var_A friends playing a video game online when var_B more players joined the game. If each player had var_C lives, how many lives did they have total?","1. Add the number of players who joined to the number of players who were already playing to find the total number of players.
+2. Multiply the total number of players by the number of lives each player had to find the total number of lives.",(var_A + var_B) * var_C,"def solution(var_A, var_B, var_C):
+    total_players = var_A + var_B
+    total_lives = total_players * var_C
+    return total_lives","{'var_A': 2.0, 'var_B': 2.0, 'var_C': 6.0}",False,
+" Tom had 5 books. If he sold 4 of them and used the money he earned to buy 38 new books, how many books would Tom have? ",39,39,39.0,39.0,"Tom had var_A books. If he sold var_B of them and used the money he earned to buy var_C new books, how many books would Tom have?","1. Subtract the number of books Tom sold from the total number of books he had to find out how many books he still has.
+2. Add the number of new books Tom bought to the number of books he still has to find out how many books Tom has now.",(var_A - var_B) + var_C,"def solution(var_A, var_B, var_C):
+    return var_A - var_B + var_C","{'var_A': 5.0, 'var_B': 4.0, 'var_C': 38.0}",False,
+" Rachel was organizing her book case making sure each of the shelves had exactly 9 books on it. If she had 6 shelves of mystery books and 2 shelves of picture books, how many books did she have total? ",72,,58.0,27.0,"Rachel was organizing her book case making sure each of the shelves had exactly var_A books on it. If she had var_B shelves of mystery books and var_C shelves of picture books, how many books did she have total?","1. Multiply the number of shelves of mystery books by the number of books on each shelf to find the total number of mystery books.
+2. Multiply the number of shelves of picture books by the number of books on each shelf to find the total number of picture books.",var_A * var_B + var_C * var_C,"def solution(var_A, var_B, var_C):
+    return var_A * 1 + var_B * 2 + var_C * 3","{'var_A': 9.0, 'var_B': 6.0, 'var_C': 2.0}",True,'Code_Result'
+" Haley baked 20 cupcakes for her school's bake sale. If her brother, Todd, ate 11 of them how many packages could she make if she put 3 cupcake in each package? ",3,,3.0,18.0,"Haley baked var_A cupcakes for her school's bake sale. If her brother, Todd, ate var_B of them how many packages could she make if she put var_C cupcake in each package?","1. Divide the number of cupcakes Haley baked by the number of cupcakes per package to find out how many packages she could make.
+2. Multiply the number of packages by 3 to find out how many cupcakes she could sell.",(var_A // var_B) * 3,"def solution(var_A, var_B, var_C):
+    packages = var_A // var_C
+    cupcakes_sold = packages * 3
+    return cupcakes_sold","{'var_A': 20.0, 'var_B': 11.0, 'var_C': 3.0}",True,'Code_Result'
+" Bianca had 45 coloring books. If she gave away 6 of them, but then bought 20 more, how many would she have total? ",59,59,59.0,59.0,"Bianca had var_A coloring books. If she gave away var_B of them, but then bought var_C more, how many would she have total?","1. Subtract the number of books Bianca gave away from the original number to find out how many she had left.
+2. Add the number of books she bought to the number she had left to find out how many she has now.",(var_A - var_B) + var_C,"def solution(var_A, var_B, var_C):
+    Bianca_has_left = var_A - var_B
+    Bianca_has_now = Bianca_has_left + var_C
+    return Bianca_has_now","{'var_A': 45.0, 'var_B': 6.0, 'var_C': 20.0}",False,
+" Dave bought 12 boxes of chocolate candy and gave 5 to his little brother. If each box has 3 pieces inside it, how many pieces did Dave still have? ",21,31,31.0,31.0,"Dave bought var_A boxes of chocolate candy and gave var_B to his little brother. If each box has var_C pieces inside it, how many pieces did Dave still have?","1. Multiply the number of boxes by the number of pieces in each box to find the total number of pieces.
+2. Subtract the number of pieces given to the little brother from the total number of pieces to find out how many pieces Dave still has.",var_A * var_C - var_B,"def solution(var_A, var_B, var_C):
+    total_pieces = var_A * var_C
+    Dave_has = total_pieces - var_B
+    return Dave_has","{'var_A': 12.0, 'var_B': 5.0, 'var_C': 3.0}",False,
+" Gwen was organizing her book case making sure each of the shelves had exactly 9 books on it. If she had 3 shelves of mystery books and 5 shelves of picture books, how many books did she have total? ",72,,52.0,42.0,"Gwen was organizing her book case making sure each of the shelves had exactly var_A books on it. If she had var_B shelves of mystery books and var_C shelves of picture books, how many books did she have total?","1. Multiply the number of shelves of mystery books by the number of books on each shelf to find the total number of mystery books.
+2. Multiply the number of shelves of picture books by the number of books on each shelf to find the total number of picture books.",var_A * var_B + var_C * var_C,"def solution(var_A, var_B, var_C):
+    mystery_books = var_A * var_B
+    picture_books = var_C * var_B
+    total_books = mystery_books + picture_books
+    return total_books","{'var_A': 9.0, 'var_B': 3.0, 'var_C': 5.0}",True,'Code_Result'
+ A pet store had 41 siamese cats and 28 house cats. During a sale they sold 15 cats. How many cats do they have left? ,54,54,54.0,54.0,A pet store had var_A siamese cats and var_B house cats. During a sale they sold var_C cats. How many cats do they have left?,"1. Subtract the number of cats sold from the total number of cats to find out how many cats are left.
+2. Add the number of cats sold to the number of cats left to find the total number of cats.",var_A - var_C + var_B,"def solution(var_A, var_B, var_C):
+    cats_left = var_A - var_C
+    cats_sold = var_B
+    cats_left += cats_sold
+    return cats_left","{'var_A': 41.0, 'var_B': 28.0, 'var_C': 15.0}",False,
+" Sam was collecting cans for recycling. On Saturday he filled 3 bags up and on Sunday he filled 4 more bags. If each bag had 9 cans in it, how many cans did he pick up total? ",63,63,63.0,63.0,"Sam was collecting cans for recycling. On Saturday he filled var_A bags up and on Sunday he filled var_B more bags. If each bag had var_C cans in it, how many cans did he pick up total?","1. Multiply the number of bags filled on Saturday by the number of cans in each bag to find the total number of cans.
+2. Multiply the number of bags filled on Sunday by the number of cans in each bag to find the total number of cans.
+3. Add the two totals to find the total number of cans Sam picked up.",var_A * var_C + var_B * var_C,"def solution(var_A, var_B, var_C):
+    total_cans = var_A * var_C + var_B * var_C
+    return total_cans","{'var_A': 3.0, 'var_B': 4.0, 'var_C': 9.0}",False,
+" Janet was playing a video game and had 38 lives. In a hard part of the game she lost 16 lives. If she got 32 more lives in the next level, how many lives would she have? ",54,,48.0,54.0,"Janet was playing a video game and had var_A lives. In a hard part of the game she lost var_B lives. If she got var_C more lives in the next level, how many lives would she have?","1. Subtract the number of lives Janet lost from the initial number of lives to find out how many lives she has left.
+2. Add the number of lives she gained to the number of lives she has left to find out how many lives she has now.",var_C - var_B + var_C,"def solution(var_A, var_B, var_C):
+    lives_left = var_A - var_B
+    lives_now = lives_left + var_C
+    return lives_now","{'var_A': 38.0, 'var_B': 16.0, 'var_C': 32.0}",True,'Code_Result'
+ Lana was unboxing some of her old winter clothes. She found 4 boxes of clothing and inside each box there were 2 scarves and 6 mittens. How many pieces of winter clothing did Lana have total? ,32,,20.0,32.0,Lana was unboxing some of her old winter clothes. She found var_A boxes of clothing and inside each box there were var_B scarves and var_C mittens. How many pieces of winter clothing did Lana have total?,"1. Multiply the number of boxes by the number of scarves in each box to find the total number of scarves.
+2. Multiply the number of boxes by the number of mittens in each box to find the total number of mittens.
+3. Add the total number of scarves and mittens to find the total number of winter clothing.",var_A * var_B + var_B * var_C,"def solution(var_A, var_B, var_C):
+    return var_A * var_B + var_A * var_C","{'var_A': 4.0, 'var_B': 2.0, 'var_C': 6.0}",True,'Code_Result'
+" A chef needs to cook 16 potatoes. He has already cooked 7. If each potato takes 5 minutes to cook, how long will it take him to cook the rest? ",45,45,45.0,45.0,"A chef needs to cook var_A potatoes. He has already cooked var_B If each potato takes var_C minutes to cook, how long will it take him to cook the rest?","1. Subtract the number of potatoes already cooked from the total to find out how many potatoes are left.
+2. Multiply the number of potatoes left by the time each potato takes to cook to find out how long it will take to cook the rest.",(var_A - var_B) * var_C,"def solution(var_A, var_B, var_C):
+    potatoes_left = var_A - var_B
+    cooking_time = potatoes_left * var_C
+    return cooking_time","{'var_A': 16.0, 'var_B': 7.0, 'var_C': 5.0}",False,
+" Oliver had 33 dollars in January. By March he had spent 4 dollars. If he got another 32 dollars from his mom, how much money would he have? ",61,61,61.0,61.0,"Oliver had var_A dollars in January. By March he had spent var_B dollars. If he got another var_C dollars from his mom, how much money would he have?","1. Subtract the amount spent from the initial amount to find the remaining amount.
+2. Add the amount received from his mom to the remaining amount to find the total amount Oliver has now.",var_A - var_B + var_C,"def solution(var_A, var_B, var_C):
+    remaining = var_A - var_B
+    total = remaining + var_C
+    return total","{'var_A': 33.0, 'var_B': 4.0, 'var_C': 32.0}",False,
+" Edward earned 4 dollars for each lawn he mowed. If he had 17 lawns to mow, but forgot to mow 9 of them, how much money did he actually earn? ",32,,-85.0,-52.0,"Edward earned var_A dollars for each lawn he mowed. If he had var_B lawns to mow, but forgot to mow var_C of them, how much money did he actually earn?","1. Subtract the number of lawns mowed that were forgotten from the total number of lawns to find out how many were actually mowed.
+2. Multiply the number of lawns mowed by the amount earned per lawn to find out how much money Edward actually earned.",(var_A - var_C) * var_B,"def solution(var_A, var_B, var_C):
+    actual_earnings = var_A - var_B
+    actual_earnings *= var_A
+    return actual_earnings","{'var_A': 4.0, 'var_B': 17.0, 'var_C': 9.0}",True,'Code_Result'
+" A worksheet had 4 problems on it. If a teacher had 9 worksheets to grade and had already graded 5 of them, how many more problems does she have to grade? ",16,,,,"A worksheet had var_A problems on it. If a teacher had var_B worksheets to grade and had already graded var_C of them, how many more problems does she have to grade?","1. Subtract the number of problems already graded from the total number of problems to find out how many problems are left.
+2. Divide the number of problems left by the number of worksheets the teacher has to grade to find out how many worksheets she has to grade.",(D - E) / (B - C),"def solution(var_A, var_B, var_C):
+    problems_left = var_A - var_B
+    problems_to_grade = problems_left / var_B
+    return problems_to_grade","{'var_A': 4.0, 'var_B': 9.0, 'var_C': 5.0}",True,"must be real number, not NoneType"
+" A trivia team had 9 members total, but during a game 3 members didn't show up. If each member that did show up scored 2 points, how many points were scored total? ",12,,,,"A trivia team had var_A members total, but during a game var_B members didn't show up. If each member that did show up scored var_C points, how many points were scored total?","1. Subtract the number of members who didn't show up from the total number of members to find out how many members showed up.
+2. Multiply the number of members who showed up by the points each member scored to find out how many points were scored.",(D - B) * C,"def solution(var_A, var_B, var_C):
+    points = var_A - var_B
+    points *= var_C
+    return points","{'var_A': 9.0, 'var_B': 3.0, 'var_C': 2.0}",True,"must be real number, not NoneType"
+" Ned was trying to expand his game collection. He bought 11 games from a friend and bought 22 more at a garage sale. If 19 of the games didn't work, how many good games did he end up with? ",14,14,14.0,14.0,"Ned was trying to expand his game collection. He bought var_A games from a friend and bought var_B more at a garage sale. If var_C of the games didn't work, how many good games did he end up with?","1. Subtract the number of games that didn't work from the total number of games Ned bought to find out how many good games he has.
+2. Add the number of games Ned bought at the garage sale to the number of good games he has to find out how many good games he has now.",var_A - var_C + var_B,"def solution(var_A, var_B, var_C):
+    good_games = var_A + var_B - var_C
+    total_games = var_A + var_B
+    return good_games","{'var_A': 11.0, 'var_B': 22.0, 'var_C': 19.0}",False,
+" Jerry was helping the cafeteria workers pick up lunch trays, but he could only carry 8 trays at a time. If he had to pick up 9 trays from one table and 7 trays from another, how many trips will he make? ",2,,0.0,4.0,"Jerry was helping the cafeteria workers pick up lunch trays, but he could only carry var_A trays at a time. If he had to pick up var_B trays from one table and var_C trays from another, how many trips will he make?","1. Divide the total number of trays by the number of trays Jerry can carry at a time to find out how many trips he needs to make.
+2. Multiply the number of trips by 2 to account for the trips to pick up trays from the other tables.",var_A // var_B * var_C,"def solution(var_A, var_B, var_C):
+    trips = var_A // var_C + var_B // var_C
+    return trips * 2","{'var_A': 8.0, 'var_B': 9.0, 'var_C': 7.0}",True,'Code_Result'
+ Kaleb was selling his old games. He started out with 76 but sold 46 of them. He packed the rest up putting 5 games into each box. How many boxes did he have to use? ,6,,,,Kaleb was selling his old games. He started out with var_A but sold var_B of them. He packed the rest up putting var_C games into each box. How many boxes did he have to use?,"1. Subtract the number of games Kaleb sold from the total number of games to find out how many games he has left.
+2. Divide the number of games left by the number of games per box to find out how many boxes Kaleb needs.",(D - B) / C,"def solution(var_A, var_B, var_C):
+    remaining_games = var_A - var_B
+    boxes_needed = remaining_games / var_C
+    return int(boxes_needed)","{'var_A': 76.0, 'var_B': 46.0, 'var_C': 5.0}",True,"must be real number, not NoneType"
+" There were 2 friends playing a video game online when 2 more players joined the game. If each player had 3 lives, how many lives did they have total? ",12,12,12.0,12.0,"There were var_A friends playing a video game online when var_B more players joined the game. If each player had var_C lives, how many lives did they have total?","1. Add the number of players who joined to the number of players who were already playing to find the total number of players.
+2. Multiply the total number of players by the number of lives each player had to find the total number of lives.",(var_A + var_B) * var_C,"def solution(var_A, var_B, var_C):
+    total_players = var_A + var_B
+    total_lives = total_players * var_C
+    return total_lives","{'var_A': 2.0, 'var_B': 2.0, 'var_C': 3.0}",False,
+" Vanessa and her mom were picking carrots from their garden. Vanessa picked 17 and her mother picked 14. If only 24 of the carrots were good, how many bad carrots did they have? ",7,7,7.0,7.0,"Vanessa and her mom were picking carrots from their garden. Vanessa picked var_A and her mother picked var_B If only var_C of the carrots were good, how many bad carrots did they have?","1. Add the number of carrots picked by Vanessa and her mom.
+2. Subtract the number of good carrots from the total to find the number of bad carrots.",(var_A + var_B) - var_C,"def solution(var_A, var_B, var_C):
+    total = var_A + var_B
+    bad = total - var_C
+    return bad","{'var_A': 17.0, 'var_B': 14.0, 'var_C': 24.0}",False,
+" A pet store has 6 bird cages. If each cage has 2 parrots and 7 parakeets in it, how many birds does the pet store have total? ",54,,26.0,96.0,"A pet store has var_A bird cages. If each cage has var_B parrots and var_C parakeets in it, how many birds does the pet store have total?","1. Multiply the number of bird cages by the number of parrots in each cage to find the total number of parrots.
+2. Multiply the total number of parrots by the number of parakeets in each cage to find the total number of parakeets.
+3. Add the total number of parrots and parakeets to find the total number of birds.",var_A * var_B + var_B * var_C,"def solution(var_A, var_B, var_C):
+    parrots = var_A * var_B
+    parakeets = parrots * var_C
+    total_birds = parrots + parakeets
+    return total_birds","{'var_A': 6.0, 'var_B': 2.0, 'var_C': 7.0}",True,'Code_Result'
+" Frank was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 3 more bags. If each bag had 5 cans in it, how many cans did he pick up total? ",40,40,40.0,40.0,"Frank was collecting cans for recycling. On Saturday he filled var_A bags up and on Sunday he filled var_B more bags. If each bag had var_C cans in it, how many cans did he pick up total?","1. Multiply the number of bags filled on Saturday by the number of cans in each bag to find the total number of cans.
+2. Multiply the number of bags filled on Sunday by the number of cans in each bag to find the total number of cans.",var_A * var_C + var_B * var_C,"def solution(var_A, var_B, var_C):
+    total_cans = var_A * var_C + var_B * var_C
+    return total_cans","{'var_A': 5.0, 'var_B': 3.0, 'var_C': 5.0}",False,
+" Haley was playing a video game and had 14 lives. In a hard part of the game she lost 4 lives. If she got 36 more lives in the next level, how many lives would she have? ",46,46,46.0,46.0,"Haley was playing a video game and had var_A lives. In a hard part of the game she lost var_B lives. If she got var_C more lives in the next level, how many lives would she have?","1. Start with the number of lives Haley had initially.
+2. Subtract the number of lives she lost to find out how many lives she had left.
+3. Add the number of lives she got in the next level to find out how many lives she has now.",var_A - var_B + var_C,"def solution(var_A, var_B, var_C):
+    lives_left = var_A - var_B
+    lives_now = lives_left + var_C
+    return lives_now","{'var_A': 14.0, 'var_B': 4.0, 'var_C': 36.0}",False,
+" A waiter had 7 tables he was waiting on, with 7 women and 2 men at each table. How many customers total did the waiter have? ",63,,77.0,63.0,"A waiter had var_A tables he was waiting on, with var_B women and var_C men at each table. How many customers total did the waiter have?","1. Multiply the number of tables by the number of women at each table to find the total number of women.
+2. Multiply the number of tables by the number of men at each table to find the total number of men.
+3. Add the total number of women and men to find the total number of customers.",var_A * var_B + var_C * var_A + var_C * var_B,"def solution(var_A, var_B, var_C):
+    total_women = var_A * var_B
+    total_men = var_A * var_C
+    total_customers = total_women + total_men
+    return total_customers","{'var_A': 7.0, 'var_B': 7.0, 'var_C': 2.0}",True,'Code_Result'
+" Edward made 37 dollars mowing lawns over the summer. If he spent 21 dollars buying new mower blades, how many 2 dollar games could he buy with the money he had left? ",8,,,,"Edward made var_A dollars mowing lawns over the summer. If he spent var_B dollars buying new mower blades, how many var_C dollar games could he buy with the money he had left?","1. Subtract the cost of the new mower blades from the total amount of money Edward made to find out how much money he has left.
+2. Divide the amount of money he has left by the cost of each game to find out how many games he can buy.",(var_A - var_B) / var_C,"def solution(var_A, var_B):
+    money_left = var_A - var_B
+    games = money_left // var_C
+    return games","{'var_A': 37.0, 'var_B': 21.0, 'var_C': 2.0}",True,"must be real number, not NoneType"
+" Jerry had 60 pieces of clothing to wash. He put 40 of them in one load, but decided to split the rest into 5 equal loads. How many pieces of clothing could go in each of the small loads? ",4,,,,"Jerry had var_A pieces of clothing to wash. He put var_B of them in one load, but decided to split the rest into var_C equal loads. How many pieces of clothing could go in each of the small loads?","1. Divide the total number of clothing pieces by the number of loads to find out how many pieces will go in each small load.
+2. Divide the result by 5 to find out how many pieces will go in each small load.",(var_A // (var_B / 5)),"def solution(var_A, var_B):
+    return var_B // 5","{'var_A': 60.0, 'var_B': 40.0, 'var_C': 5.0}",True,"must be real number, not NoneType"
+" There were 8 friends playing a video game online when 3 players quit. If each player left had 3 lives, how many lives did they have total? ",15,15,15.0,15.0,"There were var_A friends playing a video game online when var_B players quit. If each player left had var_C lives, how many lives did they have total?","1. Subtract the number of players who quit from the total number of players to find out how many players are left.
+2. Multiply the number of players left by the number of lives each player had to find out how many lives they had total.",(var_A - var_B) * var_C,"def solution(var_A, var_B, var_C):
+    lives_left = var_A - var_B
+    total_lives = lives_left * var_C
+    return total_lives","{'var_A': 8.0, 'var_B': 3.0, 'var_C': 3.0}",False,
+ A pet store had 102 puppies. In one day they sold 21 of them and put the rest into cages with 9 in each cage. How many cages did they use? ,9,,9.0,9,A pet store had var_A puppies. In one day they sold var_B of them and put the rest into cages with var_C in each cage. How many cages did they use?,"1. Subtract the number of puppies sold from the total number of puppies to find out how many puppies were left.
+2. Divide the number of puppies left by the number of puppies per cage to find out how many cages were used.",(var_A - var_B) / var_C,"def solution(var_A, var_B, var_C):
+    puppies_left = var_A - var_B
+    cages_used = puppies_left / var_C
+    return int(cages_used)","{'var_A': 102.0, 'var_B': 21.0, 'var_C': 9.0}",True,'Code_Result'
+" At the arcade Jerry won 4 tickets. If he spent 2 tickets on a beanie and later won 47 more tickets, how many would he have? ",49,,90.0,49.0,"At the arcade Jerry won var_A tickets. If he spent var_B tickets on a beanie and later won var_C more tickets, how many would he have?","1. Subtract the number of tickets Jerry initially won from the total number of tickets to find out how many tickets he has now.
+2. Add the number of tickets Jerry won later to the number of tickets he has now to find out how many tickets he has now.",var_C - var_A + var_C,"def solution(var_A, var_B, var_C):
+    tickets_now = var_A - var_B
+    tickets_later = var_B + var_C
+    tickets_now = tickets_now + var_C
+    return tickets_now","{'var_A': 4.0, 'var_B': 2.0, 'var_C': 47.0}",True,'Code_Result'
+" Luke had 48 dollars in January. By March he had spent 11 dollars. If he got another 21 dollars from his mom, how much money would he have? ",58,58,58.0,58.0,"Luke had var_A dollars in January. By March he had spent var_B dollars. If he got another var_C dollars from his mom, how much money would he have?","1. Subtract the amount spent from the initial amount to find the remaining amount.
+2. Add the amount received from his mom to the remaining amount to find the total amount Luke has now.",(var_A - var_B) + var_C,"def solution(var_A, var_B, var_C):
+    remaining = var_A - var_B
+    total = remaining + var_C
+    return total","{'var_A': 48.0, 'var_B': 11.0, 'var_C': 21.0}",False,
+" Kaleb started his own lawn mowing business. In the spring he made 4 dollars mowing lawns and in the summer he made 50 dollars. If he had to spend 4 dollars buying supplies, how much money did he end up with? ",50,50,50.0,50.0,"Kaleb started his own lawn mowing business. In the spring he made var_A dollars mowing lawns and in the summer he made var_B dollars. If he had to spend var_C dollars buying supplies, how much money did he end up with?","1. Add the amount of money Kaleb made in the spring and summer to find the total amount of money he made.
+2. Subtract the amount he spent on supplies from the total amount of money he made to find out how much money he ended up with.",var_A + var_B - var_C,"def solution(var_A, var_B, var_C):
+    total = var_A + var_B
+    money_left = total - var_C
+    return money_left","{'var_A': 4.0, 'var_B': 50.0, 'var_C': 4.0}",False,
+" Amy had 4 music files and 21 video files on her flash drive. If she deleted 23 of the files, how many files were still on her flash drive? ",2,,2.0,27.0,"Amy had var_A music files and var_B video files on her flash drive. If she deleted var_C of the files, how many files were still on her flash drive?","1. Subtract the number of files deleted from the total number of files to find out how many files are still on the flash drive.
+2. Add the number of files deleted to the number of files still on the flash drive to find the total number of files still on the flash drive.",var_A - var_C + var_B,"def solution(var_A, var_B, var_C):
+    files_still = var_A + var_B
+    files_deleted = var_A + var_B - var_C
+    total_files = files_still + files_deleted
+    return total_files","{'var_A': 4.0, 'var_B': 21.0, 'var_C': 23.0}",True,'Code_Result'
+" At the town carnival Oliver rode the ferris wheel 5 times and the bumper cars 4 times. If each ride cost 7 tickets, how many tickets did he use? ",63,63,63.0,63.0,"At the town carnival Oliver rode the ferris wheel var_A times and the bumper cars var_B times. If each ride cost var_C tickets, how many tickets did he use?","1. Multiply the number of times Oliver rode the ferris wheel by the number of tickets per ride to find out how many tickets he used for the ferris wheel.
+2. Multiply the number of times Oliver rode the bumper cars by the number of tickets per ride to find out how many tickets he used for the bumper cars.",var_A * var_C + var_B * var_C,"def solution(var_A, var_B, var_C):
+    return var_A * var_C + var_B * var_C","{'var_A': 5.0, 'var_B': 4.0, 'var_C': 7.0}",False,
+" Wendy uploaded 22 pictures from her phone and 2 from her camera to facebook. If she sorted the pics into 4 different albums with the same amount of pics in each album, how many pictures were in each of the albums? ",6,,,,"Wendy uploaded var_A pictures from her phone and var_B from her camera to facebook. If she sorted the pics into var_C different albums with the same amount of pics in each album, how many pictures were in each of the albums?","1. Divide the total number of pictures by the number of albums to find out how many pictures each album will have.
+2. Multiply the number of pictures in each album by 2 to find out how many pictures Wendy will upload to each album.",(D // E) * 2,"def solution(var_A, var_B, var_C):
+    total_pictures = var_A + var_B
+    pictures_per_album = total_pictures / len(var_C)
+    pictures_per_album *= 2
+    return pictures_per_album","{'var_A': 22.0, 'var_B': 2.0, 'var_C': 4.0}",True,"must be real number, not NoneType"
+" Each chocolate bar in a box cost $3. If a box had 7 bars total and Olivia sold all but 4 bars, how much money would she have made? ",9,9,9.0,9.0,"Each chocolate bar in a box cost $ var_A If a box had var_B bars total and Olivia sold all but var_C bars, how much money would she have made?","1. Subtract the number of bars sold from the total number of bars to find out how many bars were left.
+2. Multiply the number of bars left by the cost of each bar to find out how much money Olivia made.",(var_B - var_C) * var_A,"def solution(var_A, var_B, var_C):
+    left = var_B - var_C
+    money = left * var_A
+    return money","{'var_A': 3.0, 'var_B': 7.0, 'var_C': 4.0}",False,
+ Wendy had 82 files on her computer. She deleted 37 of them and put the rest into folders with 5 files in each one. How many folders did Wendy end up with? ,9,,,,Wendy had var_A files on her computer. She deleted var_B of them and put the rest into folders with var_C files in each one. How many folders did Wendy end up with?,"1. Divide the number of files by the number of files per folder to find out how many folders Wendy ended up with.
+2. Multiply the number of folders by 5 to find the total number of files in the folders.",D / (B / 5) * 5,"def solution(var_A, var_B, var_C):
+    folders = var_A // var_B
+    total_files = folders * var_C
+    return total_files","{'var_A': 82.0, 'var_B': 37.0, 'var_C': 5.0}",True,"must be real number, not NoneType"
+" For a birthday party Tom bought 4 regular sodas and 52 diet sodas. If his fridge would only hold 7 on each shelf, how many shelves would he fill up? ",8,,0.0,1.1428571428571428,"For a birthday party Tom bought var_A regular sodas and var_B diet sodas. If his fridge would only hold var_C on each shelf, how many shelves would he fill up?","1. Divide the total number of sodas by the number of sodas on each shelf to find out how many shelves Tom would need to fill.
+2. Multiply the number of shelves by 2 to find out how many shelves Tom would need to fill.",var_C // (var_A + var_B) * 2,"def solution(var_A, var_B, var_C):
+    shelves_needed = var_A / var_C
+    shelves_needed = shelves_needed * 2
+    return shelves_needed","{'var_A': 4.0, 'var_B': 52.0, 'var_C': 7.0}",True,'Code_Result'
+" At lunch a waiter had 9 customers and 5 of them didn't leave a tip. If he got $8 each from the ones who did tip, how much money did he earn? ",32,,,,"At lunch a waiter had var_A customers and var_B of them didn't leave a tip. If he got $ var_C each from the ones who did tip, how much money did he earn?","1. Subtract the number of customers who didn't leave a tip from the total number of customers to find out how many customers did leave a tip.
+2. Multiply the number of customers who left a tip by the amount each left a tip to find out how much money the waiter earned.","var_A - var_B
+var_C * var_A - var_B","def solution(var_A, var_B, var_C):
+    customers_left_tip = var_A - var_B
+    money_earned = customers_left_tip * var_C
+    return money_earned","{'var_A': 9.0, 'var_B': 5.0, 'var_C': 8.0}",True,"must be real number, not NoneType"
+" There were 30 girls and 36 boys trying out for the schools basketball team. If only 10 of them got called back, how many students didn't make the cut? ",56,,,,"There were var_A girls and var_B boys trying out for the schools basketball team. If only var_C of them got called back, how many students didn't make the cut?","1. Add the number of girls and boys trying out to find the total number of students.
+2. Subtract the number of students who got called back from the total number of students to find the number of students who didn't make the cut.",(D + B) - C,"def solution(var_A, var_B, var_C):
+    total_students = var_A + var_B
+    students_called_back = var_C
+    students_not_called_back = total_students - students_called_back
+    return students_not_called_back","{'var_A': 30.0, 'var_B': 36.0, 'var_C': 10.0}",True,"must be real number, not NoneType"
+" Robin uploaded 35 pictures from her phone and 5 from her camera to facebook. If she sorted the pics into 5 different albums with the same amount of pics in each album, how many pictures were in each of the albums? ",8,,,,"Robin uploaded var_A pictures from her phone and var_B from her camera to facebook. If she sorted the pics into var_C different albums with the same amount of pics in each album, how many pictures were in each of the albums?","1. Divide the total number of pictures by the number of albums to find out how many pictures each album will have.
+2. Multiply the number of pictures in each album by 5 to find out how many pictures Robin will have in each album.","var_A // var_B // var_C
+= (var_A + var_B) / 2 * 5","def solution(var_A, var_B, var_C):
+    total_pictures = var_A + var_B
+    pictures_per_album = total_pictures / len(var_C)
+    pictures_in_each_album = pictures_per_album * 5
+    return pictures_in_each_album","{'var_A': 35.0, 'var_B': 5.0, 'var_C': 5.0}",True,"must be real number, not NoneType"
+" At the fair there were 30 people in line for the bumper cars. If 10 of them got tired of waiting and left and 5 more got in line, how many people would be in line? ",25,,,,"At the fair there were var_A people in line for the bumper cars. If var_B of them got tired of waiting and left and var_C more got in line, how many people would be in line?","1. Subtract the number of people who left from the original number of people in line to find out how many people are still in line.
+2. Add the number of people who got in line to the number of people still in line to find the total number of people in line.",D - (D - B) + B + D,"def solution(var_A, var_B, var_C):
+    people_in_line = var_A - var_B
+    people_in_line += var_B + var_C
+    return people_in_line","{'var_A': 30.0, 'var_B': 10.0, 'var_C': 5.0}",True,"must be real number, not NoneType"
+" Gwen earned 8 points for each bag of cans she recycled. If she had 4 bags, but didn't recycle 2 of them, how many points would she have earned? ",16,,16.0,24.0,"Gwen earned var_A points for each bag of cans she recycled. If she had var_B bags, but didn't recycle var_C of them, how many points would she have earned?","1. Multiply the number of bags Gwen recycled by the points per bag to find out how many points she earned.
+2. Subtract the points she didn't earn from the points she earned.",var_A * (var_B - var_C),"def solution(var_A, var_B, var_C):
+    points = var_A * var_B
+    points -= var_B * var_C
+    return points","{'var_A': 8.0, 'var_B': 4.0, 'var_C': 2.0}",True,'Code_Result'
+" Edward was trying to expand his game collection. He bought 41 games from a friend and bought 14 more at a garage sale. If 31 of the games didn't work, how many good games did he end up with? ",24,,,,"Edward was trying to expand his game collection. He bought var_A games from a friend and bought var_B more at a garage sale. If var_C of the games didn't work, how many good games did he end up with?","1. Subtract the number of games that didn't work from the total number of games to find out how many good games Edward has.
+2. Subtract the number of games that were bought from the number of games that didn't work to find out how many games were bought.",var_A - var_B + var_C,"def solution(var_A, var_B, var_C):
+    good_games = var_A - var_B
+    games_bought = var_A + var_B - var_C
+    return good_games, games_bought","{'var_A': 41.0, 'var_B': 14.0, 'var_C': 31.0}",True,"must be real number, not tuple"
+ Emily was planting vegetables in her garden. She started with 42 seeds and planted 36 of them in the big garden and in each of her small gardens put 2 seeds each. How many small gardens did Emily have? ,3,,4.666666666666667,156.0,Emily was planting vegetables in her garden. She started with var_A seeds and planted var_B of them in the big garden and in each of her small gardens put var_C seeds each. How many small gardens did Emily have?,"1. Divide the total number of seeds by the number of seeds planted in the big garden to find out how many seeds were planted in the small gardens.
+2. Multiply the number of seeds planted in the small gardens by 2 to find the total number of seeds planted in the small gardens.",var_A / (var_B / var_C) * 2,"def solution(var_A, var_B, var_C):
+    total_seeds = var_A + var_B
+    seeds_in_small_gardens = total_seeds * 2
+    return seeds_in_small_gardens","{'var_A': 42.0, 'var_B': 36.0, 'var_C': 2.0}",True,'Code_Result'
+" Chloe picked 48 carrots from her garden. If she threw out 45 of them and then picked 42 more the next day, how many carrots would she have total? ",45,,93.0,45.0,"Chloe picked var_A carrots from her garden. If she threw out var_B of them and then picked var_C more the next day, how many carrots would she have total?","1. Subtract the number of carrots Chloe threw out from the total number of carrots she picked to find out how many carrots she has left.
+2. Add the number of carrots she picked the next day to the number of carrots she has left to find out how many carrots she has in total.",(var_A - var_B) + (var_A + var_C),"def solution(var_A, var_B, var_C):
+    carrots_left = var_A - var_B
+    total_carrots = carrots_left + var_C
+    return total_carrots","{'var_A': 48.0, 'var_B': 45.0, 'var_C': 42.0}",True,'Code_Result'
+" There were 13 friends playing a video game online when 8 players quit. If each player left had 6 lives, how many lives did they have total? ",30,30,30.0,30.0,"There were var_A friends playing a video game online when var_B players quit. If each player left had var_C lives, how many lives did they have total?","1. Subtract the number of players who quit from the total number of players to find out how many players are left.
+2. Multiply the number of players left by the number of lives each player had to find out how many lives they had total.",(var_A - var_B) * var_C,"def solution(var_A, var_B, var_C):
+    lives_left = var_A - var_B
+    total_lives = lives_left * var_C
+    return total_lives","{'var_A': 13.0, 'var_B': 8.0, 'var_C': 6.0}",False,
+ Zoe was unboxing some of her old winter clothes. She found 8 boxes of clothing and inside each box there were 4 scarves and 6 mittens. How many pieces of winter clothing did Zoe have total? ,80,56,56.0,56.0,Zoe was unboxing some of her old winter clothes. She found var_A boxes of clothing and inside each box there were var_B scarves and var_C mittens. How many pieces of winter clothing did Zoe have total?,"1. Multiply the number of boxes by the number of scarves in each box to find the total number of scarves.
+2. Multiply the number of boxes by the number of mittens in each box to find the total number of mittens.
+3. Add the total number of scarves and mittens to find the total number of winter clothing Zoe had.",var_A * var_B + var_B * var_C,"def solution(var_A, var_B, var_C):
+    return var_A * var_B + var_B * var_C","{'var_A': 8.0, 'var_B': 4.0, 'var_C': 6.0}",False,
+" Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",7,,13.0,7.0,"Carol and her mom were picking carrots from their garden. Carol picked var_A and her mother picked var_B If only var_C of the carrots were good, how many bad carrots did they have?","1. Subtract the number of good carrots from the total number of carrots picked to find the number of bad carrots.
+2. Subtract the number of bad carrots from the number of good carrots to find the number of bad carrots.",var_A - var_B,"def solution(var_A, var_B, var_C):
+    total_carrots = var_A + var_B
+    bad_carrots = total_carrots - var_C
+    return bad_carrots","{'var_A': 29.0, 'var_B': 16.0, 'var_C': 38.0}",True,'Code_Result'
+" A company invited 18 people to a luncheon, but 12 of them didn't show up. If the tables they had held 3 people each, how many tables do they need? ",2,,,,"A company invited var_A people to a luncheon, but var_B of them didn't show up. If the tables they had held var_C people each, how many tables do they need?","1. Subtract the number of people who didn't show up from the total number of people invited to find out how many people showed up.
+2. Divide the number of people who showed up by the number of people per table to find out how many tables they need.",(D - B) / C,"def solution(var_A, var_B, var_C):
+    people_invited = var_A - var_B
+    people_showed_up = var_A - var_B
+    tables_needed = people_showed_up // var_C
+    return tables_needed","{'var_A': 18.0, 'var_B': 12.0, 'var_C': 3.0}",True,"must be real number, not NoneType"
+" A waiter had 14 customers to wait on. If 3 customers left and he got another 39 customers, how many customers would he have? ",50,50,50.0,50.0,"A waiter had var_A customers to wait on. If var_B customers left and he got another var_C customers, how many customers would he have?","1. Start with the initial number of customers.
+2. Subtract the number of customers who left from the initial number to find the number of customers who stayed.
+3. Add the number of new customers to the number of customers who stayed to find the total number of customers.",var_A - var_B + var_C,"def solution(var_A, var_B, var_C):
+    customers = var_A
+    customers -= var_B
+    customers += var_C
+    return customers","{'var_A': 14.0, 'var_B': 3.0, 'var_C': 39.0}",False,
+ For Halloween Haley scored 33 pieces of candy. She ate 17 pieces the first night and then her sister gave her 19 more pieces. How many pieces of candy does Haley have now? ,35,,,,For Halloween Haley scored var_A pieces of candy. She ate var_B pieces the first night and then her sister gave her var_C more pieces. How many pieces of candy does Haley have now?,"1. Subtract the number of pieces Haley ate from the total number of pieces she had.
+2. Add the number of pieces her sister gave her to the result.",(var_A - var_B) + var_C,"def solution(var_A, var_B, var_C):
+    Haley's initial candy = var_A
+    Haley ate var_B
+    Haley's candy after eating = Haley's initial candy - var_B
+    Haley's candy after receiving more = Haley's candy after eating + var_C
+    return Haley's candy after receiving more","{'var_A': 33.0, 'var_B': 17.0, 'var_C': 19.0}",True,"must be real number, not NoneType"
+" At the arcade, Jerry won 29 tickets playing 'whack a mole' and 17 tickets playing 'skee ball'. If he spent 12 of his tickets on a hat, how many tickets does Jerry have left? ",34,34,34.0,34.0,"At the arcade, Jerry won var_A tickets playing 'whack a mole' and var_B tickets playing 'skee ball'. If he spent var_C of his tickets on a hat, how many tickets does Jerry have left?","1. Add the number of tickets Jerry won in 'whack a mole' and'skee ball' to find the total number of tickets he won.
+2. Subtract the number of tickets Jerry spent on a hat from the total number of tickets he won to find out how many tickets he has left.",var_A + var_B - var_C,"def solution(var_A, var_B, var_C):
+    total_tickets_won = var_A + var_B
+    tickets_spent = var_C
+    tickets_left = total_tickets_won - tickets_spent
+    return tickets_left","{'var_A': 29.0, 'var_B': 17.0, 'var_C': 12.0}",False,
+" Rachel was playing a video game and had 10 lives. In a hard part of the game she lost 4 lives. If she got 26 more lives in the next level, how many lives would she have? ",32,32,32.0,32.0,"Rachel was playing a video game and had var_A lives. In a hard part of the game she lost var_B lives. If she got var_C more lives in the next level, how many lives would she have?","1. Start with the number of lives Rachel had initially.
+2. Subtract the number of lives she lost to find out how many lives she had left.
+3. Add the number of lives she got in the next level to find out how many lives she has now.",var_A - var_B + var_C,"def solution(var_A, var_B, var_C):
+    lives_left = var_A - var_B
+    lives_now = lives_left + var_C
+    return lives_now","{'var_A': 10.0, 'var_B': 4.0, 'var_C': 26.0}",False,
+" Sarah had 4 pages of math homework and 6 pages of reading homework. If each page had 4 problems on it, how many problems did she have to complete total? ",40,40,40.0,40.0,"Sarah had var_A pages of math homework and var_B pages of reading homework. If each page had var_C problems on it, how many problems did she have to complete total?","1. Multiply the number of pages of math homework by the number of problems on each page to find the total number of problems.
+2. Multiply the total number of problems by the number of pages of reading homework to find the total number of problems.",(var_A * var_C) + (var_B * var_C),"def solution(var_A, var_B, var_C):
+    total_problems = var_A * var_C + var_B * var_C
+    return total_problems","{'var_A': 4.0, 'var_B': 6.0, 'var_C': 4.0}",False,
+ Carol was playing a trivia game. In the first round she scored 17 points and in the second round she scored 6 points. In the last round she lost 16 points. How many points did she have at the end of the game? ,7,7,7.0,7.0,Carol was playing a trivia game. In the first round she scored var_A points and in the second round she scored var_B points. In the last round she lost var_C points. How many points did she have at the end of the game?,"1. Add the points from the first two rounds to find the total points Carol scored.
+2. Subtract the points from the last round from the total points to find the points she lost.",(var_A + var_B) - var_C,"def solution(var_A, var_B, var_C):
+    total_points = var_A + var_B
+    points_lost = var_C
+    return total_points - points_lost","{'var_A': 17.0, 'var_B': 6.0, 'var_C': 16.0}",False,
+" For Halloween Sarah received 66 pieces of candy from neighbors and 15 pieces from her older sister. If she only ate 9 pieces a day, how long would the candy last her? ",9,9,9.0,9.0,"For Halloween Sarah received var_A pieces of candy from neighbors and var_B pieces from her older sister. If she only ate var_C pieces a day, how long would the candy last her?","1. Add the total number of candies Sarah received from her neighbors and her sister.
+2. Divide the total number of candies by the number of candies she eats per day to find out how many days the candy will last her.",(var_A + var_B) / var_C,"def solution(var_A, var_B, var_C):
+    total_candies = var_A + var_B
+    days_last = total_candies / var_C
+    return days_last","{'var_A': 66.0, 'var_B': 15.0, 'var_C': 9.0}",False,
+" Edward started his own lawn mowing business. In the spring he made 2 dollars mowing lawns and in the summer he made 27 dollars. If he had to spend 5 dollars buying supplies, how much money did he end up with? ",24,24,24.0,24.0,"Edward started his own lawn mowing business. In the spring he made var_A dollars mowing lawns and in the summer he made var_B dollars. If he had to spend var_C dollars buying supplies, how much money did he end up with?","1. Add the amount Edward made in the spring and the summer to find the total amount he made.
+2. Subtract the amount he spent on supplies from the total amount he made to find out how much money he ended up with.",var_A + var_B - var_C,"def solution(var_A, var_B, var_C):
+    total = var_A + var_B
+    money_left = total - var_C
+    return money_left","{'var_A': 2.0, 'var_B': 27.0, 'var_C': 5.0}",False,
+" Vanessa and her friends were recycling paper for their class. For every 9 pounds they recycled they earned one point. If Vanessa recycled 20 pounds and her friends recycled 16 pounds, how many points did they earn? ",4,,1.7,1.8125,"Vanessa and her friends were recycling paper for their class. For every var_A pounds they recycled they earned one point. If Vanessa recycled var_B pounds and her friends recycled var_C pounds, how many points did they earn?","1. Divide the total pounds recycled by the number of pounds per point to find out how many points Vanessa and her friends earned.
+2. Add the points earned by Vanessa and her friends to find the total points they earned.",(var_A / var_B) + (var_B / var_C),"def solution(var_A, var_B, var_C):
+    points = (var_A + var_B) / var_C
+    return points","{'var_A': 9.0, 'var_B': 20.0, 'var_C': 16.0}",True,'Code_Result'
+" While playing at the arcade, Luke won 2 tickets playing 'whack a mole' and 13 tickets playing 'skee ball'. If he was trying to buy candy that cost 3 tickets a piece, how many could he buy? ",5,,12.0,5.0,"While playing at the arcade, Luke won var_A tickets playing 'whack a mole' and var_B tickets playing 'skee ball'. If he was trying to buy candy that cost var_C tickets a piece, how many could he buy?","1. Add the number of tickets Luke won from 'whack a mole' and'skee ball' to find the total number of tickets.
+2. Divide the total number of tickets by the cost of candy to find out how many pieces of candy Luke can buy.",var_A + var_B - var_C,"def solution(var_A, var_B, var_C):
+    total_tickets = var_A + var_B
+    candy_cost = var_C
+    num_candy = total_tickets // candy_cost
+    return num_candy","{'var_A': 2.0, 'var_B': 13.0, 'var_C': 3.0}",True,'Code_Result'
+" Oliver had 11 socks. If he threw away 4 old ones that didn't fit and bought 26 new ones, how many socks would he have? ",33,,,,"Oliver had var_A socks. If he threw away var_B old ones that didn't fit and bought var_C new ones, how many socks would he have?","1. Start with the number of socks Oliver had initially.
+2. Subtract the number of socks he threw away to find the number of socks he had left.
+3. Add the number of socks he bought to find the total number of socks he has now.",D - B + C,"def solution(var_A, var_B, var_C):
+    return var_A - var_B + var_C","{'var_A': 11.0, 'var_B': 4.0, 'var_C': 26.0}",True,"must be real number, not NoneType"
+" Dave had to wash 29 short sleeve shirts and 11 long sleeve shirts before school. If he had only washed 35 of them by the time school started, how many did he not wash? ",5,,-6.0,-17.0,"Dave had to wash var_A short sleeve shirts and var_B long sleeve shirts before school. If he had only washed var_C of them by the time school started, how many did he not wash?","1. Subtract the number of shirts washed by the time school started from the total number of shirts Dave had to wash.
+2. Subtract the number of shirts washed by the time school started from the number of shirts washed.",var_A - var_C,"def solution(var_A, var_B, var_C):
+    var_A_washed = var_A - var_C
+    var_B_washed = var_B - var_C
+    var_A_not_washed = var_A - var_B - var_C
+    return var_A_not_washed","{'var_A': 29.0, 'var_B': 11.0, 'var_C': 35.0}",True,'Code_Result'
+ A group of 3 friends went into a restaurant. The chef already had 6 chicken wings cooked but cooked 3 more for the group. If they each got the same amount how many would each person get? ,3,,0.0,1.0,A group of var_A friends went into a restaurant. The chef already had var_B chicken wings cooked but cooked var_C more for the group. If they each got the same amount how many would each person get?,"1. Divide the number of chicken wings by the number of friends to find out how many wings each person would get.
+2. Divide the number of wings by 3 to find out how many wings each person would get.",(var_A // var_B) / 3,"def solution(var_A, var_B, var_C):
+    wings_per_person = var_B / 3
+    wings_per_person = var_A / 3
+    return wings_per_person","{'var_A': 3.0, 'var_B': 6.0, 'var_C': 3.0}",True,'Code_Result'
+ Katie had 85 files on her computer. She deleted 40 of them and put the rest into folders with 5 files in each one. How many folders did Katie end up with? ,9,,,,Katie had var_A files on her computer. She deleted var_B of them and put the rest into folders with var_C files in each one. How many folders did Katie end up with?,"1. Divide the number of files by the number of files in each folder to find out how many folders Katie ended up with.
+2. Multiply the number of folders by 5 to find the total number of files in the folders.",D / (D - B) * 5,"def solution(var_A, var_B, var_C):
+    folders = var_A // var_B
+    total_files = folders * 5
+    return total_files","{'var_A': 85.0, 'var_B': 40.0, 'var_C': 5.0}",True,"must be real number, not NoneType"
+" For Halloween Katie and her sister combined the candy they received. Katie had 10 pieces of candy while her sister had 6. If they ate 9 pieces the first night, how many pieces do they have left? ",7,7,7.0,7.0,"For Halloween Katie and her sister combined the candy they received. Katie had var_A pieces of candy while her sister had var_B If they ate var_C pieces the first night, how many pieces do they have left?","1. Add the number of pieces of candy Katie and her sister had initially.
+2. Subtract the number of pieces they ate the first night from the total.",(var_A + var_B) - var_C,"def solution(var_A, var_B, var_C):
+    total = var_A + var_B
+    eaten = var_C
+    remaining = total - eaten
+    return remaining","{'var_A': 10.0, 'var_B': 6.0, 'var_C': 9.0}",False,
+" Frank had saved up 3 dollars. If he received another 37 dollars for his allowance, how many 8 dollar toys could he buy? ",5,,,,"Frank had saved up var_A dollars. If he received another var_B dollars for his allowance, how many var_C dollar toys could he buy?","1. Divide the amount of money Frank has by the cost of each toy to find out how many toys he can buy.
+2. Multiply the number of toys by the cost of each toy to find out how much money he will spend.",(var_A // var_B) * var_C,"def solution(var_A, var_B):
+    toys = var_A // var_B
+    money_spent = toys * var_B
+    return toys, money_spent","{'var_A': 3.0, 'var_B': 37.0, 'var_C': 8.0}",True,"must be real number, not NoneType"
+ A store had 48 coloring books in stock. They ended up putting them on sale and getting rid of 38 of them. The put the ones they still had onto shelves with 5 on each shelf. How many shelves did they use? ,2,,,,A store had var_A coloring books in stock. They ended up putting them on sale and getting rid of var_B of them. The put the ones they still had onto shelves with var_C on each shelf. How many shelves did they use?,"1. Subtract the number of books they got rid of from the original number of books to find out how many books they still had.
+2. Divide the number of books they still had by the number of books per shelf to find out how many shelves they used.","D - B
+D / C","def solution(var_A, var_B, var_C):
+    shelves = var_A - var_B
+    shelves = shelves / var_C
+    return shelves","{'var_A': 48.0, 'var_B': 38.0, 'var_C': 5.0}",True,"must be real number, not NoneType"
+ Lana was unboxing some of her old winter clothes. She found 3 boxes of clothing and inside each box there were 3 scarves and 4 mittens. How many pieces of winter clothing did Lana have total? ,21,,21.0,21.0,Lana was unboxing some of her old winter clothes. She found var_A boxes of clothing and inside each box there were var_B scarves and var_C mittens. How many pieces of winter clothing did Lana have total?,"1. Multiply the number of boxes by the number of scarves in each box to find the total number of scarves.
+2. Multiply the number of boxes by the number of mittens in each box to find the total number of mittens.
+3. Add the total number of scarves and mittens to find the total number of winter clothing.",var_A * var_B + var_B * var_C,"def solution(var_A, var_B, var_C):
+    return var_A * var_B + var_A * var_C","{'var_A': 3.0, 'var_B': 3.0, 'var_C': 4.0}",True,'Code_Result'
+" The school cafeteria had 14 apples. If they used 13 to make lunch for the students and then bought 49 more, how many apples would they have? ",50,50,50.0,50.0,"The school cafeteria had var_A apples. If they used var_B to make lunch for the students and then bought var_C more, how many apples would they have?","1. Subtract the number of apples used for lunch from the total number of apples to find out how many apples are left.
+2. Add the number of apples bought to the number of apples left to find out how many apples the school cafeteria has now.",(var_A - var_B) + var_C,"def solution(var_A, var_B, var_C):
+    apples_left = var_A - var_B
+    apples_bought = var_C
+    total_apples = apples_left + var_C
+    return total_apples","{'var_A': 14.0, 'var_B': 13.0, 'var_C': 49.0}",False,
+ A store had 5 oranges in a bin. If they threw away 2 of the old ones and put 28 new ones in the bin how many would be in the bin? ,31,,,,A store had var_A oranges in a bin. If they threw away var_B of the old ones and put var_C new ones in the bin how many would be in the bin?,"1. Start with the initial number of oranges.
+2. Subtract the number of old oranges thrown away.
+3. Add the number of new oranges.",D - B + C,"def solution(var_A, var_B, var_C):
+    return var_A - var_B + var_C","{'var_A': 5.0, 'var_B': 2.0, 'var_C': 28.0}",True,"must be real number, not NoneType"
+" There were 9 girls and 14 boys trying out for the schools basketball team. If only 2 of them got called back, how many students didn't make the cut? ",21,,,,"There were var_A girls and var_B boys trying out for the schools basketball team. If only var_C of them got called back, how many students didn't make the cut?","1. Add the number of girls and boys trying out to find the total number of students.
+2. Subtract the number of students who got called back to find the number of students who didn't make the cut.",(D + B) - C,"def solution(var_A, var_B, var_C):
+    total_students = var_A + var_B
+    students_called_back = var_C
+    students_not_called_back = total_students - students_called_back
+    return students_not_called_back","{'var_A': 9.0, 'var_B': 14.0, 'var_C': 2.0}",True,"must be real number, not NoneType"
+" Debby's class is going on a field trip to the zoo. If each van can hold 4 people and there are 2 students and 6 adults going, how many vans will they need? ",2,,4.0,4.0,"Debby's class is going on a field trip to the zoo. If each van can hold var_A people and there are var_B students and var_C adults going, how many vans will they need?","1. Divide the total number of people by the number of people each van can hold to find out how many vans are needed.
+2. Multiply the number of vans by 2 to find out how many people will be in the vans.",var_A // (var_B / 2),"def solution(var_A, var_B, var_C):
+    vans_needed = var_A // var_B
+    vans_needed *= 2
+    return vans_needed","{'var_A': 4.0, 'var_B': 2.0, 'var_C': 6.0}",True,'Code_Result'
+ A toy store had 5 giant stuffed bears in stock when they got another shipment with 7 bears in it. The put the bears onto shelves with 6 on each shelf. How many shelves did they use? ,2,,,,A toy store had var_A giant stuffed bears in stock when they got another shipment with var_B bears in it. The put the bears onto shelves with var_C on each shelf. How many shelves did they use?,"1. Divide the total number of bears by the number of bears per shelf to find out how many shelves were needed.
+2. Multiply the number of shelves by 6 to find the total number of shelves used.",(D // (B + C)) * 6,"def solution(var_A, var_B, var_C):
+    shelves_needed = var_A / var_C
+    total_shelves_used = shelves_needed * 6
+    return total_shelves_used","{'var_A': 5.0, 'var_B': 7.0, 'var_C': 6.0}",True,"must be real number, not NoneType"
+" Each chocolate bar in a box cost $2. If a box had 13 bars total and Rachel sold all but 4 bars, how much money would she have made? ",18,18,18.0,18.0,"Each chocolate bar in a box cost $ var_A If a box had var_B bars total and Rachel sold all but var_C bars, how much money would she have made?","1. Subtract the number of bars sold from the total number of bars to find the number of bars Rachel sold.
+2. Multiply the number of bars sold by the cost of each bar to find the total amount of money made.",(var_B - var_C) * var_A,"def solution(var_A, var_B, var_C):
+    sold = var_B - var_C
+    made = var_A * sold
+    return made","{'var_A': 2.0, 'var_B': 13.0, 'var_C': 4.0}",False,
+" John had 6 action figures, but needed 11 total for a complete collection. If each one costs $6, how much money would he need to finish his collection? ",30,-30,-30.0,-30.0,"John had var_A action figures, but needed var_B total for a complete collection. If each one costs $ var_C how much money would he need to finish his collection?","1. Subtract the number of action figures John already has from the total number needed to find out how many more action figures he needs.
+2. Multiply the number of action figures needed by the cost of each action figure to find out how much money he needs.",(var_A - var_B) * var_C,"def solution(var_A, var_B, var_C):
+    needed = var_A - var_B
+    money_needed = needed * var_C
+    return money_needed","{'var_A': 6.0, 'var_B': 11.0, 'var_C': 6.0}",False,
+" Each chocolate bar in a box cost $3. If a box had 9 bars total and Wendy sold all but 3 bars, how much money would she have made? ",18,18,18.0,18.0,"Each chocolate bar in a box cost $ var_A If a box had var_B bars total and Wendy sold all but var_C bars, how much money would she have made?","1. Subtract the number of bars sold from the total number of bars to find the number of bars Wendy sold.
+2. Multiply the number of bars sold by the cost of each bar to find the total amount of money Wendy made.",(var_B - var_C) * var_A,"def solution(var_A, var_B, var_C):
+    sold = var_B - var_C
+    made = var_A * sold
+    return made","{'var_A': 3.0, 'var_B': 9.0, 'var_C': 3.0}",False,
+" At Oliver's Restaurant a group with 2 adults and 4 children came in to eat. If each meal cost 3 dollars, how much was the bill? ",18,,18.0,108.0,"At Oliver's Restaurant a group with var_A adults and var_B children came in to eat. If each meal cost var_C dollars, how much was the bill?","1. Multiply the number of adults by the cost of each meal to find the cost of meals for adults.
+2. Multiply the number of children by the cost of each meal to find the cost of meals for children.
+3. Add the cost of meals for adults and children to find the total cost of meals.
+4. Multiply the total cost of meals by the number of meals to find the total bill.",var_A * var_C + var_B * var_C,"def solution(var_A, var_B, var_C):
+    meals_for_adults = var_A * var_C
+    meals_for_children = var_B * var_C
+    total_cost_of_meals = meals_for_adults + meals_for_children
+    total_bill = total_cost_of_meals * var_A + total_cost_of_meals * var_B
+    return total_bill","{'var_A': 2.0, 'var_B': 4.0, 'var_C': 3.0}",True,'Code_Result'
+" A worksheet had 4 problems on it. If a teacher had 16 worksheets to grade and had already graded 8 of them, how many more problems does she have to grade? ",32,,,,"A worksheet had var_A problems on it. If a teacher had var_B worksheets to grade and had already graded var_C of them, how many more problems does she have to grade?","1. Subtract the number of problems already graded from the total number of problems to find out how many problems are left.
+2. Divide the number of problems left by the number of problems graded per worksheet to find out how many worksheets are left to grade.",(D - var_B) / var_B,"def solution(var_A, var_B, var_C):
+    problems_left = var_A - var_B
+    problems_left = problems_left / var_B
+    remaining_worksheets = problems_left / var_C
+    return remaining_worksheets","{'var_A': 4.0, 'var_B': 16.0, 'var_C': 8.0}",True,"must be real number, not NoneType"
+" There are 25 students trying out for the school's trivia teams. If 15 of them didn't get picked for the team and the rest were put into 2 groups, how many students would be in each group? ",5,,,,"There are var_A students trying out for the school's trivia teams. If var_B of them didn't get picked for the team and the rest were put into var_C groups, how many students would be in each group?","1. Subtract the number of students who didn't get picked from the total number of students to find out how many students were picked.
+2. Divide the number of students picked by 2 to find out how many students will be in each group.",(var_A - var_B) / 2,"def solution(var_A, var_B):
+    picked = var_A - var_B
+    groups = picked / 2
+    return groups","{'var_A': 25.0, 'var_B': 15.0, 'var_C': 2.0}",True,"must be real number, not NoneType"
+" Edward bought 79 tickets at the state fair. He spent 23 tickets at the 'dunk a clown' booth and decided to use the rest on rides. If each ride cost 7 tickets, how many rides could he go on? ",8,,63.0,8.0,"Edward bought var_A tickets at the state fair. He spent var_B tickets at the 'dunk a clown' booth and decided to use the rest on rides. If each ride cost var_C tickets, how many rides could he go on?","1. Subtract the number of tickets spent at the 'dunk a clown' booth from the total number of tickets bought to find out how many tickets are left.
+2. Divide the number of tickets left by the cost of each ride to find out how many rides Edward can go on.",var_A - var_B + var_C,"def solution(var_A, var_B, var_C):
+    tickets_left = var_A - var_B
+    rides = tickets_left // var_C
+    return rides","{'var_A': 79.0, 'var_B': 23.0, 'var_C': 7.0}",True,'Code_Result'

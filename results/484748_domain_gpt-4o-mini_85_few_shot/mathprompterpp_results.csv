@@ -1,0 +1,438 @@
+Question,Type,Correct Answer,Predicted Answer,Predicted Algebraic Answer,Predicted Python Answer,Generated Algebraic Template,Rough Solution,Generated Expression,Generated Python Code,Variable Mapping,Error,Error Message
+A patient's blood pressure reduces from 140/90 to 120/80 mmHg. What is the percentage reduction in systolic pressure?,Cardiovascular Medicine,14.3,3.5714285714285725,3.5714285714285725,3.5714285714285725,A patient's blood pressure reduces from var_A / var_B to var_C / var_D mmHg. What is the percentage reduction in systolic pressure?,"1. Subtract the final systolic pressure from the initial systolic pressure to find the change in systolic pressure.
+2. Divide the change in systolic pressure by the initial systolic pressure to find the fraction of reduction.
+3. Multiply the fraction of reduction by 100 to convert it to a percentage.",((var_A / var_B - var_C / var_D) / (var_A / var_B)) * 100,"def solution(var_A, var_B, var_C, var_D):
+    initial_pressure = var_A / var_B
+    final_pressure = var_C / var_D
+    change = initial_pressure - final_pressure
+    reduction_fraction = change / initial_pressure
+    percentage_reduction = reduction_fraction * 100
+    return percentage_reduction","{'var_A': 140.0, 'var_B': 90.0, 'var_C': 120.0, 'var_D': 80.0}",False,
+"The gravitational field strength on Earth's surface is approximately 9.8 N/kg. For a mass of 5 kg, What is the weight in Newtons?",Weight Calculation,49.0,49.0,49.0,49.0,"The gravitational field strength on Earth's surface is approximately var_A N / kg. For a mass of var_B kg, What is the weight in Newtons?","1. Use the formula for weight, which is the product of mass and gravitational field strength.
+2. Multiply the mass by the gravitational field strength to find the weight in Newtons.",var_A * var_B,"def solution(var_A, var_B):
+    return var_A * var_B","{'var_A': 9.8, 'var_B': 5.0}",False,
+"An item costs $50, but a discount of 10% is applied. What is the price after discount?",Percentage,45.0,45.0,45.0,45.0,An item costs $ var_A but a discount of var_B % is applied. What is the price after discount?,"1. Calculate the amount of the discount by multiplying the original price by the discount percentage.
+2. Subtract the discount amount from the original price to find the price after the discount.",var_A - (var_A * (var_B / 100)),"def solution(var_A, var_B):
+    discount_amount = var_A * (var_B / 100)
+    return var_A - discount_amount","{'var_A': 50.0, 'var_B': 10.0}",False,
+"The efficiency of a heat engine is 30%. If it does 300 J of work, How much heat does it absorb from the hot reservoir?",Heat Engine Efficiency,1000.0,1000.0,1000.0,1000.0,"The efficiency of a heat engine is var_A %. If it does var_B J of work, How much heat does it absorb from the hot reservoir?","1. Use the formula for efficiency, which is the ratio of work output to heat absorbed.
+2. Rearrange the efficiency formula to solve for the heat absorbed from the hot reservoir.
+3. Substitute the known values into the rearranged formula to calculate the heat absorbed.",var_B / (var_A / 100),"def solution(var_A, var_B):
+    efficiency = var_A / 100
+    heat_absorbed = var_B / efficiency
+    return heat_absorbed","{'var_A': 30.0, 'var_B': 300.0}",False,
+"The atomic mass of carbon is 12 amu. In a sample of 24 grams of carbon, How many moles are present?",Mole Calculation,2.0,2.0,2.0,2.0,"The atomic mass of carbon is var_A amu. In a sample of var_B grams of carbon, How many moles are present?","1. Use the formula for calculating moles, which is the mass of the substance divided by its molar mass.
+2. Divide the mass of the carbon sample by the atomic mass of carbon to find the number of moles present.",var_B / var_A,"def solution(var_A, var_B):
+    return var_B / var_A","{'var_A': 12.0, 'var_B': 24.0}",False,
+The pH of a solution is 9. What is the pOH of the solution?,pH and pOH,5.0,5.0,5.0,5.0,The pH of a solution is var_A What is the pOH of the solution?,"1. Use the relationship between pH and pOH, which states that pH + pOH = 14.
+2. Subtract the given pH from 14 to find the pOH of the solution.",14 - var_A,"def solution(var_A):
+    return 14 - var_A",{'var_A': 9.0},False,
+"A pendulum has a period of 2 seconds. On a planet where g = 1.62 m/s², What is the length of the pendulum in meters?",Pendulum Motion,0.26,0.16414059478772852,0.16414059478772852,0.16414059478772852,"A pendulum has a period of var_A seconds. On a planet where g = var_B m / s², What is the length of the pendulum in meters?","1. Use the formula for the period of a pendulum, which relates the period to the length and acceleration due to gravity.
+2. Rearrange the formula to solve for the length of the pendulum.
+3. Substitute the given period and the value of g for the planet into the rearranged formula to calculate the length.",(var_A**2 * var_B) / (4 * 3.14159**2),"def solution(var_A, var_B):
+    return (var_A**2 * var_B) / (4 * 3.14159**2)","{'var_A': 2.0, 'var_B': 1.62}",False,
+A car travels at 60 km/h for 2 hours. What distance does it cover in meters?,Distance Calculation,120000.0,120000.0,120000.0,120000.0,A car travels at var_A km / h for var_B hours. What distance does it cover in meters?,"1. Calculate the distance traveled by multiplying the speed of the car by the time traveled.
+2. Convert the distance from kilometers to meters by using the conversion factor (1 km = 1000 meters).",var_A * var_B * 1000,"def solution(var_A, var_B):
+    distance_km = var_A * var_B
+    distance_m = distance_km * 1000
+    return distance_m","{'var_A': 60.0, 'var_B': 2.0}",False,
+A thermal expansion coefficient is 2e-5 K⁻¹ for a metal rod. How much does a 1-meter rod expand when heated from 20°C to 120°C?,Material Science,0.002,,200.0,0.002,A thermal expansion coefficient is var_A e - var_B K⁻¹ for a metal rod. How much does a var_C - meter rod expand when heated from var_D °C to var_E °C?,"1. Calculate the change in temperature by subtracting the initial temperature from the final temperature.
+2. Use the formula for linear expansion, which involves multiplying the thermal expansion coefficient by the change in temperature and the original length of the rod.
+3. Multiply the result from step 2 by the original length of the rod to find the amount of expansion.",var_A * (var_E - var_D) * var_C,"def solution(var_A, var_B, var_C, var_D, var_E):
+    delta_T = var_E - var_D
+    expansion = var_A * (10 ** -var_B) * delta_T * var_C
+    return expansion","{'var_A': 2.0, 'var_B': 5.0, 'var_C': 1.0, 'var_D': 20.0, 'var_E': 120.0}",True,'Code_Result'
+"The speed of sound in air is 343 m/s. If an echo returns after 2 seconds, How far away is the reflecting surface?",Wave Motion,343.0,343.0,343.0,343.0,"The speed of sound in air is var_A m / s. If an echo returns after var_B seconds, How far away is the reflecting surface?","1. Recognize that the time taken for the echo to return includes the time for the sound to travel to the reflecting surface and back.
+2. Divide the total time by 2 to find the time taken to reach the reflecting surface.
+3. Multiply the time taken to reach the reflecting surface by the speed of sound to find the distance to the reflecting surface.",(var_A * var_B) / 2,"def solution(var_A, var_B):
+    return (var_A * (var_B / 2))","{'var_A': 343.0, 'var_B': 2.0}",False,
+A drug has a half-life of 6 hours in the human body. What percentage of the original dose remains after 18 hours?,Pharmacokinetics,12.5,12.5,12.5,12.5,A drug has a half - life of var_A hours in the human body. What percentage of the original dose remains after var_B hours?,"1. Determine how many half-lives have passed in 18 hours by dividing the total time by the half-life duration.
+2. Use the formula for remaining quantity after a certain number of half-lives, which is (1/2) raised to the power of the number of half-lives.
+3. Convert the remaining fraction to a percentage to find out what percentage of the original dose remains.",(1/2) ** (var_B / var_A) * 100,"def solution(var_A, var_B):
+    half_lives = var_B / var_A
+    remaining_fraction = (1 / 2) ** half_lives
+    return remaining_fraction * 100","{'var_A': 6.0, 'var_B': 18.0}",False,
+A 50 mL solution contains 2.5 g of NaCl. What is its molarity? (Molar mass NaCl = 58.44 g/mol),Solution Concentration,0.855,0.8555783709787818,0.8555783709787818,0.8555783709787818,A var_A mL solution contains var_B g of NaCl. What is its molarity? ( Molar mass NaCl = var_C g / mol ),"1. Convert the volume of the solution from milliliters to liters.
+2. Calculate the number of moles of NaCl by dividing the mass of NaCl by its molar mass.
+3. Divide the number of moles of NaCl by the volume of the solution in liters to find the molarity.",(var_B / var_C) / (var_A / 1000),"def solution(var_A, var_B, var_C):
+    volume_liters = var_A / 1000
+    moles_NaCl = var_B / var_C
+    molarity = moles_NaCl / volume_liters
+    return molarity","{'var_A': 50.0, 'var_B': 2.5, 'var_C': 58.44}",False,
+"If a cell divides into 2 every 20 minutes, how many cells are present after 1 hour starting from 1 cell? (Exponential growth) What is the cell count?",Exponential Growth,8.0,,,,"If a cell divides into var_A every var_B minutes, how many cells are present after var_C hour starting from var_D cell? ( Exponential growth ) What is the cell count?","1. Determine the total number of 20-minute intervals in 1 hour.
+2. Use the formula for exponential growth, which states that the number of cells doubles with each interval.
+3. Calculate the final number of cells by raising 2 to the power of the number of intervals and then multiplying by the initial number of cells.",var_D * (var_A ** (var_C * 60 // var_B)),"def solution(var_A, var_B, var_C, var_D):
+    intervals = (var_C * 60) // var_B
+    return var_D * (var_A ** intervals)","{'var_A': 2.0, 'var_B': 20.0, 'var_C': 1.0, 'var_D': 1.0}",True,int too large to convert to float
+A patient's metabolic rate is 1.2 kcal/minute at rest. What is total energy expenditure in 8 hours?,Metabolism,576,576.0,576.0,576.0,A patient's metabolic rate is var_A kcal / minute at rest. What is total energy expenditure in var_B hours?,"1. Convert the time from hours to minutes to find the total time in minutes.
+2. Multiply the metabolic rate by the total time in minutes to calculate the total energy expenditure.",var_A * (var_B * 60),"def solution(var_A, var_B):
+    total_time_minutes = var_B * 60
+    return var_A * total_time_minutes","{'var_A': 1.2, 'var_B': 8.0}",False,
+"A patient's white blood cell count increases from 4,000 to 11,000 cells/μL during an infection. What is the percentage increase in white blood cells?",Immunology,175.0,175.0,175.0,175.0,A patient's white blood cell count increases from var_A to var_B cells / μL during an infection. What is the percentage increase in white blood cells?,"1. Subtract the initial white blood cell count from the final count to find the increase in the count.
+2. Divide the increase by the initial count to find the fractional increase.
+3. Multiply the fractional increase by 100 to convert it to a percentage.",((var_B - var_A) / var_A) * 100,"def solution(var_A, var_B):
+    increase = var_B - var_A
+    fractional_increase = increase / var_A
+    percentage_increase = fractional_increase * 100
+    return percentage_increase","{'var_A': 4000.0, 'var_B': 11000.0}",False,
+"A ball is thrown upward with an initial velocity of 20 m/s. Taking g = 10 m/s², What is its maximum height in meters?",Projectile Motion,20.0,20.0,20.0,20.0,"A ball is thrown upward with an initial velocity of var_A m / s. Taking g = var_B m / s², What is its maximum height in meters?","1. Use the formula for maximum height, which is derived from the initial velocity and acceleration due to gravity.
+2. Set the final velocity at the maximum height to zero.
+3. Rearrange the formula to solve for maximum height using the initial velocity and acceleration due to gravity.",(var_A ** 2) / (2 * var_B),"def solution(var_A, var_B):
+    return (var_A ** 2) / (2 * var_B)","{'var_A': 20.0, 'var_B': 10.0}",False,
+A 100 W light bulb is left on for 5 hours. How much energy does it consume in kWh?,Energy Consumption,0.5,0.5,0.5,0.5,A var_A W light bulb is left on for var_B hours. How much energy does it consume in kWh?,"1. Convert the power of the light bulb from watts to kilowatts by dividing by 1000.
+2. Multiply the power in kilowatts by the number of hours the light bulb is on to find the energy consumed in kilowatt-hours (kWh).",(var_A / 1000) * var_B,"def solution(var_A, var_B):
+    power_kW = var_A / 1000
+    energy_kWh = power_kW * var_B
+    return energy_kWh","{'var_A': 100.0, 'var_B': 5.0}",False,
+A bipolar junction transistor has a current gain of 100. What base current generates a collector current of 10 mA?,Semiconductor Electronics,0.1,0.1,0.1,0.1,A bipolar junction transistor has a current gain of var_A What base current generates a collector current of var_B mA?,"1. Use the formula for current gain, which relates collector current, base current, and current gain.
+2. Rearrange the formula to solve for the base current.
+3. Substitute the given collector current and current gain into the rearranged formula to find the base current.",var_B / var_A,"def solution(var_A, var_B):
+    return var_B / var_A","{'var_A': 100.0, 'var_B': 10.0}",False,
+A quantum dot emits photons at 600 nm wavelength. What is its bandgap energy in electron volts?,Quantum Mechanics,2.48,,2.066167290886392e-09,2.068039950062422,A quantum dot emits photons at var_A nm wavelength. What is its bandgap energy in electron volts?,"1. Use the formula that relates the energy of a photon to its wavelength, which is E = hc/λ, where h is Planck's constant and c is the speed of light.
+2. Substitute the given wavelength into the formula to calculate the energy in joules.
+3. Convert the energy from joules to electron volts using the conversion factor (1 eV = 1.602 x 10^-19 joules).",(1.986e-25 / var_A) / 1.602e-19,"def solution(var_A):
+    h = 6.626e-34  # Planck's constant in J*s
+    c = 3e8        # Speed of light in m/s
+    energy_joules = (h * c) / (var_A * 1e-9)  # Convert nm to meters
+    energy_eV = energy_joules / 1.602e-19  # Convert joules to electron volts
+    return energy_eV",{'var_A': 600.0},True,'Code_Result'
+"A sample of gas occupies 3 L at 27°C. At constant pressure, it is heated to 127°C. What is its new volume in liters?",Charles's Law,4.0,3.9995002498750623,3.9995002498750623,3.9995002498750623,"A sample of gas occupies var_A L at var_B °C. At constant pressure, it is heated to var_C °C. What is its new volume in liters?","1. Use Charles's Law, which states that the volume of a gas is directly proportional to its temperature in Kelvin when pressure is constant.
+2. Convert the initial and final temperatures from Celsius to Kelvin.
+3. Set up the ratio of the initial volume to the initial temperature and the final volume to the final temperature.
+4. Solve for the new volume using the known initial volume and temperatures.",var_A * (var_C + 273.15) / (var_B + 273.15),"def solution(var_A, var_B, var_C):
+    initial_temp_k = var_B + 273.15
+    final_temp_k = var_C + 273.15
+    new_volume = var_A * (final_temp_k / initial_temp_k)
+    return new_volume","{'var_A': 3.0, 'var_B': 27.0, 'var_C': 127.0}",False,
+A pendulum makes 40 complete oscillations in 2 minutes. What is its frequency in Hertz?,Oscillation Frequency,0.333,0.3333333333333333,0.3333333333333333,0.3333333333333333,A pendulum makes var_A complete oscillations in var_B minutes. What is its frequency in Hertz?,"1. Convert the total time from minutes to seconds to find the duration of the oscillations in seconds.
+2. Divide the total number of oscillations by the total time in seconds to find the frequency in Hertz.",var_A / (var_B * 60),"def solution(var_A, var_B):
+    total_time_seconds = var_B * 60
+    frequency = var_A / total_time_seconds
+    return frequency","{'var_A': 40.0, 'var_B': 2.0}",False,
+A patient's body temperature fluctuates between 36.5°C and 37.5°C. What is the temperature range in Fahrenheit?,Clinical Physiology,99.5,,,,A patient's body temperature fluctuates between var_A °C and var_B °C. What is the temperature range in Fahrenheit?,"1. Convert the lower temperature (36.5°C) to Fahrenheit using the conversion formula: \( F = \frac{9}{5}C + 32 \).
+2. Convert the upper temperature (37.5°C) to Fahrenheit using the same conversion formula.
+3. Determine the range in Fahrenheit by identifying the converted lower and upper temperatures.","((9/5) * var_A + 32, (9/5) * var_B + 32)","def solution(var_A, var_B):
+    lower_fahrenheit = (9/5) * var_A + 32
+    upper_fahrenheit = (9/5) * var_B + 32
+    return lower_fahrenheit, upper_fahrenheit","{'var_A': 36.5, 'var_B': 37.5}",True,"float() argument must be a string or a real number, not 'tuple'"
+"A photon has a wavelength of 500 nm. What is its energy in electron volts? (h = 6.626e-34 J·s, c = 3e8 m/s, 1 eV = 1.6e-19 J)",Quantum Mechanics,2.48,,3347873.684210526,1.0736842105263156e-11,"A photon has a wavelength of var_A nm. What is its energy in electron volts? ( h = var_B e - var_C J·s, c = var_D e m / s, var_E eV = var_F e - var_G J )","1. Convert the wavelength from nanometers to meters.
+2. Use the formula for energy of a photon, which is E = h * c / wavelength.
+3. Calculate the energy in joules using the values of h and c.
+4. Convert the energy from joules to electron volts using the conversion factor (1 eV = 1.6e-19 J).",(var_B * var_D / (var_A * 1e-9)) / var_G * var_F,"def solution(var_A, var_B, var_C, var_D, var_E, var_F, var_G):
+    wavelength_m = var_A * 1e-9
+    h = var_B * 1e-18 - var_C
+    c = var_D * 1e-18
+    energy_joules = (h * c) / wavelength_m
+    energy_eV = energy_joules / (var_F * 1e-18 - var_G)
+    return energy_eV","{'var_A': 500.0, 'var_B': 6.626, 'var_C': 34.0, 'var_D': 3.0, 'var_E': 1.0, 'var_F': 1.6, 'var_G': 19.0}",True,'Code_Result'
+A protein biomarker concentration is 25 ng/mL in diseased state. What is its concentration in μg/L?,Clinical Biochemistry,25000,25.0,25.0,25.0,A protein biomarker concentration is var_A ng / mL in diseased state. What is its concentration in μg / L?,"1. Recognize the conversion factor between ng/mL and μg/L.
+2. Convert the concentration from ng/mL to μg by using the appropriate conversion factor.
+3. Since 1 ng/mL is equal to 1 μg/L, the concentration in μg/L will be the same numerical value as in ng/mL.",var_A,"def solution(var_A):
+    return var_A",{'var_A': 25.0},False,
+An enzyme reaction rate is 0.5 μmol/min at 25°C. What is the rate in mmol/hour?,Enzyme Kinetics,0.03,0.03,0.03,0.03,An enzyme reaction rate is var_A μmol / min at var_B °C. What is the rate in mmol / hour?,"1. Convert the rate from μmol/min to mmol/min by dividing by 1000.
+2. Convert the rate from mmol/min to mmol/hour by multiplying by 60.",(var_A / 1000) * 60,"def solution(var_A, var_B):
+    return (var_A / 1000) * 60","{'var_A': 0.5, 'var_B': 25.0}",False,
+A superconductor transitions at 4.2 K and carries 50 A of current. What is its critical current density at 77 K? (Assume linear reduction),Superconductivity,919.0,,,0.0,A superconductor transitions at var_A K and carries var_B A of current. What is its critical current density at var_C K? ( Assume linear reduction ),"1. Identify the critical current at the transition temperature (4.2 K) and the current carried (50 A).
+2. Determine the temperature difference between the transition temperature and the given temperature (77 K).
+3. Calculate the reduction in critical current based on the linear relationship between temperature and critical current.
+4. Divide the adjusted critical current by the cross-sectional area of the superconductor (if provided) to find the critical current density at 77 K.",(var_B * (var_A - var_C) / (var_A - 4.2)),"def solution(var_A, var_B, var_C):
+    transition_temp = 4.2
+    critical_current_at_transition = var_B
+    temperature_difference = var_C - transition_temp
+    reduction_factor = temperature_difference / (77 - transition_temp)
+    adjusted_critical_current = critical_current_at_transition * (1 - reduction_factor)
+    return adjusted_critical_current","{'var_A': 4.2, 'var_B': 50.0, 'var_C': 77.0}",True,'Code_Result'
+10 moles of hydrogen gas (H2) combine with 5 moles of oxygen gas (O2) to form water (H2O). How many moles of water are produced?,Stoichiometry,5.0,,,,var_A moles of hydrogen gas ( H var_B ) combine with var_C moles of oxygen gas ( O var_D ) to form water ( H var_E O ) . How many moles of water are produced?,"1. Write the balanced chemical equation for the reaction between hydrogen gas and oxygen gas to form water.
+2. Identify the stoichiometric ratios from the balanced equation to determine how many moles of water are produced per mole of hydrogen and oxygen.
+3. Determine the limiting reactant by comparing the available moles of hydrogen and oxygen based on the stoichiometric ratios.
+4. Use the moles of the limiting reactant to calculate the total moles of water produced.","min(var_A * var_E / var_B, var_C * var_E / var_D)","def solution(var_A, var_B, var_C, var_D, var_E):
+    moles_H2O_from_H = var_A * (2 / var_B)
+    moles_H2O_from_O = var_C * (2 / var_D)
+    moles_H2O_produced = min(moles_H2O_from_H, moles_H2O_from_O)
+    return moles_H2O_produced","{'var_A': 10.0, 'var_B': 2.0, 'var_C': 5.0, 'var_D': 2.0, 'var_E': 2.0}",True,"float() argument must be a string or a real number, not 'NoneType'"
+A stock increases from $50 to $62 over one year. What is its percentage return?,Financial Returns,24.0,24.0,24.0,24.0,A stock increases from $ var_A to $ var_B over one year. What is its percentage return?,"1. Subtract the initial stock price from the final stock price to find the gain.
+2. Divide the gain by the initial stock price to find the return as a decimal.
+3. Multiply the decimal return by 100 to convert it to a percentage.",((var_B - var_A) / var_A) * 100,"def solution(var_A, var_B):
+    gain = var_B - var_A
+    return (gain / var_A) * 100","{'var_A': 50.0, 'var_B': 62.0}",False,
+A quantum well confines electrons with energy gap of 0.2 eV. What is the wavelength of emitted photon?,Quantum Optoelectronics,6.2e-06,,6200.0,6.204119850187266e-06,A quantum well confines electrons with energy gap of var_A eV. What is the wavelength of emitted photon?,"1. Use the energy-wavelength relationship for photons, which is given by the formula \( E = \frac{hc}{\lambda} \), where \( E \) is the energy of the photon, \( h \) is Planck's constant, and \( c \) is the speed of light.
+2. Rearrange the formula to solve for the wavelength \( \lambda \).
+3. Substitute the energy gap value into the rearranged formula to calculate the wavelength of the emitted photon.",(1240 / var_A),"def solution(var_A):
+    h = 6.626e-34  # Planck's constant in J*s
+    c = 3e8        # Speed of light in m/s
+    E = var_A * 1.602e-19  # Convert eV to Joules
+    wavelength = h * c / E
+    return wavelength",{'var_A': 0.2},True,'Code_Result'
+A spring has a spring constant of 100 N/m. It is stretched by 0.1 m. What is the force exerted by the spring?,Hooke's Law,10.0,10.0,10.0,10.0,A spring has a spring constant of var_A N / m. It is stretched by var_B m. What is the force exerted by the spring?,"1. Use Hooke's Law, which states that the force exerted by a spring is equal to the spring constant multiplied by the displacement from its equilibrium position.
+2. Multiply the spring constant by the amount the spring is stretched to find the force exerted by the spring.",var_A * var_B,"def solution(var_A, var_B):
+    return var_A * var_B","{'var_A': 100.0, 'var_B': 0.1}",False,
+"The half-life of a radioactive isotope is 5 years. After 15 years, What fraction of the original isotope remains?",Radioactive Decay,0.125,0.125,0.125,0.125,"The half - life of a radioactive isotope is var_A years. After var_B years, What fraction of the original isotope remains?","1. Determine how many half-lives have passed by dividing the total time (15 years) by the half-life (5 years).
+2. Use the formula for remaining quantity after half-lives, which is (1/2) raised to the number of half-lives.
+3. Calculate the fraction of the original isotope that remains based on the result from the previous step.",(1/2) ** (var_B / var_A),"def solution(var_A, var_B):
+    half_lives = var_B / var_A
+    return (1 / 2) ** half_lives","{'var_A': 5.0, 'var_B': 15.0}",False,
+"An economic production function has constant returns to scale. If labor and capital both double, by what factor does output increase?",Economic Production,2.0,2.0,2,2,"An economic production function has constant returns to scale. If labor and capital both double, by what factor does output increase?","1. Understand the concept of constant returns to scale, which states that if all inputs are increased by a certain factor, the output will increase by the same factor.
+2. Identify that doubling both labor and capital means increasing each input by a factor of two.
+3. Conclude that the output will also increase by the same factor of two.",2,"def solution():
+    return 2",{},False,
+"A gas occupies 2 L at 1 atm pressure. If the pressure is increased to 3 atm at constant temperature, What is the new volume in liters?",Boyle's Law,0.67,0.6666666666666666,0.6666666666666666,0.6666666666666666,"A gas occupies var_A L at var_B atm pressure. If the pressure is increased to var_C atm at constant temperature, What is the new volume in liters?","1. Use Boyle's Law, which states that the product of pressure and volume is constant at constant temperature.
+2. Set up the equation using the initial pressure and volume and the final pressure and volume.
+3. Rearrange the equation to solve for the new volume.
+4. Substitute the known values into the equation to find the new volume.",(var_A * var_B) / var_C,"def solution(var_A, var_B, var_C):
+    return (var_A * var_B) / var_C","{'var_A': 2.0, 'var_B': 1.0, 'var_C': 3.0}",False,
+A medical imaging technique resolves structures 0.5 mm in size. What is its resolution in micrometers?,Medical Imaging,500,500.0,500.0,500.0,A medical imaging technique resolves structures var_A mm in size. What is its resolution in micrometers?,"1. Recognize that 1 millimeter is equal to 1000 micrometers.
+2. Convert the resolution from millimeters to micrometers by multiplying the size in millimeters by 1000.",var_A * 1000,"def solution(var_A):
+    return var_A * 1000",{'var_A': 0.5},False,
+The pH of a solution is 4. What is the concentration of hydrogen ions in mol/L?,pH Calculation,0.0001,0.0001,0.0001,0.0001,The pH of a solution is var_A What is the concentration of hydrogen ions in mol / L?,"1. Use the formula for pH, which is pH = -log[H+], where [H+] is the concentration of hydrogen ions.
+2. Rearrange the formula to solve for [H+].
+3. Calculate the concentration of hydrogen ions by taking the antilogarithm of the negative pH value.",10 ** (-var_A),"def solution(var_A):
+    import math
+    return 10 ** (-var_A)",{'var_A': 4.0},False,
+An enzyme's catalytic rate is 250 molecules per second at 37°C. How many molecules are processed in 1 minute?,Enzyme Kinetics,15000,15000.0,15000.0,15000.0,An enzyme's catalytic rate is var_A molecules per second at var_B °C. How many molecules are processed in var_C minute?,"1. Determine the total number of seconds in 1 minute.
+2. Multiply the catalytic rate (molecules per second) by the total number of seconds to find the total number of molecules processed in 1 minute.",var_A * var_C * 60,"def solution(var_A, var_B, var_C):
+    total_seconds = var_C * 60
+    return var_A * total_seconds","{'var_A': 250.0, 'var_B': 37.0, 'var_C': 1.0}",False,
+"An electric field of 500 V/m accelerates an electron. What is its acceleration? (electron mass = 9.1e-31 kg, electron charge = 1.6e-19 C)",Electromagnetic Dynamics,8.79e+18,397.26027397260276,397.26027397260276,397.26027397260276,"An electric field of var_A V / m accelerates an electron. What is its acceleration? ( electron mass = var_B e - var_C kg, electron charge = var_D e - var_E C )","1. Use the formula for the force on a charge in an electric field, which is the product of the charge and the electric field strength.
+2. Apply Newton's second law, which states that force equals mass times acceleration, to find the acceleration.
+3. Rearrange the equation to solve for acceleration by dividing the force by the mass of the electron.",(var_A * (var_D - var_E)) / (var_B - var_C),"def solution(var_A, var_B, var_C, var_D, var_E):
+    mass = var_B - var_C
+    charge = var_D - var_E
+    force = charge * var_A
+    acceleration = force / mass
+    return acceleration","{'var_A': 500.0, 'var_B': 9.1, 'var_C': 31.0, 'var_D': 1.6, 'var_E': 19.0}",False,
+A cancer therapy delivers 2 Gy radiation dose per treatment. What is the total radiation exposure after 5 fractions?,Radiation Oncology,10.0,10.0,10.0,10.0,A cancer therapy delivers var_A Gy radiation dose per treatment. What is the total radiation exposure after var_B fractions?,"1. Identify the radiation dose delivered per treatment.
+2. Multiply the radiation dose per treatment by the number of treatments (fractions) to find the total radiation exposure.",var_A * var_B,"def solution(var_A, var_B):
+    return var_A * var_B","{'var_A': 2.0, 'var_B': 5.0}",False,
+A capacitor has a capacitance of 5 μF and is charged to a potential difference of 10 V. What is the charge stored in the capacitor?,Capacitance,50.0,50.0,50.0,50.0,A capacitor has a capacitance of var_A μF and is charged to a potential difference of var_B V. What is the charge stored in the capacitor?,"1. Use the formula for charge stored in a capacitor, which is Q = C × V, where Q is the charge, C is the capacitance, and V is the potential difference.
+2. Substitute the given values of capacitance and potential difference into the formula to calculate the charge stored in the capacitor.",var_A * var_B,"def solution(var_A, var_B):
+    return var_A * var_B","{'var_A': 5.0, 'var_B': 10.0}",False,
+A car accelerates from rest at a constant rate of 2 m/s^2 for 5 seconds. What is its final velocity?,Kinematics,10.0,,10.0,1000.0,A car accelerates from rest at a constant rate of var_A m / s ^ var_B for var_C seconds. What is its final velocity?,"1. Identify the initial velocity of the car, which is zero since it starts from rest.
+2. Use the formula for final velocity, which is the initial velocity plus the product of acceleration and time.
+3. Substitute the known values of acceleration and time into the formula to calculate the final velocity.",var_A * var_C,"def solution(var_A, var_B, var_C):
+    initial_velocity = 0
+    acceleration = var_A * (10 ** var_B)
+    final_velocity = initial_velocity + (acceleration * var_C)
+    return final_velocity","{'var_A': 2.0, 'var_B': 2.0, 'var_C': 5.0}",True,'Code_Result'
+The frequency of a wave is 500 Hz and its wavelength is 0.7 m. What is its speed in m/s?,Wave Speed,350.0,350.0,350.0,350.0,The frequency of a wave is var_A Hz and its wavelength is var_B m. What is its speed in m / s?,"1. Use the wave speed formula, which relates speed, frequency, and wavelength.
+2. Multiply the frequency of the wave by its wavelength to find the speed of the wave.",var_A * var_B,"def solution(var_A, var_B):
+    return var_A * var_B","{'var_A': 500.0, 'var_B': 0.7}",False,
+"A bacterial population doubles every 20 minutes. Starting with 1000 cells, How many cells after 60 minutes?",Bacterial Growth,8000,8000.0,8000.0,8000.0,"A bacterial population doubles every var_A minutes. Starting with var_B cells, How many cells after var_C minutes?","1. Determine how many 20-minute intervals are in 60 minutes.
+2. Use the formula for exponential growth to calculate the population after the determined number of intervals, starting with the initial population.",var_B * (2 ** (var_C // var_A)),"def solution(var_A, var_B, var_C):
+    intervals = var_C // var_A
+    return var_B * (2 ** intervals)","{'var_A': 20.0, 'var_B': 1000.0, 'var_C': 60.0}",False,
+"A 5 kg object moving at 3 m/s collides with a stationary 3 kg object. After collision, they move together. What is their final velocity?",Conservation of Momentum,1.875,1.875,1.875,1.875,"A var_A kg object moving at var_B m / s collides with a stationary var_C kg object. After collision, they move together. What is their final velocity?","1. Use the principle of conservation of momentum, which states that the total momentum before the collision equals the total momentum after the collision.
+2. Calculate the initial momentum of the moving object by multiplying its mass by its velocity.
+3. Since the stationary object has no initial momentum, add the momentum of the moving object to find the total initial momentum.
+4. Set the total initial momentum equal to the combined mass of both objects multiplied by their final velocity.
+5. Solve for the final velocity by dividing the total initial momentum by the combined mass of the two objects.",(var_A * var_B) / (var_A + var_C),"def solution(var_A, var_B, var_C):
+    total_initial_momentum = var_A * var_B
+    combined_mass = var_A + var_C
+    final_velocity = total_initial_momentum / combined_mass
+    return final_velocity","{'var_A': 5.0, 'var_B': 3.0, 'var_C': 3.0}",False,
+A chemical buffer has a pKa of 7 and initial concentration of 0.1 M. What is its pH at 25°C?,Buffer Solution,7.0,,,,A chemical buffer has a pKa of var_A and initial concentration of var_B M. What is its pH at var_C °C?,"1. Use the Henderson-Hasselbalch equation to relate pH, pKa, and the concentrations of the acid and its conjugate base.
+2. Since the initial concentration is given, determine the ratio of the concentrations of the acid and conjugate base if needed.
+3. Substitute the pKa value and the concentration ratio into the equation to calculate the pH.",var_A + log(var_B),"def solution(var_A, var_B, var_C):
+    return var_A + (0 if var_B == 0 else 1)  # Assuming the ratio of acid to conjugate base is 1:1 for simplicity","{'var_A': 7.0, 'var_B': 0.1, 'var_C': 25.0}",True,"float() argument must be a string or a real number, not 'NoneType'"
+A 5 kg object is lifted 2 meters against gravity (g = 9.8 m/s²). How much potential energy does it gain in Joules?,Gravitational Potential Energy,98.0,98.0,98.0,98.0,A var_A kg object is lifted var_B meters against gravity ( g = var_C m / s² ) . How much potential energy does it gain in Joules?,"1. Use the formula for gravitational potential energy, which is PE = mass × gravity × height.
+2. Substitute the mass of the object, the acceleration due to gravity, and the height into the formula to calculate the potential energy gained.",var_A * var_C * var_B,"def solution(var_A, var_B, var_C):
+    return var_A * var_C * var_B","{'var_A': 5.0, 'var_B': 2.0, 'var_C': 9.8}",False,
+"The density of gold is 19.3 g/cm³. If you have a cube of gold with side length 2 cm, What is its mass in grams?",Density Calculation,154.4,154.4,154.4,154.4,"The density of gold is var_A g / cm³. If you have a cube of gold with side length var_B cm, What is its mass in grams?","1. Calculate the volume of the cube using the formula for the volume of a cube (side length cubed).
+2. Multiply the volume by the density of gold to find the mass of the cube.",var_A * (var_B ** 3),"def solution(var_A, var_B):
+    volume = var_B ** 3
+    mass = volume * var_A
+    return mass","{'var_A': 19.3, 'var_B': 2.0}",False,
+The molar mass of NaOH is 40 g/mol. Calculate the mass of 2 moles of NaOH. What is the mass?,Molar Mass,80.0,80.0,80.0,80.0,The molar mass of NaOH is var_A g / mol. Calculate the mass of var_B moles of NaOH. What is the mass?,"1. Use the formula for mass, which is the product of the number of moles and the molar mass.
+2. Multiply the number of moles (2) by the molar mass of NaOH (40 g/mol) to find the total mass.",var_A * var_B,"def solution(var_A, var_B):
+    return var_A * var_B","{'var_A': 40.0, 'var_B': 2.0}",False,
+A nanomaterial has a surface area of 50 m²/g. What is its specific surface area in cm²/mg?,Materials Engineering,5000,500.0,500.0,500.0,A nanomaterial has a surface area of var_A m² / g. What is its specific surface area in cm² / mg?,"1. Convert the surface area from m²/g to cm²/g by using the conversion factor (1 m² = 10,000 cm²).
+2. Convert grams to milligrams by using the conversion factor (1 g = 1,000 mg).
+3. Divide the surface area in cm²/g by the conversion factor to find the specific surface area in cm²/mg.",var_A * 10000 / 1000,"def solution(var_A):
+    return (var_A * 10000) / 1000",{'var_A': 50.0},False,
+A 5 Ω and a 10 Ω resistor are connected in parallel. What is their equivalent resistance in ohms?,Parallel Resistance,3.33,3.333333333333333,3.333333333333333,3.333333333333333,A var_A Ω and a var_B Ω resistor are connected in parallel. What is their equivalent resistance in ohms?,"1. Use the formula for equivalent resistance of resistors in parallel, which is 1/R_eq = 1/R1 + 1/R2.
+2. Substitute the values of the resistances into the formula.
+3. Solve for R_eq by taking the reciprocal of the sum obtained in the previous step.",1 / (1 / var_A + 1 / var_B),"def solution(var_A, var_B):
+    R_eq = 1 / (1 / var_A + 1 / var_B)
+    return R_eq","{'var_A': 5.0, 'var_B': 10.0}",False,
+"The half-life of a radioactive isotope is 5 hours. Starting with 100 grams, How many grams remain after 15 hours?",Radioactive Decay,12.5,12.5,12.5,12.5,"The half - life of a radioactive isotope is var_A hours. Starting with var_B grams, How many grams remain after var_C hours?","1. Determine how many half-lives have passed by dividing the total time (15 hours) by the half-life (5 hours).
+2. Use the formula for remaining quantity after half-lives, which is the initial amount multiplied by (1/2) raised to the number of half-lives.
+3. Calculate the remaining amount of the isotope using the results from the previous steps.",var_B * (1/2) ** (var_C / var_A),"def solution(var_A, var_B, var_C):
+    half_lives = var_C / var_A
+    remaining_amount = var_B * (0.5 ** half_lives)
+    return remaining_amount","{'var_A': 5.0, 'var_B': 100.0, 'var_C': 15.0}",False,
+An ideal gas expands from 2 L to 5 L at constant temperature of 300 K. What is the pressure change ratio?,Gas Law Thermodynamics,0.4,2.5,2.5,2.5,An ideal gas expands from var_A L to var_B L at constant temperature of var_C K. What is the pressure change ratio?,"1. Use the ideal gas law to express the relationship between pressure, volume, and temperature.
+2. Since the temperature is constant, apply Boyle's Law, which states that pressure and volume are inversely proportional.
+3. Calculate the initial pressure using the initial volume and the final pressure using the final volume.
+4. Find the ratio of the initial pressure to the final pressure to determine the pressure change ratio.",(var_B / var_A),"def solution(var_A, var_B, var_C):
+    P1 = var_C / var_A
+    P2 = var_C / var_B
+    return P1 / P2","{'var_A': 2.0, 'var_B': 5.0, 'var_C': 300.0}",False,
+"A radioactive isotope has a half-life of 10 days. After 30 days, What fraction of the original sample remains?",Radioactive Decay,0.125,0.125,0.125,0.125,"A radioactive isotope has a half - life of var_A days. After var_B days, What fraction of the original sample remains?","1. Determine how many half-lives have passed by dividing the total time (30 days) by the half-life (10 days).
+2. Use the formula for remaining quantity after half-lives, which is (1/2) raised to the number of half-lives.
+3. Calculate the fraction of the original sample that remains based on the result from the previous step.",(1/2) ** (var_B / var_A),"def solution(var_A, var_B):
+    half_lives = var_B / var_A
+    return (1 / 2) ** half_lives","{'var_A': 10.0, 'var_B': 30.0}",False,
+The average kinetic energy of gas molecules at 300 K is 6.21 x 1e-21 J. What is the average kinetic energy at 600 K?,Kinetic Theory,1.242e-20,,260.82,3465.18,The average kinetic energy of gas molecules at var_A K is var_B x var_C e - var_D J. What is the average kinetic energy at var_E K?,"1. Use the formula for average kinetic energy, which is proportional to the temperature of the gas.
+2. Recognize that the average kinetic energy at a given temperature is directly proportional to that temperature.
+3. Set up a ratio of the average kinetic energies at the two temperatures to find the average kinetic energy at 600 K.",(var_B * var_C * var_E) / var_A * var_D,"def solution(var_A, var_B, var_C, var_D, var_E):
+    average_kinetic_energy_at_var_A = var_B * var_C * (var_A - var_D)
+    average_kinetic_energy_at_var_E = average_kinetic_energy_at_var_A * (var_E / var_A)
+    return average_kinetic_energy_at_var_E","{'var_A': 300.0, 'var_B': 6.21, 'var_C': 1.0, 'var_D': 21.0, 'var_E': 600.0}",True,'Code_Result'
+"A wire of length 2 m has a resistance of 10 Ω. If its length is doubled, What is its new resistance?",Resistance and Length,20.0,20.0,20.0,20.0,"A wire of length var_A m has a resistance of var_B Ω. If its length is doubled, What is its new resistance?","1. Recall that resistance is directly proportional to the length of the wire.
+2. Since the length of the wire is doubled, multiply the original resistance by 2 to find the new resistance.",2 * var_B,"def solution(var_A, var_B):
+    return 2 * var_B","{'var_A': 2.0, 'var_B': 10.0}",False,
+"The specific heat capacity of water is 4.18 J/(g·°C). To raise the temperature of 100g of water by 5°C, How much energy is required in Joules?",Heat Capacity,2090.0,2090.0,2090.0,2090.0,"The specific heat capacity of water is var_A J / ( g·°C ) . To raise the temperature of var_B g of water by var_C °C, How much energy is required in Joules?","1. Identify the formula for calculating energy required based on specific heat capacity, mass, and temperature change.
+2. Multiply the specific heat capacity of water by the mass of water to find the total heat capacity.
+3. Multiply the total heat capacity by the temperature change to find the total energy required in Joules.",var_A * var_B * var_C,"def solution(var_A, var_B, var_C):
+    return var_A * var_B * var_C","{'var_A': 4.18, 'var_B': 100.0, 'var_C': 5.0}",False,
+A patient's blood glucose level increases from 90 to 140 mg/dL after a meal. What is the percentage increase in blood glucose?,Medical Diagnostics,55.6,55.55555555555556,55.55555555555556,55.55555555555556,A patient's blood glucose level increases from var_A to var_B mg / dL after a meal. What is the percentage increase in blood glucose?,"1. Subtract the initial blood glucose level from the final blood glucose level to find the increase in blood glucose.
+2. Divide the increase in blood glucose by the initial blood glucose level to find the fractional increase.
+3. Multiply the fractional increase by 100 to convert it to a percentage.",((var_B - var_A) / var_A) * 100,"def solution(var_A, var_B):
+    increase = var_B - var_A
+    fractional_increase = increase / var_A
+    percentage_increase = fractional_increase * 100
+    return percentage_increase","{'var_A': 90.0, 'var_B': 140.0}",False,
+A worker is paid $15 per hour. If they work for 8 hours. What is their total pay?,Multiplication,120.0,120.0,120.0,120.0,A worker is paid $ var_A per hour. If they work for var_B hours. What is their total pay?,"1. Identify the hourly wage of the worker.
+2. Determine the total number of hours worked.
+3. Multiply the hourly wage by the total number of hours worked to find the total pay.",var_A * var_B,"def solution(var_A, var_B):
+    hourly_wage = var_A
+    total_hours = var_B
+    total_pay = hourly_wage * total_hours
+    return total_pay","{'var_A': 15.0, 'var_B': 8.0}",False,
+A transformer steps voltage down from 220 V to 110 V. What is the turns ratio of its primary to secondary windings?,Electrical Transformer,2.0,2.0,2.0,2.0,A transformer steps voltage down from var_A V to var_B V. What is the turns ratio of its primary to secondary windings?,"1. Identify the primary voltage and the secondary voltage from the given information.
+2. Use the formula for turns ratio, which is the ratio of primary voltage to secondary voltage.
+3. Calculate the turns ratio by dividing the primary voltage by the secondary voltage.",var_A / var_B,"def solution(var_A, var_B):
+    primary_voltage = var_A
+    secondary_voltage = var_B
+    turns_ratio = primary_voltage / secondary_voltage
+    return turns_ratio","{'var_A': 220.0, 'var_B': 110.0}",False,
+"The de Broglie wavelength of an electron is 1 nm. If its mass is 9.1 × 10⁻³¹ kg, What is its velocity in m/s?",de Broglie Wavelength,728000.0,,728139.5769230769,72813.95769230768,"The de Broglie wavelength of an electron is var_A nm. If its mass is var_B × var_C ⁻³¹ kg, What is its velocity in m / s?","1. Use the de Broglie wavelength formula, which relates wavelength to momentum: λ = h / p, where h is Planck's constant and p is momentum.
+2. Recognize that momentum (p) can be expressed as the product of mass and velocity: p = mass × velocity.
+3. Rearrange the de Broglie wavelength formula to solve for velocity: velocity = h / (mass × wavelength).
+4. Substitute the known values of Planck's constant, mass of the electron, and the given wavelength into the rearranged formula to calculate the velocity.",(6.62607015e-34) / ((var_B * var_C**-31) * (var_A * 1e-9)),"def solution(var_A, var_B, var_C):
+    h = 6.62607015e-34  # Planck's constant in J·s
+    mass = var_B * var_C * 1e-31  # mass in kg
+    wavelength = var_A * 1e-9  # wavelength in meters
+    velocity = h / (mass * wavelength)
+    return velocity","{'var_A': 1.0, 'var_B': 9.1, 'var_C': 10.0}",True,'Code_Result'
+"A 0.1 M HCl solution has a pH of 1. If it is diluted 10 times, What is its new pH?",Dilution and pH,2.0,,,,"A var_A M HCl solution has a pH of var_B If it is diluted var_C times, What is its new pH?","1. Determine the new concentration of the HCl solution after dilution.
+2. Use the formula for pH, which is the negative logarithm of the hydrogen ion concentration, to calculate the new pH based on the diluted concentration.",-var_B + log10(var_C),"def solution(var_A, var_B, var_C):
+    import math
+    new_concentration = var_A / var_C
+    new_pH = -math.log10(new_concentration)
+    return new_pH","{'var_A': 0.1, 'var_B': 1.0, 'var_C': 10.0}",True,"float() argument must be a string or a real number, not 'NoneType'"
+A lens with focal length 10 cm forms an image 30 cm from its center. What is the object distance?,Optics Imaging,15.0,,,,A lens with focal length var_A cm forms an image var_B cm from its center. What is the object distance?,"1. Use the lens formula, which relates the focal length, object distance, and image distance.
+2. Substitute the given focal length and image distance into the lens formula.
+3. Solve for the object distance.",1/var_A = 1/var_object + 1/var_B; var_object = 1/((1/var_A) - (1/var_B)),"def solution(var_A, var_B):
+    return 1 / (1 / var_A + 1 / var_B)","{'var_A': 10.0, 'var_B': 30.0}",True,"float() argument must be a string or a real number, not 'NoneType'"
+A sample contains 12 grams of carbon-12. How many moles of carbon are in the sample?,Mole Calculation,1.0,,,,A sample contains var_A grams of carbon - var_B How many moles of carbon are in the sample?,"1. Identify the molar mass of carbon-12.
+2. Use the formula for calculating moles, which is the mass of the sample divided by the molar mass.
+3. Divide the mass of carbon-12 in grams by its molar mass to find the number of moles.",(var_A - var_B) / 12,"def solution(var_A, var_B):
+    molar_mass_carbon = 12.01  # grams per mole
+    mass_of_carbon = var_A - var_B
+    return mass_of_carbon / molar_mass_carbon","{'var_A': 12.0, 'var_B': 12.0}",True,float division by zero
+A perfect blackbody radiates at 500 K. What is its peak emission wavelength? (Wien displacement constant = 2.898e-3 m·K),Thermal Radiation,5.796e-06,,0.017388,0.0019320000000000001,A perfect blackbody radiates at var_A K. What is its peak emission wavelength? ( Wien displacement constant = var_B e - var_C m·K ),"1. Use Wien's displacement law, which states that the peak wavelength is inversely proportional to the temperature.
+2. Multiply the temperature of the blackbody by the Wien displacement constant to find the peak emission wavelength.",(var_B * var_C) / var_A,"def solution(var_A, var_B, var_C):
+    return var_B / (var_A * var_C)","{'var_A': 500.0, 'var_B': 2.898, 'var_C': 3.0}",True,'Code_Result'
+A fuel cell generates 0.7 V with hydrogen and oxygen. What electrical power does it produce at 2 A current?,Electrochemistry,1.4,1.4,1.4,1.4,A fuel cell generates var_A V with hydrogen and oxygen. What electrical power does it produce at var_B A current?,"1. Use the formula for electrical power, which is the product of voltage and current.
+2. Multiply the voltage generated by the fuel cell by the current to find the electrical power produced.",var_A * var_B,"def solution(var_A, var_B):
+    return var_A * var_B","{'var_A': 0.7, 'var_B': 2.0}",False,
+A 2 kg mass is attached to a spring with spring constant 50 N/m. What is the period of oscillation in seconds?,Simple Harmonic Motion,1.26,1.2566370614359172,1.256636,1.2566370614359172,A var_A kg mass is attached to a spring with spring constant var_B N / m. What is the period of oscillation in seconds?,"1. Use the formula for the period of oscillation of a mass-spring system, which is T = 2π√(m/k).
+2. Substitute the mass and the spring constant into the formula.
+3. Calculate the square root of the mass divided by the spring constant.
+4. Multiply the result by 2π to find the period of oscillation.",2 * 3.14159 * (var_A / var_B) ** 0.5,"def solution(var_A, var_B):
+    import math
+    return 2 * math.pi * math.sqrt(var_A / var_B)","{'var_A': 2.0, 'var_B': 50.0}",False,
+"A company's revenue grows by 5% each year. If the initial revenue is $1000, What will be the revenue after 3 years?",Compound Growth,1157.63,1157.6250000000002,1157.6250000000002,1157.6250000000002,A company's revenue grows by var_A % each year. If the initial revenue is $ var_B What will be the revenue after var_C years?,"1. Identify the formula for compound growth, which is Revenue = Initial Revenue * (1 + Growth Rate)^(Number of Years).
+2. Substitute the initial revenue, growth rate, and number of years into the formula.
+3. Calculate the revenue after 3 years using the substituted values.",var_B * (1 + var_A / 100) ** var_C,"def solution(var_A, var_B, var_C):
+    return var_B * (1 + var_A / 100) ** var_C","{'var_A': 5.0, 'var_B': 1000.0, 'var_C': 3.0}",False,
+"A genetic mutation occurs in 2 out of 10,000 individuals. What is its prevalence as a percentage?",Epidemiology,0.02,0.02,0.02,0.02,A genetic mutation occurs in var_A out of var_B individuals. What is its prevalence as a percentage?,"1. Divide the number of individuals with the mutation by the total number of individuals to find the fraction of individuals with the mutation.
+2. Multiply the fraction by 100 to convert it to a percentage.",(var_A / var_B) * 100,"def solution(var_A, var_B):
+    return (var_A / var_B) * 100","{'var_A': 2.0, 'var_B': 10000.0}",False,
+A molecular motor moves 10 nm per ATP hydrolysis. How many steps to move 1 μm?,Cellular Biomechanics,100,,100.0,100000.0,A molecular motor moves var_A nm per ATP hydrolysis. How many steps to move var_B μm?,"1. Convert the distance of 1 μm to nanometers to have consistent units.
+2. Divide the total distance in nanometers by the distance moved per ATP hydrolysis to find the number of steps required.",(var_B * 1e3) / var_A,"def solution(var_A, var_B):
+    return (var_B * 1e6) / var_A","{'var_A': 10.0, 'var_B': 1.0}",True,'Code_Result'
+A microorganism population grows logistically from 100 to 1000 cells. What is its carrying capacity? (at halfway point),Population Dynamics,500,550.0,550.0,550.0,A microorganism population grows logistically from var_A to var_B cells. What is its carrying capacity? ( at halfway point ),"1. Identify the initial population size and the maximum population size (carrying capacity).
+2. Calculate the halfway point between the initial population and the carrying capacity by averaging the two values.",(var_A + var_B) / 2,"def solution(var_A, var_B):
+    carrying_capacity = var_B
+    halfway_point = (var_A + carrying_capacity) / 2
+    return halfway_point","{'var_A': 100.0, 'var_B': 1000.0}",False,
+"A company's profit margin is 15%. If their revenue is $1000, What is their profit?",Profit Calculation,150.0,150.0,150.0,150.0,A company's profit margin is var_A %. If their revenue is $ var_B What is their profit?,"1. Convert the profit margin percentage into a decimal.
+2. Multiply the revenue by the decimal profit margin to calculate the profit.",(var_A / 100) * var_B,"def solution(var_A, var_B):
+    decimal_margin = var_A / 100
+    profit = var_B * decimal_margin
+    return profit","{'var_A': 15.0, 'var_B': 1000.0}",False,
+A recombinant protein has a production rate of 0.5 mg/L per hour. What is its yield after 48 hours in a 10 L bioreactor?,Biotechnology,240,240.0,240.0,240.0,A recombinant protein has a production rate of var_A mg / L per hour. What is its yield after var_B hours in a var_C L bioreactor?,"1. Multiply the production rate by the volume of the bioreactor to find the total production per hour.
+2. Multiply the total production per hour by the total number of hours to find the yield after 48 hours.",var_A * var_C * var_B,"def solution(var_A, var_B, var_C):
+    total_production_per_hour = var_A * var_C
+    yield_after_hours = total_production_per_hour * var_B
+    return yield_after_hours","{'var_A': 0.5, 'var_B': 48.0, 'var_C': 10.0}",False,
+A capacitor stores 0.005 C of charge at 12 V potential difference. What is its capacitance in Farads?,Electrical Capacitance,0.000417,0.0004166666666666667,0.0004166666666666667,0.0004166666666666667,A capacitor stores var_A C of charge at var_B V potential difference. What is its capacitance in Farads?,"1. Use the formula for capacitance, which relates charge, voltage, and capacitance.
+2. Rearrange the formula to solve for capacitance.
+3. Substitute the given values of charge and voltage into the rearranged formula to calculate the capacitance.",var_A / var_B,"def solution(var_A, var_B):
+    return var_A / var_B","{'var_A': 0.005, 'var_B': 12.0}",False,
+A neurotransmitter concentration changes from 50 to 75 nM in synaptic cleft. What is its relative concentration change in percentage?,Neurochemistry,50.0,50.0,50.0,50.0,A neurotransmitter concentration changes from var_A to var_B nM in synaptic cleft. What is its relative concentration change in percentage?,"1. Subtract the initial concentration from the final concentration to find the change in concentration.
+2. Divide the change in concentration by the initial concentration to find the relative change.
+3. Multiply the result by 100 to convert it to a percentage.",((var_B - var_A) / var_A) * 100,"def solution(var_A, var_B):
+    change = var_B - var_A
+    relative_change = (change / var_A) * 100
+    return relative_change","{'var_A': 50.0, 'var_B': 75.0}",False,
+"A viral load decreases from 100,000 to 1,000 copies/mL after treatment. What is the log reduction?",Virology,2.0,,,,A viral load decreases from var_A to var_B copies / mL after treatment. What is the log reduction?,"1. Determine the initial viral load and the final viral load.
+2. Calculate the ratio of the initial viral load to the final viral load.
+3. Use the logarithm (base 10) to find the log reduction by taking the log of the ratio calculated in the previous step.",log10(var_A / var_B),"def solution(var_A, var_B):
+    ratio = var_A / var_B
+    log_reduction = math.log10(ratio)
+    return log_reduction","{'var_A': 100000.0, 'var_B': 1000.0}",True,"float() argument must be a string or a real number, not 'NoneType'"
+A solution has a pH of 3. What is the concentration of H⁺ ions in mol/L? What is [H⁺]?,pH and H⁺ Concentration,0.001,0.001,0.001,0.001,A solution has a pH of var_A What is the concentration of H⁺ ions in mol / L? What is [H⁺]?,"1. Use the formula that relates pH to the concentration of hydrogen ions, which is [H⁺] = 10^(-pH).
+2. Substitute the given pH value into the formula to calculate the concentration of H⁺ ions in mol/L.",10 ** (-var_A),"def solution(var_A):
+    return 10 ** (-var_A)",{'var_A': 3.0},False,
+The focal length of a convex lens is 20 cm. An object is placed 30 cm from the lens. At what distance from the lens does the image form?,Lens Equation,60.0,,,,The focal length of a convex lens is var_A cm. An object is placed var_B cm from the lens. At what distance from the lens does the image form?,"1. Use the lens formula, which relates the focal length, object distance, and image distance.
+2. Substitute the given focal length and object distance into the lens formula.
+3. Solve for the image distance to find out where the image forms.",1 / var_A = 1 / var_B + 1 / var_image; var_image = 1 / (1 / var_A - 1 / var_B),"def solution(var_A, var_B):
+    return 1 / ((1 / var_A) - (1 / var_B))","{'var_A': 20.0, 'var_B': 30.0}",True,"float() argument must be a string or a real number, not 'NoneType'"
+A light bulb operates at 100 W and 220 V. What is the current through the bulb?,Electric Power,0.4545,0.45454545454545453,0.45454545454545453,0.45454545454545453,A light bulb operates at var_A W and var_B V. What is the current through the bulb?,"1. Use the formula for power, which relates power, voltage, and current: Power = Voltage × Current.
+2. Rearrange the formula to solve for current: Current = Power / Voltage.
+3. Substitute the given values of power and voltage into the rearranged formula to find the current.",var_A / var_B,"def solution(var_A, var_B):
+    return var_A / var_B","{'var_A': 100.0, 'var_B': 220.0}",False,
+A car accelerates from 0 to 20 m/s in 10 seconds. What is its acceleration in m/s²?,Acceleration,2.0,2.0,2.0,2.0,A car accelerates from var_A to var_B m / s in var_C seconds. What is its acceleration in m / s²?,"1. Identify the initial velocity of the car and the final velocity after the acceleration period.
+2. Subtract the initial velocity from the final velocity to find the change in velocity.
+3. Divide the change in velocity by the time taken to find the acceleration.",(var_B - var_A) / var_C,"def solution(var_A, var_B, var_C):
+    change_in_velocity = var_B - var_A
+    acceleration = change_in_velocity / var_C
+    return acceleration","{'var_A': 0.0, 'var_B': 20.0, 'var_C': 10.0}",False,
+"A quantum spin-1/2 particle experiences a magnetic field of 1 Tesla. What is its Larmor precession frequency? (ℏ = 1.055e-34 J·s, electron g-factor = 2, μB = 9.274e-24 J/T)",Quantum Magnetism,176000000000.0,,0.5170894898243658,87905213270.14218,"A quantum spin - var_A / var_B particle experiences a magnetic field of var_C Tesla. What is its Larmor precession frequency? ( ℏ = var_D e - var_E J·s, electron g - factor = var_F μB = var_G e - var_H J / T )","1. Use the formula for Larmor precession frequency, which is given by the equation: frequency = (g * μB * B) / ℏ.
+2. Substitute the values of the electron g-factor, the magnetic field strength, and ℏ into the formula.
+3. Calculate the Larmor precession frequency using the substituted values.",(var_F * var_G * var_C) / (var_D * var_E),"def solution(var_A, var_B, var_C, var_D, var_E, var_F, var_G, var_H):
+    h_bar = var_D * 10**(-var_E)
+    mu_B = var_F * var_G * 10**(-var_H)
+    frequency = (var_A / var_B * mu_B * var_C) / h_bar
+    return frequency","{'var_A': 1.0, 'var_B': 2.0, 'var_C': 1.0, 'var_D': 1.055, 'var_E': 34.0, 'var_F': 2.0, 'var_G': 9.274, 'var_H': 24.0}",True,'Code_Result'
+"The work function of a metal is 2.0 eV. If light of wavelength 400 nm falls on it, What is the maximum kinetic energy of ejected electrons in eV?",Photoelectric Effect,1.1,,118.00000000000003,3099999997.9999995,"The work function of a metal is var_A eV. If light of wavelength var_B nm falls on it, What is the maximum kinetic energy of ejected electrons in eV?","1. Convert the wavelength of the light from nanometers to meters to use in calculations.
+2. Use the formula for the energy of a photon, which is related to its wavelength, to calculate the energy of the incoming light.
+3. Subtract the work function of the metal from the energy of the photon to find the maximum kinetic energy of the ejected electrons.",(var_B * 1e-9 * 3e8 * 1.6e-19) / 1.6e-19 - var_A,"def solution(var_A, var_B):
+    wavelength_m = var_B * 1e-9
+    energy_photon = 1240 / wavelength_m
+    max_kinetic_energy = energy_photon - var_A
+    return max_kinetic_energy","{'var_A': 2.0, 'var_B': 400.0}",True,'Code_Result'
+"The half-life of carbon-14 is 5730 years. If a sample has 25% of its original carbon-14, How old is it in years?",Radioactive Dating,11460.0,,10232.142857142857,11460.0,The half - life of carbon - var_A is var_B years. If a sample has var_C % of its original carbon - var_D How old is it in years?,"1. Recognize that having 25% of the original carbon-14 indicates that two half-lives have passed.
+2. Multiply the number of half-lives by the duration of one half-life to find the age of the sample.",(var_C / var_D) * var_B,"def solution(var_A, var_B, var_C, var_D):
+    half_lives = 0
+    if var_C == 25:
+        half_lives = 2
+    return half_lives * var_B","{'var_A': 14.0, 'var_B': 5730.0, 'var_C': 25.0, 'var_D': 14.0}",True,'Code_Result'
+A neuron fires an action potential with a duration of 2 ms. What is its frequency of firing?,Neurophysiology,500,500.0,500.0,500.0,A neuron fires an action potential with a duration of var_A ms. What is its frequency of firing?,"1. Convert the duration of the action potential from milliseconds to seconds.
+2. Use the formula for frequency, which is the reciprocal of the period (duration), to find the frequency of firing.",1 / (var_A / 1000),"def solution(var_A):
+    duration_seconds = var_A / 1000
+    frequency = 1 / duration_seconds
+    return frequency",{'var_A': 2.0},False,
+A cylinder has a radius of 3 cm and a height of 5 cm. What is its volume in cubic cm?,Volume of Cylinder,141.3,141.3716694115407,141.37155,141.3716694115407,A cylinder has a radius of var_A cm and a height of var_B cm. What is its volume in cubic cm?,"1. Use the formula for the volume of a cylinder, which is V = πr²h.
+2. Substitute the radius and height into the formula.
+3. Calculate the area of the base by squaring the radius and multiplying by π.
+4. Multiply the area of the base by the height to find the volume.",3.14159 * (var_A ** 2) * var_B,"def solution(var_A, var_B):
+    import math
+    return math.pi * (var_A ** 2) * var_B","{'var_A': 3.0, 'var_B': 5.0}",False,
+"The resistance of a circuit is 10 ohms, and the current is 2 A. What is the voltage across the circuit in volts?",Ohm's Law,20.0,20.0,20.0,20.0,"The resistance of a circuit is var_A ohms, and the current is var_B A. What is the voltage across the circuit in volts?","1. Use Ohm's Law, which states that Voltage = Current × Resistance.
+2. Multiply the current by the resistance to find the voltage across the circuit.",var_A * var_B,"def solution(var_A, var_B):
+    return var_A * var_B","{'var_A': 10.0, 'var_B': 2.0}",False,
+"A polymer has a molecular weight of 50,000 g/mol. How many monomers are in a chain? (Assume monomer MW = 100 g/mol)",Polymer Chemistry,500,500.0,500.0,500.0,A polymer has a molecular weight of var_A g / mol. How many monomers are in a chain? ( Assume monomer MW = var_B g / mol ),1. Divide the molecular weight of the polymer by the molecular weight of a single monomer to find the number of monomers in the chain.,var_A / var_B,"def solution(var_A, var_B):
+    return var_A / var_B","{'var_A': 50000.0, 'var_B': 100.0}",False,

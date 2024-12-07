@@ -1,0 +1,698 @@
+[
+  {
+    "ID": "chal-1",
+    "Body": "10 moles of hydrogen gas (H2) combine with 5 moles of oxygen gas (O2) to form water (H2O).",
+    "Question": "How many moles of water are produced?",
+    "Equation": "(5.0 * 1.0)",
+    "Answer": 5.0,
+    "Type": "Stoichiometry"
+  },
+  {
+    "ID": "chal-2",
+    "Body": "A worker is paid $15 per hour. If they work for 8 hours.",
+    "Question": "What is their total pay?",
+    "Equation": "(15.0 * 8.0)",
+    "Answer": 120.0,
+    "Type": "Multiplication"
+  },
+  {
+    "ID": "chal-5",
+    "Body": "The molar mass of NaOH is 40 g/mol. Calculate the mass of 2 moles of NaOH.",
+    "Question": "What is the mass?",
+    "Equation": "(40.0 * 2.0)",
+    "Answer": 80.0,
+    "Type": "Molar Mass"
+  },
+  {
+  "ID": "chal-6",
+  "Body": "An item costs $50, but a discount of 10% is applied.",
+  "Question": "What is the price after discount?",
+  "Equation": "(50.0 - 50.0 * 0.1)",
+  "Answer": 45.0,
+  "Type": "Percentage"
+  },
+  {
+    "ID": "chal-7",
+    "Body": "If a cell divides into 2 every 20 minutes, how many cells are present after 1 hour starting from 1 cell? (Exponential growth)",
+    "Question": "What is the cell count?",
+    "Equation": "(1.0 * 2.0**3)",
+    "Answer": 8.0,
+    "Type": "Exponential Growth"
+  },
+  {
+    "ID": "chal-9",
+    "Body": "A car accelerates from rest at a constant rate of 2 m/s^2 for 5 seconds.",
+    "Question": "What is its final velocity?",
+    "Equation": "(0.0 + 2.0 * 5.0)",
+    "Answer": 10.0,
+    "Type": "Kinematics"
+  },
+  {
+    "ID": "chal-26",
+    "Body": "A capacitor has a capacitance of 5 μF and is charged to a potential difference of 10 V.",
+    "Question": "What is the charge stored in the capacitor?",
+    "Equation": "(5.0 * 10.0)",
+    "Answer": 50.0,
+    "Type": "Capacitance"
+    },
+    {
+    "ID": "chal-27",
+    "Body": "The half-life of a radioactive isotope is 5 hours. Starting with 100 grams,",
+    "Question": "How many grams remain after 15 hours?",
+    "Equation": "(100.0 * (0.53))",
+    "Answer": 12.5,
+    "Type": "Radioactive Decay"
+    },
+    {
+    "ID": "chal-28",
+    "Body": "A company's revenue grows by 5% each year. If the initial revenue is $1000,",
+    "Question": "What will be the revenue after 3 years?",
+    "Equation": "(1000.0 * (1.053))",
+    "Answer": 1157.63,
+    "Type": "Compound Growth"
+    },
+    {
+    "ID": "chal-29",
+    "Body": "The pH of a solution is 4.",
+    "Question": "What is the concentration of hydrogen ions in mol/L?",
+    "Equation": "(10.0**-4)",
+    "Answer": 0.0001,
+    "Type": "pH Calculation"
+    },
+    {
+    "ID": "chal-30",
+    "Body": "A spring has a spring constant of 100 N/m. It is stretched by 0.1 m.",
+    "Question": "What is the force exerted by the spring?",
+    "Equation": "(100.0 * 0.1)",
+    "Answer": 10.0,
+    "Type": "Hooke's Law"
+    },
+    {
+    "ID": "chal-31",
+    "Body": "The speed of sound in air is 343 m/s. If an echo returns after 2 seconds,",
+    "Question": "How far away is the reflecting surface?",
+    "Equation": "(343.0 * 2.0 / 2.0)",
+    "Answer": 343.0,
+    "Type": "Wave Motion"
+    },
+    {
+    "ID": "chal-33",
+    "Body": "The specific heat capacity of water is 4.18 J/(g·°C). To raise the temperature of 100g of water by 5°C,",
+    "Question": "How much energy is required in Joules?",
+    "Equation": "(4.18 * 100.0 * 5.0)",
+    "Answer": 2090.0,
+    "Type": "Heat Capacity"
+    },
+    {
+    "ID": "chal-34",
+    "Body": "A car travels at 60 km/h for 2 hours.",
+    "Question": "What distance does it cover in meters?",
+    "Equation": "(60.0 * 2.0 * 1000)",
+    "Answer": 120000.0,
+    "Type": "Distance Calculation"
+    },
+    {
+    "ID": "chal-35",
+    "Body": "The gravitational field strength on Earth's surface is approximately 9.8 N/kg. For a mass of 5 kg,",
+    "Question": "What is the weight in Newtons?",
+    "Equation": "(9.8 * 5.0)",
+    "Answer": 49.0,
+    "Type": "Weight Calculation"
+    },
+    {
+    "ID": "chal-36",
+    "Body": "A resistor has a resistance of 100 Ω. If a current of 0.5 A flows through it,",
+    "Question": "What is the voltage across the resistor?",
+    "Equation": "(100.0 * 0.5)",
+    "Answer": 50.0,
+    "Type": "Ohm's Law"
+    },
+    {
+    "ID": "chal-37",
+    "Body": "The density of gold is 19.3 g/cm³. If you have a cube of gold with side length 2 cm,",
+    "Question": "What is its mass in grams?",
+    "Equation": "(19.3 * 2.03)",
+    "Answer": 154.4,
+    "Type": "Density Calculation"
+    },
+    {
+    "ID": "chal-38",
+    "Body": "A pendulum has a period of 2 seconds. On a planet where g = 1.62 m/s²,",
+    "Question": "What is the length of the pendulum in meters?",
+    "Equation": "(1.62 * (2.0 / (2 * 3.14159))2)",
+    "Answer": 0.26,
+    "Type": "Pendulum Motion"
+    },
+    {
+    "ID": "chal-39",
+    "Body": "The average kinetic energy of gas molecules at 300 K is 6.21 x 1e-21 J.",
+    "Question": "What is the average kinetic energy at 600 K?",
+    "Equation": "(6.21e-21 * 600.0 / 300.0)",
+    "Answer": 1.242e-20,
+    "Type": "Kinetic Theory"
+    },
+    {
+    "ID": "chal-40",
+    "Body": "A company's profit margin is 15%. If their revenue is $1000,",
+    "Question": "What is their profit?",
+    "Equation": "(1000.0 * 0.15)",
+    "Answer": 150.0,
+    "Type": "Profit Calculation"
+    },
+    {
+    "ID": "chal-41",
+    "Body": "The focal length of a convex lens is 20 cm. An object is placed 30 cm from the lens.",
+    "Question": "At what distance from the lens does the image form?",
+    "Equation": "(1 / (1/20.0 - 1/30.0))",
+    "Answer": 60.0,
+    "Type": "Lens Equation"
+    },
+    {
+    "ID": "chal-42",
+    "Body": "A gas occupies 2 L at 1 atm pressure. If the pressure is increased to 3 atm at constant temperature,",
+    "Question": "What is the new volume in liters?",
+    "Equation": "(2.0 * 1.0 / 3.0)",
+    "Answer": 0.67,
+    "Type": "Boyle's Law"
+    },
+    {
+    "ID": "chal-44",
+    "Body": "A 5 kg object moving at 3 m/s collides with a stationary 3 kg object. After collision, they move together.",
+    "Question": "What is their final velocity?",
+    "Equation": "(5.0 * 3.0 / (5.0 + 3.0))",
+    "Answer": 1.875,
+    "Type": "Conservation of Momentum"
+    },
+    {
+    "ID": "chal-46",
+    "Body": "A wire of length 2 m has a resistance of 10 Ω. If its length is doubled,",
+    "Question": "What is its new resistance?",
+    "Equation": "(10.0 * 2.0)",
+    "Answer": 20.0,
+    "Type": "Resistance and Length"
+    },
+    {
+    "ID": "chal-47",
+    "Body": "The frequency of a wave is 500 Hz and its wavelength is 0.7 m.",
+    "Question": "What is its speed in m/s?",
+    "Equation": "(500.0 * 0.7)",
+    "Answer": 350.0,
+    "Type": "Wave Speed"
+    },
+    {
+    "ID": "chal-48",
+    "Body": "A sample of gas occupies 3 L at 27°C. At constant pressure, it is heated to 127°C.",
+    "Question": "What is its new volume in liters?",
+    "Equation": "(3.0 * (400.0 / 300.0))",
+    "Answer": 4.0,
+    "Type": "Charles's Law"
+    },
+    {
+    "ID": "chal-49",
+    "Body": "The half-life of carbon-14 is 5730 years. If a sample has 25% of its original carbon-14,",
+    "Question": "How old is it in years?",
+    "Equation": "(5730.0 * 2.0)",
+    "Answer": 11460.0,
+    "Type": "Radioactive Dating"
+    },
+    {
+    "ID": "chal-50",
+    "Body": "A ball is thrown upward with an initial velocity of 20 m/s. Taking g = 10 m/s²,",
+    "Question": "What is its maximum height in meters?",
+    "Equation": "(20.0**2 / (2.0 * 10.0))",
+    "Answer": 20.0,
+    "Type": "Projectile Motion"
+    },
+    {
+    "ID": "chal-51",
+    "Body": "The pH of a solution is 9.",
+    "Question": "What is the pOH of the solution?",
+    "Equation": "(14.0 - 9.0)",
+    "Answer": 5.0,
+    "Type": "pH and pOH"
+    },
+    {
+    "ID": "chal-52",
+    "Body": "A 100 W light bulb is left on for 5 hours.",
+    "Question": "How much energy does it consume in kWh?",
+    "Equation": "(100.0 * 5.0 / 1000.0)",
+    "Answer": 0.5,
+    "Type": "Energy Consumption"
+    },
+    {
+    "ID": "chal-53",
+    "Body": "A car accelerates from 0 to 20 m/s in 10 seconds.",
+    "Question": "What is its acceleration in m/s²?",
+    "Equation": "(20.0 / 10.0)",
+    "Answer": 2.0,
+    "Type": "Acceleration"
+    },
+    {
+    "ID": "chal-54",
+    "Body": "The atomic mass of carbon is 12 amu. In a sample of 24 grams of carbon,",
+    "Question": "How many moles are present?",
+    "Equation": "(24.0 / 12.0)",
+    "Answer": 2.0,
+    "Type": "Mole Calculation"
+    },
+    {
+    "ID": "chal-55",
+    "Body": "A 2 kg mass is attached to a spring with spring constant 50 N/m.",
+    "Question": "What is the period of oscillation in seconds?",
+    "Equation": "(2.0 * 3.14159 * (2.0 / 50.0)**0.5)",
+    "Answer": 1.26,
+    "Type": "Simple Harmonic Motion"
+    },
+    {
+    "ID": "chal-56",
+    "Body": "The work function of a metal is 2.0 eV. If light of wavelength 400 nm falls on it,",
+    "Question": "What is the maximum kinetic energy of ejected electrons in eV?",
+    "Equation": "(1240.0 / 400.0 - 2.0)",
+    "Answer": 1.1,
+    "Type": "Photoelectric Effect"
+    },
+    {
+    "ID": "chal-57",
+    "Body": "A 5 Ω and a 10 Ω resistor are connected in parallel.",
+    "Question": "What is their equivalent resistance in ohms?",
+    "Equation": "(1.0 / (1.0/5.0 + 1.0/10.0))",
+    "Answer": 3.33,
+    "Type": "Parallel Resistance"
+    },
+    {
+    "ID": "chal-58",
+    "Body": "The efficiency of a heat engine is 30%. If it does 300 J of work,",
+    "Question": "How much heat does it absorb from the hot reservoir?",
+    "Equation": "(300.0 / 0.3)",
+    "Answer": 1000.0,
+    "Type": "Heat Engine Efficiency"
+    },
+    {
+    "ID": "chal-59",
+    "Body": "A 0.1 M HCl solution has a pH of 1. If it is diluted 10 times,",
+    "Question": "What is its new pH?",
+    "Equation": "(-1.0 * (1.0 - 1.0))",
+    "Answer": 2.0,
+    "Type": "Dilution and pH"
+    },
+    {
+    "ID": "chal-60",
+    "Body": "The de Broglie wavelength of an electron is 1 nm. If its mass is 9.1 × 10⁻³¹ kg,",
+    "Question": "What is its velocity in m/s?",
+    "Equation": "(6.626e-34 / (9.1e-31 * 1e-9))",
+    "Answer": 7.28e5,
+    "Type": "de Broglie Wavelength"
+    },
+    {
+    "ID": "chal-61",
+    "Body": "A 5 kg object is lifted 2 meters against gravity (g = 9.8 m/s²).",
+    "Question": "How much potential energy does it gain in Joules?",
+    "Equation": "(5.0 * 9.8 * 2.0)",
+    "Answer": 98.0,
+    "Type": "Gravitational Potential Energy"
+    },
+    {
+        "ID": "chal-163",
+        "Body": "The resistance of a circuit is 10 ohms, and the current is 2 A.",
+        "Question": "What is the voltage across the circuit in volts?",
+        "Equation": "(10.0 * 2.0)",
+        "Answer": 20.0,
+        "Type": "Ohm's Law"
+    },
+    {
+        "ID": "chal-164",
+        "Body": "A sample contains 12 grams of carbon-12.",
+        "Question": "How many moles of carbon are in the sample?",
+        "Equation": "(12.0 / 12.0)",
+        "Answer": 1.0,
+        "Type": "Mole Calculation"
+    },
+    {
+        "ID": "chal-165",
+        "Body": "A solution has a pH of 3. What is the concentration of H⁺ ions in mol/L?",
+        "Question": "What is [H⁺]?",
+        "Equation": "(10 ** -3)",
+        "Answer": 0.001,
+        "Type": "pH and H⁺ Concentration"
+    },
+    {
+        "ID": "chal-166",
+        "Body": "A cylinder has a radius of 3 cm and a height of 5 cm.",
+        "Question": "What is its volume in cubic cm?",
+        "Equation": "(3.14 * 3.0**2 * 5.0)",
+        "Answer": 141.3,
+        "Type": "Volume of Cylinder"
+    },
+    {
+        "ID": "chal-167",
+        "Body": "A light bulb operates at 100 W and 220 V.",
+        "Question": "What is the current through the bulb?",
+        "Equation": "(100.0 / 220.0)",
+        "Answer": 0.4545,
+        "Type": "Electric Power"
+    },
+    {
+        "ID": "chal-168",
+        "Body": "The half-life of a radioactive isotope is 5 years. After 15 years,",
+        "Question": "What fraction of the original isotope remains?",
+        "Equation": "(0.5 ** (15.0 / 5.0))",
+        "Answer": 0.125,
+        "Type": "Radioactive Decay"
+    },
+    {
+        "ID": "chal-62",
+        "Body": "A capacitor stores 0.005 C of charge at 12 V potential difference.",
+        "Question": "What is its capacitance in Farads?",
+        "Equation": "(0.005 / 12.0)",
+        "Answer": 4.17e-4,
+        "Type": "Electrical Capacitance"
+    },
+    {
+        "ID": "chal-63", 
+        "Body": "An ideal gas expands from 2 L to 5 L at constant temperature of 300 K.",
+        "Question": "What is the pressure change ratio?",
+        "Equation": "(2.0 / 5.0)",
+        "Answer": 0.4,
+        "Type": "Gas Law Thermodynamics"
+    },
+    {
+        "ID": "chal-64",
+        "Body": "A radioactive isotope has a half-life of 10 days. After 30 days,",
+        "Question": "What fraction of the original sample remains?",
+        "Equation": "(0.5 ** 3)",
+        "Answer": 0.125,
+        "Type": "Radioactive Decay"
+    },
+    {
+        "ID": "chal-65",
+        "Body": "A stock increases from $50 to $62 over one year.",
+        "Question": "What is its percentage return?",
+        "Equation": "((62.0 - 50.0) / 50.0 * 100)",
+        "Answer": 24.0,
+        "Type": "Financial Returns"
+    },
+    {
+        "ID": "chal-66",
+        "Body": "A transformer steps voltage down from 220 V to 110 V.",
+        "Question": "What is the turns ratio of its primary to secondary windings?",
+        "Equation": "(220.0 / 110.0)",
+        "Answer": 2.0,
+        "Type": "Electrical Transformer"
+    },
+    {
+        "ID": "chal-67",
+        "Body": "A bacterial population doubles every 20 minutes. Starting with 1000 cells,",
+        "Question": "How many cells after 60 minutes?",
+        "Equation": "(1000 * (2 ** 3))",
+        "Answer": 8000,
+        "Type": "Bacterial Growth"
+    },
+    {
+        "ID": "chal-68",
+        "Body": "An enzyme reaction rate is 0.5 μmol/min at 25°C.",
+        "Question": "What is the rate in mmol/hour?",
+        "Equation": "(0.5 * 60 / 1000)",
+        "Answer": 0.03,
+        "Type": "Enzyme Kinetics"
+    },
+    {
+        "ID": "chal-69",
+        "Body": "A lens with focal length 10 cm forms an image 30 cm from its center.",
+        "Question": "What is the object distance?",
+        "Equation": "(1.0 / ((1.0/10.0) - (1.0/30.0)))",
+        "Answer": 15.0,
+        "Type": "Optics Imaging"
+    },
+    {
+        "ID": "chal-71",
+        "Body": "A pendulum makes 40 complete oscillations in 2 minutes.",
+        "Question": "What is its frequency in Hertz?",
+        "Equation": "(40.0 / 120.0)",
+        "Answer": 0.333,
+        "Type": "Oscillation Frequency"
+    },
+    {
+        "ID": "chal-73",
+        "Body": "A 50 mL solution contains 2.5 g of NaCl.",
+        "Question": "What is its molarity? (Molar mass NaCl = 58.44 g/mol)",
+        "Equation": "(2.5 / (58.44 * 0.050))",
+        "Answer": 0.855,
+        "Type": "Solution Concentration"
+    },
+    {
+        "ID": "chal-74",
+        "Body": "A superconductor transitions at 4.2 K and carries 50 A of current.",
+        "Question": "What is its critical current density at 77 K? (Assume linear reduction)",
+        "Equation": "(50.0 * (77.0 / 4.2))",
+        "Answer": 919.0,
+        "Type": "Superconductivity"
+    },
+    {
+        "ID": "chal-75",
+        "Body": "A chemical buffer has a pKa of 7 and initial concentration of 0.1 M.",
+        "Question": "What is its pH at 25°C?",
+        "Equation": "(7.0)",
+        "Answer": 7.0,
+        "Type": "Buffer Solution"
+    },
+    {
+        "ID": "chal-76",
+        "Body": "A photon has a wavelength of 500 nm.",
+        "Question": "What is its energy in electron volts? (h = 6.626e-34 J·s, c = 3e8 m/s, 1 eV = 1.6e-19 J)",
+        "Equation": "((6.626e-34 * 3e8) / (500e-9 * 1.6e-19))",
+        "Answer": 2.48,
+        "Type": "Quantum Mechanics"
+    },
+    {
+        "ID": "chal-78",
+        "Body": "A polymer has a molecular weight of 50,000 g/mol.",
+        "Question": "How many monomers are in a chain? (Assume monomer MW = 100 g/mol)",
+        "Equation": "(50000.0 / 100.0)",
+        "Answer": 500,
+        "Type": "Polymer Chemistry"
+    },
+    {
+        "ID": "chal-79",
+        "Body": "An electric field of 500 V/m accelerates an electron.",
+        "Question": "What is its acceleration? (electron mass = 9.1e-31 kg, electron charge = 1.6e-19 C)",
+        "Equation": "((1.6e-19 * 500.0) / (9.1e-31))",
+        "Answer": 8.79e18,
+        "Type": "Electromagnetic Dynamics"
+    },
+    {
+        "ID": "chal-80",
+        "Body": "A market portfolio returns 10% annually with a standard deviation of 15%.",
+        "Question": "What is its Sharpe ratio? (Risk-free rate = 2%)",
+        "Equation": "((0.10 - 0.02) / 0.15)",
+        "Answer": 0.533,
+        "Type": "Financial Risk Analysis"
+    },
+    {
+        "ID": "chal-81",
+        "Body": "A neuron fires an action potential with a duration of 2 ms.",
+        "Question": "What is its frequency of firing?",
+        "Equation": "(1.0 / (0.002 * 1000))",
+        "Answer": 500,
+        "Type": "Neurophysiology"
+    },
+    {
+        "ID": "chal-84",
+        "Body": "A quantum well confines electrons with energy gap of 0.2 eV.",
+        "Question": "What is the wavelength of emitted photon?",
+        "Equation": "((6.626e-34 * 3e8) / (0.2 * 1.6e-19))",
+        "Answer": 6.2e-6,
+        "Type": "Quantum Optoelectronics"
+    },
+    {
+        "ID": "chal-85",
+        "Body": "A microorganism population grows logistically from 100 to 1000 cells.",
+        "Question": "What is its carrying capacity? (at halfway point)",
+        "Equation": "(1000.0 / 2.0)",
+        "Answer": 500,
+        "Type": "Population Dynamics"
+    },
+    {
+        "ID": "chal-86",
+        "Body": "A bipolar junction transistor has a current gain of 100.",
+        "Question": "What base current generates a collector current of 10 mA?",
+        "Equation": "(10.0 / 100.0)",
+        "Answer": 0.1,
+        "Type": "Semiconductor Electronics"
+    },
+    {
+        "ID": "chal-87",
+        "Body": "A perfect blackbody radiates at 500 K.",
+        "Question": "What is its peak emission wavelength? (Wien displacement constant = 2.898e-3 m·K)",
+        "Equation": "(2.898e-3 / 500.0)",
+        "Answer": 5.796e-6,
+        "Type": "Thermal Radiation"
+    },
+    {
+        "ID": "chal-88",
+        "Body": "A recombinant protein has a production rate of 0.5 mg/L per hour.",
+        "Question": "What is its yield after 48 hours in a 10 L bioreactor?",
+        "Equation": "(0.5 * 48 * 10.0)",
+        "Answer": 240,
+        "Type": "Biotechnology"
+    },
+    {
+        "ID": "chal-89",
+        "Body": "A quantum spin-1/2 particle experiences a magnetic field of 1 Tesla.",
+        "Question": "What is its Larmor precession frequency? (ℏ = 1.055e-34 J·s, electron g-factor = 2, μB = 9.274e-24 J/T)",
+        "Equation": "((2 * 9.274e-24 * 1.0) / (1.055e-34))",
+        "Answer": 1.76e11,
+        "Type": "Quantum Magnetism"
+    },
+    {
+        "ID": "chal-90",
+        "Body": "A fuel cell generates 0.7 V with hydrogen and oxygen.",
+        "Question": "What electrical power does it produce at 2 A current?",
+        "Equation": "(0.7 * 2.0)",
+        "Answer": 1.4,
+        "Type": "Electrochemistry"
+    },
+    {
+        "ID": "chal-92",
+        "Body": "A thermal expansion coefficient is 2e-5 K⁻¹ for a metal rod.",
+        "Question": "How much does a 1-meter rod expand when heated from 20°C to 120°C?",
+        "Equation": "(1.0 * 2e-5 * (120.0 - 20.0))",
+        "Answer": 0.002,
+        "Type": "Material Science"
+    },
+    {
+        "ID": "chal-95",
+        "Body": "A nanomaterial has a surface area of 50 m²/g.",
+        "Question": "What is its specific surface area in cm²/mg?",
+        "Equation": "(50.0 * 100.0)",
+        "Answer": 5000,
+        "Type": "Materials Engineering"
+    },
+    {
+        "ID": "chal-96",
+        "Body": "An economic production function has constant returns to scale.",
+        "Question": "If labor and capital both double, by what factor does output increase?",
+        "Equation": "(2.0)",
+        "Answer": 2.0,
+        "Type": "Economic Production"
+    },
+    {
+        "ID": "chal-97",
+        "Body": "A molecular motor moves 10 nm per ATP hydrolysis.",
+        "Question": "How many steps to move 1 μm?",
+        "Equation": "(1000.0 / 10.0)",
+        "Answer": 100,
+        "Type": "Cellular Biomechanics"
+    },
+    {
+        "ID": "chal-98",
+        "Body": "A quantum dot emits photons at 600 nm wavelength.",
+        "Question": "What is its bandgap energy in electron volts?",
+        "Equation": "((6.626e-34 * 3e8) / (600e-9 * 1.6e-19))",
+        "Answer": 2.48,
+        "Type": "Quantum Mechanics"
+    },
+    {
+        "ID": "chal-99",
+        "Body": "A patient's blood glucose level increases from 90 to 140 mg/dL after a meal.",
+        "Question": "What is the percentage increase in blood glucose?",
+        "Equation": "((140.0 - 90.0) / 90.0 * 100)",
+        "Answer": 55.6,
+        "Type": "Medical Diagnostics"
+    },
+    {
+        "ID": "chal-100",
+        "Body": "A drug has a half-life of 6 hours in the human body.",
+        "Question": "What percentage of the original dose remains after 18 hours?",
+        "Equation": "(0.5 ** 3 * 100)",
+        "Answer": 12.5,
+        "Type": "Pharmacokinetics"
+    },
+    {
+        "ID": "chal-101",
+        "Body": "A cancer therapy delivers 2 Gy radiation dose per treatment.",
+        "Question": "What is the total radiation exposure after 5 fractions?",
+        "Equation": "(2.0 * 5.0)",
+        "Answer": 10.0,
+        "Type": "Radiation Oncology"
+    },
+    {
+        "ID": "chal-102",
+        "Body": "A patient's white blood cell count increases from 4,000 to 11,000 cells/μL during an infection.",
+        "Question": "What is the percentage increase in white blood cells?",
+        "Equation": "((11000.0 - 4000.0) / 4000.0 * 100)",
+        "Answer": 175.0,
+        "Type": "Immunology"
+    },
+    {
+        "ID": "chal-103",
+        "Body": "A neurotransmitter concentration changes from 50 to 75 nM in synaptic cleft.",
+        "Question": "What is its relative concentration change in percentage?",
+        "Equation": "((75.0 - 50.0) / 50.0 * 100)",
+        "Answer": 50.0,
+        "Type": "Neurochemistry"
+    },
+    {
+        "ID": "chal-104",
+        "Body": "An enzyme's catalytic rate is 250 molecules per second at 37°C.",
+        "Question": "How many molecules are processed in 1 minute?",
+        "Equation": "(250.0 * 60.0)",
+        "Answer": 15000,
+        "Type": "Enzyme Kinetics"
+    },
+    {
+        "ID": "chal-105",
+        "Body": "A medical imaging technique resolves structures 0.5 mm in size.",
+        "Question": "What is its resolution in micrometers?",
+        "Equation": "(0.5 * 1000.0)",
+        "Answer": 500,
+        "Type": "Medical Imaging"
+    },
+    {
+        "ID": "chal-106",
+        "Body": "A patient's blood pressure reduces from 140/90 to 120/80 mmHg.",
+        "Question": "What is the percentage reduction in systolic pressure?",
+        "Equation": "((140.0 - 120.0) / 140.0 * 100)",
+        "Answer": 14.3,
+        "Type": "Cardiovascular Medicine"
+    },
+    {
+        "ID": "chal-107",
+        "Body": "A viral load decreases from 100,000 to 1,000 copies/mL after treatment.",
+        "Question": "What is the log reduction?",
+        "Equation": "(Math.log10(100000.0 / 1000.0))",
+        "Answer": 2.0,
+        "Type": "Virology"
+    },
+    {
+        "ID": "chal-108",
+        "Body": "A protein biomarker concentration is 25 ng/mL in diseased state.",
+        "Question": "What is its concentration in μg/L?",
+        "Equation": "(25.0 * 1000.0)",
+        "Answer": 25000,
+        "Type": "Clinical Biochemistry"
+    },
+    {
+        "ID": "chal-109",
+        "Body": "A patient's metabolic rate is 1.2 kcal/minute at rest.",
+        "Question": "What is total energy expenditure in 8 hours?",
+        "Equation": "(1.2 * 60 * 8.0)",
+        "Answer": 576,
+        "Type": "Metabolism"
+    },
+    {
+        "ID": "chal-110",
+        "Body": "A genetic mutation occurs in 2 out of 10,000 individuals.",
+        "Question": "What is its prevalence as a percentage?",
+        "Equation": "(2.0 / 10000.0 * 100)",
+        "Answer": 0.02,
+        "Type": "Epidemiology"
+    },
+    {
+        "ID": "chal-113",
+        "Body": "A patient's body temperature fluctuates between 36.5°C and 37.5°C.",
+        "Question": "What is the temperature range in Fahrenheit?",
+        "Equation": "((37.5 * 9/5) + 32)",
+        "Answer": 99.5,
+        "Type": "Clinical Physiology"
+    }
+]

@@ -1,0 +1,3 @@
+Question,Correct Answer,Predicted Answer,Predicted Algebraic Answer,Predicted Python Answer,Generated Algebraic Template,Generated Expression,Generated Python Code,Variable Mapping,Error,Error Message
+" Sarah had 55 homework problems. She finished 6 of them but still had 7 pages of problems to do. If each page has the same number of problems on it, how many problems are on each page? ",7,,7.0,7.0,"Sarah had var_A homework problems. She finished var_B of them but still had var_C pages of problems to do. If each page has the same number of problems on it, how many problems are on each page?",(var_A - var_B) / var_C,"def solution(var_A, var_B, var_C):
+    return (var_A - var_B) // var_C","{'var_A': 55.0, 'var_B': 6.0, 'var_C': 7.0}",False,

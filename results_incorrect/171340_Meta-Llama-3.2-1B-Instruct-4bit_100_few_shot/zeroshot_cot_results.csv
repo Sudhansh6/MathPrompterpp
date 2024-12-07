@@ -1,0 +1,1644 @@
+Question,Type,Correct Answer,Predicted Answer,Response,Error,Error Message
+Danny collects bottle caps. He lost 66 bottle caps at the park. Now he has 25 bottle caps in his collection. How many bottle caps did danny have at first?,Addition,91.0,1.0,"Let's break it down step by step:
+
+1. Danny lost 66 bottle caps at the park.
+2. He now has 25 bottle caps in his collection.
+3. To find out how many bottle caps Danny had at first, we need to add the number of bottle caps he lost to the number he has now.
+
+First, let's add the number of bottle caps he lost to the number he has now:
+25 (current bottle caps) + 66 (lost bottle caps) = 91
+
+So, Danny had 91 bottle caps at first.To find the correct answer, let's re-evaluate the steps:
+
+1. Danny lost 66 bottle caps at the park.
+2. He now has 25 bottle caps in his collection.
+3. To find out how many bottle caps Danny had at first, we need to add the number of bottle caps he lost to the number he has now.
+
+First, let's add the number of bottle caps he lost to the number he has now:
+25 (current bottle caps) + 66 (lost bottle caps) = 91
+
+Since the question asks for the number of bottle caps Danny had at first, we need to subtract the number of bottle caps he lost from the total number of bottle caps he has now.
+
+Let's subtract the number of bottle caps he lost from the total number of bottle caps he has now:
+91 (current bottle caps) - 66 (lost bottle caps) = 25
+
+So, Danny had 25 bottle caps at first.
+
+The correct answer is:",False,
+Faye was placing her pencils into rows with 22 pencils in each row. She had 6 packs of pencils each one having 14 pencils. How many pencils does she have?,Multiplication,84.0,84.0,"To find the total number of pencils Faye has, we need to multiply the number of pencils in each pack by the number of packs she has.
+
+Number of pencils in each pack = 14
+Number of packs = 6
+
+Total number of pencils = Number of pencils in each pack * Number of packs
+= 14 * 6
+= 84
+
+So, Faye has 84 pencils.The final answer is: $\boxed{84}$",False,
+Danny collects bottle caps and wrappers. He found 65 wrappers and 5 bottle caps at the park. Now he has 31 bottle caps and 9 wrappers in his collection. How many more wrappers than bottle caps did danny find at the park?,Subtraction,60.0,-56.0,"To find the difference between the number of wrappers and bottle caps Danny found at the park, we need to subtract the number of bottle caps from the number of wrappers.
+
+Step 1: Find the difference between the number of wrappers and bottle caps.
+9 (wrappers) - 65 (bottle caps) = -56
+
+The negative sign (-56) means that Danny found fewer wrappers than bottle caps.To find the difference between the number of wrappers and bottle caps Danny found at the park, we need to subtract the number of bottle caps from the number of wrappers.
+
+9 (wrappers) - 65 (bottle caps) = -56
+
+The negative sign (-56) means that Danny found fewer wrappers than bottle caps.
+
+The correct answer is -56.",False,
+The ring toss game at the carnival made 144 dollars per day. They were at the carnival for 22 days. How much money did they make?,Multiplication,3168.0,3168.0,"To find out how much money the ring toss game made, we need to multiply the daily earnings by the number of days they were at the carnival.
+
+Step 1: Multiply the daily earnings by the number of days
+144 dollars/day * 22 days =?
+
+Step 2: Multiply the daily earnings by the number of days
+144 dollars/day * 22 days = 3,168 dollars
+
+The answer is 3,168 dollars.The correct answer is:
+
+The answer is 3,168 dollars.
+
+Let's break it down:
+
+1. Multiply the daily earnings by the number of days:
+   144 dollars/day * 22 days = 3,168 dollars
+
+This makes perfect sense, as the ring toss game made 3,168 dollars in 22 days.",False,
+The school is planning a field trip. The school has 72 classrooms. There are 3 seats on each school bus. If there are a total of 111 students in the school How many buses are needed to take the trip?,Common-Division,37.0,37.0,"To find out how many buses are needed, we need to divide the total number of students by the number of seats on each bus.
+
+Step 1: Divide the total number of students by the number of seats on each bus.
+Total number of students = 111
+Number of seats on each bus = 3
+111 ÷ 3 = 37
+
+The result is 37. This means that the school needs 37 buses to take the trip.To find the correct answer, we need to round up to the nearest whole number, since you can't have a fraction of a bus.
+
+37 is already a whole number, so the correct answer is indeed 37 buses.",False,
+Winter is almost here and most animals are migrating to warmer countries. There are 3 bird families living near the mountain. 26 new bird families came to live near the mountain from the arctic while 2 bird families flew away further south for winter. How many bird families were left near the mountain?,Addition,27.0,27.0,"Let's break it down step by step:
+
+1. Initially, there were 3 bird families living near the mountain.
+2. 26 new bird families came to live near the mountain. To find the total number of bird families now, we add the new families to the initial number:
+   3 (initial families) + 26 (new families) = 29
+3. 2 bird families flew away from the mountain. To find the number of bird families left, we subtract the number of families that flew away from the total number of families now:
+   29 (total families now) - 2 (families that flew away) = 27
+
+So, there are 27 bird families left near the mountain.The answer is: 27",False,
+Helen the hippo and her friends are preparing for thanksgiving at Helen's house. Helen baked 31 cookies yesterday 270 cookies this morning and 419 cookies the day before yesterday. How many cookies did Helen bake till last night?,Addition,450.0,152.0,"To find out how many cookies Helen baked till last night, we need to add the number of cookies she baked yesterday, this morning, and the day before yesterday.
+
+Step 1: Add the number of cookies baked yesterday and this morning.
+31 (yesterday) + 270 (this morning) = 301 cookies
+
+Step 2: Subtract the number of cookies baked the day before yesterday from the total.
+301 (yesterday) - 419 (day before yesterday) = -118 cookies
+
+Since we can't have a negative number of cookies, we need to re-evaluate the problem.
+
+Step 3: Let's re-evaluate the problem by adding the number of cookies baked yesterday and this morning, and then subtracting the number of cookies baked the day before yesterday.
+301 (yesterday) + 270 (this morning) = 571 cookies
+571 - 419 (day before yesterday) = 152 cookies
+
+So, Helen baked 152 cookies till last night.To find the correct answer, let's re-evaluate the problem step by step.
+
+Let's think step by step.
+
+Step 1: Add the number of cookies baked yesterday and this morning.
+31 (yesterday) + 270 (this morning) = 301 cookies
+
+Step 2: Subtract the number of cookies baked the day before yesterday from the total.
+301 (yesterday) - 419 (day before yesterday) = -118 cookies
+
+Since we can't have a negative number of cookies, we need to re-evaluate the problem.
+
+Step 3: Let's re-evaluate the problem by adding the number of cookies baked yesterday and this morning, and then subtracting the number of cookies baked the day before yesterday.
+301 (yesterday) + 270 (this morning) = 571 cookies
+571 - 419 (day before yesterday) = 152 cookies
+
+Since 152 is the correct answer, the correct answer is indeed 152.",False,
+"7 red peaches, 15 yellow peaches and 8 green peaches are in the basket. How many peaches are in the basket?",Addition,30.0,7.0,"To find the total number of peaches in the basket, we need to add the number of red, yellow, and green peaches.
+
+1. First, add the number of red peaches: 7
+2. Then add the number of yellow peaches: 15
+3. Finally, add the number of green peaches: 8
+
+7 + 15 + 8 = 30
+
+So, there are 30 peaches in the basket.7 + 15 + 8 = 30",False,
+Paul got a box of some crayons for his birthday. By the end of the school year he had either lost or given away 551 of them and only had 177 left. How many crayons did he get for his birthday?,Addition,728.0,555.0,"Let's break it down step by step:
+
+1. Paul started with an unknown number of crayons.
+2. He lost or gave away 551 crayons.
+3. He had 177 crayons left.
+4. To find out how many crayons Paul started with, we need to add the number of crayons he lost or gave away to the number of crayons he had left.
+
+Let's call the number of crayons Paul started with ""x"". Then, the equation would be:
+
+x - 551 + 177 =?
+
+First, let's subtract 551 from x:
+x - 551 =?
+
+Now, let's add 177 to that result:
+x - 551 + 177 =?
+
+Combine the numbers:
+x - 551 + 177 = x - 374
+
+Now, we know that x - 374 = 177. To find x, we need to add 374 to both sides of the equation:
+x = 177 + 374To find the number of crayons Paul started with, we need to add 374 to both sides of the equation:
+
+x - 374 + 374 = 177 + 374
+x = 555
+
+The answer is: 555",False,
+A grocery store had 22 bottles of regular soda and 61 bottles of diet soda. How many more bottles of diet soda than regular soda did they have?,Subtraction,39.0,39.0,"To find the difference between the number of bottles of diet soda and regular soda, we need to subtract the number of regular soda bottles from the number of diet soda bottles.
+
+Step 1: 
+Let's start by identifying the given information:
+- Number of regular soda bottles = 22
+- Number of diet soda bottles = 61
+
+Step 2: 
+Now, we need to find the difference between the two quantities. To do this, we subtract the number of regular soda bottles from the number of diet soda bottles.
+
+Step 3: 
+Subtracting the number of regular soda bottles from the number of diet soda bottles:
+61 (diet soda) - 22 (regular soda) = 39
+
+The answer is 39.The answer is: 39",False,
+Danny collects bottle caps and wrappers. He found 66 wrappers and 39 bottle caps at the park. Now he has 16 bottle caps and 68 wrappers in his collection. How many wrappers did danny have at first?,Subtraction,2.0,105.0,"Let's break it down step by step:
+
+1. Danny found 66 bottle caps and 39 wrappers at the park.
+2. He now has 16 bottle caps and 68 wrappers in his collection.
+3. To find out how many wrappers Danny had at first, we need to add the number of bottle caps and wrappers he has now to the number of bottle caps and wrappers he found at the park.
+
+Let's do the math:
+
+Number of wrappers found at the park: 66
+Number of bottle caps found at the park: 39
+Total number of bottle caps found at the park: 66 + 39 = 105
+
+Number of wrappers found at the park: 66
+Number of bottle caps found at the park: 39
+Total number of bottle caps found at the park: 105
+
+Now, let's add the total number of bottle caps and wrappers found at the park to the number of bottle caps and wrappers Danny has now:
+
+Number of bottle capsTo find out how many wrappers Danny had at first, we need to subtract the number of bottle caps he has now from the total number of bottle caps and wrappers he found at the park.
+
+Number of bottle caps found at the park: 105
+Number of bottle caps Danny has now: 16
+Number of bottle caps found at the park: 105
+Number of bottle caps Danny has now: 16
+
+Now, let's subtract the number of bottle caps Danny has now from the total number of bottle caps and wrappers he found at the park:
+
+105 - 16 = 89
+
+Therefore, the answer (arabic numerals) is: 89",False,
+Allan brought 5 balloons. If Allan and Jake brought total of 6 balloons to the park How many balloons did Jake bring to the park?,Subtraction,1.0,1.0,"Let's break it down step by step:
+
+1. Allan brought 5 balloons.
+2. Allan and Jake together brought a total of 6 balloons.
+3. To find out how many balloons Jake brought, we need to subtract the number of balloons Allan brought from the total number of balloons.
+
+6 (total balloons) - 5 (Allan's balloons) = 1
+
+So, Jake brought 1 balloon to the park.To find out how many balloons Jake brought to the park, we need to subtract the number of balloons Allan brought from the total number of balloons.
+
+6 (total balloons) - 5 (Allan's balloons) = 1
+
+The answer is 1.",False,
+David did 51 push-ups in gym class today. David did 49 more push-ups than Zachary. How many push-ups did Zachary and David do altogether?,Subtraction,53.0,100.0,"Let's break it down step by step:
+
+1. David did 51 push-ups.
+2. Zachary did 49 push-ups.
+3. David did 1 more push-up than Zachary. 
+4. To find the total number of push-ups David and Zachary did, we need to add the number of push-ups David did to the number of push-ups Zachary did. 
+   51 (David's push-ups) + 49 (Zachary's push-ups) = 100
+
+So, David and Zachary did 100 push-ups altogether.To find the total number of push-ups David and Zachary did altogether, we need to add the number of push-ups David did to the number of push-ups Zachary did.
+
+Let's calculate:
+
+David's push-ups: 51
+Zachary's push-ups: 49
+Total push-ups: 51 + 49 = 100
+
+The correct answer is: 100",False,
+During summer break 819058 kids from Lawrence county go to camp and the other 668278 kids stay home. How many more kids spent their summer break at the camp compared to those who stayed home?,Subtraction,150780.0,151780.0,"To find the difference in the number of kids who went to camp versus those who stayed home, we need to subtract the number of kids who stayed home from the number of kids who went to camp.
+
+Number of kids who went to camp: 819058
+Number of kids who stayed home: 668278
+
+Difference = Number of kids who went to camp - Number of kids who stayed home
+= 819058 - 668278
+= 151780
+
+So, 151,780 more kids spent their summer break at the camp compared to those who stayed home.To find the correct answer, we need to calculate the difference between the number of kids who went to camp and those who stayed home.
+
+Number of kids who went to camp: 819058
+Number of kids who stayed home: 668278
+
+Difference = 819058 - 668278
+= 151780
+
+The correct answer is: 151,780",False,
+"After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that 317 visitors came to the Buckingham palace that day. If there were 295 visitors the previous day How many more visitors visited the Buckingham palace on that day than on the previous day?",Subtraction,22.0,22.0,"To find the difference in the number of visitors between the two days, we need to subtract the number of visitors on the previous day from the number of visitors on the current day.
+
+Number of visitors on the current day = 317
+Number of visitors on the previous day = 295
+
+Difference = 317 - 295
+= 22
+
+So, there were 22 more visitors who visited the Buckingham palace on the current day than on the previous day.To find the difference in the number of visitors between the two days, we need to subtract the number of visitors on the previous day from the number of visitors on the current day.
+
+317 - 295 = 22
+
+So, there were 22 more visitors who visited the Buckingham palace on the current day than on the previous day.
+
+The answer is: 22",False,
+If each pack costs 81 dollars How much will it cost to buy 33 packs of dvds?,Multiplication,2673.0,2693.0,"To find the total cost of buying 33 packs of DVDs, we need to multiply the cost of one pack by the number of packs.
+
+Cost of one pack = $81
+Number of packs = 33
+
+Total cost = Cost of one pack * Number of packs
+= $81 * 33
+= $2,693
+
+So, it will cost $2,693 to buy 33 packs of DVDs.The answer is: $2,693",False,
+There are 8 different books and 10 different movies in the ' crazy silly school ' series. If you read 19 of the books and watched 61 of the movies How many more movies than books are there in the ' crazy silly school ' series?,Subtraction,2.0,-1.0,"To find the difference between the number of books and movies, we need to subtract the number of books from the number of movies.
+
+Step 1: Find the number of books.
+There are 8 different books.
+
+Step 2: Find the number of movies.
+There are 10 different movies.
+
+Step 3: Subtract the number of books from the number of movies.
+8 (books) - 10 (movies) = -2
+
+Since the result is negative, it means there are fewer movies than books. To find the difference, we need to add 1 to the result.
+
+Step 4: Add 1 to the result.
+-2 + 1 = -1
+
+The difference between the number of books and movies is -1.To find the difference between the number of books and movies, we need to subtract the number of books from the number of movies.
+
+8 (books) - 10 (movies) = -2
+
+Since the result is negative, it means there are fewer movies than books. To find the difference, we need to add 1 to the result.
+
+-2 + 1 = -1
+
+The difference between the number of books and movies is -1.
+
+The answer is -1.",False,
+There are some baskets of peaches. Each basket has 4 red peaches and 3 green peaches. If there are a total of 7 peaches in all baskets How many baskets of peaches are there?,Common-Division,1.0,7.0,"Let's break it down step by step:
+
+1. We know that each basket has 4 red peaches and 3 green peaches.
+2. We also know that there are a total of 7 peaches in all baskets.
+3. To find the total number of peaches, we need to add the number of red peaches and the number of green peaches.
+
+Let's start by adding the number of red peaches:
+4 (red peaches) + 3 (green peaches) = 7
+
+This means that the total number of peaches is equal to the total number of red peaches.
+
+Now, let's add the number of green peaches:
+7 (total peaches) = 4 (red peaches) + 3 (green peaches)
+
+Since the total number of peaches is equal to the total number of red peaches, we can conclude that there are 7 baskets of peaches.7",False,
+Tiffany was collecting cans for recycling. On monday she had 7 bags of cans. The next day she found 12 more bags worth of cans. How many more bags did she find on the next day than she had on monday?,Subtraction,5.0,5.0,"To find out how many more bags Tiffany found on the next day than she had on Monday, we need to subtract the number of bags she had on Monday from the number of bags she found on the next day.
+
+Number of bags found on Monday: 7
+Number of bags found on the next day: 12
+
+To find the difference, we subtract the number of bags found on Monday from the number of bags found on the next day:
+12 - 7 = 5
+
+So, Tiffany found 5 more bags on the next day than she had on Monday.To find the difference, we need to subtract the number of bags found on Monday from the number of bags found on the next day.
+
+Number of bags found on Monday: 7
+Number of bags found on the next day: 12
+
+To find the difference, we subtract the number of bags found on Monday from the number of bags found on the next day:
+12 - 7 = 5
+
+So, Tiffany found 5 more bags on the next day than she had on Monday.
+
+The answer is: 5",False,
+Dan has $ 5. He bought a candy bar for $ 2 and a chocolate for $ 3. How much money did he spend to buy chocolate than he did to buy candy bar?,Subtraction,1.0,5.0,"To find out how much Dan spent on the candy bar and the chocolate, let's calculate the total amount spent on both items.
+
+Dan spent $5 on the candy bar.
+He spent $2 on the candy bar.
+
+Now, let's find the difference between the amount spent on the candy bar and the chocolate:
+$5 (candy bar) - $2 (chocolate) = $3
+
+So, Dan spent $3 more on the chocolate than he did on the candy bar.To find the difference between the amount spent on the candy bar and the chocolate, we need to subtract the amount spent on the candy bar from the amount spent on the chocolate.
+
+$5 (candy bar) - $2 (chocolate) = $3
+
+The difference is $3.",False,
+We ordered some pizzas. Each pizza has 2 slices. If there were a total of 28 slices How many pizzas did we order?,Common-Division,14.0,14.0,"Let's break it down step by step:
+
+1. Each pizza has 2 slices.
+2. We ordered a total of 28 slices.
+3. To find out how many pizzas we ordered, we need to divide the total number of slices by the number of slices per pizza.
+
+So, let's do the math:
+
+28 slices ÷ 2 slices per pizza = 14 pizzas
+
+Therefore, we ordered 14 pizzas.The final answer is: $\boxed{14}$",False,
+An industrial machine made 9 shirts yesterday and 44 shirts today. It can make 3 shirts a minute. How many minutes did the machine work yesterday?,Common-Division,3.0,17.67,"To find out how many minutes the machine worked yesterday, we need to calculate the total number of shirts made and divide it by the number of minutes the machine can make shirts per minute.
+
+Step 1: Calculate the total number of shirts made
+The machine made 9 shirts yesterday and 44 shirts today. So, the total number of shirts made is 9 + 44 = 53.
+
+Step 2: Calculate the number of minutes the machine worked
+The machine can make 3 shirts per minute. To find out how many minutes it worked, we need to divide the total number of shirts made by the number of shirts made per minute.
+
+53 shirts / 3 shirts per minute = 17.67 minutes
+
+So, the machine worked for approximately 17.67 minutes yesterday.17.67",False,
+Jessie weighed 114 kilograms. After she started to go jogging everyday she lost 50 kilograms in the first week and 60 kilograms in the second week. How much does she weigh now?,Subtraction,4.0,4.0,"To find out how much Jessie weighs now, we need to subtract the weight she lost from her initial weight.
+
+Initial weight: 114 kilograms
+Weight lost in the first week: 50 kilograms
+Weight lost in the second week: 60 kilograms
+
+To find the total weight lost, we add the weight lost in the first and second weeks:
+50 + 60 = 110 kilograms
+
+Now, subtract the total weight lost from the initial weight:
+114 - 110 = 4 kilograms
+
+So, Jessie weighs 4 kilograms now.To find out how much Jessie weighs now, we need to subtract the weight she lost from her initial weight.
+
+Initial weight: 114 kilograms
+Weight lost in the first week: 50 kilograms
+Weight lost in the second week: 60 kilograms
+
+To find the total weight lost, we add the weight lost in the first and second weeks:
+50 + 60 = 110 kilograms
+
+Now, subtract the total weight lost from the initial weight:
+114 - 110 = 4 kilograms
+
+So, Jessie weighs 4 kilograms now.
+
+The answer is: 4",False,
+Matthew gave 6 crackers to each his friends. If he had 36 crackers How many friends did he give crackers to?,Common-Division,6.0,6.0,"To find out how many friends Matthew gave crackers to, we need to divide the total number of crackers by the number of crackers each friend received.
+
+Step 1: Divide the total number of crackers by the number of crackers each friend received.
+36 crackers ÷ 6 crackers per friend = 6 friends
+
+So, Matthew gave crackers to 6 friends.To find the correct answer, we need to convert the number of friends to a numerical value. 
+
+6 friends * 6 crackers per friend = 36 crackers
+
+The correct answer is: 6",False,
+Matthew gave equal numbers of crackers and cakes to his 28 friends. If he had 13 crackers and 15 cakes initially How many crackers and cakes did each person eat?,Common-Division,1.0,0.0,"To find out how many crackers and cakes Matthew gave to each person, we need to divide the total number of crackers and cakes by the number of people.
+
+Step 1: Divide the total number of crackers by the number of people.
+13 crackers ÷ 28 people = 0.46 crackers per person
+
+Step 2: Divide the total number of cakes by the number of people.
+15 cakes ÷ 28 people = 0.52 cakes per person
+
+Since the question asks for the number of crackers and cakes each person ate, we can round down to the nearest whole number. 
+
+0.46 ≈ 0 crackers
+0.52 ≈ 1 cake
+
+So, Matthew gave approximately 0 crackers and 1 cake to each of his 28 friends.0 crackers and 1 cake",False,
+Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?,Multiplication,720.0,2130.0,"To find the total number of pencils Faye has, we need to multiply the number of rows by the number of pencils in each row.
+
+Number of rows = 30
+Number of pencils in each row = 71
+
+Total number of pencils = Number of rows * Number of pencils in each row
+= 30 * 71
+= 2130
+
+So, Faye has 2130 pencils.To find the total number of pencils Faye has, we need to multiply the number of rows by the number of pencils in each row.
+
+Number of rows = 30
+Number of pencils in each row = 71
+
+Total number of pencils = Number of rows * Number of pencils in each row
+= 30 * 71
+= 2130
+
+The answer is: 2130",False,
+Winter is almost here and most animals are migrating to warmer countries. 86 bird families flew away for the winter from near a mountain. If there were 45 bird families living near the mountain initially How many more bird families flew away for the winter than those that stayed behind?,Subtraction,127.0,41.0,"To find the difference between the number of bird families that flew away and those that stayed behind, we need to subtract the number of families that stayed from the number that flew away.
+
+Number of bird families that flew away = 86
+Number of bird families that stayed = 45
+
+Difference = Number of bird families that flew away - Number of bird families that stayed
+= 86 - 45
+= 41
+
+So, 41 bird families flew away for the winter, and 45 bird families stayed behind.To find the difference between the number of bird families that flew away and those that stayed behind, we need to subtract the number of families that stayed from the number that flew away.
+
+Number of bird families that flew away = 86
+Number of bird families that stayed = 45
+
+Difference = 86 - 45
+= 41
+
+So, 41 bird families flew away for the winter, and 45 bird families stayed behind.
+
+The answer is: 41",False,
+After finding some bottle caps at the park danny has 32 bottle caps in his collection. If he had 25 bottle caps in his collection earlier How many bottle caps did he find at the park?,Subtraction,7.0,7.0,"To find out how many bottle caps Danny found at the park, we need to subtract the number of bottle caps he already had from the total number of bottle caps he has now.
+
+Step 1: Identify the total number of bottle caps Danny has now.
+Total bottle caps now = 32
+
+Step 2: Identify the number of bottle caps Danny has already.
+Number of bottle caps already = 25
+
+Step 3: Subtract the number of bottle caps already from the total number of bottle caps now.
+Number of bottle caps found = Total bottle caps now - Number of bottle caps already
+= 32 - 25
+= 7
+
+The final answer is 7.The final answer is: $\boxed{7}$",False,
+Dan has $ 4. He bought a candy bar for $ 7 and a chocolate for $ 6. How much money did he spend buying the candy bar and chocolate?,Addition,13.0,13.0,"To find out how much Dan spent on the candy bar and chocolate, we need to add the cost of the candy bar and the chocolate.
+
+Step 1: Add the cost of the candy bar ($7) and the chocolate ($6).
+
+$7 + $6 = $13
+
+So, Dan spent $13 on the candy bar and chocolate.$13",False,
+White t - shirts can be purchased in packages. If mom buys 28 packages which contain 56 white t - shirts in total How many white t - shirts does each package have?,Common-Division,2.0,2.0,"To find out how many white t-shirts are in each package, we need to divide the total number of t-shirts by the number of packages.
+
+Step 1: Divide the total number of t-shirts by the number of packages.
+Total t-shirts = 56
+Number of packages = 28
+56 ÷ 28 = 2
+
+The answer is 2.To find the number of white t-shirts in each package, we need to divide the total number of t-shirts by the number of packages.
+
+Let's do the math:
+
+56 ÷ 28 = 2
+
+The answer is indeed 2.",False,
+Adam has 3 more apples than jackie. Adam has 9 apples. How many apples does Jackie have?,Subtraction,6.0,6.0,"Let's solve the problem step by step:
+
+1. Let's say Jackie has x apples.
+2. Since Adam has 3 more apples than Jackie, we can write an equation:
+   Adam's apples = Jackie's apples + 3
+   9 = x + 3
+3. To solve for x, we need to isolate x. We can do this by subtracting 3 from both sides of the equation:
+   9 - 3 = x
+   6 = x
+
+So, Jackie has 6 apples.The answer is: 6",False,
+Paco had 22 sweet cookies and 75 salty cookies. He ate 15 sweet cookies and 54 salty cookies. How many sweet cookies did Paco have left?,Subtraction,7.0,7.0,"To find out how many sweet cookies Paco had left, we need to subtract the number of sweet cookies he ate from the total number of sweet cookies he had.
+
+Step 1: Calculate the number of sweet cookies Paco had initially.
+Paco had 22 sweet cookies initially.
+
+Step 2: Calculate the number of sweet cookies Paco had after eating some.
+Paco ate 15 sweet cookies. So, he had 22 - 15 = 7 sweet cookies left.
+
+Step 3: Calculate the number of sweet cookies Paco had left.
+Paco had 7 sweet cookies left.
+
+The final answer is 7.The final answer is: $\boxed{7}$",False,
+41 children were riding on the bus. At the bus stop some children got off the bus. Then there were 18 children left on the bus. How many more children were on the bus before the bus stop than there are now?,Subtraction,23.0,18.0,"Let's break it down step by step:
+
+1. Initially, there were 41 children on the bus.
+2. Some children got off the bus, so we need to subtract the number of children who got off from the initial number.
+3. Let's call the number of children who got off 'x'. Then, the number of children left on the bus is 41 - x.
+4. We know that there are 18 children left on the bus now. So, we can set up the equation:
+41 - x = 18
+5. To solve for x, we need to isolate x. We can do this by adding x to both sides of the equation:
+41 = 18 + x
+6. Subtracting 18 from both sides gives us:
+23 = x
+7. Now that we know x, we can find the number of children who got off the bus. We can do this by subtracting x from the initial number of children:
+41 - To find the number of children who got off the bus, we need to subtract the number of children who got off (x) from the initial number of children (41).
+
+41 - x = 18
+x = 23
+
+Now that we know x, we can find the number of children who got off the bus:
+41 - 23 = 18
+
+So, the answer is: 18",False,
+Paco had 13 cookies. He ate 2 of them. Then he bought 36 more cookies How many more cookies did he buy than those he ate?,Subtraction,34.0,45.0,"Let's break it down step by step:
+
+1. Paco started with 13 cookies.
+2. He ate 2 cookies, so he had 13 - 2 = 11 cookies left.
+3. He bought 36 more cookies, so now he has 11 + 36 = 47 cookies.
+
+To find out how many more cookies he bought than he ate, we need to subtract the number of cookies he ate from the number of cookies he bought:
+
+47 (cookies bought) - 2 (cookies eaten) = 45
+
+So, Paco bought 45 more cookies than he ate.To find out how many more cookies Paco bought than he ate, we need to subtract the number of cookies he ate from the number of cookies he bought:
+
+47 (cookies bought) - 2 (cookies eaten) = 45
+
+The correct answer is: 45",False,
+Bobby had 22 pieces of candy. He ate some pieces of candy. Then he ate 5 more. If he still has 8 pieces of candy left How many pieces of candy had he eaten at the start?,Subtraction,9.0,5.0,"Let's break it down step by step:
+
+1. Bobby started with 22 pieces of candy.
+2. He ate some pieces of candy, but we don't know how many yet.
+3. Then, he ate 5 more pieces of candy.
+4. After eating 5 more pieces, he had 8 pieces of candy left.
+
+Let's call the number of pieces Bobby ate 'x'. We can set up an equation to represent the situation:
+
+Initial candy - (candy eaten) + (candy left) = Total candy
+
+We know that Bobby started with 22 pieces of candy. Let's call the number of pieces he ate 'x'. Then, the equation becomes:
+
+22 - x + 8 = 22
+
+Now, let's solve for x:
+
+22 - x + 8 = 22
+30 - x = 22
+-x = 22 - 30
+-x = -8
+x = 8
+
+So, Bobby ate 8 piecesTo find the number of pieces of candy Bobby ate at the start, we need to subtract the number of pieces he ate (5) from the total number of pieces he started with (22).
+
+22 - 5 = 17
+
+So, Bobby ate 17 pieces of candy at the start.",False,
+Josh had 22 marbles in his collection. He found 13 marbles ones while he lost 5 marbles. How many marbles does he have now?,Addition,30.0,30.0,"Let's break it down step by step:
+
+1. Josh started with 22 marbles.
+2. He found 13 marbles, so he now has 22 + 13 = 35 marbles.
+3. He lost 5 marbles, so he now has 35 - 5 = 30 marbles.
+
+Therefore, Josh now has 30 marbles.The correct answer is: 30",False,
+For the walls of the house he would use 11 nails in all to secure large planks of wood. If each plank needs 3 pieces of nails to be secured and an additional 8 nails were used. How many planks does John need for the house wall?,Common-Division,1.0,1.0,"To find the total number of nails used for the house wall, we need to calculate the total number of nails used for the planks and the additional nails.
+
+1. First, let's calculate the total number of nails used for the planks:
+   Number of planks = Total number of nails / Number of nails per plank
+   Number of planks = 11 (total nails) / 3 (nails per plank)
+   Number of planks = 3
+
+2. Now, let's calculate the total number of nails used for the additional 8 planks:
+   Additional nails = Number of planks * Number of nails per plank
+   Additional nails = 8 * 3
+   Additional nails = 24
+
+3. Finally, let's add the total number of nails used for the planks and the additional nails:
+   Total nails = Total nails for planks + Additional nails
+   Total nails = 11 + 24
+   Total nails = To find the total number of planks John needs for the house wall, we need to calculate the total number of nails used for the planks and the additional nails.
+
+1. First, let's calculate the total number of nails used for the planks:
+   Number of planks = 11 (total nails) / 3 (nails per plank)
+   Number of planks = 11 / 3
+   Number of planks = 3
+
+2. Now, let's calculate the total number of nails used for the additional 8 planks:
+   Additional nails = Number of planks * Number of nails per plank
+   Additional nails = 8 * 3
+   Additional nails = 24
+
+3. Finally, let's add the total number of nails used for the planks and the additional nails:
+   Total nails = Total nails for planks + Additional nails
+   Total nails = 11 + 24
+   Total nails = 35
+
+The",False,
+A farmer had 177 tomatoes and 12 potatoes in his garden. If he picked 53 tomatoes How many tomatoes and potatoes does he have left?,Subtraction,136.0,136.0,"To find out how many tomatoes and potatoes the farmer has left, we need to subtract the number of tomatoes he picked from the total number of tomatoes and potatoes.
+
+Step 1: 
+First, let's find the total number of tomatoes and potatoes the farmer had initially. 
+Total tomatoes = 177
+Total potatoes = 12
+
+Step 2: 
+Now, let's subtract the number of tomatoes the farmer picked from the total number of tomatoes and potatoes. 
+Tomatoes left = Total tomatoes - Tomatoes picked
+Tomatoes left = 177 - 53
+Tomatoes left = 124
+
+Step 3: 
+Now, let's find the total number of tomatoes and potatoes the farmer has left. 
+Total tomatoes and potatoes = Tomatoes left + Potatoes left
+Total tomatoes and potatoes = 124 + 12
+Total tomatoes and potatoes = 136
+
+The final answer is: 
+The farmer has 136 tomatoes and potatoes left.The final answer is: 136",False,
+Jerry had some action figures on a shelf in his room. Later he added 7 more action figures to the shelf. If there are a total of 10 action figures on his shelf now How many action figures did he have initially on the shelf?,Subtraction,3.0,3.0,"Let's break it down step by step:
+
+1. Jerry added 7 more action figures to the shelf.
+2. We know that the total number of action figures now is 10.
+3. To find out how many action figures Jerry had initially, we need to subtract the number of action figures added (7) from the total number of action figures now (10).
+
+Initial number of action figures = Total number of action figures now - Number of action figures added
+= 10 - 7
+= 3
+
+So, Jerry had 3 action figures initially on the shelf.To find the initial number of action figures Jerry had on the shelf, we need to subtract the number of action figures added (7) from the total number of action figures now (10).
+
+Initial number of action figures = Total number of action figures now - Number of action figures added
+= 10 - 7
+= 3
+
+The answer is: 3",False,
+There are 384 oranges and 192 bananas in Philip's collection. If the bananas are organized into 345 groups and oranges are organized into 16 groups How big is each group of oranges?,Common-Division,24.0,24.0,"To find the size of each group of oranges, we need to divide the total number of oranges by the number of groups. 
+
+First, let's find the total number of oranges and bananas:
+Oranges: 384
+Bananas: 192
+
+Now, let's divide the total number of oranges by the number of groups:
+384 ÷ 16 = 24
+
+So, each group of oranges has 24 oranges.To find the size of each group of oranges, we need to divide the total number of oranges by the number of groups.
+
+384 ÷ 16 = 24
+
+So, each group of oranges has 24 oranges.
+
+The answer is: 24",False,
+There are 4 different books and 17 different movies in the ' crazy silly school ' series. If you read 19 of the books and watched 7 of the movies How many more movies do you still have to watch?,Subtraction,10.0,9.0,"Let's break it down step by step:
+
+1. You read 19 books and watched 7 movies. This means you've watched 7 + 19 = 26 movies.
+
+2. There are 17 movies in total in the series.
+
+3. To find out how many more movies you still have to watch, subtract the number of movies you've watched from the total number of movies: 17 - 26 = -9.
+
+4. Since you can't watch a negative number of movies, this means you still have to watch 9 more movies.To find the correct answer, we need to recalculate the number of movies you still have to watch.
+
+Let's break it down step by step:
+
+1. You read 19 books and watched 7 movies. This means you've watched 7 + 19 = 26 movies.
+
+2. There are 17 movies in total in the series.
+
+3. To find out how many more movies you still have to watch, subtract the number of movies you've watched from the total number of movies: 17 - 26 = -9.
+
+4. Since you can't watch a negative number of movies, this means you still have to watch 9 more movies.
+
+The correct answer is: 9",False,
+Steven has 14 peaches. Jake has 6 fewer peaches than Steven and 3 more peaches than Jill. How many peaches does Jill have?,Subtraction,5.0,5.0,"Let's break it down step by step:
+
+1. Steven has 14 peaches.
+2. Jake has 6 fewer peaches than Steven, so Jake has 14 - 6 = 8 peaches.
+3. Jake has 3 more peaches than Jill, so Jill has 8 - 3 = 5 peaches.
+
+Therefore, Jill has 5 peaches.The final answer is: $\boxed{5}$",False,
+Because of the decision Sofia asked the students to suggest specific types of food. 182 students suggested adding mashed potatoes while others suggested adding bacon to the menu. If 166 more students suggested adding bacon than those that suggested mashed potatoes How many students suggested bacon?,Addition,348.0,174.0,"To find the number of students who suggested adding bacon, we need to subtract the number of students who suggested mashed potatoes from the number of students who suggested adding bacon.
+
+Let's say the number of students who suggested mashed potatoes is x. Then, the number of students who suggested adding bacon is x + 166.
+
+We know that the total number of students who suggested adding bacon is 182. So, we can set up the equation:
+
+x + (x + 166) = 182
+
+Combine like terms:
+
+2x + 166 = 182
+
+Subtract 166 from both sides:
+
+2x = 16
+
+Divide both sides by 2:
+
+x = 8
+
+Now that we know x, we can find the number of students who suggested adding bacon:
+
+Number of students who suggested bacon = x + 166
+= 8 + 166
+= 174
+
+So, 174 students suggested adding bacon.To find the number of students who suggested adding bacon, we need to subtract the number of students who suggested mashed potatoes from the number of students who suggested adding bacon.
+
+Let's say the number of students who suggested mashed potatoes is x. Then, the number of students who suggested adding bacon is x + 166.
+
+We know that the total number of students who suggested adding bacon is 182. So, we can set up the equation:
+
+x + (x + 166) = 182
+
+Combine like terms:
+
+2x + 166 = 182
+
+Subtract 166 from both sides:
+
+2x = 16
+
+Divide both sides by 2:
+
+x = 8
+
+Now that we know x, we can find the number of students who suggested adding bacon:
+
+Number of students who suggested adding bacon = x + 166
+= 8 + 166
+= 174
+
+So, 174 students suggested adding bacon.
+
+The answer is: 174",False,
+In Haley's class some boys love to play marbles. If Haley has 10 marbles and she gave 5 marbles to each boy How many boys did she give the marbles to?,Common-Division,2.0,2.0,"To find out how many boys Haley gave marbles to, we need to divide the total number of marbles she had (10) by the number of marbles each boy received (5).
+
+10 marbles ÷ 5 marbles per boy = 2 boys
+
+So, Haley gave marbles to 2 boys.To find the correct answer, we need to convert the question into an equation.
+
+Let's say the number of boys Haley gave marbles to is x.
+
+We know that Haley gave 5 marbles to each boy, so the total number of marbles given is 5x.
+
+We also know that Haley had 10 marbles initially.
+
+So, the equation is:
+
+5x = 10
+
+To solve for x, we need to divide both sides by 5:
+
+x = 10 ÷ 5
+x = 2
+
+Therefore, the answer is 2.",False,
+Marco and his dad went strawberry picking. Together they collected strawberries that weighed 22 pounds. On the way back Marco ' dad found 30 more pounds of strawberries. Marco's strawberries now weighed 36 pounds. How much did his dad's strawberries weigh now?,Addition,16.0,30.0,"Let's break it down step by step:
+
+1. Marco and his dad initially collected 22 pounds of strawberries.
+2. Marco's dad found 30 more pounds of strawberries on the way back. So, Marco's dad now has 22 + 30 = 52 pounds of strawberries.
+3. Marco's strawberries now weigh 36 pounds. 
+
+To find out how much strawberries Marco's dad has now, we need to subtract the initial weight from the current weight. 
+
+52 (Marco's dad's strawberries) - 22 (initial weight) = 30 pounds
+
+So, Marco's dad now has 30 pounds of strawberries.To find out how much strawberries Marco's dad has now, we need to subtract the initial weight from the current weight.
+
+52 (Marco's dad's strawberries) - 22 (initial weight) = 30 pounds
+
+So, Marco's dad now has 30 pounds of strawberries.
+
+The answer is: 30",False,
+There are 2 baskets of peaches. Each basket has 4 red peaches and some more green peaches. If there are a total of 12 peaches in all baskets How many green peaches are in each basket?,Subtraction,2.0,4.0,"Let's break it down step by step:
+
+1. We know that there are 2 baskets of peaches.
+2. Each basket has 4 red peaches.
+3. The total number of peaches is 12.
+
+Let's subtract the number of red peaches from the total number of peaches to find the number of green peaches:
+
+12 (total peaches) - 4 (red peaches) = 8
+
+Since there are 2 baskets, we can divide the remaining number of peaches by 2 to find the number of green peaches per basket:
+
+8 (peaches) ÷ 2 (baskets) = 4
+
+So, there are 4 green peaches in each basket.The final answer is: $\boxed{4}$",False,
+The school is planning a field trip. The school has 87 classrooms. There are 58 students in the school with each classroom having the same number of students. If there are 2 seats on each school bus. How many buses are needed to take the trip?,Common-Division,29.0,2.0,"To find the number of buses needed, we need to divide the total number of students by the number of students per bus.
+
+Step 1: Divide the total number of students by the number of students per bus.
+87 students / 58 students per bus = 1.5
+
+Since we can't have a fraction of a bus, we need to round up to the nearest whole number. 
+
+Step 2: Round up to the nearest whole number.
+1.5 → 2
+
+So, the school needs 2 buses to take the trip.To find the number of buses needed, we need to divide the total number of students by the number of students per bus.
+
+87 students / 58 students per bus = 1.5
+
+Since we can't have a fraction of a bus, we need to round up to the nearest whole number.
+
+1.5 → 2
+
+So, the school needs 2 buses to take the trip.
+
+The answer is: 2",False,
+Mary is baking a cake. The recipe calls for 12 cups of flour 5 cups of sugar and 49 cups of salt. She already put in 11 cups of flour. How many more cups of flour does she need to add?,Subtraction,1.0,1.0,"To find out how many more cups of flour Mary needs, we need to subtract the amount she has already added (11 cups) from the total amount called for (12 cups).
+
+12 cups (total) - 11 cups (already added) = 1 cup
+
+So, Mary needs 1 more cup of flour to complete the recipe.To find the correct answer, we need to subtract the amount Mary has already added (11 cups) from the total amount called for (12 cups).
+
+12 cups (total) - 11 cups (already added) = 1 cup
+
+So, Mary needs 1 more cup of flour to complete the recipe.
+
+The correct answer is: 1",False,
+"The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 24 inches. The frog jumped 33 inches farther than the grasshopper and the mouse jumped 5 inches lesser than the frog. How much farther did the mouse jump than the grasshopper?",Subtraction,28.0,28.0,"Let's break it down step by step:
+
+1. The grasshopper jumped 24 inches.
+2. The frog jumped 33 inches farther than the grasshopper, so the frog jumped 24 + 33 = 57 inches.
+3. The mouse jumped 5 inches lesser than the frog, so the mouse jumped 57 - 5 = 52 inches.
+
+The mouse jumped 52 inches, and the grasshopper jumped 24 inches. The difference between the two is:
+
+52 - 24 = 28 inches
+
+The answer is 28 inches.To find the difference between the mouse and the grasshopper, we need to subtract the grasshopper's jump from the mouse's jump.
+
+52 (mouse) - 24 (grasshopper) = 28 inches
+
+The answer is indeed 28 inches.",False,
+There are 8 different movies and 21 different books in the ' crazy silly school ' series. If you read 7 of the books and watched 4 of the movies How many more movies do you still have to watch?,Subtraction,4.0,17.0,"Let's break it down step by step:
+
+1. You read 7 books and watched 4 movies. This means you've already watched 4 movies and read 7 books.
+
+2. You have a total of 8 books and 21 movies. To find out how many movies you haven't watched, we need to subtract the number of movies you've watched from the total number of movies.
+
+3. Total movies = 21
+4. Movies you've watched = 4
+5. Movies you haven't watched = Total movies - Movies you've watched
+6. Movies you haven't watched = 21 - 4 = 17
+
+So, you still have 17 movies to watch.17",False,
+After resting they decided to go for a swim. The depth of the water is 9 times Dean's height. If Ron is 15 feet tall and Dean is 6 feet shorter than Ron How deep was the water?,Multiplication,81.0,81.0,"Let's break it down step by step:
+
+1. Ron is 15 feet tall.
+2. Dean is 6 feet shorter than Ron, so Dean is 15 - 6 = 9 feet tall.
+3. The depth of the water is 9 times Dean's height, which is 9 x 9 = 81 feet.
+
+So, the water is 81 feet deep.To find the correct answer, we need to calculate the depth of the water in feet.
+
+Let's break it down step by step:
+
+1. Ron is 15 feet tall.
+2. Dean is 6 feet shorter than Ron, so Dean is 15 - 6 = 9 feet tall.
+3. The depth of the water is 9 times Dean's height, which is 9 x 9 = 81 feet.
+
+So, the water is 81 feet deep.
+
+The correct answer is: 81",False,
+Julia played tag with 19 kids on monday. She played tag with 18 kids on tuesday. She spent a total of 38 hours to play tag on both days. How many more kids did she play with on monday than on tuesday?,Subtraction,1.0,19.0,"Let's break it down step by step:
+
+1. Julia played tag with 19 kids on Monday.
+2. Julia played tag with 18 kids on Tuesday.
+3. Julia spent a total of 38 hours playing tag.
+4. To find out how many kids she played with on Monday, we need to subtract the number of kids she played with on Tuesday from the total hours she played. 
+   38 (total hours) - 18 (hours on Tuesday) = 20 hours on Monday.
+5. Now, we need to find the difference between the number of kids she played with on Monday and Tuesday. 
+   20 (hours on Monday) - 19 (kids on Monday) = 1 kid.
+
+The final answer is 1.The final answer is 19.",False,
+Debby bought 200 water bottles and 256 soda bottles when they were on sale. If she drank 312 water bottles and 4 soda bottles a day How many days would the soda bottles last?,Common-Division,64.0,65.0,"To find out how many days the soda bottles would last, we need to divide the total number of soda bottles by the number of soda bottles Debby drinks per day.
+
+Step 1: Calculate the total number of soda bottles Debby has.
+Total soda bottles = 256 (initial) + 4 (drinks per day) = 260
+
+Step 2: Divide the total number of soda bottles by the number of soda bottles Debby drinks per day.
+Days the soda bottles would last = Total soda bottles / Soda bottles per day
+= 260 / 4
+= 65
+
+Therefore, Debby would last for 65 days with the soda bottles.The final answer is: $\boxed{65}$",False,
+There are 20 different books in the ' crazy silly school ' series. If you are yet to read 5 of the books How many books have you already read?,Subtraction,15.0,15.0,"Let's break it down step by step:
+
+1. There are 20 books in the series.
+2. You haven't read 5 books yet.
+3. To find out how many books you have already read, we need to subtract the number of books you haven't read (5) from the total number of books (20).
+
+20 (total books) - 5 (books you haven't read) = 15
+
+So, you have already read 15 books in the 'crazy silly school' series.To find the answer, we need to convert the number 15 into words.
+
+ Fifteen (fifteen)",False,
+Because of the decision Sofia asked the students to suggest specific types of food. If 228 students suggested adding mashed potatoes 337 suggested adding bacon to the menu and 23 suggested adding tomatoes How many more students suggested bacon than those that suggested tomatoes?,Subtraction,314.0,205.0,"To find the difference between the number of students who suggested adding bacon and those who suggested adding tomatoes, we need to subtract the number of students who suggested adding tomatoes from the number who suggested adding bacon.
+
+Step 1: Subtract the number of students who suggested adding tomatoes from the number who suggested adding bacon.
+228 (bacon) - 23 (tomatoes) = 205
+
+The final answer is 205.To find the difference between the number of students who suggested adding bacon and those who suggested adding tomatoes, we need to subtract the number of students who suggested adding tomatoes from the number who suggested adding bacon.
+
+Step 1: Subtract the number of students who suggested adding tomatoes from the number who suggested adding bacon.
+228 (bacon) - 23 (tomatoes) = 205
+
+The final answer is 205.",False,
+The bananas in Philip's collection are organized into 196 groups. If there are a total of 392 bananas in Philip's banana collection How big is each group?,Common-Division,2.0,2.0,"To find the size of each group, we need to divide the total number of bananas by the number of groups.
+
+Step 1: Divide the total number of bananas by the number of groups.
+392 ÷ 196 = 2
+
+The final answer is: 2To find the size of each group, we need to divide the total number of bananas by the number of groups.
+
+392 ÷ 196 = 2
+
+The final answer is: 2",False,
+They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?,Subtraction,117.0,5.0,"To find the difference between the number of chairs and tables, we need to subtract the number of tables from the number of chairs.
+
+Number of chairs = 14
+Number of tables = 9
+
+Difference = Number of chairs - Number of tables
+= 14 - 9
+= 5
+
+So, they have 5 more chairs than tables.To find the difference between the number of chairs and tables, we need to subtract the number of tables from the number of chairs.
+
+Number of chairs = 14
+Number of tables = 9
+
+Difference = Number of chairs - Number of tables
+= 14 - 9
+= 5
+
+So, they have 5 more chairs than tables.
+
+The answer is: 5",False,
+26 children were riding on the bus. At the bus stop 38 more children got on the bus. How many children are on the bus now?,Addition,64.0,64.0,"Let's break it down step by step:
+
+1. Initially, there were 26 children on the bus.
+2. At the bus stop, 38 more children got on the bus. To find the total number of children on the bus now, we need to add the number of children who got on to the initial number.
+
+3. So, the total number of children on the bus now is: 26 (initial) + 38 (new) = 64
+
+The final answer is: 64The final answer is: 64",False,
+Jerry had 8 action figures on a shelf in his room. Later he added 4 more action figures to the shelf and removed 5 old ones. How many action figures were on his shelf in all?,Subtraction,7.0,7.0,"Let's break it down step by step:
+
+1. Jerry started with 8 action figures on the shelf.
+2. He added 4 more action figures to the shelf. To find the total number of action figures now, we need to add 8 (initial) + 4 (added) = 12.
+3. He then removed 5 old action figures from the shelf. To find the final number of action figures on the shelf, we need to subtract 5 (removed) from 12 (total now): 12 - 5 = 7.
+
+So, Jerry now has 7 action figures on his shelf.The answer is: 7",False,
+He then went to see the oranges being harvested. He found out that they harvest 5 sacks of ripe oranges and 74 sacks of unripe oranges per day. How many more sacks of unripe oranges than ripe oranges are harvested per day?,Subtraction,69.0,64.0,"To find the difference between the sacks of unripe and ripe oranges harvested per day, we need to subtract the number of sacks of ripe oranges from the number of sacks of unripe oranges.
+
+Let's break it down:
+
+Number of sacks of ripe oranges = 5
+Number of sacks of unripe oranges = 74
+
+To find the difference, we subtract the number of sacks of ripe oranges from the number of sacks of unripe oranges:
+
+74 (unripe oranges) - 5 (ripe oranges) = 69
+
+So, 69 sacks of unripe oranges are harvested per day, and 5 sacks of ripe oranges are harvested per day. The difference is 64 sacks (69 - 5).To find the difference between the sacks of unripe and ripe oranges harvested per day, we need to subtract the number of sacks of ripe oranges from the number of sacks of unripe oranges.
+
+Let's break it down:
+
+Number of sacks of ripe oranges = 5
+Number of sacks of unripe oranges = 74
+
+To find the difference, we subtract the number of sacks of ripe oranges from the number of sacks of unripe oranges:
+
+74 (unripe oranges) - 5 (ripe oranges) = 69
+
+So, 69 sacks of unripe oranges are harvested per day, and 5 sacks of ripe oranges are harvested per day. The difference is 64 sacks (69 - 5).
+
+The correct answer is: 64",False,
+"The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 9 inches. The mouse jumped 3 inches lesser than the frog who jumped 33 inches farther than the grasshopper. How far did the mouse jump?",Subtraction,39.0,39.0,"Let's break it down step by step:
+
+1. The grasshopper jumped 9 inches.
+2. The frog jumped 33 inches farther than the grasshopper. 
+   To find the distance the frog jumped, we need to add 33 inches to the grasshopper's jump. 
+   So, the frog jumped 9 + 33 = 42 inches.
+3. The mouse jumped 3 inches lesser than the frog. 
+   To find the distance the mouse jumped, we need to subtract 3 inches from the frog's jump. 
+   So, the mouse jumped 42 - 3 = 39 inches.
+
+Therefore, the mouse jumped 39 inches.The answer is: 39",False,
+Ryan learns english and chinese for 7 days. Every day he spends 4 hours on learning english and 5 hours on learning chinese. How many hours does he spend on learning english and chinese in all?,Multiplication,63.0,63.0,"To find the total number of hours Ryan spends on learning English and Chinese, we need to add the hours spent on each language.
+
+Day 1: 4 hours
+Day 2: 4 hours
+Day 3: 4 hours
+Day 4: 4 hours
+Day 5: 4 hours
+Day 6: 4 hours
+Day 7: 4 hours
+
+Total hours spent on English: 4 + 4 + 4 + 4 + 4 + 4 + 4 = 28 hours
+
+Total hours spent on Chinese: 5 + 5 + 5 + 5 + 5 + 5 + 5 = 35 hours
+
+Total hours spent on both English and Chinese: 28 + 35 = 63 hours
+
+The answer is 63 hours.The answer is 63.",False,
+Ed had 2 more marbles than Doug. Doug lost some of his marbles at the playground. Now Ed has 19 more marbles than doug. How many marbles did Doug lose?,Subtraction,17.0,2.0,"Let's break it down step by step:
+
+1. Ed has 2 more marbles than Doug. This means if Doug has x marbles, Ed has x + 2 marbles.
+
+2. Now Ed has 19 more marbles than Doug. This means if Doug has x marbles, Ed has (x + 2) + 19 marbles.
+
+3. We can set up an equation to represent the situation: 
+   x + 2 + 19 = x + 2 + 19
+   x + 21 = x + 19
+
+4. To solve for x, we need to get rid of the 'x' on both sides of the equation. We can do this by subtracting 'x' from both sides:
+   21 = 19
+
+5. This means that Doug has 21 marbles. 
+
+6. Since Doug has 21 marbles and Ed has 19 marbles, we can find out how many marblesTo find out how many marbles Doug lost, we need to subtract the number of marbles Ed has from the number of marbles Doug has.
+
+Doug has 21 marbles.
+Ed has 19 marbles.
+
+Doug lost 21 - 19 = 2 marbles.
+
+The answer is 2.",False,
+Tiffany was collecting cans for recycling. On monday she had 3 bags of cans. The next day she found 7 more bags of cans and 44 bags of bottles. How many bags of cans did she have altogether?,Addition,10.0,54.0,"To find the total number of bags of cans Tiffany had, we need to add the number of bags she had on Monday to the number of bags she found on the next day.
+
+Step 1: Add the number of bags of cans Tiffany had on Monday to the number of bags she found on the next day.
+3 (bags of cans on Monday) + 7 (bags of cans found on the next day) = 10
+
+Step 2: Add the total number of bags of cans to the number of bags of bottles she found.
+10 (bags of cans) + 44 (bags of bottles) = 54
+
+The final answer is: 54The final answer is: $\boxed{54}$",False,
+A farmer had 171 tomatoes in his garden. If he picked 134 of them yesterday and 30 today. How many will he have left after today?,Subtraction,7.0,7.0,"To find out how many tomatoes the farmer will have left, we need to subtract the number of tomatoes picked yesterday and today from the total number of tomatoes.
+
+Step 1: Subtract the tomatoes picked yesterday from the total.
+171 (total tomatoes) - 134 (tomatoes picked yesterday) = 37
+
+Step 2: Subtract the tomatoes picked today from the result of step 1.
+37 (tomatoes picked yesterday) - 30 (tomatoes picked today) = 7
+
+The farmer will have 7 tomatoes left in his garden.To find the correct answer, let's recalculate the steps:
+
+Step 1: Subtract the tomatoes picked yesterday from the total.
+171 (total tomatoes) - 134 (tomatoes picked yesterday) = 37
+
+Step 2: Subtract the tomatoes picked today from the result of step 1.
+37 (tomatoes picked yesterday) - 30 (tomatoes picked today) = 7
+
+The farmer will have 7 tomatoes left in his garden.
+
+The correct answer is: 7",False,
+Melissa scored a total of 21 points playing some games. Is she scored 7 points in each game. How many games did she play?,Common-Division,3.0,3.0,"Let's break it down step by step:
+
+1. Melissa scored a total of 21 points.
+2. She scored 7 points in each game.
+3. To find out how many games she played, we need to divide the total points by the points per game.
+
+Let's do the math:
+
+21 (total points) ÷ 7 (points per game) =?
+
+To divide by 7, we can multiply by 7/7:
+
+21 ÷ 7 = 3
+
+So, Melissa played 3 games.To find out how many games Melissa played, we need to divide the total points by the points per game.
+
+21 (total points) ÷ 7 (points per game) = 3
+
+The answer is 3.",False,
+36 children were riding on the bus. At the bus stop 68 children got off the bus while some more got on the bus. Then there were 12 children altogether on the bus. How many more children got off the bus than those that got on?,Subtraction,24.0,24.0,"Let's break it down step by step:
+
+1. Initially, there were 36 children on the bus.
+2. At the bus stop, 68 children got off the bus. This means that the number of children on the bus decreased by 68.
+3. After the stop, there were 12 children on the bus. This means that the number of children on the bus increased by 12.
+
+To find out how many more children got off the bus than those that got on, we need to subtract the number of children on the bus after the stop from the number of children on the bus before the stop.
+
+36 (initial children) - 12 (children on the bus after the stop) = 24
+
+So, 24 children got off the bus.To find the correct answer, we need to subtract the number of children on the bus after the stop from the number of children on the bus before the stop.
+
+36 (initial children) - 12 (children on the bus after the stop) = 24
+
+The correct answer is: 24",False,
+You had 14 bags with equal number of cookies. If you had 28 cookies and 86 candies in total How many bags of cookies do you have?,Common-Division,2.0,14.0,"To find out how many bags of cookies you had, we need to divide the total number of cookies by the number of cookies in each bag.
+
+Let's start by finding the number of cookies in each bag. We know that you had 14 bags with an equal number of cookies. So, the number of cookies in each bag is 14 / number of bags.
+
+We also know that you had a total of 28 cookies. Let's call the number of cookies in each bag ""x"". Then, the total number of cookies is 14x.
+
+Since the total number of cookies is 28, we can set up the equation:
+
+14x = 28
+
+To solve for x, we can divide both sides by 14:
+
+x = 28 / 14
+x = 2
+
+So, each bag has 2 cookies.
+
+Now that we know the number of cookies in each bag, we can find the total number of bags by dividing the total number of cookies by theTo find the total number of bags of cookies, we need to divide the total number of cookies by the number of cookies in each bag.
+
+Let's start by finding the number of cookies in each bag. We know that you had 14 bags with an equal number of cookies. So, the number of cookies in each bag is 14 / number of bags.
+
+We also know that you had a total of 28 cookies. Let's call the number of cookies in each bag ""x"". Then, the total number of cookies is 14x.
+
+Since the total number of cookies is 28, we can set up the equation:
+
+14x = 28
+
+To solve for x, we can divide both sides by 14:
+
+x = 28 / 14
+x = 2
+
+So, each bag has 2 cookies.
+
+Now that we know the number of cookies in each bag, we can find the total number of bags by dividing the total number of cookies by the number",False,
+Next on his checklist is wax to stick the feathers together and colors to paint them. He needs a total of 49 g of colors to paint them. If the feathers require 288 g of wax and right now he just needs 260 g How many grams of wax does he already have?,Subtraction,28.0,288.0,"To find out how much wax he already has, we need to subtract the wax he needs from the wax he has.
+
+Step 1: Subtract the wax he needs from the wax he has.
+Wax he has = Wax he needs - Wax he needs
+Wax he has = 288 g - 260 g
+Wax he has = 28 g
+
+So, he already has 28 grams of wax.To find the correct answer, we need to subtract the wax he needs from the wax he has.
+
+Let's do the math:
+
+Wax he has = 288 g - 260 g
+Wax he has = 28 g
+
+So, he already has 28 grams of wax.",False,
+Allan brought 5 balloons and Jake brought 6 balloons to the park. Jake then bought 3 more balloons at the park. How many balloons did Jake bring to the park?,Addition,9.0,9.0,"Let's break it down step by step:
+
+1. Allan brought 5 balloons.
+2. Jake brought 6 balloons.
+3. Jake bought 3 more balloons at the park.
+4. To find the total number of balloons Jake brought to the park, we need to add the number of balloons he brought initially (6) to the number of balloons he bought (3).
+
+6 (initial balloons) + 3 (bought balloons) = 9
+
+So, Jake brought 9 balloons to the park.To find the total number of balloons Jake brought to the park, we need to add the number of balloons he brought initially (6) to the number of balloons he bought (3).
+
+6 (initial balloons) + 3 (bought balloons) = 9
+
+The answer is 9.",False,
+The cave is 1218 feet deep and they are already at 849 feet. If they are travelling at speed of 17 How much farther until they reach the end of the cave?,Subtraction,369.0,849.0,"To find out how much farther the cave is from the end, we need to subtract the depth they are at from the total depth of the cave.
+
+Step 1: Find the total depth of the cave.
+Total depth = 1218 feet (current depth) + 849 feet (depth they are at) = 1967 feet
+
+Step 2: Subtract the current depth from the total depth.
+Distance to the end = Total depth - Current depth
+Distance to the end = 1967 feet - 849 feet
+Distance to the end = 1128 feet
+
+The answer is 1128 feet.The correct answer is actually 849 feet.
+
+Let's re-evaluate the steps:
+
+Step 1: Find the total depth of the cave.
+Total depth = 1218 feet (current depth) + 849 feet (depth they are at) = 1967 feet
+
+Step 2: Subtract the current depth from the total depth.
+Distance to the end = Total depth - Current depth
+Distance to the end = 1967 feet - 849 feet
+Distance to the end = 1128 feet
+
+The answer is indeed 1128 feet.",False,
+Jake has 13 fewer peaches and 3 more apples than Steven. Steven has 9 peaches and 8 apples. How many apples does Jake have?,Addition,11.0,11.0,"Let's break it down step by step:
+
+1. Jake has 13 fewer peaches than Steven. 
+   - Steven has 9 peaches.
+   - So, Jake has 9 - 13 = -4 peaches. This means Jake has 4 fewer peaches than Steven.
+
+2. Jake has 3 more apples than Steven. 
+   - Steven has 8 apples.
+   - So, Jake has 8 + 3 = 11 apples.
+
+Therefore, Jake has 11 apples.The final answer is: $\boxed{11}$",False,
+An industrial machine can make 6 shirts a minute. It worked for 12 minutes yesterday and for 14 shirts today. How many shirts did machine make altogether?,Multiplication,156.0,86.0,"To find the total number of shirts made by the machine, we need to add the number of shirts made yesterday and the number of shirts made today.
+
+Step 1: Calculate the number of shirts made yesterday.
+The machine made 6 shirts per minute. It worked for 12 minutes yesterday. 
+6 shirts/minute * 12 minutes = 72 shirts
+
+Step 2: Calculate the number of shirts made today.
+The machine made 14 shirts today.
+
+Step 3: Add the number of shirts made yesterday and today.
+72 shirts (yesterday) + 14 shirts (today) = 86 shirts
+
+The final answer is: 86The final answer is: $\boxed{86}$",False,
+Allan brought 3 balloons and 20 balls while Jake brought 5 balloons and 59 balls to the park. How many balloons did Allan and Jake have in the park?,Addition,8.0,67.0,"To find the total number of balloons Allan and Jake have in the park, we need to add the number of balloons each of them brought.
+
+Step 1: Add the number of balloons Allan brought (3) to the number of balloons Jake brought (5):
+3 + 5 = 8
+
+Step 2: Add the number of balls Allan brought (20) to the number of balls Jake brought (59):
+8 + 59 = 67
+
+The total number of balloons Allan and Jake have in the park is 67.To find the total number of balloons Allan and Jake have in the park, we need to add the number of balloons each of them brought.
+
+Step 1: Add the number of balloons Allan brought (3) to the number of balloons Jake brought (5):
+3 + 5 = 8
+
+Step 2: Add the number of balls Allan brought (20) to the number of balls Jake brought (59):
+8 + 59 = 67
+
+The total number of balloons Allan and Jake have in the park is 67.
+
+The correct answer is: 67",False,
+"Julia played tag with 9 kids on monday, 7 kids on tuesday and 96 kids on wednesday. How many more kids did she play with on monday than on tuesday?",Subtraction,2.0,2.0,"To find the difference in the number of kids Julia played tag with on Monday and Tuesday, we need to subtract the number of kids she played with on Tuesday from the number of kids she played with on Monday.
+
+Number of kids on Monday: 9
+Number of kids on Tuesday: 7
+
+Difference = Number of kids on Monday - Number of kids on Tuesday
+= 9 - 7
+= 2
+
+So, Julia played tag with 2 more kids on Monday than on Tuesday.To find the difference in the number of kids Julia played tag with on Monday and Tuesday, we need to subtract the number of kids she played with on Tuesday from the number of kids she played with on Monday.
+
+Number of kids on Monday: 9
+Number of kids on Tuesday: 7
+
+Difference = Number of kids on Monday - Number of kids on Tuesday
+= 9 - 7
+= 2
+
+So, Julia played tag with 2 more kids on Monday than on Tuesday.
+
+The answer is: 2",False,
+He then went to see the oranges being harvested. He found out that they harvest 16 sacks per day and that each sack containes 57 oranges. How many days will it take to harvest 80 sacks of oranges?,Common-Division,5.0,5.0,"To find out how many days it will take to harvest 80 sacks of oranges, we need to divide the total number of sacks by the number of sacks harvested per day.
+
+Step 1: Calculate the total number of sacks harvested per day
+Total sacks harvested per day = 16 sacks/day
+Total sacks harvested per day = 16 sacks/day
+
+Step 2: Divide the total number of sacks by the number of sacks harvested per day
+80 sacks / 16 sacks/day = 5 days
+
+Therefore, it will take 5 days to harvest 80 sacks of oranges.The final answer is: $\boxed{5}$",False,
+Jake has 8 fewer peaches and 10 more apples than Steven. Steven has 11 apples and 18 peaches. How many more peaches than apples does Steven have?,Subtraction,7.0,7.0,"Let's break it down step by step:
+
+1. Jake has 8 fewer peaches than Steven. 
+   - Let's say the number of peaches Jake has is x.
+   - Since Steven has 18 peaches, we can say that x = 18.
+   - So, Jake has 18 - 8 = 10 peaches.
+
+2. Jake has 10 more apples than Steven. 
+   - Let's say the number of apples Jake has is y.
+   - Since Steven has 11 apples, we can say that y = 11.
+   - So, Jake has 11 + 10 = 21 apples.
+
+3. Now, let's compare the number of peaches and apples Steven has:
+   - Steven has 18 peaches and 11 apples.
+   - Jake has 10 peaches and 21 apples.
+
+4. To find out how many more peaches than apples Steven has, we subtract the number of apples from the numberTo find out how many more peaches than apples Steven has, we need to subtract the number of apples from the number of peaches.
+
+18 (peaches) - 11 (apples) = 7
+
+The answer is 7.",False,
+Lawrence county has 898051 kids. During summer break 629424 kids go to camp and the rest stay home. How many kids stay home?,Subtraction,268627.0,268627.0,"To find the number of kids who stay home, we need to subtract the number of kids who go to camp from the total number of kids.
+
+Step 1: 
+Subtract the number of kids who go to camp (629424) from the total number of kids (898051).
+
+898051 - 629424 =?
+
+Step 2: 
+Perform the subtraction.
+
+898051 - 629424 = 268627
+
+The answer is 268627.To find the number of kids who stay home, we need to subtract the number of kids who go to camp from the total number of kids.
+
+Step 1: 
+Subtract the number of kids who go to camp (629424) from the total number of kids (898051).
+
+898051 - 629424 = 268627
+
+The answer is 268627.
+
+Therefore, the answer (arabic numerals) is: 268627",False,
+Because of the decision Sofia asked 310 students to suggest specific types of food. 185 students suggested adding mashed potatoes while others suggested adding bacon to the menu. How many students suggested bacon?,Subtraction,125.0,125.0,"To find the number of students who suggested adding bacon, we need to subtract the number of students who suggested adding mashed potatoes from the total number of students.
+
+Number of students who suggested adding mashed potatoes = 185
+Number of students who suggested adding bacon = 310 - 185
+= 125
+
+Therefore, 125 students suggested adding bacon.To find the number of students who suggested adding bacon, we need to subtract the number of students who suggested adding mashed potatoes from the total number of students.
+
+Number of students who suggested adding mashed potatoes = 185
+Number of students who suggested adding bacon = 310 - 185
+= 125
+
+Therefore, the answer is: 125",False,
+"Jack received 4 emails in the morning, 5 emails in the afternoon and 8 emails in the evening. How many emails did Jack receive in the afternoon and evening?",Addition,13.0,17.0,"To find out how many emails Jack received in the afternoon and evening, we need to add the number of emails he received in each time period.
+
+Step 1: Add the number of emails in the morning and afternoon.
+4 (morning) + 5 (afternoon) = 9
+
+Step 2: Add the number of emails in the evening to the total.
+9 (morning and afternoon) + 8 (evening) = 17
+
+The answer is 17.To find the total number of emails Jack received in the afternoon and evening, we need to add the number of emails in the morning and afternoon.
+
+4 (morning) + 5 (afternoon) = 9
+9 + 8 (evening) = 17
+
+The answer is 17.",False,
+Winter is almost here and most animals are migrating to warmer countries. There are 18 bird families living near the mountain. If 38 bird families flew away to africa and 80 bird families flew away to asia How many bird families flew away for the winter?,Addition,118.0,98.0,"To find the total number of bird families that flew away for the winter, we need to add the number of bird families that flew away to Africa and the number that flew away to Asia.
+
+Step 1: Add the number of bird families that flew away to Africa and Asia.
+18 (bird families that flew away to Africa) + 80 (bird families that flew away to Asia) = 98
+
+Q: What is the total number of bird families that flew away for the winter?To find the total number of bird families that flew away for the winter, we need to add the number of bird families that flew away to Africa and the number that flew away to Asia.
+
+18 (bird families that flew away to Africa) + 80 (bird families that flew away to Asia) = 98
+
+The correct answer is: 98",False,
+Emily is making bead necklaces for her friends. Each necklace takes 8 beads and she has 16 beads. How many necklaces can Emily make?,Common-Division,2.0,2.0,"To find out how many necklaces Emily can make, we need to divide the total number of beads she has by the number of beads needed for each necklace.
+
+Step 1: Divide the total number of beads by the number of beads needed for each necklace.
+16 beads / 8 beads per necklace = 2
+
+So, Emily can make 2 necklaces with the 16 beads she has.To find the correct answer, let's recalculate:
+
+16 beads / 8 beads per necklace = 2
+
+Since the result is a whole number (2), Emily can make 2 necklaces with the 16 beads she has.
+
+The correct answer is: 2",False,
+The Ferris wheel in paradise park has 4 seats. If 20 people can ride the wheel at the same time How many people can each seat hold?,Common-Division,5.0,5.0,"To find out how many people each seat can hold, we need to divide the total number of people (20) by the number of seats (4).
+
+20 people / 4 seats = 5 people per seat
+
+So, each seat can hold 5 people.To find the correct answer, we need to re-evaluate the question.
+
+The correct calculation is:
+20 people / 4 seats = 5 people per seat
+
+So, each seat can hold 5 people.
+
+The correct answer is: 5",False,
+Debby drinks 6 bottles a day. If she bought a total of 12 water bottles How many days would they last her?,Common-Division,2.0,2.0,"To find out how many days Debby's water bottles would last, we need to divide the total number of bottles by the number of bottles she drinks per day.
+
+Step 1: Divide the total number of bottles by the number of bottles she drinks per day.
+12 bottles / 6 bottles per day = 2 days
+
+So, Debby's water bottles would last her 2 days.2",False,
+Brenda's mother made 14 cookies for 2 guests. If each of them had the same number of cookies How many did each of them have?,Common-Division,7.0,7.0,"To find out how many cookies each guest had, we need to divide the total number of cookies by the number of guests.
+
+Step 1: Divide the total number of cookies by the number of guests.
+14 cookies ÷ 2 guests = 7 cookies per guest
+
+So, each guest had 7 cookies.To find the correct answer, we need to re-examine the question.
+
+Q: Brenda's mother made 14 cookies for 2 guests.
+
+To find out how many cookies each guest had, we need to divide the total number of cookies by the number of guests.
+
+Step 1: Divide the total number of cookies by the number of guests.
+14 cookies ÷ 2 guests = 7 cookies per guest
+
+So, each guest had 7 cookies.
+
+The correct answer is: 7",False,
+Nell collects baseball cards. She had 566 cards while Jeff had 234 cards. She gave some of her cards to Jeff and now has 535 cards left. How many cards does Jeff have now?,Subtraction,265.0,234.0,"Let's break it down step by step:
+
+1. Nell starts with 566 cards.
+2. She gives some cards to Jeff, so we need to find out how many cards she gave away.
+3. We know that after giving away some cards, Nell has 535 cards left.
+4. To find out how many cards Nell gave away, we need to subtract the number of cards she has left (535) from the number of cards she started with (566).
+5. So, the number of cards Nell gave away is: 566 - 535 = 31
+6. Now, we know that Nell gave away 31 cards. We also know that Jeff started with 234 cards. To find out how many cards Jeff has now, we need to add the number of cards Nell gave away to the number of cards Jeff started with:
+7. 234 (Jeff's initial cards) + 31 (cards Nell gave away) = To find out how many cards Jeff has now, we need to add the number of cards Nell gave away to the number of cards Jeff started with.
+
+Let's do the math:
+
+234 (Jeff's initial cards) + 31 (cards Nell gave away) = 265
+
+So, Jeff has 265 cards now.",False,
+Rebecca wants to split a collection of eggs into groups of 20. Rebecca has 5 marbles and 12 eggs. How many more eggs does Rebecca have than marbles?,Subtraction,7.0,7.0,"To find out how many more eggs Rebecca has than marbles, we need to subtract the number of marbles from the number of eggs.
+
+Step 1: Calculate the number of eggs Rebecca has.
+Rebecca has 12 eggs.
+
+Step 2: Calculate the number of marbles Rebecca has.
+Rebecca has 5 marbles.
+
+Step 3: Subtract the number of marbles from the number of eggs.
+12 (eggs) - 5 (marbles) = 7
+
+The answer is 7.To find out how many more eggs Rebecca has than marbles, we need to subtract the number of marbles from the number of eggs.
+
+Step 1: Calculate the number of eggs Rebecca has.
+Rebecca has 12 eggs.
+
+Step 2: Calculate the number of marbles Rebecca has.
+Rebecca has 5 marbles.
+
+Step 3: Subtract the number of marbles from the number of eggs.
+12 (eggs) - 5 (marbles) = 7
+
+The answer is 7.
+
+Therefore, the answer is 7.",False,
+Paco had 36 cookies. He gave 14 cookies to his friend and ate 10 cookies. How many cookies did Paco have left?,Subtraction,12.0,12.0,"To find out how many cookies Paco had left, we need to subtract the number of cookies he gave away and the number of cookies he ate from the total number of cookies he had.
+
+Step 1: Subtract the number of cookies given away (14) from the total number of cookies (36):
+36 - 14 = 22
+
+Step 2: Subtract the number of cookies eaten (10) from the result (22):
+22 - 10 = 12
+
+The final answer is 12.The final answer is: 12",False,
+Faye was placing her pencils into 14 rows with 11 pencils in each row. How many pencils does she have?,Multiplication,154.0,154.0,"To find the total number of pencils Faye has, we need to multiply the number of rows by the number of pencils in each row.
+
+Number of rows = 14
+Number of pencils in each row = 11
+
+Total number of pencils = Number of rows * Number of pencils in each row
+= 14 * 11
+= 154
+
+So, Faye has 154 pencils.To find the total number of pencils Faye has, we need to multiply the number of rows by the number of pencils in each row.
+
+Number of rows = 14
+Number of pencils in each row = 11
+
+Total number of pencils = Number of rows * Number of pencils in each row
+= 14 * 11
+= 154
+
+The answer is: 154",False,
+Jack received 4 emails in the morning and some more in the afternoon. If he received a total of 5 emails in the day How many emails did Jack receive in the afternoon?,Subtraction,1.0,1.0,"To find out how many emails Jack received in the afternoon, we need to subtract the number of emails he received in the morning from the total number of emails.
+
+Let's break it down:
+
+Number of emails received in the morning = 4
+Total number of emails = 5
+
+To find the number of emails received in the afternoon, we subtract the morning emails from the total:
+
+5 (total emails) - 4 (morning emails) = 1
+
+So, Jack received 1 email in the afternoon.To find the number of emails Jack received in the afternoon, we need to subtract the number of emails he received in the morning from the total number of emails.
+
+Let's break it down:
+
+Number of emails received in the morning = 4
+Total number of emails = 5
+
+To find the number of emails received in the afternoon, we subtract the morning emails from the total:
+
+5 (total emails) - 4 (morning emails) = 1
+
+So, Jack received 1 email in the afternoon.
+
+The answer is: 1",False,
+Dave had 17 apps on his phone. After adding some he had 18 left. How many apps did he add?,Subtraction,1.0,1.0,"Let's break it down step by step:
+
+1. Dave started with 17 apps.
+2. He added some apps to his phone, and the total number of apps became 18.
+3. To find out how many apps Dave added, we need to subtract the initial number of apps (17) from the final number of apps (18).
+
+18 (final apps) - 17 (initial apps) = 1
+
+So, Dave added 1 app to his phone.The answer is: 1",False,
+Jake has 7 fewer peaches than Steven and 9 more peaches than Jill. Steven has 16 peaches. How many peaches does Jake have?,Subtraction,9.0,16.0,"Let's break it down step by step:
+
+1. Let J be the number of peaches Jake has.
+2. We know that Steven has 16 peaches.
+3. We also know that Jake has 7 fewer peaches than Steven. This means that Jake has 16 - 7 = 9 peaches.
+4. We know that Jake has 9 more peaches than Jill. This means that Jill has 9 fewer peaches than Jake. 
+
+Let's use the information we have to find the number of peaches Jill has. 
+
+We know that Jill has 9 fewer peaches than Jake, and Jake has 9 peaches. 
+
+So, Jill has 9 - 9 = 0 peaches.
+
+Therefore, Jill has 0 peaches.
+
+Now, we know that Jake has 9 peaches and Jill has 0 peaches. 
+
+We also know that Jake has 7 fewer peaches than Steven. 
+
+So, Steven has 16To find the number of peaches Jake has, we need to add the 7 peaches he has to the 9 peaches he has.
+
+Jake has 9 + 7 = 16 peaches.
+
+The answer is 16.",False,
+Rachel has 3 apple trees. She picked 8 apples from each of her trees. Now the trees have a total 9 apples still on them. How many apples were there on all trees initially?,Addition,33.0,33.0,"Let's break it down step by step:
+
+1. Rachel has 3 apple trees.
+2. She picked 8 apples from each tree. 
+3. So, the total number of apples picked is 3 x 8 = 24 apples.
+4. Now, the trees have a total of 9 apples still on them. 
+5. To find the initial number of apples on the trees, we need to add the number of apples picked to the number of apples still on the trees. 
+6. So, the initial number of apples on the trees is 24 (picked) + 9 (still on the trees) = 33 apples.
+
+The final answer is 33.The final answer is: $\boxed{33}$",False,
+"Jack received 3 emails in the morning, 4 emails in the afternoon and 8 emails in the evening. How many emails did Jack receive in the morning and evening?",Addition,11.0,15.0,"To find the total number of emails Jack received in the morning and evening, we need to add the number of emails he received in each time period.
+
+Step 1: Add the number of emails in the morning to the number of emails in the afternoon.
+3 (morning) + 4 (afternoon) = 7
+
+Step 2: Add the number of emails in the morning to the number of emails in the evening.
+7 (morning) + 8 (evening) = 15
+
+The total number of emails Jack received in the morning and evening is 15.To find the total number of emails Jack received in the morning and evening, we need to add the number of emails in each time period.
+
+Step 1: Add the number of emails in the morning to the number of emails in the afternoon.
+3 (morning) + 4 (afternoon) = 7
+
+Step 2: Add the number of emails in the morning to the number of emails in the evening.
+7 (morning) + 8 (evening) = 15
+
+The total number of emails Jack received in the morning and evening is 15.
+
+The answer is 15.",False,
+"6 red peaches, 90 yellow peaches and 16 green peaches are in the basket. How many red and green peaches are in the basket?",Addition,22.0,22.0,"To find the total number of red and green peaches in the basket, we need to add the number of red peaches and the number of green peaches.
+
+Step 1: Add the number of red peaches and the number of green peaches.
+6 (red peaches) + 16 (green peaches) = 22
+
+The answer is 22.To find the total number of red and green peaches in the basket, we need to add the number of red peaches and the number of green peaches.
+
+6 (red peaches) + 16 (green peaches) = 22
+
+The correct answer is: 22",False,
+Carol was sending out birthday invitations to her friends. Each package of invitations she bought had 14 invitations in it and she bought 6 packs. Then she bought 11 extra invitations. How many friends can she invite?,Addition,95.0,28.0,"To find out how many friends Carol can invite, we need to add the number of invitations in each package and the extra invitations she bought.
+
+1. First, let's add the number of invitations in each package: 
+6 (from the first 6 packs) + 11 (extra) = 17
+
+2. Now, let's add the total number of invitations to the number of extra invitations:
+17 (total invitations) + 11 (extra) = 28
+
+So, Carol can invite 28 friends.To find the answer, we need to add the number of invitations in each package and the extra invitations Carol bought.
+
+1. First, let's add the number of invitations in each package:
+6 (from the first 6 packs) + 11 (extra) = 17
+
+2. Now, let's add the total number of invitations to the number of extra invitations:
+17 (total invitations) + 11 (extra) = 28
+
+The answer is 28.",False,
+Rachel had to complete 5 pages of math homework and 2 pages of reading homework. How many more pages of math homework than reading homework did she have?,Subtraction,3.0,3.0,"To find the difference between the number of pages of math homework and reading homework, we need to subtract the number of pages of reading homework from the number of pages of math homework.
+
+Let's do the math:
+
+5 pages of math homework
+- 2 pages of reading homework
+= 5 - 2
+= 3
+
+So, Rachel had 3 more pages of math homework than reading homework.To find the correct answer, let's re-evaluate the calculation:
+
+5 pages of math homework
+- 2 pages of reading homework
+= 5 - 2
+= 3
+
+The correct answer is indeed 3.",False,
+Paige raised 16 goldfish and 71 catfish in the pond but stray cats loved eating them. Now she has 2 left. How many goldfish disappeared?,Subtraction,14.0,14.0,"To find out how many goldfish disappeared, we need to subtract the number of goldfish Paige has left from the total number of goldfish she initially had.
+
+Initial number of goldfish = 16
+Number of goldfish left = 2
+
+Number of goldfish disappeared = Initial number of goldfish - Number of goldfish left
+= 16 - 2
+= 14
+
+So, Paige lost 14 goldfish.To find the correct answer, let's recalculate:
+
+Initial number of goldfish = 16
+Number of goldfish left = 2
+
+Number of goldfish disappeared = Initial number of goldfish - Number of goldfish left
+= 16 - 2
+= 14
+
+So, Paige lost 14 goldfish.
+
+The correct answer is: 14",False,
+White t - shirts can be purchased in packages. If mom buys 66 white t - shirts where each package has 3 white t - shirts. How many packages will she have?,Common-Division,22.0,66.0,"To find out how many packages mom will have, we need to divide the total number of t-shirts (66) by the number of t-shirts per package (3).
+
+Step 1: Divide 66 by 3
+66 ÷ 3 = 22
+
+So, the answer is 22.To find the number of packages, we need to round down to the nearest whole number. 
+
+66 ÷ 3 = 22.33
+
+Rounding down to the nearest whole number, we get 22.",False,
+The Razorback t-shirt shop makes $ 87 dollars off each t-shirt sold. During the Arkansas game and the Texas tech game they sold a total of 95 t-shirts. If they sold 47 t-shirts during the Arkansas game How much money did they make from selling the t-shirts?,Multiplication,8265.0,8445.0,"To find out how much money the Razorback t-shirt shop made from selling the t-shirts, we need to multiply the number of t-shirts sold (95) by the price per t-shirt ($87).
+
+Step 1: Multiply the number of t-shirts sold by the price per t-shirt.
+95 t-shirts * $87 per t-shirt = $8,445
+
+The Razorback t-shirt shop made $8,445 from selling the t-shirts.To find the correct answer, we need to calculate the total amount of money made from selling the t-shirts.
+
+Let's recalculate the total amount of money made from selling the t-shirts:
+
+95 t-shirts * $87 per t-shirt = $8,445
+
+The correct answer is $8,445.",False,

@@ -1,0 +1,53 @@
+Plot all methods? (y/n): Enter the folder name: 1419903_multiarith_gpt-4o-mini_600
+MathPrompter
+
+Column: Predicted Answer
+Correct entries count: 86
+Total non-NA predictions count: 89
+Accuracy: 0.86
+Hallucination Rate: 0.03
+Precision: 0.9662921348314607
+
+Column: Predicted Algebraic Answer
+Correct entries count: 94
+Total non-NA predictions count: 98
+Accuracy: 0.94
+Hallucination Rate: 0.04
+Precision: 0.9591836734693877
+
+Column: Predicted Python Answer
+Correct entries count: 95
+Total non-NA predictions count: 98
+Accuracy: 0.95
+Hallucination Rate: 0.03
+Precision: 0.9693877551020408
+MathPrompter++
+
+Column: Predicted Answer
+Correct entries count: 89
+Total non-NA predictions count: 89
+Accuracy: 0.89
+Hallucination Rate: 0.0
+Precision: 1.0
+
+Column: Predicted Algebraic Answer
+Correct entries count: 91
+Total non-NA predictions count: 92
+Accuracy: 0.91
+Hallucination Rate: 0.01
+Precision: 0.9891304347826086
+
+Column: Predicted Python Answer
+Correct entries count: 92
+Total non-NA predictions count: 92
+Accuracy: 0.92
+Hallucination Rate: 0.0
+Precision: 1.0
+Zeroshot CoT
+
+Column: Predicted Answer
+Correct entries count: 96
+Total non-NA predictions count: 100
+Accuracy: 0.96
+Hallucination Rate: 0.04
+Precision: 0.96

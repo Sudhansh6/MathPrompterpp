@@ -1,0 +1,53 @@
+Enter the folder name: 484748_domain_gpt-4o-mini_85_few_shot
+MathPrompter
+
+Column: Predicted Answer
+Correct entries count: 59
+Total non-NA predictions count: 66
+Accuracy: 0.6941176470588235
+Hallucination Rate: 0.08235294117647059
+Precision: 0.7121212121212122
+
+Column: Predicted Algebraic Answer
+Correct entries count: 65
+Total non-NA predictions count: 79
+Accuracy: 0.7647058823529411
+Hallucination Rate: 0.16470588235294117
+Precision: 0.6582278481012658
+
+Column: Predicted Python Answer
+Correct entries count: 64
+Total non-NA predictions count: 79
+Accuracy: 0.7529411764705882
+Hallucination Rate: 0.17647058823529413
+Precision: 0.6075949367088608
+MathPrompter++
+
+Column: Predicted Answer
+Correct entries count: 56
+Total non-NA predictions count: 63
+Accuracy: 0.6588235294117647
+Hallucination Rate: 0.08235294117647059
+Precision: 0.7142857142857143
+
+Column: Predicted Algebraic Answer
+Correct entries count: 59
+Total non-NA predictions count: 75
+Accuracy: 0.6941176470588235
+Hallucination Rate: 0.18823529411764706
+Precision: 0.6266666666666667
+
+Column: Predicted Python Answer
+Correct entries count: 59
+Total non-NA predictions count: 76
+Accuracy: 0.6941176470588235
+Hallucination Rate: 0.2
+Precision: 0.618421052631579
+Zeroshot CoT
+
+Column: Predicted Answer
+Correct entries count: 0
+Total non-NA predictions count: 0
+Accuracy: 0
+Hallucination Rate: 0
+Precision: 0.0

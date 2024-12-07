@@ -1,0 +1,2610 @@
+Question,Type,Correct Answer,Predicted Answer,Response,Error,Error Message
+There are 4502 skittles in Steven's skittles collection. Steven also has 4276 erasers. If the skittles and erasers are organized into 154 groups How big is each group?,Common-Division,57.0,57.0,"To find out how big each group is, we first need to determine the total number of items Steven has, which includes both skittles and erasers.
+
+1. **Calculate the total number of items:**
+   - Number of skittles: 4502
+   - Number of erasers: 4276
+
+   Total items = Number of skittles + Number of erasers
+   \[
+   \text{Total items} = 4502 + 4276 = 8778
+   \]
+
+2. **Divide the total number of items by the number of groups:**
+   - Number of groups: 154
+
+   Size of each group = Total items / Number of groups
+   \[
+   \text{Size of each group} = \frac{8778}{154}
+   \]
+
+3. **Perform the division:**
+   \[
+   \text{Size of each group} = 57
+   \]
+
+Therefore, each group57",False,
+Lucy went to the grocery store. She bought 10 packs of cookie and 4 packs of cake. How many more packs of cookie did she buy over cake?,Subtraction,6.0,6.0,"To find out how many more packs of cookies Lucy bought compared to packs of cake, we can follow these steps:
+
+1. **Identify the number of packs of cookies**: Lucy bought 10 packs of cookies.
+2. **Identify the number of packs of cake**: Lucy bought 4 packs of cake.
+3. **Calculate the difference**: Subtract the number of packs of cake from the number of packs of cookies.
+
+So, the calculation is:
+
+10 packs of cookies - 4 packs of cake = 6 packs
+
+Therefore, Lucy bought 6 more packs of cookies than packs of cake.6",False,
+Lawrence county has 313473 kids. During summer break 274865 kids stay home and the rest go to camp. How many kids go to the camp during the break?,Subtraction,38608.0,38608.0,"To find out how many kids go to camp during the summer break, we can follow these steps:
+
+1. **Total number of kids in Lawrence County**: 313,473
+2. **Number of kids staying home during summer break**: 274,865
+3. **Number of kids going to camp**: This can be calculated by subtracting the number of kids staying home from the total number of kids.
+
+Now, let's do the calculation:
+
+\[
+\text{Number of kids going to camp} = \text{Total number of kids} - \text{Number of kids staying home}
+\]
+
+\[
+\text{Number of kids going to camp} = 313,473 - 274,865
+\]
+
+Now, performing the subtraction:
+
+\[
+313,473 - 274,865 = 38,608
+\]
+
+So, the number of kids going to camp during the break is **38,608**.38608",False,
+Paco had 40 cookies. He ate 2 of them. Then he bought 37 more cookies How many cookies did Paco have left?,Addition,75.0,75.0,"Sure! Let's break it down step by step:
+
+1. **Initial number of cookies**: Paco starts with 40 cookies.
+2. **Cookies eaten**: He eats 2 cookies. 
+   - So, 40 - 2 = 38 cookies left.
+3. **Cookies bought**: He then buys 37 more cookies.
+   - So, 38 + 37 = 75 cookies.
+
+Therefore, Paco has **75 cookies** left.75",False,
+Edward had $ 18. He spent $ 16. How much money does Edward have now?,Subtraction,2.0,2.0,"Sure! Let's break it down step by step:
+
+1. **Initial Amount**: Edward starts with $18.
+2. **Amount Spent**: He spends $16.
+3. **Calculation**: To find out how much money he has left, we subtract the amount spent from the initial amount:
+   \[
+   18 - 16 = 2
+   \]
+4. **Final Amount**: Edward now has $2.
+
+So, Edward has $2 left.2",False,
+Paco had 9 sweet cookies and 6 salty cookies. He ate 36 sweet cookies and 3 salty cookies. How many salty cookies did Paco have left?,Subtraction,3.0,3.0,"Let's break it down step by step:
+
+1. **Initial Count of Cookies**:
+   - Sweet cookies: 9
+   - Salty cookies: 6
+
+2. **Cookies Eaten**:
+   - Sweet cookies eaten: 36
+   - Salty cookies eaten: 3
+
+3. **Calculating Remaining Cookies**:
+   - For sweet cookies:
+     - Paco had 9 sweet cookies but ate 36. Since he cannot eat more cookies than he has, he would have 0 sweet cookies left.
+   - For salty cookies:
+     - Paco had 6 salty cookies and ate 3. 
+     - Remaining salty cookies = Initial salty cookies - Salty cookies eaten
+     - Remaining salty cookies = 6 - 3 = 3
+
+4. **Final Count of Salty Cookies**:
+   - Paco has 3 salty cookies left.
+
+So, the answer is that Paco has **3 salty cookies left**.3",False,
+Josh had 20 marbles in his collection. He gave 2 marbles to Jack. How many marbles does Josh have now?,Subtraction,18.0,18.0,"Sure! Let's break it down step by step:
+
+1. **Initial number of marbles**: Josh starts with 20 marbles.
+2. **Marbles given to Jack**: Josh gives away 2 marbles to Jack.
+3. **Calculation**: To find out how many marbles Josh has left, we subtract the number of marbles he gave away from his initial amount:
+   \[
+   20 - 2 = 18
+   \]
+
+So, after giving 2 marbles to Jack, Josh now has **18 marbles**.18",False,
+Mary is baking a cake. The recipe calls for 6 cups of sugar and 9 cups of flour. She already put in 2 cups of flour. How many more cups of flour than cups of sugar does she need to add now?,Subtraction,1.0,1.0,"Sure! Let's break it down step by step.
+
+1. **Identify the total amount of flour needed**: The recipe calls for 9 cups of flour.
+
+2. **Determine how much flour Mary has already added**: Mary has already put in 2 cups of flour.
+
+3. **Calculate how much more flour is needed**: 
+   \[
+   \text{Flour needed} = \text{Total flour} - \text{Flour already added} = 9 \text{ cups} - 2 \text{ cups} = 7 \text{ cups}
+   \]
+
+4. **Identify the total amount of sugar needed**: The recipe calls for 6 cups of sugar.
+
+5. **Now, compare the additional flour needed to the total sugar**: 
+   - Mary needs to add 7 more cups of flour.
+   - The recipe calls for 6 cups of sugar.
+
+6. **Calculate how many more cups of flour than sugar she1. **Identify the total amount of flour needed**: The recipe calls for 9 cups of flour.
+
+2. **Determine how much flour Mary has already added**: Mary has already put in 2 cups of flour.
+
+3. **Calculate how much more flour is needed**: 
+   \[
+   \text{Flour needed} = \text{Total flour} - \text{Flour already added} = 9 \text{ cups} - 2 \text{ cups} = 7 \text{ cups}
+   \]
+
+4. **Identify the total amount of sugar needed**: The recipe calls for 6 cups of sugar.
+
+5. **Now, compare the additional flour needed to the total sugar**: 
+   - Mary needs to add 7 more cups of flour.
+   - The recipe calls for 6 cups of sugar.
+
+6. **Calculate how many more cups of flour than sugar she needs to add**: 
+   \[
+  ",False,
+Mary is baking a cake. The recipe calls for 11 cups of sugar 6 cups of flour and 9 cups of salt. She already put in 12 cups of flour. How many more cups of sugar than cups of salt does she need to add now?,Subtraction,2.0,11.0,"To determine how many more cups of sugar than cups of salt Mary needs to add, we can follow these steps:
+
+1. **Identify the amounts needed according to the recipe:**
+   - Sugar: 11 cups
+   - Flour: 6 cups
+   - Salt: 9 cups
+
+2. **Determine how much flour Mary has already added:**
+   - Mary has already added 12 cups of flour.
+
+3. **Check if Mary has added the correct amount of flour:**
+   - The recipe calls for 6 cups of flour, but Mary has added 12 cups. This means she has already added 6 cups more than the recipe requires.
+
+4. **Calculate how much sugar and salt she still needs to add:**
+   - Sugar needed: 11 cups (none added yet)
+   - Salt needed: 9 cups (none added yet)
+
+5. **Now, we need to find out how many more cups of sugar than cups of salt she needs toTo find out how many more cups of sugar than cups of salt Mary needs to add, we can calculate:
+
+- Sugar needed: 11 cups
+- Salt needed: 9 cups
+
+Now, we subtract the amount of salt from the amount of sugar:
+
+11 cups (sugar) - 9 cups (salt) = 2 cups
+
+Therefore, Mary needs to add **2** more cups of sugar than cups of salt.",False,
+Next on his checklist is wax to stick the feathers together and colors to paint them. He needs a total of 57 g of colors to paint them. He needs 22 g of wax more. If the feathers require a total of 353 g of wax How many grams of wax does he already have?,Subtraction,331.0,331.0,"To find out how many grams of wax he already has, we can break down the information given in the problem step by step.
+
+1. **Total wax required for the feathers**: 353 g
+2. **Additional wax needed**: 22 g
+
+Now, if he needs 22 g more wax, we can find out how much wax he currently has by subtracting the additional wax needed from the total wax required.
+
+3. **Current wax amount**:
+   \[
+   \text{Current wax} = \text{Total wax required} - \text{Additional wax needed}
+   \]
+   \[
+   \text{Current wax} = 353 \, \text{g} - 22 \, \text{g}
+   \]
+   \[
+   \text{Current wax} = 331 \, \text{g}
+   \]
+
+So, he already has **331 grams of wax**.331",False,
+An industrial machine can make 3 shirts per minute. It made 6 shirts in all. How many minutes was the machine working?,Common-Division,2.0,2.0,"To find out how many minutes the machine was working, we can use the information given:
+
+1. The machine makes 3 shirts per minute.
+2. It made a total of 6 shirts.
+
+Now, we can set up the calculation:
+
+- To find the number of minutes the machine worked, we can divide the total number of shirts made by the number of shirts made per minute.
+
+\[
+\text{Minutes worked} = \frac{\text{Total shirts made}}{\text{Shirts per minute}} = \frac{6 \text{ shirts}}{3 \text{ shirts/minute}} = 2 \text{ minutes}
+\]
+
+So, the machine was working for **2 minutes**.2",False,
+Paul had 95 pens and 153 books. After selling some books and pens in a garage sale he had 13 books and 23 pens left. How many books did he sell in the garage sale?,Subtraction,140.0,140.0,"To find out how many books Paul sold in the garage sale, we can follow these steps:
+
+1. **Initial Count**: 
+   - Paul initially had 153 books.
+
+2. **Final Count**: 
+   - After the garage sale, he had 13 books left.
+
+3. **Calculate the Number of Books Sold**: 
+   - To find out how many books he sold, we subtract the number of books he has left from the number he started with:
+   \[
+   \text{Books Sold} = \text{Initial Books} - \text{Final Books}
+   \]
+   \[
+   \text{Books Sold} = 153 - 13
+   \]
+   \[
+   \text{Books Sold} = 140
+   \]
+
+Therefore, Paul sold **140 books** in the garage sale.140",False,
+Adam has 10 apples. Jackie has 2 apples. How many more apples does Adam have than Jackie?,Subtraction,8.0,8.0,"To find out how many more apples Adam has than Jackie, we can follow these steps:
+
+1. **Identify the number of apples each person has**:
+   - Adam has 10 apples.
+   - Jackie has 2 apples.
+
+2. **Subtract the number of apples Jackie has from the number of apples Adam has**:
+   - 10 apples (Adam) - 2 apples (Jackie) = 8 apples.
+
+3. **Conclusion**:
+   - Adam has 8 more apples than Jackie.8",False,
+Baker made some cakes. He sold 145 of them. If he still has 72 cakes left How many cakes did baker make?,Addition,217.0,217.0,"To find out how many cakes the baker made, we can use the information given:
+
+1. The number of cakes sold: 145
+2. The number of cakes left: 72
+
+To find the total number of cakes made, we can add the number of cakes sold to the number of cakes left:
+
+Total cakes made = Cakes sold + Cakes left
+
+Now, substituting the values:
+
+Total cakes made = 145 + 72
+
+Total cakes made = 217
+
+So, the baker made a total of 217 cakes.217",False,
+Jake has 6 fewer peaches than Steven. Steven has 18 more peaches than Jill. If jill has 5 peaches How many peaches does Jake have?,Subtraction,17.0,17.0,"Sure! Let's break it down step by step.
+
+1. **Identify how many peaches Jill has**: 
+   - Jill has 5 peaches.
+
+2. **Determine how many peaches Steven has**: 
+   - Steven has 18 more peaches than Jill. 
+   - So, Steven's peaches = Jill's peaches + 18 = 5 + 18 = 23 peaches.
+
+3. **Find out how many peaches Jake has**: 
+   - Jake has 6 fewer peaches than Steven. 
+   - So, Jake's peaches = Steven's peaches - 6 = 23 - 6 = 17 peaches.
+
+Therefore, Jake has **17 peaches**.17",False,
+If they are already at 659 feet and the cave is 762 feet deep How much farther until they reach the end of the cave?,Subtraction,103.0,103.0,"To find out how much farther they need to go until they reach the end of the cave, we can subtract their current depth from the total depth of the cave.
+
+1. Current depth: 659 feet
+2. Total depth of the cave: 762 feet
+
+Now, we perform the subtraction:
+
+762 feet (total depth) - 659 feet (current depth) = 103 feet
+
+So, they need to go **103 feet** farther to reach the end of the cave.103",False,
+He then went to see the oranges being harvested. He found out that they harvest 25 sacks of unripe oranges and 5 sacks of ripe oranges per day. How many sacks of ripe oranges will they have after 73 days of harvest?,Multiplication,365.0,365.0,"To find out how many sacks of ripe oranges will be harvested after 73 days, we can follow these steps:
+
+1. **Identify the daily harvest of ripe oranges**: According to the information provided, they harvest 5 sacks of ripe oranges per day.
+
+2. **Calculate the total ripe oranges harvested over 73 days**: 
+   \[
+   \text{Total ripe oranges} = \text{Daily ripe oranges} \times \text{Number of days}
+   \]
+   \[
+   \text{Total ripe oranges} = 5 \text{ sacks/day} \times 73 \text{ days} = 365 \text{ sacks}
+   \]
+
+Therefore, after 73 days of harvest, they will have **365 sacks of ripe oranges**.365",False,
+Rebecca wants to split a collection of eggs into groups of 3. Rebecca has 99 bananas 9 eggs and 27 marbles. How many groups will be created?,Common-Division,3.0,3.0,"To determine how many groups of 3 eggs Rebecca can create, we need to focus only on the number of eggs she has, since the bananas and marbles are not relevant to the grouping of eggs.
+
+Rebecca has 9 eggs. To find out how many groups of 3 can be formed from 9 eggs, we can divide the total number of eggs by the size of each group:
+
+\[
+\text{Number of groups} = \frac{\text{Total eggs}}{\text{Group size}} = \frac{9}{3} = 3
+\]
+
+Therefore, Rebecca can create **3 groups** of eggs.3",False,
+David did 40 more push-ups but 17 less crunches than Zachary in gym class today. If Zachary did 34 push-ups and 62 crunches How many crunches did David do?,Subtraction,45.0,45.0,"To find out how many crunches David did, we can follow these steps:
+
+1. **Identify Zachary's push-ups and crunches:**
+   - Zachary did 34 push-ups.
+   - Zachary did 62 crunches.
+
+2. **Determine David's push-ups:**
+   - David did 40 more push-ups than Zachary.
+   - So, David's push-ups = Zachary's push-ups + 40
+   - David's push-ups = 34 + 40 = 74 push-ups.
+
+3. **Determine David's crunches:**
+   - David did 17 less crunches than Zachary.
+   - So, David's crunches = Zachary's crunches - 17
+   - David's crunches = 62 - 17 = 45 crunches.
+
+Therefore, David did **45 crunches**.45",False,
+Frank was reading through his favorite book. The book had 2 chapters each with 405 pages. It took frank 664 days to finish the book. How many chapters did he read per day?,Common-Division,332.0,0.00301,"To find out how many chapters Frank read per day, we can follow these steps:
+
+1. **Determine the total number of chapters in the book**: 
+   The book has 2 chapters.
+
+2. **Calculate the total number of days Frank took to finish the book**: 
+   Frank took 664 days to finish the book.
+
+3. **Calculate the number of chapters read per day**: 
+   To find out how many chapters Frank read per day, we divide the total number of chapters by the total number of days:
+
+   \[
+   \text{Chapters per day} = \frac{\text{Total chapters}}{\text{Total days}} = \frac{2}{664}
+   \]
+
+4. **Perform the calculation**:
+   \[
+   \text{Chapters per day} = \frac{2}{664} \approx 0.00301
+   \]
+
+So, Frank read approximately 0.00301 chapters per day.0.00301",False,
+Debby bought 88 water bottles and 13 soda bottles when they were on sale. If she drank 4 water bottles and 87 soda bottles a day How many days would the water bottles last?,Common-Division,22.0,22.0,"To determine how many days the water bottles will last, we need to follow these steps:
+
+1. **Identify the total number of water bottles Debby bought**: 
+   - Debby bought 88 water bottles.
+
+2. **Determine how many water bottles she drinks per day**: 
+   - Debby drinks 4 water bottles a day.
+
+3. **Calculate how many days the water bottles will last**: 
+   - To find out how many days the water bottles will last, we divide the total number of water bottles by the number of water bottles she drinks per day.
+
+   \[
+   \text{Number of days} = \frac{\text{Total water bottles}}{\text{Water bottles consumed per day}} = \frac{88}{4}
+   \]
+
+4. **Perform the calculation**:
+   \[
+   \frac{88}{4} = 22
+   \]
+
+Therefore, the water bottles will last for **22 days**.22",False,
+Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?,Subtraction,39.0,39.0,"Sure! Let's break it down step by step.
+
+1. **Let the number of children already on the bus be \( x \)**.
+2. **At the bus stop, 2 more children got on the bus**. So, after they got on, the total number of children on the bus became \( x + 2 \).
+3. **According to the problem, after the 2 children got on, there were 41 children altogether on the bus**. This gives us the equation:
+   \[
+   x + 2 = 41
+   \]
+4. **Now, we can solve for \( x \)** by subtracting 2 from both sides:
+   \[
+   x = 41 - 2
+   \]
+   \[
+   x = 39
+   \]
+
+So, there were **39 children riding on the bus before the bus stop**.39",False,
+Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?,Addition,111.0,111.0,"Sure! Let's break it down step by step:
+
+1. **Initial number of cakes made**: Baker made 110 cakes.
+2. **Cakes sold**: He sold 75 of those cakes.
+3. **Cakes remaining after sales**: 
+   \[
+   110 - 75 = 35 \text{ cakes remaining}
+   \]
+4. **Cakes made after selling**: Baker then made 76 more cakes.
+5. **Total cakes now**: 
+   \[
+   35 + 76 = 111 \text{ cakes}
+   \]
+
+So, after selling 75 cakes and making 76 more, the baker would still have **111 cakes**.111",False,
+Winter is almost here and most animals are migrating to warmer countries. There were 89 bird families living near the mountain. If 60 bird families flew away for winter How many more bird families flew away for the winter than those that stayed behind?,Subtraction,31.0,31.0,"Sure! Let's break it down step by step.
+
+1. **Total bird families**: There were 89 bird families living near the mountain.
+
+2. **Bird families that flew away**: 60 bird families flew away for winter.
+
+3. **Bird families that stayed behind**: To find out how many bird families stayed behind, we subtract the number of families that flew away from the total number of families:
+   \[
+   89 - 60 = 29
+   \]
+   So, 29 bird families stayed behind.
+
+4. **Finding the difference**: Now, we need to find out how many more bird families flew away than those that stayed behind. We do this by subtracting the number of families that stayed from the number that flew away:
+   \[
+   60 - 29 = 31
+   \]
+
+So, **31 more bird families flew away for the winter than those that stayed behind**.31",False,
+Dan has $ 4. He had $ 3 left with him after he bought a candy bar. How much did the candy bar cost?,Subtraction,1.0,1.0,"Sure! Let's break it down step by step:
+
+1. **Initial Amount**: Dan started with $4.
+2. **Amount Left After Purchase**: After buying the candy bar, he had $3 left.
+3. **Calculation of Cost**: To find out how much the candy bar cost, we can subtract the amount he had left from the amount he started with.
+
+   \[
+   \text{Cost of the candy bar} = \text{Initial Amount} - \text{Amount Left}
+   \]
+
+   \[
+   \text{Cost of the candy bar} = 4 - 3 = 1
+   \]
+
+So, the candy bar cost **$1**.1",False,
+At the arcade Dave had won 18 tickets. If he used 5 to buy some toys and 11 more to buy some clothes How many tickets did Dave have left?,Subtraction,2.0,2.0,"Sure! Let's break it down step by step.
+
+1. **Initial Tickets**: Dave starts with 18 tickets.
+2. **Tickets Used for Toys**: He uses 5 tickets to buy toys.
+   - Tickets left after buying toys: \( 18 - 5 = 13 \)
+3. **Tickets Used for Clothes**: He then uses 11 tickets to buy clothes.
+   - Tickets left after buying clothes: \( 13 - 11 = 2 \)
+
+So, after buying both toys and clothes, Dave has **2 tickets left**.2",False,
+In a school there are 315 girls and 309 boys. There are also 772 teachers How many people are there in that school?,Addition,1396.0,1396.0,"To find the total number of people in the school, we need to add the number of girls, boys, and teachers together.
+
+1. Number of girls: 315
+2. Number of boys: 309
+3. Number of teachers: 772
+
+Now, we can add these numbers together:
+
+Total number of people = Number of girls + Number of boys + Number of teachers
+Total number of people = 315 + 309 + 772
+
+Now, let's do the addition step by step:
+
+- First, add the number of girls and boys:
+  315 + 309 = 624
+
+- Next, add the number of teachers:
+  624 + 772 = 1396
+
+So, the total number of people in the school is **1396**.1396",False,
+Kelly has 80 nintendo games. She found 31 more nintendo games. How many does she need to give away so that she will have 6 games left?,Subtraction,105.0,105.0,"Sure! Let's break it down step by step.
+
+1. **Initial Number of Games**: Kelly starts with 80 Nintendo games.
+
+2. **Games Found**: She finds 31 more games. So, we need to add these to her initial count:
+   \[
+   80 + 31 = 111
+   \]
+   Now, Kelly has 111 Nintendo games.
+
+3. **Desired Number of Games**: Kelly wants to have 6 games left after giving some away.
+
+4. **Calculating Games to Give Away**: To find out how many games she needs to give away, we subtract the desired number of games from the total number of games she currently has:
+   \[
+   111 - 6 = 105
+   \]
+   Therefore, Kelly needs to give away 105 games.
+
+So, the answer is that Kelly needs to give away **105 games** to have 6 games left.105",False,
+David did 44 push-ups in gym class today. David did 9 more push-ups than Zachary. How many push-ups did Zachary do?,Subtraction,35.0,35.0,"To find out how many push-ups Zachary did, we can set up the problem using the information given.
+
+1. We know that David did 44 push-ups.
+2. We also know that David did 9 more push-ups than Zachary.
+
+We can express Zachary's push-ups as follows:
+
+Let \( Z \) be the number of push-ups Zachary did. According to the information, we can write the equation:
+
+\[ 44 = Z + 9 \]
+
+Now, we can solve for \( Z \):
+
+1. Subtract 9 from both sides of the equation:
+
+\[ 44 - 9 = Z \]
+
+2. This simplifies to:
+
+\[ Z = 35 \]
+
+So, Zachary did **35 push-ups**.35",False,
+"Julia played tag with 15 kids on monday, 18 kids on tuesday and 97 kids on wednesday. How many kids did she play with on monday and tuesday?",Addition,33.0,33.0,"To find out how many kids Julia played with on Monday and Tuesday, we need to add the number of kids she played with on each of those days.
+
+1. On Monday, Julia played with 15 kids.
+2. On Tuesday, she played with 18 kids.
+
+Now, we add these two numbers together:
+
+15 (Monday) + 18 (Tuesday) = 33
+
+So, Julia played with a total of 33 kids on Monday and Tuesday.33",False,
+Brenda's mother made cookies for 10 guests but 9 guests did not come. If she prepared 18 cookies and each guest had the same number of cookies How many did each of them have?,Common-Division,18.0,18.0,"Sure! Let's break it down step by step.
+
+1. **Total Cookies Prepared**: Brenda's mother made 18 cookies.
+
+2. **Number of Guests**: Originally, there were 10 guests invited.
+
+3. **Guests Who Came**: Out of the 10 guests, 9 did not come, which means only 1 guest actually came.
+
+4. **Cookies per Guest**: Since there is only 1 guest who came, we divide the total number of cookies by the number of guests who actually came.
+
+   \[
+   \text{Cookies per guest} = \frac{\text{Total cookies}}{\text{Number of guests who came}} = \frac{18}{1} = 18
+   \]
+
+So, each guest (in this case, the one guest who came) had **18 cookies**.18",False,
+Rebecca wants to split a collection of eggs into 3 groups. Rebecca has 4 marbles and 15 eggs. How many eggs will each group have?,Common-Division,5.0,5.0,"To determine how many eggs each group will have, we need to divide the total number of eggs by the number of groups.
+
+1. **Total number of eggs**: 15
+2. **Number of groups**: 3
+
+Now, we can perform the division:
+
+\[
+\text{Number of eggs per group} = \frac{\text{Total number of eggs}}{\text{Number of groups}} = \frac{15}{3} = 5
+\]
+
+So, each group will have **5 eggs**. 
+
+The number of marbles (4) is not relevant to the division of eggs into groups.5",False,
+Mom buys 51 white t - shirts. If white t - shirts can be purchased in packages of 3 How many packages will she have?,Common-Division,17.0,17.0,"To find out how many packages of white t-shirts Mom needs to buy, we can follow these steps:
+
+1. **Determine the total number of t-shirts**: Mom buys 51 white t-shirts.
+
+2. **Determine how many t-shirts are in each package**: Each package contains 3 t-shirts.
+
+3. **Calculate the number of packages needed**: To find out how many packages are needed, we divide the total number of t-shirts by the number of t-shirts per package.
+
+   \[
+   \text{Number of packages} = \frac{\text{Total t-shirts}}{\text{T-shirts per package}} = \frac{51}{3}
+   \]
+
+4. **Perform the division**:
+
+   \[
+   51 \div 3 = 17
+   \]
+
+So, Mom will need **17 packages** of white t-shirts.17",False,
+Baker sold 44 cakes. If he had made 48 cakes initially How many cakes would baker still have?,Subtraction,4.0,4.0,"Sure! Let's break it down step by step:
+
+1. **Initial number of cakes made**: Baker made 48 cakes.
+2. **Number of cakes sold**: Baker sold 44 cakes.
+3. **Cakes remaining**: To find out how many cakes Baker still has, we subtract the number of cakes sold from the initial number of cakes made.
+
+   \[
+   \text{Cakes remaining} = \text{Initial cakes} - \text{Cakes sold}
+   \]
+   \[
+   \text{Cakes remaining} = 48 - 44
+   \]
+   \[
+   \text{Cakes remaining} = 4
+   \]
+
+So, Baker would still have **4 cakes** left.4",False,
+Winter is almost here and most animals are migrating to warmer countries. There are 41 bird families living near the mountain. If 35 bird families flew away to asia and 62 bird families flew away to africa How many more bird families flew away to africa than those that flew away to asia?,Subtraction,27.0,27.0,"To find out how many more bird families flew away to Africa than those that flew away to Asia, we can follow these steps:
+
+1. **Identify the number of bird families that flew away to each location:**
+   - Bird families that flew to Asia: 35
+   - Bird families that flew to Africa: 62
+
+2. **Calculate the difference between the number of bird families that flew to Africa and those that flew to Asia:**
+   \[
+   \text{Difference} = \text{Bird families to Africa} - \text{Bird families to Asia}
+   \]
+   \[
+   \text{Difference} = 62 - 35
+   \]
+
+3. **Perform the subtraction:**
+   \[
+   62 - 35 = 27
+   \]
+
+So, **27 more bird families flew away to Africa than those that flew away to Asia.**27",False,
+3 birds and 4 storks were sitting on the fence. 6 more storks came to join them. How many birds and storks are sitting on the fence?,Addition,13.0,3.0,"Sure! Let's break it down step by step.
+
+1. **Initial Count**: 
+   - There are 3 birds sitting on the fence.
+   - There are 4 storks sitting on the fence.
+
+2. **Total Initial Count**: 
+   - To find the total number of birds and storks initially, we add the two amounts together:
+     \[
+     3 \text{ (birds)} + 4 \text{ (storks)} = 7 \text{ (total)}
+     \]
+
+3. **Additional Storks**: 
+   - 6 more storks come to join them. We need to add these to the total count of storks:
+     \[
+     4 \text{ (initial storks)} + 6 \text{ (new storks)} = 10 \text{ (total storks)}
+     \]
+
+4. **Final Total Count**: 
+   - Now, we add the total number of birds3 (birds) + 10 (storks) = 13 (total birds and storks).
+
+So, there are 13 birds and storks sitting on the fence.",False,
+Adam could fit 8 action figures and 10 cabinets on each shelf in his room. His room has 4 shelves. How many total items could his shelves hold?,Multiplication,72.0,72.0,"To find out how many total items Adam's shelves could hold, we can break it down step by step.
+
+1. **Determine the number of items per shelf**:
+   - Each shelf can hold 8 action figures and 10 cabinets.
+   - Total items per shelf = Number of action figures + Number of cabinets
+   - Total items per shelf = 8 + 10 = 18 items
+
+2. **Calculate the total number of shelves**:
+   - Adam has 4 shelves in his room.
+
+3. **Calculate the total capacity of all shelves**:
+   - Total items = Total items per shelf × Number of shelves
+   - Total items = 18 items/shelf × 4 shelves = 72 items
+
+Therefore, Adam's shelves could hold a total of **72 items**.72",False,
+"Being his favorite, he saved checking on the grapevines for his last stop. He was told by 36 of the pickers that they fill 8 drums of grapes per day. How many days will it take to fill 240 drums of grapes?",Common-Division,30.0,30.0,"To determine how many days it will take to fill 240 drums of grapes, we can follow these steps:
+
+1. **Determine the total number of drums filled per day**: 
+   - We know that 36 pickers fill 8 drums of grapes per day.
+
+2. **Calculate the total number of drums filled in one day**:
+   - Since the pickers collectively fill 8 drums per day, we can use this number directly.
+
+3. **Calculate the number of days needed to fill 240 drums**:
+   - We need to find out how many days it will take to fill 240 drums if 8 drums are filled each day.
+   - We can use the formula:
+     \[
+     \text{Number of days} = \frac{\text{Total drums}}{\text{Drums per day}} = \frac{240}{8}
+     \]
+
+4. **Perform the calculation**:
+   \[
+   \frac{240}{8}30",False,
+Paul got a box of 521 crayons and 66 erasers for his birthday. At the end of the school year he only had 154 left while not having lost a single erasers. How many crayons had been lost or given away?,Subtraction,367.0,367.0,"To find out how many crayons Paul lost or gave away, we can follow these steps:
+
+1. **Initial Count of Crayons**: Paul started with 521 crayons.
+
+2. **Final Count of Crayons**: At the end of the school year, he had 154 crayons left.
+
+3. **Calculate the Number of Crayons Lost or Given Away**:
+   - We can find the number of crayons lost or given away by subtracting the final count from the initial count:
+   \[
+   \text{Crayons lost or given away} = \text{Initial count} - \text{Final count}
+   \]
+   \[
+   \text{Crayons lost or given away} = 521 - 154
+   \]
+   \[
+   \text{Crayons lost or given away} = 367
+   \]
+
+So, Paul lost or gave away **367 crayons**.367",False,
+Haley grew 13 trees in her backyard. After a typhoon 6 died. How many more trees survived the typhoon than those that died?,Subtraction,1.0,1.0,"Sure! Let's break it down step by step.
+
+1. **Total trees grown**: Haley grew 13 trees.
+2. **Trees that died in the typhoon**: 6 trees died.
+3. **Trees that survived the typhoon**: To find this, we subtract the number of trees that died from the total number of trees grown:
+   \[
+   \text{Survived trees} = \text{Total trees} - \text{Died trees} = 13 - 6 = 7
+   \]
+4. **Now, we need to find out how many more trees survived than those that died**: We subtract the number of trees that died from the number of trees that survived:
+   \[
+   \text{Difference} = \text{Survived trees} - \text{Died trees} = 7 - 6 = 1
+   \]
+
+So, 1 more tree survived the typhoon than those1",False,
+4 birds and 6 storks were sitting on the fence. 2 more storks came to join them. How many storks are sitting on the fence?,Addition,8.0,8.0,"Sure! Let's break it down step by step:
+
+1. Initially, there are 6 storks sitting on the fence.
+2. Then, 2 more storks come to join them.
+
+Now, we add the number of storks:
+
+6 storks (initial) + 2 storks (new) = 8 storks
+
+So, there are 8 storks sitting on the fence.8",False,
+Zachary did 15 push-ups in gym class today. David did 39 more push-ups than Zachary. John did 9 push-ups less than David. How many more push-ups did Zachary do than John?,Subtraction,30.0,-30.0,"Let's break down the problem step by step:
+
+1. **Zachary's Push-Ups**: Zachary did 15 push-ups.
+
+2. **David's Push-Ups**: David did 39 more push-ups than Zachary. 
+   - So, David's push-ups = Zachary's push-ups + 39
+   - David's push-ups = 15 + 39 = 54 push-ups.
+
+3. **John's Push-Ups**: John did 9 push-ups less than David.
+   - So, John's push-ups = David's push-ups - 9
+   - John's push-ups = 54 - 9 = 45 push-ups.
+
+4. **Difference Between Zachary and John**: Now, we need to find out how many more push-ups Zachary did than John.
+   - Difference = Zachary's push-ups - John's push-ups
+   - Difference = 15 - 45 = -30.
+
+This means that Zach-30",False,
+After resting they decided to go for a swim. If the depth of the water is 10 times Dean's height and he stands at 9 feet How much deeper is the water than Dean's height?,Subtraction,81.0,81.0,"To find out how much deeper the water is than Dean's height, we can follow these steps:
+
+1. **Determine Dean's height**: Dean's height is given as 9 feet.
+
+2. **Calculate the depth of the water**: The depth of the water is 10 times Dean's height. So, we calculate:
+   \[
+   \text{Depth of water} = 10 \times \text{Dean's height} = 10 \times 9 \text{ feet} = 90 \text{ feet}
+   \]
+
+3. **Find the difference in depth**: To find out how much deeper the water is than Dean's height, we subtract Dean's height from the depth of the water:
+   \[
+   \text{Difference} = \text{Depth of water} - \text{Dean's height} = 90 \text{ feet} - 9 \text{ feet} = 81 \text{ feet}
+  81",False,
+Paige was helping her mom plant flowers and together they planted 45 seeds in 9 flowerbeds. If they put same number of seeds in each flower bed How many seeds did they plant in each flowerbed?,Common-Division,5.0,5.0,"To find out how many seeds Paige and her mom planted in each flowerbed, we can follow these steps:
+
+1. **Total number of seeds**: They planted a total of 45 seeds.
+2. **Number of flowerbeds**: They used 9 flowerbeds.
+3. **Seeds per flowerbed**: To find the number of seeds in each flowerbed, we need to divide the total number of seeds by the number of flowerbeds.
+
+Now, we can perform the calculation:
+
+\[
+\text{Seeds per flowerbed} = \frac{\text{Total seeds}}{\text{Number of flowerbeds}} = \frac{45}{9} = 5
+\]
+
+So, they planted **5 seeds in each flowerbed**.5",False,
+Friends of Katie had 57 games and she had 63 ds games. How many more games does Katie have than her friends?,Subtraction,6.0,6.0,"To find out how many more games Katie has than her friends, we can follow these steps:
+
+1. **Identify the number of games each person has**:
+   - Friends of Katie have 57 games.
+   - Katie has 63 games.
+
+2. **Calculate the difference**:
+   - To find out how many more games Katie has than her friends, we subtract the number of games her friends have from the number of games Katie has:
+   \[
+   63 \text{ (Katie's games)} - 57 \text{ (friends' games)} = 6
+   \]
+
+3. **Conclusion**:
+   - Katie has 6 more games than her friends.
+
+So, the answer is that Katie has 6 more games than her friends.6",False,
+Jesse's rooms are 19 feet long and 18 feet wide. If she has 20 rooms in all How much carpet does she need to cover the floors of all rooms?,Multiplication,6840.0,6840.0,"To find out how much carpet Jesse needs to cover the floors of all her rooms, we can follow these steps:
+
+1. **Calculate the area of one room**:
+   - The area of a rectangle is calculated by multiplying its length by its width.
+   - Length of one room = 19 feet
+   - Width of one room = 18 feet
+   - Area of one room = Length × Width = 19 feet × 18 feet
+
+   \[
+   \text{Area of one room} = 19 \times 18 = 342 \text{ square feet}
+   \]
+
+2. **Calculate the total area for all rooms**:
+   - Jesse has 20 rooms.
+   - Total area = Area of one room × Number of rooms
+
+   \[
+   \text{Total area} = 342 \text{ square feet} \times 20 = 6840 \text{ square feet}
+   \]
+
+3. **Conclusion**:
+  6840",False,
+Jake has 11 fewer peaches than Steven. If Jake has 17 peaches. How many peaches does Steven have?,Addition,28.0,28.0,"Sure! Let's break it down step by step.
+
+1. We know that Jake has 17 peaches.
+2. According to the problem, Jake has 11 fewer peaches than Steven. This means that if we add 11 peaches to the number of peaches Jake has, we will find out how many peaches Steven has.
+
+So, we can set up the equation:
+
+\[
+\text{Number of peaches Steven has} = \text{Number of peaches Jake has} + 11
+\]
+
+3. Plugging in the number of peaches Jake has:
+
+\[
+\text{Number of peaches Steven has} = 17 + 11
+\]
+
+4. Now, we can do the addition:
+
+\[
+\text{Number of peaches Steven has} = 28
+\]
+
+So, Steven has 28 peaches.28",False,
+Bobby ate 17 pieces of candy. Then he ate 15 more. If he initially had 36 pieces of candy How many pieces of candy does he still have left?,Subtraction,4.0,4.0,"Sure! Let's break it down step by step.
+
+1. **Initial amount of candy**: Bobby starts with 36 pieces of candy.
+
+2. **Candy eaten**: 
+   - First, he ate 17 pieces of candy.
+   - Then, he ate 15 more pieces of candy.
+
+3. **Total candy eaten**: 
+   - To find the total amount of candy Bobby ate, we add the two amounts together:
+     \[
+     17 + 15 = 32
+     \]
+
+4. **Remaining candy**: 
+   - Now, we subtract the total amount of candy eaten from the initial amount:
+     \[
+     36 - 32 = 4
+     \]
+
+So, Bobby has **4 pieces of candy left**.4",False,
+Baker made 155 cakes. If his friend bought 140 cakes from him How many cakes would baker still have?,Subtraction,15.0,15.0,"Sure! Let's break it down step by step:
+
+1. **Total cakes made by the baker**: 155 cakes
+2. **Cakes bought by his friend**: 140 cakes
+
+Now, to find out how many cakes the baker still has, we need to subtract the number of cakes his friend bought from the total number of cakes he made.
+
+3. **Calculation**:
+   \[
+   \text{Cakes remaining} = \text{Total cakes} - \text{Cakes bought}
+   \]
+   \[
+   \text{Cakes remaining} = 155 - 140
+   \]
+   \[
+   \text{Cakes remaining} = 15
+   \]
+
+So, the baker would still have **15 cakes** left.15",False,
+Nell collects cards. She had 246 baseball cards and 214 Ace cards. She gave some of her cards to Jeff and now has 404 baseball cards and 495 Ace cards left. How many more Ace cards than baseball cards does Nell have?,Subtraction,91.0,1.0,"To find out how many more Ace cards than baseball cards Nell has after giving some away, we can follow these steps:
+
+1. **Determine the number of baseball cards Nell gave away:**
+   - Initial baseball cards: 246
+   - Remaining baseball cards: 404
+   - Cards given away = Initial baseball cards - Remaining baseball cards
+   - Cards given away = 246 - 404 = -158 (This indicates that Nell actually gained baseball cards, which is not possible in this context. Let's correct this.)
+
+   It seems there was a misunderstanding in the problem statement. If Nell had 246 baseball cards and now has 404, it means she gained cards, not gave them away. 
+
+2. **Determine the number of Ace cards Nell gave away:**
+   - Initial Ace cards: 214
+   - Remaining Ace cards: 495
+   - Cards given away = Initial Ace cards - Remaining Ace cards
+   - Cards given away = 214 - 495To clarify the situation, it seems there was a misunderstanding in the problem statement regarding the number of cards Nell has after giving some away. Let's analyze the information correctly.
+
+1. **Determine the number of baseball cards Nell has now:**
+   - Initial baseball cards: 246
+   - Remaining baseball cards: 404
+   - This indicates that Nell actually gained baseball cards, which is not consistent with the idea of giving cards away.
+
+2. **Determine the number of Ace cards Nell has now:**
+   - Initial Ace cards: 214
+   - Remaining Ace cards: 495
+   - This also indicates that Nell gained Ace cards.
+
+Since Nell has more cards now than she initially had, it seems she must have received cards rather than given them away.
+
+3. **Calculate the difference between the number of Ace cards and baseball cards after the changes:**
+   - Remaining Ace cards: 495
+   - Remaining baseball cards: 404
+   - Difference = Remaining Ace cards",False,
+If the cave is 919 feet deep and they need to travel 1307 feet How far is the end of the cave?,Addition,2226.0,388.0,"To determine how far the end of the cave is, we need to consider the depth of the cave and the total distance they need to travel.
+
+1. **Depth of the cave**: 919 feet
+2. **Total distance to travel**: 1307 feet
+
+To find out how far the end of the cave is from the starting point, we can subtract the depth of the cave from the total distance they need to travel:
+
+\[
+\text{Distance to the end of the cave} = \text{Total distance to travel} - \text{Depth of the cave}
+\]
+
+Substituting the values:
+
+\[
+\text{Distance to the end of the cave} = 1307 \text{ feet} - 919 \text{ feet}
+\]
+
+Calculating this gives:
+
+\[
+\text{Distance to the end of the cave} = 388 \text{ feet}
+\]
+
+So, the end of the cave is 388 feet from388",False,
+Ed had 10 more marbles than Doug. Doug lost 11 of his marbles at the playground. If Ed had 45 marbles How many more marbles did Ed have than Doug then?,Addition,21.0,21.0,"Let's break down the problem step by step.
+
+1. **Determine the number of marbles Doug originally had:**
+   - We know that Ed had 10 more marbles than Doug.
+   - We also know that Ed had 45 marbles.
+   - Therefore, we can set up the equation:
+     \[
+     \text{Ed's marbles} = \text{Doug's marbles} + 10
+     \]
+     Substituting Ed's marbles:
+     \[
+     45 = \text{Doug's marbles} + 10
+     \]
+   - To find Doug's marbles, we subtract 10 from both sides:
+     \[
+     \text{Doug's marbles} = 45 - 10 = 35
+     \]
+
+2. **Determine how many marbles Doug has after losing some:**
+   - Doug lost 11 marbles at the playground.
+   - So, we subtract 11 from theDoug's original number of marbles was 35. After losing 11 marbles, we calculate:
+
+\[
+\text{Doug's marbles after losing} = 35 - 11 = 24
+\]
+
+3. **Determine how many more marbles Ed has than Doug after the loss:**
+   - Ed has 45 marbles, and Doug now has 24 marbles.
+   - To find out how many more marbles Ed has than Doug, we subtract Doug's marbles from Ed's marbles:
+   \[
+   \text{Difference} = \text{Ed's marbles} - \text{Doug's marbles after losing} = 45 - 24 = 21
+   \]
+
+Therefore, Ed has 21 more marbles than Doug after Doug lost some. 
+
+The final answer is: **21**.",False,
+At the arcade Dave had won 7 tickets. He used some tickets to buy toys. If he still has 2 tickets left How many tickets did Dave use to buy toys?,Subtraction,5.0,5.0,"Sure! Let's break it down step by step.
+
+1. **Initial Tickets**: Dave started with 7 tickets.
+2. **Tickets Left**: After buying toys, he has 2 tickets remaining.
+3. **Tickets Used**: To find out how many tickets Dave used to buy toys, we can subtract the number of tickets he has left from the number of tickets he started with.
+
+So, we calculate:
+
+\[
+\text{Tickets Used} = \text{Initial Tickets} - \text{Tickets Left}
+\]
+
+Substituting the values:
+
+\[
+\text{Tickets Used} = 7 - 2 = 5
+\]
+
+Therefore, Dave used **5 tickets** to buy toys.5",False,
+Every day Ryan spends 6 hours on learning english and 5 hours on learning chinese. If he learns for 2 days How many hours does he spend on learning english in all?,Multiplication,12.0,12.0,"To find out how many hours Ryan spends on learning English in 2 days, we can follow these steps:
+
+1. **Determine the daily hours spent on learning English**: Ryan spends 6 hours each day learning English.
+
+2. **Calculate the total hours for 2 days**: 
+   \[
+   \text{Total hours for 2 days} = \text{Daily hours} \times \text{Number of days}
+   \]
+   \[
+   \text{Total hours for 2 days} = 6 \text{ hours/day} \times 2 \text{ days} = 12 \text{ hours}
+   \]
+
+So, Ryan spends a total of **12 hours** learning English in 2 days.12",False,
+5 red peaches and 11 green peaches are in the basket. How many more green peaches than red peaches are in the basket?,Subtraction,6.0,6.0,"To find out how many more green peaches than red peaches are in the basket, we can follow these steps:
+
+1. **Identify the number of red peaches**: There are 5 red peaches.
+2. **Identify the number of green peaches**: There are 11 green peaches.
+3. **Calculate the difference**: To find out how many more green peaches there are than red peaches, we subtract the number of red peaches from the number of green peaches.
+
+   \[
+   \text{Number of more green peaches} = \text{Number of green peaches} - \text{Number of red peaches}
+   \]
+   \[
+   \text{Number of more green peaches} = 11 - 5
+   \]
+   \[
+   \text{Number of more green peaches} = 6
+   \]
+
+So, there are 6 more green peaches than red peaches in the basket.6",False,
+Nell collects cards. She had 438 baseball cards and 18 Ace cards. She gave some of her cards to Jeff and now has 55 Ace cards and 178 baseball cards left. How many more baseball cards than Ace cards does Nell have?,Subtraction,123.0,123.0,"To find out how many more baseball cards than Ace cards Nell has after giving some away, we can follow these steps:
+
+1. **Determine the number of baseball cards Nell has left:**
+   - Nell originally had 438 baseball cards.
+   - After giving some away, she has 178 baseball cards left.
+
+2. **Determine the number of Ace cards Nell has left:**
+   - Nell originally had 18 Ace cards.
+   - After giving some away, she has 55 Ace cards left.
+
+3. **Calculate the difference between the number of baseball cards and Ace cards:**
+   - Nell has 178 baseball cards and 55 Ace cards.
+   - The difference is calculated as follows:
+     \[
+     \text{Difference} = \text{Number of baseball cards} - \text{Number of Ace cards}
+     \]
+     \[
+     \text{Difference} = 178 - 55
+     \]
+     \[
+     \text{Difference}The difference is calculated as follows:
+
+\[
+\text{Difference} = 178 - 55 = 123
+\]
+
+Therefore, the answer is: **123**.",False,
+"After making some pies, chef had 2 apples left. Initially he had 43 apples How many apples did he use?",Subtraction,41.0,41.0,"Sure! Let's break it down step by step.
+
+1. **Initial number of apples**: The chef started with 43 apples.
+2. **Apples left after making pies**: After making the pies, he had 2 apples remaining.
+3. **Apples used**: To find out how many apples he used, we can subtract the number of apples left from the initial number of apples.
+
+So, the calculation would be:
+
+\[
+\text{Apples used} = \text{Initial apples} - \text{Apples left}
+\]
+
+Substituting the values:
+
+\[
+\text{Apples used} = 43 - 2 = 41
+\]
+
+Therefore, the chef used **41 apples**.41",False,
+A book has 3 chapters. The first chapter is 66 pages long the second chapter is 35 pages long and the third chapter is 24 pages long. How many pages does the book have altogether?,Addition,125.0,125.0,"To find the total number of pages in the book, we need to add the number of pages in each chapter together. 
+
+1. First chapter: 66 pages
+2. Second chapter: 35 pages
+3. Third chapter: 24 pages
+
+Now, we can add these numbers:
+
+\[
+66 + 35 + 24
+\]
+
+Let's do the addition step by step:
+
+1. Add the first two chapters:
+   \[
+   66 + 35 = 101
+   \]
+
+2. Now add the third chapter:
+   \[
+   101 + 24 = 125
+   \]
+
+So, the total number of pages in the book is **125 pages**.125",False,
+At the stop 8 more people got on the train. Initially there were 11 people on the train. How many people are there on the train now?,Addition,19.0,19.0,"Sure! Let's break it down step by step:
+
+1. **Initial number of people on the train**: 11 people.
+2. **Number of people who got on the train at the stop**: 8 people.
+
+Now, to find the total number of people on the train after the stop, we need to add the number of people who got on to the initial number of people:
+
+\[
+\text{Total number of people} = \text{Initial number} + \text{Number of people who got on}
+\]
+
+\[
+\text{Total number of people} = 11 + 8
+\]
+
+\[
+\text{Total number of people} = 19
+\]
+
+So, there are now 19 people on the train.19",False,
+"After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that 705 visitors came to the Buckingham palace that day. If there were 191 visitors the previous day and 457 visitors the day before that How many more visitors visited the Buckingham palace on that day than on the previous 245 days?",Subtraction,57.0,1.0,"To find out how many more visitors visited Buckingham Palace on that day (705 visitors) compared to the total number of visitors over the previous 245 days, we need to first calculate the total number of visitors for those 245 days.
+
+1. **Calculate the total number of visitors for the previous days:**
+   - Previous day: 191 visitors
+   - Day before that: 457 visitors
+
+   We need to find the total number of visitors for the previous 245 days. Since we only have data for the last two days, we will assume that the number of visitors for the remaining 243 days is unknown. 
+
+   However, if we assume that the average number of visitors for the previous days is similar to the last two days, we can calculate an average and then multiply it by the number of days.
+
+2. **Calculate the average number of visitors for the last two days:**
+   \[
+   \text{Average visitors} = \frac{191 + 457To find the average number of visitors for the last two days, we can calculate it as follows:
+
+1. **Calculate the total number of visitors for the last two days:**
+   \[
+   191 + 457 = 648
+   \]
+
+2. **Calculate the average number of visitors for the last two days:**
+   \[
+   \text{Average visitors} = \frac{648}{2} = 324
+   \]
+
+3. **Now, we can estimate the total number of visitors for the previous 245 days. Assuming the average number of visitors remains the same for the remaining 243 days, we can calculate:**
+   \[
+   \text{Total visitors for 243 days} = 243 \times 324 = 78,492
+   \]
+
+4. **Now, we add the visitors from the last two days to this total:**
+   \[
+   \text{Total visitors for 245 days} = 78",False,
+Paco had 17 cookies. He ate 14 cookies and gave 13 of them to his friend. How many more cookies did he eat than those he gave to his friend?,Subtraction,1.0,1.0,"Let's break it down step by step:
+
+1. **Initial number of cookies**: Paco had 17 cookies.
+2. **Cookies eaten**: Paco ate 14 cookies.
+3. **Cookies given to a friend**: Paco gave 13 cookies to his friend.
+
+Now, we need to find out how many more cookies Paco ate than those he gave to his friend.
+
+4. **Difference in cookies eaten and given**: 
+   - Cookies eaten: 14
+   - Cookies given to friend: 13
+
+Now, we subtract the number of cookies given to his friend from the number of cookies he ate:
+
+\[ 
+14 \text{ (cookies eaten)} - 13 \text{ (cookies given)} = 1 
+\]
+
+So, Paco ate **1 more cookie** than he gave to his friend.1",False,
+Katie had 62 new games and 80 old games. Her friends had 73 new games and 41 old games. How many old games do they have 3,Addition,121.0,121.0,"To find out how many old games Katie and her friends have together, we can follow these steps:
+
+1. **Identify the number of old games each person has:**
+   - Katie has 80 old games.
+   - Her friends have 41 old games.
+
+2. **Add the number of old games together:**
+   \[
+   \text{Total old games} = \text{Katie's old games} + \text{Friends' old games}
+   \]
+   \[
+   \text{Total old games} = 80 + 41
+   \]
+
+3. **Calculate the total:**
+   \[
+   \text{Total old games} = 121
+   \]
+
+So, together, Katie and her friends have **121 old games**.121",False,
+Julia played tag with 12 kids on monday. She played tag with 14 kids on tuesday. She spent a total of 34 hours to play tag on both days. How many kids did she play with altogether?,Addition,26.0,26.0,"To find out how many kids Julia played with altogether, we can simply add the number of kids she played with on Monday and Tuesday.
+
+1. On Monday, Julia played tag with 12 kids.
+2. On Tuesday, she played tag with 14 kids.
+
+Now, we add these two numbers together:
+
+\[
+12 \text{ (Monday)} + 14 \text{ (Tuesday)} = 26
+\]
+
+So, Julia played with a total of **26 kids** altogether. 
+
+The information about the total hours spent playing tag (34 hours) is not necessary for calculating the total number of kids she played with.26",False,
+There were 16 roses and 3 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 7 orchids and 13 roses in the vase. How many orchids did she cut?,Subtraction,4.0,4.0,"To find out how many orchids Jessica cut, we can set up the problem step by step.
+
+1. **Initial Count**: 
+   - Initially, there were 16 roses and 3 orchids in the vase.
+
+2. **Final Count**: 
+   - After cutting more flowers, there are now 13 roses and 7 orchids in the vase.
+
+3. **Change in Roses**: 
+   - The number of roses decreased from 16 to 13. 
+   - Therefore, the number of roses cut is:
+     \[
+     16 - 13 = 3 \text{ roses}
+     \]
+
+4. **Change in Orchids**: 
+   - The number of orchids increased from 3 to 7.
+   - Therefore, the number of orchids cut is:
+     \[
+     7 - 3 = 4 \text{ orchids}
+     \]
+
+5. **Conclusion**: 
+   - Jessica cut 4 orchids from her flower4",False,
+"A grocery store had 36 apples, 80 bottles of regular soda and 54 bottles of diet soda. How many more bottles than apple did they have?",Subtraction,98.0,98.0,"To find out how many more bottles than apples the grocery store had, we need to follow these steps:
+
+1. **Count the total number of bottles**: 
+   - Regular soda: 80 bottles
+   - Diet soda: 54 bottles
+   - Total bottles = Regular soda + Diet soda = 80 + 54 = 134 bottles
+
+2. **Count the number of apples**: 
+   - The grocery store has 36 apples.
+
+3. **Calculate the difference**: 
+   - To find out how many more bottles than apples there are, subtract the number of apples from the total number of bottles:
+   - Difference = Total bottles - Number of apples = 134 - 36 = 98
+
+So, the grocery store has **98 more bottles than apples**.98",False,
+The school has 304 grades and each grade has 75 students How many students were there in total?,Multiplication,22800.0,22800.0,"To find the total number of students in the school, we can use the following steps:
+
+1. **Identify the number of grades**: The school has 304 grades.
+2. **Identify the number of students per grade**: Each grade has 75 students.
+3. **Calculate the total number of students**: We multiply the number of grades by the number of students per grade.
+
+So, the calculation is:
+
+\[
+\text{Total students} = \text{Number of grades} \times \text{Number of students per grade}
+\]
+
+\[
+\text{Total students} = 304 \times 75
+\]
+
+Now, let's perform the multiplication:
+
+\[
+304 \times 75 = 22800
+\]
+
+Therefore, the total number of students in the school is **22,800**.22800",False,
+"The grasshopper, the frog and the mouse had a jumping contest. The grasshopper jumped 39 inches. The grasshopper jumped 19 inches farther than the frog and the mouse jumped 12 inches lesser than the frog. How far did the mouse jump?",Subtraction,8.0,20.0,"Let's break down the information given step by step.
+
+1. **Grasshopper's Jump**: The grasshopper jumped 39 inches.
+
+2. **Grasshopper vs. Frog**: The grasshopper jumped 19 inches farther than the frog. 
+   - Let the distance the frog jumped be \( F \).
+   - According to the information, we can write the equation:
+     \[
+     39 = F + 19
+     \]
+   - To find \( F \), we can rearrange the equation:
+     \[
+     F = 39 - 19 = 20 \text{ inches}
+     \]
+
+3. **Frog vs. Mouse**: The mouse jumped 12 inches less than the frog.
+   - Let the distance the mouse jumped be \( M \).
+   - We can write the equation:
+     \[
+     M = F - 12
+     \]
+   - Substituting the value of \( F \):
+     \[
+    M = 20 - 12 = 8 \text{ inches}
+
+Therefore, the mouse jumped 8 inches.",False,
+Winter is almost here and most animals are migrating to warmer countries. 27 bird families flew away for the winter from near a mountain. If there were 41 bird families living near the mountain initially How many bird families were left near the mountain?,Subtraction,14.0,14.0,"To find out how many bird families were left near the mountain after 27 bird families migrated, we can follow these steps:
+
+1. **Identify the initial number of bird families**: There were 41 bird families living near the mountain initially.
+
+2. **Identify the number of bird families that migrated**: 27 bird families flew away for the winter.
+
+3. **Calculate the number of bird families left**: We subtract the number of bird families that migrated from the initial number of bird families.
+
+   \[
+   \text{Bird families left} = \text{Initial bird families} - \text{Migrated bird families}
+   \]
+   \[
+   \text{Bird families left} = 41 - 27
+   \]
+   \[
+   \text{Bird families left} = 14
+   \]
+
+So, there are 14 bird families left near the mountain.14",False,
+Rebecca wants to split a collection of eggs into groups of 11. If each group has 2 eggs How many eggs does Rebecca have?,Multiplication,22.0,11.0,"To determine how many eggs Rebecca has, we need to analyze the information given:
+
+1. Rebecca wants to split a collection of eggs into groups of 11.
+2. Each group has 2 eggs.
+
+However, there seems to be a misunderstanding in the phrasing. If each group has 2 eggs, then it doesn't align with the idea of splitting into groups of 11. 
+
+Let's clarify:
+
+- If Rebecca is splitting the eggs into groups of 11, then each group should contain 11 eggs.
+- If she is splitting them into groups of 2, then each group would contain 2 eggs.
+
+Assuming she is splitting them into groups of 11, we can denote the total number of eggs as \( E \). 
+
+If she splits them into groups of 11, the number of groups would be \( \frac{E}{11} \).
+
+If she splits them into groups of 2, the number of groups would be \( \frac{E}{2}To clarify the situation, if Rebecca is splitting her collection of eggs into groups of 11, then each group should contain 11 eggs. However, if she is splitting them into groups of 2, then each group would contain 2 eggs.
+
+Since the question is ambiguous, let's assume she is splitting them into groups of 11. 
+
+If we denote the total number of eggs as \( E \), then:
+
+- If she splits them into groups of 11, the number of groups would be \( \frac{E}{11} \).
+- If she splits them into groups of 2, the number of groups would be \( \frac{E}{2} \).
+
+To find the total number of eggs, we need more information about how many groups she is making or any other constraints.
+
+If we assume she has a total of \( E \) eggs and she wants to split them into groups of 11, then \( E \) must be a multiple of 11.",False,
+Paco ate 19 cookies and had 35 cookies left. How many cookies did he have in the beginning?,Addition,54.0,54.0,"To find out how many cookies Paco had in the beginning, we can set up the problem using a simple equation.
+
+1. Let \( x \) be the number of cookies Paco had initially.
+2. According to the problem, Paco ate 19 cookies, so after eating, he had \( x - 19 \) cookies left.
+3. We know that after eating the cookies, he had 35 cookies left.
+
+Now we can set up the equation:
+
+\[
+x - 19 = 35
+\]
+
+4. To solve for \( x \), we add 19 to both sides of the equation:
+
+\[
+x = 35 + 19
+\]
+
+5. Now, we calculate the right side:
+
+\[
+x = 54
+\]
+
+So, Paco had **54 cookies** in the beginning.54",False,
+There are 11 baskets of peaches. Each basket has 10 red peaches and 18 green peaches. How many peaches are in the baskets altogether?,Multiplication,308.0,308.0,"To find the total number of peaches in the baskets, we can follow these steps:
+
+1. **Determine the number of peaches in one basket**:
+   - Each basket has 10 red peaches and 18 green peaches.
+   - Total peaches in one basket = 10 (red) + 18 (green) = 28 peaches.
+
+2. **Calculate the total number of peaches in all baskets**:
+   - There are 11 baskets.
+   - Total peaches in 11 baskets = 11 (baskets) × 28 (peaches per basket).
+
+3. **Perform the multiplication**:
+   - Total peaches = 11 × 28 = 308 peaches.
+
+Therefore, the total number of peaches in the baskets altogether is **308 peaches**.308",False,
+Dave had 24 files and 13 apps on his phone. After deleting some apps and files he had 17 apps and 21 files left. How many files did he delete?,Subtraction,3.0,3.0,"To find out how many files Dave deleted, we can start by determining how many files he had initially and how many he has left after deleting some.
+
+1. **Initial number of files**: 24
+2. **Remaining number of files**: 21
+
+Now, we can calculate the number of files deleted:
+
+\[
+\text{Files deleted} = \text{Initial files} - \text{Remaining files}
+\]
+
+Substituting the values:
+
+\[
+\text{Files deleted} = 24 - 21 = 3
+\]
+
+So, Dave deleted **3 files**.3",False,
+White t - shirts can be purchased in packages of 13. If mom buys 39 white t - shirts How many packages will she have?,Common-Division,3.0,3.0,"To find out how many packages of white t-shirts mom will have, we can follow these steps:
+
+1. **Determine the number of t-shirts in one package**: Each package contains 13 t-shirts.
+
+2. **Find out how many t-shirts mom bought**: Mom bought 39 white t-shirts.
+
+3. **Calculate the number of packages**: To find out how many packages she bought, we divide the total number of t-shirts by the number of t-shirts in one package.
+
+   \[
+   \text{Number of packages} = \frac{\text{Total t-shirts}}{\text{T-shirts per package}} = \frac{39}{13}
+   \]
+
+4. **Perform the division**:
+
+   \[
+   \frac{39}{13} = 3
+   \]
+
+So, mom will have **3 packages** of white t-shirts.3",False,
+Jerry had 5 action figures and 2 books on a shelf in his room. Later he added 9 more books to the shelf. How many more books than action figures were on his shelf?,Subtraction,6.0,6.0,"Sure! Let's break it down step by step.
+
+1. **Initial Count**:
+   - Jerry had 5 action figures.
+   - Jerry had 2 books.
+
+2. **Adding More Books**:
+   - Jerry added 9 more books to the shelf.
+   - So, the total number of books now is: 
+     \[
+     2 \text{ (initial books)} + 9 \text{ (added books)} = 11 \text{ books}
+     \]
+
+3. **Comparing Books and Action Figures**:
+   - Now, we need to find out how many more books there are than action figures.
+   - Jerry has 11 books and 5 action figures.
+
+4. **Calculating the Difference**:
+   - The difference between the number of books and action figures is:
+     \[
+     11 \text{ (books)} - 5 \text{ (action figures)} = 6
+     \]
+
+So, there are6",False,
+Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?,Subtraction,1.0,1.0,"To find out how many more apples Jackie has than Adam, we can follow these steps:
+
+1. **Identify the number of apples each person has**:
+   - Adam has 9 apples.
+   - Jackie has 10 apples.
+
+2. **Calculate the difference**:
+   - To find out how many more apples Jackie has than Adam, we subtract the number of apples Adam has from the number of apples Jackie has:
+   \[
+   10 \text{ (Jackie's apples)} - 9 \text{ (Adam's apples)} = 1
+   \]
+
+3. **Conclusion**:
+   - Jackie has 1 more apple than Adam.
+
+So, Jackie has 1 more apple than Adam.1",False,
+The grasshopper and the frog had a jumping contest. The grasshopper jumped 35 inches. The grasshopper jumped 4 inches farther than the frog. How much did they jump altogether?,Subtraction,66.0,66.0,"To find out how much the grasshopper and the frog jumped altogether, we can follow these steps:
+
+1. **Identify the distance the grasshopper jumped**: The grasshopper jumped 35 inches.
+
+2. **Determine how far the frog jumped**: We know that the grasshopper jumped 4 inches farther than the frog. Therefore, we can set up the equation:
+   \[
+   \text{Frog's jump} = \text{Grasshopper's jump} - 4
+   \]
+   Substituting the grasshopper's jump:
+   \[
+   \text{Frog's jump} = 35 - 4 = 31 \text{ inches}
+   \]
+
+3. **Calculate the total distance jumped by both**: Now we can add the distances jumped by the grasshopper and the frog:
+   \[
+   \text{Total jump} = \text{Grasshopper's jump} + \text{Frog's jump} = 3566",False,
+Dan has $ 3 left with him after he bought a candy bar for $ 2. How much money did he have initially?,Addition,5.0,5.0,"Sure! Let's break it down step by step.
+
+1. **Amount spent on the candy bar**: Dan bought a candy bar for $2.
+2. **Amount left after the purchase**: After buying the candy bar, Dan has $3 left.
+
+To find out how much money Dan had initially, we can add the amount he spent on the candy bar to the amount he has left:
+
+\[
+\text{Initial amount} = \text{Amount spent} + \text{Amount left}
+\]
+
+Substituting the values:
+
+\[
+\text{Initial amount} = 2 + 3
+\]
+
+Calculating that gives:
+
+\[
+\text{Initial amount} = 5
+\]
+
+So, Dan initially had **$5**.5",False,
+Mary is baking a cake. The recipe calls for 11 cups of sugar and 9 cups of flour. She already put in 12 cups of flour and 10 cups of sugar. How many more cups of sugar does she need to add?,Subtraction,1.0,1.0,"To determine how many more cups of sugar Mary needs to add, we can follow these steps:
+
+1. **Identify the amount of sugar required by the recipe**: The recipe calls for 11 cups of sugar.
+
+2. **Identify the amount of sugar Mary has already added**: Mary has already put in 10 cups of sugar.
+
+3. **Calculate the difference**: To find out how much more sugar she needs to add, we subtract the amount of sugar she has already added from the amount required by the recipe:
+
+   \[
+   \text{Additional sugar needed} = \text{Required sugar} - \text{Sugar already added}
+   \]
+   \[
+   \text{Additional sugar needed} = 11 \text{ cups} - 10 \text{ cups} = 1 \text{ cup}
+   \]
+
+Therefore, Mary needs to add **1 more cup of sugar**.1",False,
+Jerry had 2 action figures and 10 books on a shelf in his room. Later he added 4 more action figures to the shelf. How many more books than action figures were on his shelf?,Subtraction,4.0,4.0,"Sure! Let's break it down step by step.
+
+1. **Initial Count**:
+   - Jerry had 2 action figures.
+   - Jerry had 10 books.
+
+2. **Adding Action Figures**:
+   - Jerry added 4 more action figures.
+   - So, the total number of action figures now is:
+     \[
+     2 \text{ (initial)} + 4 \text{ (added)} = 6 \text{ action figures}
+     \]
+
+3. **Total Count**:
+   - Jerry still has 10 books.
+
+4. **Finding the Difference**:
+   - Now, we need to find out how many more books than action figures there are:
+     \[
+     10 \text{ (books)} - 6 \text{ (action figures)} = 4
+     \]
+
+So, there are **4 more books than action figures** on Jerry's shelf.4",False,
+They decided to hold the party in their backyard. If they have 11 sets of tables and each set has 13 chairs How many chairs do they have in the backyard?,Multiplication,143.0,143.0,"To find out how many chairs they have in the backyard, we can follow these steps:
+
+1. **Identify the number of sets of tables**: They have 11 sets of tables.
+2. **Identify the number of chairs per set**: Each set has 13 chairs.
+3. **Calculate the total number of chairs**: We multiply the number of sets by the number of chairs per set.
+
+So, the calculation is:
+
+\[
+\text{Total chairs} = \text{Number of sets} \times \text{Chairs per set} = 11 \times 13
+\]
+
+Now, let's do the multiplication:
+
+\[
+11 \times 13 = 143
+\]
+
+Therefore, they have **143 chairs** in the backyard.143",False,
+Because of the decision Sofia asked the students to suggest specific types of food. If 324 students suggested adding mashed potatoes 374 suggested adding bacon to the menu and 128 suggested adding tomatoes How many students participated in the suggestion of new food items?,Addition,826.0,826.0,"To find the total number of students who participated in the suggestion of new food items, we need to consider the number of students who suggested each type of food. 
+
+1. **Mashed Potatoes**: 324 students suggested this.
+2. **Bacon**: 374 students suggested this.
+3. **Tomatoes**: 128 students suggested this.
+
+Now, we need to add these numbers together:
+
+\[
+324 + 374 + 128
+\]
+
+Let's do the addition step by step:
+
+1. First, add the number of students who suggested mashed potatoes and bacon:
+   \[
+   324 + 374 = 698
+   \]
+
+2. Now, add the number of students who suggested tomatoes to this total:
+   \[
+   698 + 128 = 826
+   \]
+
+Therefore, the total number of students who participated in the suggestion of new food items is **826**.826",False,
+Brenda's mother made cookies for 5. She prepared 22 cookies but had to throw away 17 cookies. If each of them had the same number of cookies How many did each of them have?,Common-Division,1.0,1.0,"Sure! Let's break it down step by step.
+
+1. **Total Cookies Prepared**: Brenda's mother made a total of 22 cookies.
+
+2. **Cookies Thrown Away**: Out of the 22 cookies, 17 cookies were thrown away.
+
+3. **Cookies Remaining**: To find out how many cookies are left, we subtract the cookies thrown away from the total cookies prepared:
+   \[
+   22 - 17 = 5 \text{ cookies remaining}
+   \]
+
+4. **Number of People**: There are 5 people (Brenda and her 4 friends).
+
+5. **Cookies per Person**: To find out how many cookies each person gets, we divide the remaining cookies by the number of people:
+   \[
+   \frac{5 \text{ cookies}}{5 \text{ people}} = 1 \text{ cookie per person}
+   \]
+
+So, each of them had **1 cookie**.1",False,
+15 campers went rowing in the morning. Some more campers went rowing in the afternoon. If a total of 32 campers went rowing that day How many campers went rowing in the afternoon?,Subtraction,17.0,17.0,"Sure! Let's break it down step by step.
+
+1. **Identify the number of campers who went rowing in the morning**: We know that 15 campers went rowing in the morning.
+
+2. **Identify the total number of campers who went rowing that day**: The total number of campers who went rowing is 32.
+
+3. **Set up the equation**: Let \( x \) be the number of campers who went rowing in the afternoon. According to the information given, we can set up the equation:
+   \[
+   15 + x = 32
+   \]
+
+4. **Solve for \( x \)**: To find \( x \), we subtract 15 from both sides of the equation:
+   \[
+   x = 32 - 15
+   \]
+   \[
+   x = 17
+   \]
+
+5. **Conclusion**: Therefore, the number of campers who went rowing in the afternoon is **17**.17",False,
+Adam could fit 11 action figures on each shelf in his room. His room has 4 shelves and 40 cabinets. How many total action figures could his shelves hold?,Multiplication,44.0,44.0,"To find out how many total action figures Adam's shelves can hold, we can follow these steps:
+
+1. **Determine the number of action figures per shelf**: Adam can fit 11 action figures on each shelf.
+
+2. **Determine the number of shelves**: Adam has 4 shelves in his room.
+
+3. **Calculate the total number of action figures on all shelves**: 
+   \[
+   \text{Total action figures} = \text{Number of shelves} \times \text{Action figures per shelf}
+   \]
+   \[
+   \text{Total action figures} = 4 \text{ shelves} \times 11 \text{ action figures/shelf} = 44 \text{ action figures}
+   \]
+
+Therefore, the total number of action figures that Adam's shelves can hold is **44 action figures**. 
+
+(Note: The number of cabinets is not relevant to this calculation since the question only asks about the shelves.)44",False,
+Lewis earns a total of $ 1216 during the harvest. If he earns $ 16 each week How many weeks did the harvest last?,Common-Division,76.0,76.0,"To find out how many weeks the harvest lasted, we can use the formula:
+
+\[
+\text{Number of weeks} = \frac{\text{Total earnings}}{\text{Earnings per week}}
+\]
+
+In this case, Lewis's total earnings are $1216, and he earns $16 each week. 
+
+Now, we can plug in the values:
+
+\[
+\text{Number of weeks} = \frac{1216}{16}
+\]
+
+Now, we perform the division:
+
+\[
+\text{Number of weeks} = 76
+\]
+
+So, the harvest lasted for **76 weeks**.76",False,
+Zachary did 59 push-ups and 44 crunches in gym class today. David did 19 more push-ups but 27 less crunches than zachary. How many push-ups did David do?,Addition,78.0,78.0,"To find out how many push-ups David did, we can follow these steps:
+
+1. **Identify the number of push-ups Zachary did**: Zachary did 59 push-ups.
+
+2. **Determine how many more push-ups David did**: David did 19 more push-ups than Zachary.
+
+3. **Calculate the number of push-ups David did**:
+   \[
+   \text{David's push-ups} = \text{Zachary's push-ups} + 19
+   \]
+   \[
+   \text{David's push-ups} = 59 + 19 = 78
+   \]
+
+So, David did **78 push-ups**.78",False,
+Randy uses 36 blocks to build a tower. If he had 59 blocks How many blocks are left?,Subtraction,23.0,23.0,"To find out how many blocks Randy has left after building a tower with 36 blocks, we can follow these steps:
+
+1. **Identify the total number of blocks Randy has**: 59 blocks.
+2. **Identify the number of blocks used to build the tower**: 36 blocks.
+3. **Subtract the number of blocks used from the total number of blocks**:
+
+   \[
+   \text{Blocks left} = \text{Total blocks} - \text{Blocks used}
+   \]
+   \[
+   \text{Blocks left} = 59 - 36
+   \]
+   \[
+   \text{Blocks left} = 23
+   \]
+
+So, Randy has **23 blocks left**.23",False,
+Danny has 12 bottle caps in his collection. He found 53 bottle caps at the park. How many bottle caps does he have now?,Addition,65.0,65.0,"Sure! Let's break it down step by step.
+
+1. **Initial Collection**: Danny starts with 12 bottle caps.
+2. **Bottle Caps Found**: He finds 53 more bottle caps at the park.
+3. **Total Calculation**: To find out how many bottle caps Danny has now, we need to add the number of bottle caps he initially had to the number of bottle caps he found.
+
+So, we perform the addition:
+
+\[ 
+12 \text{ (initial caps)} + 53 \text{ (found caps)} = 65 \text{ (total caps)} 
+\]
+
+Therefore, Danny now has **65 bottle caps** in total.65",False,
+During summer break 907611 kids from Lawrence county stay home and the other 455682 kids go to camp. About how many kids are in Lawrence county?,Addition,1363293.0,0.0,"To find the total number of kids in Lawrence County, we need to add the number of kids who stay home during summer break to the number of kids who go to camp.
+
+1. Number of kids who stay home: 907,611
+2. Number of kids who go to camp: 455,682
+
+Now, we can add these two numbers together:
+
+\[
+907,611 + 455,682
+\]
+
+Let's perform the addition step by step:
+
+- Start with the units place: \(1 + 2 = 3\)
+- Move to the tens place: \(1 + 8 = 9\)
+- Move to the hundreds place: \(6 + 6 = 12\) (write down 2 and carry over 1)
+- Move to the thousands place: \(7 + 5 + 1 (carry) = 13\) (write down 3 and carry over 1)
+- Move to the ten-thousands place:To continue with the addition:
+
+- For the ten-thousands place: \(0 + 5 + 1 (carry) = 6\)
+- For the hundred-thousands place: \(9 + 4 = 13\) (write down 3 and carry over 1)
+- Finally, for the millions place: \(0 + 1 (carry) = 1\)
+
+Putting it all together, we have:
+
+\[
+907,611 + 455,682 = 1,363,293
+\]
+
+So, the total number of kids in Lawrence County is approximately **1,363,293**.",False,
+There were 174 parents in the program and 521 pupils too. How many more pupils were present compared to parents in the program?,Subtraction,347.0,347.0,"To find out how many more pupils were present compared to parents in the program, we can follow these steps:
+
+1. **Identify the number of parents**: There are 174 parents.
+2. **Identify the number of pupils**: There are 521 pupils.
+3. **Calculate the difference**: Subtract the number of parents from the number of pupils.
+
+The calculation is as follows:
+
+\[
+\text{Number of pupils} - \text{Number of parents} = 521 - 174
+\]
+
+Now, let's do the subtraction:
+
+\[
+521 - 174 = 347
+\]
+
+So, there are **347 more pupils** present compared to parents in the program.347",False,
+Mary is baking a cake. The recipe calls for 7 cups of sugar and 10 cups of flour. She already put in 4 cups of sugar. How many more cups of sugar does she need to add?,Subtraction,3.0,3.0,"Sure! Let's break it down step by step.
+
+1. **Identify the total amount of sugar needed**: The recipe calls for 7 cups of sugar.
+2. **Determine how much sugar Mary has already added**: Mary has already put in 4 cups of sugar.
+3. **Calculate how much more sugar is needed**: To find out how much more sugar Mary needs to add, subtract the amount of sugar she has already added from the total amount needed.
+
+   \[
+   \text{Additional sugar needed} = \text{Total sugar needed} - \text{Sugar already added}
+   \]
+   \[
+   \text{Additional sugar needed} = 7 \text{ cups} - 4 \text{ cups} = 3 \text{ cups}
+   \]
+
+So, Mary needs to add **3 more cups of sugar**.3",False,
+White t - shirts can be purchased in packages of 53. If mom buys 57 packages of white t - shirts and 34 trousers How many white t - shirts will she have?,Multiplication,3021.0,3021.0,"To find out how many white t-shirts mom will have, we can follow these steps:
+
+1. **Determine the number of t-shirts in one package**: Each package contains 53 white t-shirts.
+
+2. **Calculate the total number of t-shirts in 57 packages**: 
+   \[
+   \text{Total t-shirts} = \text{Number of packages} \times \text{T-shirts per package}
+   \]
+   \[
+   \text{Total t-shirts} = 57 \times 53
+   \]
+
+3. **Perform the multiplication**:
+   \[
+   57 \times 53 = 3021
+   \]
+
+So, mom will have a total of **3021 white t-shirts**. The number of trousers does not affect the total number of t-shirts, so we only focus on the t-shirts. 
+
+Final answer: **3021 white t-shirts**.3021",False,
+A book has 31 chapters. Each chapter is 61 pages long. How many pages does the book have altogether?,Multiplication,1891.0,1891.0,"To find the total number of pages in the book, we can follow these steps:
+
+1. **Identify the number of chapters**: The book has 31 chapters.
+2. **Identify the number of pages per chapter**: Each chapter is 61 pages long.
+3. **Calculate the total number of pages**: We multiply the number of chapters by the number of pages per chapter.
+
+So, the calculation is:
+
+\[
+\text{Total pages} = \text{Number of chapters} \times \text{Pages per chapter}
+\]
+
+\[
+\text{Total pages} = 31 \times 61
+\]
+
+Now, let's perform the multiplication:
+
+\[
+31 \times 61 = 1891
+\]
+
+Therefore, the book has a total of **1891 pages**.1891",False,
+Paige raised 7 goldfish and 12 catfish in the pond but stray cats loved eating them. Now she has 15 left. How many fishes disappeared?,Subtraction,4.0,4.0,"Sure! Let's break it down step by step.
+
+1. **Initial Count of Fish**: Paige initially had 7 goldfish and 12 catfish.
+   - Total initial fish = 7 (goldfish) + 12 (catfish) = 19 fish.
+
+2. **Current Count of Fish**: After some time, Paige has 15 fish left.
+
+3. **Calculating the Disappeared Fish**: To find out how many fish disappeared, we subtract the current count from the initial count.
+   - Fish that disappeared = Initial count - Current count
+   - Fish that disappeared = 19 - 15 = 4 fish.
+
+So, 4 fish disappeared.4",False,
+Robin cut off 20 inches of his hair. If his hair is now 10 inches long How long was his hair before he cut?,Addition,30.0,30.0,"Sure! Let's break it down step by step.
+
+1. **Current Length of Hair**: After cutting, Robin's hair is now 10 inches long.
+2. **Length Cut Off**: He cut off 20 inches of hair.
+
+To find out how long his hair was before he cut it, we need to add the length he cut off to the current length of his hair.
+
+3. **Calculation**:
+   - Length before the cut = Current length + Length cut off
+   - Length before the cut = 10 inches + 20 inches
+   - Length before the cut = 30 inches
+
+So, Robin's hair was 30 inches long before he cut it.30",False,
+43 children were riding on the bus. At the bus stop some children got off the bus. Then there were 21 children left on the bus. How many children got off the bus at the bus stop?,Subtraction,22.0,22.0,"Sure! Let's break it down step by step.
+
+1. **Initial number of children on the bus**: 43 children.
+2. **Number of children left on the bus after some got off**: 21 children.
+
+To find out how many children got off the bus, we can subtract the number of children left on the bus from the initial number of children.
+
+3. **Calculation**:
+   \[
+   \text{Number of children who got off} = \text{Initial number of children} - \text{Number of children left}
+   \]
+   \[
+   \text{Number of children who got off} = 43 - 21
+   \]
+   \[
+   \text{Number of children who got off} = 22
+   \]
+
+So, **22 children got off the bus at the bus stop**.22",False,
+There were 6 roses and 20 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 21 orchids and 22 roses in the vase. How many more roses than orchids are there in the vase now?,Subtraction,1.0,1.0,"To find out how many more roses than orchids are in the vase now, we can follow these steps:
+
+1. **Initial Count**: 
+   - Initially, there were 6 roses and 20 orchids in the vase.
+
+2. **New Count**: 
+   - After Jessica cut more flowers, there are now 22 roses and 21 orchids in the vase.
+
+3. **Calculate the Difference**: 
+   - To find out how many more roses than orchids there are, we subtract the number of orchids from the number of roses:
+   \[
+   \text{Number of roses} - \text{Number of orchids} = 22 - 21 = 1
+   \]
+
+4. **Conclusion**: 
+   - There is 1 more rose than orchid in the vase now.
+
+So, the answer is that there is **1 more rose than orchid** in the vase.1",False,
+Paul got a box of 65 crayons for his birthday. During the school year he gave 213 crayons to his friends while he lost 16 crayons. How many crayons had been lost or given away?,Addition,229.0,229.0,"To find out how many crayons Paul lost or gave away, we need to add the number of crayons he gave to his friends and the number of crayons he lost.
+
+1. **Crayons given to friends**: 213
+2. **Crayons lost**: 16
+
+Now, we add these two amounts together:
+
+\[
+213 + 16 = 229
+\]
+
+So, Paul lost or gave away a total of **229 crayons**.229",False,
+He then went to see the oranges being harvested. He found out that they harvest 44 sacks of ripe oranges and 25 sacks of unripe oranges per day. How many more sacks of ripe oranges than unripe oranges are harvested per day?,Subtraction,19.0,19.0,"To find out how many more sacks of ripe oranges than unripe oranges are harvested per day, we can follow these steps:
+
+1. **Identify the number of sacks harvested**:
+   - Ripe oranges: 44 sacks
+   - Unripe oranges: 25 sacks
+
+2. **Calculate the difference**:
+   - To find out how many more sacks of ripe oranges are harvested than unripe oranges, we subtract the number of unripe sacks from the number of ripe sacks:
+   \[
+   \text{Difference} = \text{Ripe sacks} - \text{Unripe sacks} = 44 - 25
+   \]
+
+3. **Perform the subtraction**:
+   \[
+   44 - 25 = 19
+   \]
+
+4. **Conclusion**:
+   - There are 19 more sacks of ripe oranges harvested per day than unripe oranges.
+
+So, the answer is that 19 more sacks of ripe19",False,
+David did 56 more push-ups than Zachary in gym class today. If David did 38 push-ups How many push-ups did Zachary and David do altogether?,Subtraction,20.0,1.0,"Sure! Let's break it down step by step.
+
+1. **Identify how many push-ups David did**: David did 38 push-ups.
+
+2. **Determine how many more push-ups David did than Zachary**: David did 56 more push-ups than Zachary.
+
+3. **Calculate how many push-ups Zachary did**: 
+   - Let \( Z \) be the number of push-ups Zachary did.
+   - According to the information given, we can set up the equation:
+     \[
+     38 = Z + 56
+     \]
+   - To find \( Z \), we can rearrange the equation:
+     \[
+     Z = 38 - 56
+     \]
+     \[
+     Z = -18
+     \]
+   - Since the number of push-ups cannot be negative, it seems there is a misunderstanding in the problem statement. 
+
+4. **Re-evaluate the problem**: If David did 56 more pushIt seems there was a misunderstanding in the interpretation of the problem. Let's clarify:
+
+1. **David's push-ups**: David did 38 push-ups.
+2. **Difference in push-ups**: David did 56 more push-ups than Zachary.
+
+To find out how many push-ups Zachary did, we can set up the equation correctly:
+
+\[
+D = Z + 56
+\]
+
+Where:
+- \( D \) is the number of push-ups David did (38).
+- \( Z \) is the number of push-ups Zachary did.
+
+Substituting David's push-ups into the equation:
+
+\[
+38 = Z + 56
+\]
+
+Now, we can solve for \( Z \):
+
+\[
+Z = 38 - 56
+\]
+\[
+Z = -18
+\]
+
+This indicates that the information provided is inconsistent, as Zachary cannot do a negative number of push-ups. 
+
+If we assume that David did 56 push-ups",False,
+There were 106 dollars in Olivia's wallet. After she visited a supermarket and a showroom there were 26 dollars left. If she spent 49 dollars at the showroom How much did she spend at the supermarket?,Subtraction,31.0,31.0,"Sure! Let's break it down step by step.
+
+1. **Initial Amount**: Olivia started with 106 dollars.
+
+2. **Amount Left**: After visiting the supermarket and the showroom, she had 26 dollars left.
+
+3. **Amount Spent at the Showroom**: She spent 49 dollars at the showroom.
+
+4. **Calculating Total Amount Spent**: 
+   - We can find out how much she spent in total by subtracting the amount left from the initial amount:
+   \[
+   \text{Total Spent} = \text{Initial Amount} - \text{Amount Left} = 106 - 26 = 80 \text{ dollars}
+   \]
+
+5. **Finding Amount Spent at the Supermarket**: 
+   - Now, we know she spent 49 dollars at the showroom. To find out how much she spent at the supermarket, we subtract the amount spent at the showroom from the total amount spent:
+   \31",False,
+Because of the decision Sofia asked the students to suggest specific types of food. If 269 students suggested adding bacon 330 suggested adding mashed potatoes to the menu and 76 suggested adding tomatoes How many more students suggested mashed potatoes than those that suggested bacon?,Subtraction,61.0,61.0,"To find out how many more students suggested mashed potatoes than those that suggested bacon, we can follow these steps:
+
+1. **Identify the number of students who suggested each food item**:
+   - Students who suggested bacon: 269
+   - Students who suggested mashed potatoes: 330
+
+2. **Calculate the difference between the number of students who suggested mashed potatoes and those who suggested bacon**:
+   \[
+   \text{Difference} = \text{Number of students suggesting mashed potatoes} - \text{Number of students suggesting bacon}
+   \]
+   \[
+   \text{Difference} = 330 - 269
+   \]
+
+3. **Perform the subtraction**:
+   \[
+   330 - 269 = 61
+   \]
+
+So, **61 more students suggested mashed potatoes than those that suggested bacon**.61",False,
+"Julia played tag with 14 kids on monday, 2 kids on tuesday and 8 kids on wednesday. How many more kids did she play with on monday than on wednesday?",Subtraction,6.0,6.0,"To find out how many more kids Julia played with on Monday than on Wednesday, we can follow these steps:
+
+1. **Identify the number of kids she played with on each day:**
+   - Monday: 14 kids
+   - Wednesday: 8 kids
+
+2. **Calculate the difference between the number of kids on Monday and Wednesday:**
+   \[
+   \text{Difference} = \text{Kids on Monday} - \text{Kids on Wednesday}
+   \]
+   \[
+   \text{Difference} = 14 - 8
+   \]
+
+3. **Perform the subtraction:**
+   \[
+   \text{Difference} = 6
+   \]
+
+So, Julia played with **6 more kids on Monday than on Wednesday**.6",False,
+Allan brought 2 balloons and Jake brought 4 balloons to the park. Allan then bought 3 more balloons at the park. How many more balloons did Allan have than Jake in the park?,Subtraction,1.0,1.0,"Sure! Let's break it down step by step.
+
+1. **Initial Balloons**:
+   - Allan brought 2 balloons.
+   - Jake brought 4 balloons.
+
+2. **Balloons Bought at the Park**:
+   - Allan bought 3 more balloons at the park.
+
+3. **Total Balloons**:
+   - Total balloons Allan has now: 
+     - Initial balloons: 2
+     - Balloons bought at the park: 3
+     - Total for Allan: 2 + 3 = 5 balloons.
+   - Total balloons Jake has: 4 (since he didn't buy any more).
+
+4. **Comparing Balloons**:
+   - Now, we compare the number of balloons Allan has to the number Jake has:
+   - Allan has 5 balloons, and Jake has 4 balloons.
+
+5. **Difference**:
+   - To find out how many more balloons Allan has than Jake:
+   - 5 (Allan's balloons)1. Allan has 5 balloons.
+2. Jake has 4 balloons.
+
+To find out how many more balloons Allan has than Jake:
+
+5 (Allan's balloons) - 4 (Jake's balloons) = 1.
+
+So, Allan has 1 more balloon than Jake in the park. 
+
+The answer is: 1",False,
+Dan has $ 2. He bought some candy bar for $ 6 each one costing $ 3. How many candy bar did he buy?,Common-Division,2.0,0.0,"Let's break down the problem step by step:
+
+1. **Initial Amount**: Dan has $2.
+
+2. **Cost of Candy Bar**: Each candy bar costs $3.
+
+3. **Determine How Many Candy Bars He Can Buy**: 
+   - To find out how many candy bars Dan can buy, we need to divide the amount of money he has by the cost of one candy bar.
+   - Calculation: \( \frac{2}{3} \)
+
+4. **Result**: 
+   - Since \( \frac{2}{3} \) is less than 1, Dan cannot afford to buy even one candy bar with his $2.
+
+Therefore, Dan bought **0 candy bars**.0",False,
+Jake has 12 fewer peaches and 79 more apples than Steven. Steven has 19 peaches and 14 apples. How many peaches does Jake have?,Subtraction,7.0,7.0,"To find out how many peaches Jake has, we can follow these steps:
+
+1. **Identify the number of peaches Steven has**: 
+   Steven has 19 peaches.
+
+2. **Determine how many fewer peaches Jake has compared to Steven**: 
+   Jake has 12 fewer peaches than Steven. 
+
+   So, we can calculate Jake's peaches as follows:
+   \[
+   \text{Jake's peaches} = \text{Steven's peaches} - 12
+   \]
+   \[
+   \text{Jake's peaches} = 19 - 12 = 7
+   \]
+
+Therefore, Jake has **7 peaches**.7",False,
+The grasshopper and the frog had a jumping contest. The grasshopper jumped 13 inches. The grasshopper jumped 2 inches farther than the grasshopper. How far did the frog jump?,Subtraction,11.0,11.0,"Let's break down the information given in the problem step by step.
+
+1. We know that the grasshopper jumped 13 inches.
+2. The problem states that the grasshopper jumped 2 inches farther than the frog. 
+
+This means we can set up the following equation:
+
+- Let \( F \) represent the distance the frog jumped.
+- According to the problem, the grasshopper jumped 2 inches farther than the frog, which can be expressed as:
+  
+  \[
+  13 = F + 2
+  \]
+
+3. To find out how far the frog jumped, we can rearrange the equation:
+
+\[
+F = 13 - 2
+\]
+
+4. Now, we can calculate:
+
+\[
+F = 11
+\]
+
+So, the frog jumped **11 inches**.11",False,
+There are 11 different books and 17 different movies in the ' crazy silly school ' series. If you read 7 of the books and watched 21 of the movies How many more movies than books have you read?,Subtraction,14.0,14.0,"To find out how many more movies than books you have read, we can follow these steps:
+
+1. **Identify the number of books read**: You have read 7 books.
+2. **Identify the number of movies watched**: You have watched 21 movies.
+3. **Calculate the difference**: To find out how many more movies than books you have read, subtract the number of books read from the number of movies watched.
+
+   \[
+   \text{Difference} = \text{Number of movies watched} - \text{Number of books read}
+   \]
+   \[
+   \text{Difference} = 21 - 7 = 14
+   \]
+
+So, you have read **14 more movies than books**.14",False,
+Debby bought some water bottles when they were on sale. She drank 109 bottles a day. If the bottles lasted for 74 days How many bottles had she bought?,Multiplication,8066.0,8066.0,"To find out how many water bottles Debby bought, we can use the information given about her daily consumption and the duration the bottles lasted.
+
+1. **Daily Consumption**: Debby drinks 109 bottles per day.
+2. **Duration**: The bottles lasted for 74 days.
+
+Now, we can calculate the total number of bottles she bought by multiplying her daily consumption by the number of days the bottles lasted:
+
+\[
+\text{Total Bottles} = \text{Daily Consumption} \times \text{Duration}
+\]
+
+Substituting the values:
+
+\[
+\text{Total Bottles} = 109 \text{ bottles/day} \times 74 \text{ days}
+\]
+
+Now, we perform the multiplication:
+
+\[
+\text{Total Bottles} = 109 \times 74
+\]
+
+Calculating that:
+
+\[
+109 \times 74 = 8066
+\]
+
+Therefore, Debby bought **8066 bottles**.8066",False,
+Dave had 21 apps on his phone. He added 89 new apps. After deleting some he had 24 left. How many more apps did he add than he deleted?,Subtraction,3.0,3.0,"Sure! Let's break it down step by step.
+
+1. **Initial number of apps**: Dave started with 21 apps.
+2. **Apps added**: He added 89 new apps.
+3. **Total apps after adding**: 
+   \[
+   21 + 89 = 110 \text{ apps}
+   \]
+4. **Apps left after deletion**: After deleting some apps, he had 24 apps remaining.
+5. **Apps deleted**: To find out how many apps he deleted, we subtract the number of apps left from the total number of apps he had after adding:
+   \[
+   110 - 24 = 86 \text{ apps deleted}
+   \]
+6. **Apps added vs. apps deleted**: Now, we need to find out how many more apps he added than he deleted:
+   \[
+   89 \text{ (added)} - 86 \text{ (deleted)} = 3
+  3",False,
+There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?,Addition,16.0,16.0,"Sure! Let's break it down step by step:
+
+1. **Initial number of people on the bus**: There were 12 people already on the bus.
+
+2. **People getting on the bus**: At the next stop, 4 more people got on the bus.
+
+3. **Calculating the total**: To find the total number of people on the bus now, we add the initial number of people to the number of people who got on:
+   \[
+   12 \text{ (initial)} + 4 \text{ (new)} = 16
+   \]
+
+4. **Final count**: So, there are now 16 people on the bus.
+
+The bus is still within the limit of 36 people, so everything is fine. 
+
+**Final answer**: There are 16 people on the bus now.16",False,
+Frank was reading through some books. Each book had 249 pages and it took Frank 3 days to finish each book. How many pages did he read per day?,Common-Division,83.0,83.0,"To find out how many pages Frank read per day, we can follow these steps:
+
+1. **Determine the total number of pages in one book**: Each book has 249 pages.
+
+2. **Determine the number of days it took to read one book**: Frank took 3 days to finish each book.
+
+3. **Calculate the number of pages read per day**: To find out how many pages he read each day, we divide the total number of pages in the book by the number of days it took to read it.
+
+   \[
+   \text{Pages per day} = \frac{\text{Total pages}}{\text{Number of days}} = \frac{249 \text{ pages}}{3 \text{ days}} = 83 \text{ pages per day}
+   \]
+
+So, Frank read **83 pages per day**.83",False,
+Ed had 6 more marbles than Doug. Doug lost 7 of his marbles at the playground. If Ed had 22 marbles How many marbles does Doug have now?,Subtraction,9.0,16.0,"Sure! Let's break it down step by step.
+
+1. **Determine how many marbles Doug originally had:**
+   - We know that Ed had 6 more marbles than Doug.
+   - Ed has 22 marbles.
+   - Therefore, we can set up the equation: 
+     \[
+     \text{Doug's marbles} + 6 = \text{Ed's marbles}
+     \]
+     \[
+     \text{Doug's marbles} + 6 = 22
+     \]
+   - To find out how many marbles Doug had originally, we subtract 6 from 22:
+     \[
+     \text{Doug's marbles} = 22 - 6 = 16
+     \]
+
+2. **Determine how many marbles Doug has after losing some:**
+   - Doug lost 7 marbles at the playground.
+   - We subtract the 7 lost marbles from Doug's original amount:
+     \[
+16 - 7 = 9
+
+So, Doug now has 9 marbles.",False,
+An industrial machine made 13 shirts yesterday and 3 shirts today. It can make 8 shirts a minute. How many minutes did the machine work in all?,Common-Division,2.0,2.0,"To find out how many minutes the machine worked in total, we first need to determine the total number of shirts made over the two days.
+
+1. **Calculate the total number of shirts made:**
+   - Shirts made yesterday: 13
+   - Shirts made today: 3
+   - Total shirts made = 13 + 3 = 16 shirts
+
+2. **Determine the rate of shirt production:**
+   - The machine can make 8 shirts per minute.
+
+3. **Calculate the total time the machine worked:**
+   - Total time (in minutes) = Total shirts made / Shirts made per minute
+   - Total time = 16 shirts / 8 shirts per minute = 2 minutes
+
+Therefore, the machine worked for a total of **2 minutes**.2",False,
+2 children were riding on the bus. At the bus stop some more children got on the bus. Then there were 10 children altogether on the bus. How many more children are on the bus now than there were before the bus stop?,Subtraction,8.0,8.0,"Sure! Let's break it down step by step:
+
+1. Initially, there are 2 children on the bus.
+2. After some more children get on the bus at the bus stop, the total number of children on the bus becomes 10.
+3. To find out how many more children got on the bus, we can subtract the initial number of children from the total number of children after the bus stop.
+
+So, we calculate:
+
+Total children after the bus stop - Initial children = Number of children that got on the bus
+
+10 (total children) - 2 (initial children) = 8
+
+Therefore, 8 more children got on the bus at the bus stop. 
+
+So, the answer is that there are 8 more children on the bus now than there were before the bus stop.8",False,
+A book has 3 chapters. The first chapter is 91 pages long the second chapter is 23 pages long and the third chapter is 25 pages long. How many more pages does the first chapter have than the second chapter?,Subtraction,68.0,68.0,"To find out how many more pages the first chapter has than the second chapter, we can follow these steps:
+
+1. Identify the number of pages in each chapter:
+   - First chapter: 91 pages
+   - Second chapter: 23 pages
+
+2. Subtract the number of pages in the second chapter from the number of pages in the first chapter:
+   \[
+   91 \text{ pages (first chapter)} - 23 \text{ pages (second chapter)} = 68 \text{ pages}
+   \]
+
+3. Therefore, the first chapter has 68 more pages than the second chapter.
+
+So, the answer is that the first chapter has **68 more pages** than the second chapter.68",False,
+Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack How much do you have to pay to buy each pack?,Subtraction,51.0,51.0,"Sure! Let's break it down step by step:
+
+1. **Original Price of Each Pack**: The original price of each pack of DVDs is $76.
+
+2. **Discount on Each Pack**: There is a discount of $25 on each pack.
+
+3. **Calculating the Discounted Price**:
+   - To find the price after the discount, subtract the discount from the original price:
+   \[
+   \text{Discounted Price} = \text{Original Price} - \text{Discount}
+   \]
+   \[
+   \text{Discounted Price} = 76 - 25
+   \]
+
+4. **Performing the Calculation**:
+   \[
+   \text{Discounted Price} = 51
+   \]
+
+So, after applying the discount, you have to pay **$51** for each pack of DVDs.51",False,
+He then went to see the oranges being harvested. He found out that they harvest 74 sacks per day and discard 71 of them. How many sacks of oranges will they have after 51 days of harvest?,Multiplication,153.0,51.0,"To determine how many sacks of oranges will be left after 51 days of harvest, we can follow these steps:
+
+1. **Calculate the total number of sacks harvested in 51 days:**
+   - They harvest 74 sacks per day.
+   - Over 51 days, the total harvested is:
+     \[
+     74 \text{ sacks/day} \times 51 \text{ days} = 3,774 \text{ sacks}
+     \]
+
+2. **Calculate the total number of sacks discarded in 51 days:**
+   - They discard 71 sacks per day.
+   - Over 51 days, the total discarded is:
+     \[
+     71 \text{ sacks/day} \times 51 \text{ days} = 3,621 \text{ sacks}
+     \]
+
+3. **Calculate the total number of sacks remaining after 51 days:**
+   - To find the remaining sacks, we subtract the total discarded from the total harvestedTo find the total number of sacks remaining after 51 days, we can use the following calculation:
+
+1. **Total sacks harvested in 51 days:**
+   \[
+   74 \text{ sacks/day} \times 51 \text{ days} = 3,774 \text{ sacks}
+   \]
+
+2. **Total sacks discarded in 51 days:**
+   \[
+   71 \text{ sacks/day} \times 51 \text{ days} = 3,621 \text{ sacks}
+   \]
+
+3. **Total sacks remaining after 51 days:**
+   \[
+   3,774 \text{ sacks} - 3,621 \text{ sacks} = 153 \text{ sacks}
+   \]
+
+Therefore, the total number of sacks of oranges they will have after 51 days of harvest is **153**.",False,
+Danny has 21 bottle caps in his collection. He found some more bottle caps at the park. If he has 53 bottle caps now How many bottle caps did he find at the park?,Subtraction,32.0,32.0,"To find out how many bottle caps Danny found at the park, we can follow these steps:
+
+1. **Identify the initial number of bottle caps**: Danny originally had 21 bottle caps.
+2. **Identify the total number of bottle caps after finding more**: After finding more bottle caps, he now has 53 bottle caps.
+3. **Set up the equation**: Let \( x \) be the number of bottle caps Danny found at the park. We can express this as:
+   \[
+   21 + x = 53
+   \]
+4. **Solve for \( x \)**: To find \( x \), we subtract 21 from both sides of the equation:
+   \[
+   x = 53 - 21
+   \]
+   \[
+   x = 32
+   \]
+
+So, Danny found **32 bottle caps** at the park.32",False,
+Mary is baking a cake. The recipe calls for 3 cups of sugar and 10 cups of flour. She already put in some cups of flour. If she still needs 5 more cups of flour than sugar How many cups of flour did she put in?,Subtraction,2.0,3.0,"To solve the problem, we need to establish the relationship between the amounts of sugar and flour in the recipe.
+
+1. **Identify the amounts needed**: 
+   - The recipe calls for 3 cups of sugar.
+   - The recipe calls for 10 cups of flour.
+
+2. **Understand the condition given**: 
+   - Mary still needs 5 more cups of flour than sugar.
+
+3. **Set up the equation**:
+   - Let \( x \) be the amount of flour Mary has already put in.
+   - According to the problem, the total amount of flour she needs (10 cups) is equal to the amount of sugar (3 cups) plus 5 more cups of flour than sugar. This can be expressed as:
+   \[
+   x + 5 = 3 + 5
+   \]
+   Simplifying the right side gives:
+   \[
+   x + 5 = 8
+   \]
+
+4. **Solve for \( x3",False,
+Paul got a box of 457 erasers and 617 crayons for his birthday. At the end of the school year he only had 523 crayons left while not having lost a single eraser. How many more crayons than erasers did he have left?,Subtraction,66.0,66.0,"To find out how many more crayons than erasers Paul had left at the end of the school year, we can follow these steps:
+
+1. **Identify the initial quantities**:
+   - Paul started with 457 erasers.
+   - He started with 617 crayons.
+
+2. **Identify the remaining quantity of crayons**:
+   - At the end of the school year, Paul had 523 crayons left.
+
+3. **Determine the remaining quantity of erasers**:
+   - Since Paul did not lose any erasers, he still has all 457 erasers.
+
+4. **Calculate the difference between the remaining crayons and the remaining erasers**:
+   - We need to find out how many more crayons than erasers he has left:
+   \[
+   \text{Difference} = \text{Remaining crayons} - \text{Remaining erasers}
+   \]
+   \[
+   \text{Difference} = 523 - 457
+   \]
+   \[
+  66",False,
+He then went to see the oranges being harvested. He found out that they harvested 56 sacks of oranges. How many sacks did they harvest per day if they harvested for a total of 14 days?,Common-Division,4.0,4.0,"To find out how many sacks of oranges were harvested per day, we can use the following steps:
+
+1. **Total sacks harvested**: 56 sacks
+2. **Total days of harvesting**: 14 days
+
+Now, we can calculate the number of sacks harvested per day by dividing the total number of sacks by the total number of days:
+
+\[
+\text{Sacks per day} = \frac{\text{Total sacks}}{\text{Total days}} = \frac{56 \text{ sacks}}{14 \text{ days}}
+\]
+
+3. **Perform the division**:
+
+\[
+\text{Sacks per day} = 4 \text{ sacks per day}
+\]
+
+So, they harvested **4 sacks of oranges per day**.4",False,
+In a school there are 402 more girls than boys. If there are 739 girls How many boys are there in that school?,Subtraction,337.0,337.0,"To find out how many boys are in the school, we can set up the problem using the information given.
+
+1. We know that there are 739 girls in the school.
+2. We also know that there are 402 more girls than boys.
+
+Let's denote the number of boys as \( b \).
+
+According to the information provided, we can write the equation:
+
+\[
+739 = b + 402
+\]
+
+Now, we can solve for \( b \):
+
+1. Subtract 402 from both sides of the equation:
+
+\[
+739 - 402 = b
+\]
+
+2. Calculate the left side:
+
+\[
+337 = b
+\]
+
+So, the number of boys in the school is \( \boxed{337} \).337",False,
+Frank put some pieces of candy equally into 2 bags. If he had 16 pieces of candy How many pieces of candy are in each bag?,Common-Division,8.0,8.0,"Sure! Let's break it down step by step:
+
+1. **Total Pieces of Candy**: Frank has a total of 16 pieces of candy.
+
+2. **Number of Bags**: He is putting the candy into 2 bags.
+
+3. **Dividing the Candy**: To find out how many pieces of candy go into each bag, we need to divide the total number of pieces of candy by the number of bags.
+
+   \[
+   \text{Pieces of candy in each bag} = \frac{\text{Total pieces of candy}}{\text{Number of bags}} = \frac{16}{2}
+   \]
+
+4. **Calculation**: 
+
+   \[
+   \frac{16}{2} = 8
+   \]
+
+5. **Conclusion**: Therefore, there are 8 pieces of candy in each bag.8",False,
+They decided to hold the party in their backyard. They have 12 sets of tables and each set has 14 chairs. There are also 6 chairs extra. How many chairs do they have for the guests?,Addition,174.0,174.0,"To find out how many chairs they have for the guests, we can follow these steps:
+
+1. **Calculate the total number of chairs from the sets of tables:**
+   - They have 12 sets of tables, and each set has 14 chairs.
+   - Total chairs from sets = 12 sets × 14 chairs/set = 168 chairs.
+
+2. **Add the extra chairs:**
+   - They also have 6 extra chairs.
+   - Total chairs = 168 chairs + 6 extra chairs = 174 chairs.
+
+So, they have a total of **174 chairs** for the guests.174",False,
+"After eating a hearty meal they went to see the Buckingham palace. There were 39 paintings in the Buckingham palace. There, Rachel learned that 661 visitors came to the Buckingham palace that day. If there were 600 visitors the previous day How many more visitors visited the Buckingham palace on that day than on the previous day?",Subtraction,61.0,61.0,"To find out how many more visitors visited Buckingham Palace on that day compared to the previous day, we can follow these steps:
+
+1. **Identify the number of visitors on the current day**: According to the information provided, there were 661 visitors on that day.
+
+2. **Identify the number of visitors on the previous day**: There were 600 visitors the previous day.
+
+3. **Calculate the difference in visitors**: To find out how many more visitors there were on the current day compared to the previous day, we subtract the number of visitors from the previous day from the number of visitors on the current day.
+
+   \[
+   \text{Difference} = \text{Visitors on current day} - \text{Visitors on previous day}
+   \]
+   \[
+   \text{Difference} = 661 - 600
+   \]
+   \[
+   \text{Difference} = 61
+   \]
+
+So, there were **61 more visitors**61",False,
+The Ferris wheel in paradise park has 3 small seats and 7 large seats. Each small seat can hold 16 people and large seat can hold 12 people. How many people can ride the Ferris wheel on large seats?,Multiplication,84.0,84.0,"To find out how many people can ride the Ferris wheel in the large seats, we need to calculate the total capacity of the large seats.
+
+1. **Identify the number of large seats**: There are 7 large seats.
+2. **Determine the capacity of each large seat**: Each large seat can hold 12 people.
+3. **Calculate the total capacity of the large seats**: 
+
+   \[
+   \text{Total capacity of large seats} = \text{Number of large seats} \times \text{Capacity of each large seat}
+   \]
+
+   \[
+   \text{Total capacity of large seats} = 7 \times 12 = 84
+   \]
+
+Therefore, the total number of people that can ride the Ferris wheel in the large seats is **84 people**.84",False,
+Paul sold some books in a garage sale leaving him with 27 books. If he had 136 books initially How many books did he sell?,Subtraction,109.0,109.0,"To find out how many books Paul sold, we can follow these steps:
+
+1. **Identify the initial number of books**: Paul initially had 136 books.
+2. **Identify the number of books remaining after the sale**: After the garage sale, he has 27 books left.
+3. **Calculate the number of books sold**: To find out how many books he sold, we subtract the number of books remaining from the initial number of books.
+
+The calculation is as follows:
+
+\[
+\text{Books sold} = \text{Initial books} - \text{Remaining books}
+\]
+\[
+\text{Books sold} = 136 - 27
+\]
+\[
+\text{Books sold} = 109
+\]
+
+So, Paul sold **109 books**.109",False,
+6 storks and 2 birds were sitting on the fence. 3 more birds came to join them. How many more storks than birds are sitting on the fence?,Subtraction,1.0,1.0,"Sure! Let's break it down step by step.
+
+1. **Initial Count**:
+   - Storks: 6
+   - Birds: 2
+
+2. **Additional Birds**:
+   - 3 more birds came to join them.
+
+3. **Total Count of Birds**:
+   - Initial birds: 2
+   - Additional birds: 3
+   - Total birds = 2 + 3 = 5
+
+4. **Count of Storks**:
+   - Storks remain the same: 6
+
+5. **Difference Between Storks and Birds**:
+   - Number of storks: 6
+   - Number of birds: 5
+   - Difference = 6 - 5 = 1
+
+So, there is **1 more stork than birds** sitting on the fence.1",False,
+The Razorback t-shirt shop made $ 51 dollars from selling 3 t-shirt during the Arkansas and Texas tech game they. What is the cost of each t-shirt?,Common-Division,17.0,17.0,"To find the cost of each t-shirt, we can follow these steps:
+
+1. **Total Revenue**: The total amount made from selling the t-shirts is $51.
+
+2. **Number of T-shirts Sold**: The number of t-shirts sold is 3.
+
+3. **Cost per T-shirt**: To find the cost of each t-shirt, we divide the total revenue by the number of t-shirts sold.
+
+   \[
+   \text{Cost per T-shirt} = \frac{\text{Total Revenue}}{\text{Number of T-shirts Sold}} = \frac{51}{3}
+   \]
+
+4. **Calculation**: 
+
+   \[
+   \frac{51}{3} = 17
+   \]
+
+So, the cost of each t-shirt is **$17**.17",False,
+During summer break 61619 kids from Lawrence county stayed home and the rest went to camp. The total number of kids in Lawrence county is 91676. About how many kids in Lawrence county went to camp?,Subtraction,30057.0,30057.0,"To find out how many kids in Lawrence County went to camp, we can follow these steps:
+
+1. **Identify the total number of kids**: The total number of kids in Lawrence County is 91,676.
+
+2. **Identify the number of kids who stayed home**: The number of kids who stayed home is 61,619.
+
+3. **Calculate the number of kids who went to camp**: To find this, we subtract the number of kids who stayed home from the total number of kids.
+
+   \[
+   \text{Number of kids who went to camp} = \text{Total number of kids} - \text{Number of kids who stayed home}
+   \]
+
+   \[
+   \text{Number of kids who went to camp} = 91,676 - 61,619
+   \]
+
+4. **Perform the subtraction**:
+
+   \[
+   91,676 - 61,619 = 30,057
+   \30057",False,
+Dan has $ 4. He bought 99 candy bar for $ 3 each one costing the same amount of money. How much money is left?,Subtraction,1.0,4.0,"Let's break it down step by step:
+
+1. **Initial Amount**: Dan starts with $4.
+
+2. **Cost of One Candy Bar**: Each candy bar costs $3.
+
+3. **Total Cost for 99 Candy Bars**: 
+   - To find the total cost for 99 candy bars, we multiply the cost of one candy bar by the number of candy bars:
+   \[
+   \text{Total Cost} = 99 \times 3 = 297
+   \]
+
+4. **Comparison with Initial Amount**: 
+   - Dan has $4, but the total cost of the candy bars is $297. 
+   - Since $4 is much less than $297, Dan cannot afford to buy 99 candy bars.
+
+5. **Conclusion**: 
+   - Since Dan cannot buy the candy bars, he still has his initial amount of $4 left.
+
+So, the amount of money Dan has left is **$4**.4",False,
+If Lewis earns $ 1357 every week during the 223 weeks of a harvest season. How much money will he earn if he works for 73 harvest seasons?,Multiplication,22090603.0,73.0,"To find out how much money Lewis will earn if he works for 73 harvest seasons, we can break it down into steps:
+
+1. **Calculate Lewis's earnings for one harvest season:**
+   - Lewis earns $1357 every week.
+   - There are 223 weeks in one harvest season.
+   - Earnings for one harvest season = Weekly earnings × Number of weeks
+   \[
+   \text{Earnings for one harvest season} = 1357 \times 223
+   \]
+
+2. **Perform the multiplication:**
+   \[
+   1357 \times 223 = 303,751
+   \]
+   So, Lewis earns $303,751 in one harvest season.
+
+3. **Calculate total earnings for 73 harvest seasons:**
+   - Total earnings = Earnings for one harvest season × Number of harvest seasons
+   \[
+   \text{Total earnings} = 303,751 \times 73
+   \]
+
+4. **PerformTo find the total earnings for Lewis over 73 harvest seasons, we continue with the calculation:
+
+1. **Calculate total earnings for 73 harvest seasons:**
+   \[
+   \text{Total earnings} = 303,751 \times 73
+   \]
+
+2. **Perform the multiplication:**
+   \[
+   303,751 \times 73 = 22,157,823
+   \]
+
+Therefore, the total amount of money Lewis will earn if he works for 73 harvest seasons is **22,157,823**.",False,
+Dan has $ 4. For a total of $ 3 he bought 10 candy bar each one costing the same amount of money. How much money is left?,Subtraction,1.0,1.0,"Sure! Let's break it down step by step.
+
+1. **Initial Amount**: Dan starts with $4.
+
+2. **Cost of Candy Bars**: He spends $3 to buy 10 candy bars.
+
+3. **Calculating Remaining Money**:
+   - To find out how much money Dan has left after his purchase, we subtract the amount he spent from his initial amount:
+   \[
+   \text{Remaining Money} = \text{Initial Amount} - \text{Amount Spent}
+   \]
+   \[
+   \text{Remaining Money} = 4 - 3 = 1
+   \]
+
+4. **Conclusion**: Dan has $1 left after buying the candy bars.
+
+So, the final answer is that Dan has $1 left.1",False,
+Last week Fred had 47 dollars and Jason had 99 dollars. Over the weekend Fred delivered newspapers earning 111 dollars and washed cars earning 34 dollars. How much money does Fred have now?,Addition,192.0,192.0,"Sure! Let's break it down step by step.
+
+1. **Initial Amounts**:
+   - Fred had 47 dollars.
+   - Jason had 99 dollars (this information is not needed to calculate Fred's total).
+
+2. **Earnings**:
+   - Fred earned 111 dollars from delivering newspapers.
+   - Fred earned 34 dollars from washing cars.
+
+3. **Total Earnings**:
+   - To find Fred's total earnings, we add the two amounts:
+     \[
+     111 + 34 = 145 \text{ dollars}
+     \]
+
+4. **Total Amount Fred Has Now**:
+   - Now, we add Fred's initial amount to his total earnings:
+     \[
+     47 + 145 = 192 \text{ dollars}
+     \]
+
+So, Fred now has **192 dollars**.192",False,
